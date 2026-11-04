@@ -19,37 +19,52 @@ const base = import.meta.env.BASE_URL;
     <header class="site-header">
       <a class="brand" href={`${base}/`}>Orgeldatenbank Bayern</a>
       <nav>
-        <a href={`${base}/orgeln/`}>Orgeln</a>
-        <a href={`${base}/erbauer/`}>Erbauer</a>
-        <a href={`${base}/literatur/`}>Literatur</a>
-        <a href={`${base}/karte/`}>Karte</a>
-        <a href={`${base}/suche/`}>Suche</a>
-        <a href={`${base}/ueber/`}>Über</a>
+        {[
+          ["orgeln", "Orgeln"],
+          ["erbauer", "Erbauer"],
+          ["literatur", "Literatur"],
+          ["karte", "Karte"],
+          ["suche", "Suche"],
+          ["ueber", "Über"],
+        ].map(([slug, label]) => (
+          <a href={`${base}/${slug}/`} aria-current={Astro.url.pathname.includes(`/${slug}/`) ? "page" : undefined}>{label}</a>
+        ))}
       </nav>
     </header>
     <main data-pagefind-body>
       <slot />
     </main>
     <footer class="site-footer">
-      <p>Orgeldatenbank Bayern · Daten aus über 20 Jahren eigener Recherche.</p>
+      <p>Orgeldatenbank Bayern</p>
     </footer>
   </body>
 </html>
 
 <style is:global>
+  /* Farbschema an gfbm-online.de angelehnt (Marineblau/Himmelblau). */
   :root {
-    --color-bg: #faf8f4;
-    --color-text: #211c16;
-    --color-accent: #7a3b2e;
-    --color-border: #d9d0c3;
+    --color-bg: #f7fafd;
+    --color-surface: #ffffff;
+    --color-text: #15263a;
+    --color-accent: #1d4e89;
+    --color-accent-hover: #2f6fb3;
+    --color-border: #c8dcef;
+    --color-header-bg: #0b2545;
+    --color-header-text: #eef4fb;
+    --color-header-accent: #8ec5ee;
     font-family: "Iowan Old Style", Georgia, "Noto Serif", serif;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --color-bg: #1c1812;
-      --color-text: #eee8dd;
-      --color-accent: #e3a98f;
-      --color-border: #3a332a;
+      --color-bg: #0e1824;
+      --color-surface: #142238;
+      --color-text: #e9f1fa;
+      --color-accent: #8ec5ee;
+      --color-accent-hover: #b9d3ec;
+      --color-border: #22395a;
+      --color-header-bg: #081a33;
+      --color-header-text: #eef4fb;
+      --color-header-accent: #8ec5ee;
     }
   }
   * { box-sizing: border-box; }
@@ -60,6 +75,7 @@ const base = import.meta.env.BASE_URL;
     line-height: 1.5;
   }
   a { color: var(--color-accent); }
+  a:hover { color: var(--color-accent-hover); }
   .site-header {
     display: flex;
     flex-wrap: wrap;
@@ -67,27 +83,35 @@ const base = import.meta.env.BASE_URL;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1.25rem;
-    border-bottom: 1px solid var(--color-border);
+    background: var(--color-header-bg);
+    border-bottom: 3px solid var(--color-accent-hover);
   }
   .site-header .brand {
     font-weight: bold;
     font-size: 1.1rem;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-header-text);
   }
-  .site-header nav { display: flex; gap: 1rem; flex-wrap: wrap; }
-  .site-header nav a { text-decoration: none; }
-  .site-header nav a:hover { text-decoration: underline; }
+  .site-header nav { display: flex; gap: 0.25rem; flex-wrap: wrap; }
+  .site-header nav a {
+    text-decoration: none;
+    color: var(--color-header-text);
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.3rem;
+  }
+  .site-header nav a:hover { background: var(--color-accent-hover); color: #fff; }
+  .site-header nav a[aria-current="page"] { color: var(--color-header-accent); font-weight: bold; }
   main {
     max-width: 920px;
     margin: 0 auto;
     padding: 1.5rem 1.25rem 4rem;
   }
   .site-footer {
-    border-top: 1px solid var(--color-border);
+    background: var(--color-header-bg);
+    color: var(--color-header-text);
     padding: 1.5rem 1.25rem;
     font-size: 0.85rem;
-    opacity: 0.75;
+    opacity: 0.9;
   }
   table { border-collapse: collapse; width: 100%; }
   th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--color-border); }

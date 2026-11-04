@@ -36,7 +36,7 @@ import { RBZ_LABELS } from "../../lib/types";
     <label class="checkbox">
       <input type="checkbox" id="f-denkmal" /> nur Denkmalorgeln
     </label>
-    <button type="button" id="f-reset">Filter zurücksetzen</button>
+    <button type="button" id="f-reset" class="reset-button">Filter zurücksetzen</button>
   </form>
 
   <!-- Reserves space up front so the table/pagination popping in once the
@@ -59,20 +59,80 @@ import { RBZ_LABELS } from "../../lib/types";
 </Base>
 
 <style>
+  /* Festes Spaltenraster statt auto-fit: jedes Feld bekommt exakt dieselbe
+     Breite, und alle Felder sind an der Unterkante der Zeile ausgerichtet
+     (align-items: end), damit Eingaben, Auswahllisten, Checkboxen und der
+     Button gleich groß und bündig erscheinen, egal wie viel Labeltext davor
+     steht. */
   .filter-form {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 0.75rem;
-    margin: 1rem 0 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.25rem 0 1.5rem;
     align-items: end;
   }
-  .filter-form label { display: flex; flex-direction: column; font-size: 0.85rem; gap: 0.25rem; }
-  .filter-form label.checkbox { flex-direction: row; align-items: center; }
-  .filter-form input, .filter-form select { padding: 0.35rem; font: inherit; }
-  .filter-form button { padding: 0.5rem; cursor: pointer; }
+  @media (max-width: 760px) {
+    .filter-form { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .filter-form { grid-template-columns: 1fr; }
+  }
+  .filter-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+    font-weight: 600;
+    gap: 0.35rem;
+  }
+  .filter-form input, .filter-form select {
+    height: 2.5rem;
+    padding: 0 0.6rem;
+    font: inherit;
+    font-weight: normal;
+    border: 1px solid var(--color-border);
+    border-radius: 0.35rem;
+    background: var(--color-surface);
+    color: var(--color-text);
+  }
+  .filter-form input:focus, .filter-form select:focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 1px;
+  }
+  .filter-form label.checkbox {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    height: 2.5rem;
+    padding: 0 0.6rem;
+    font-weight: normal;
+    border: 1px solid var(--color-border);
+    border-radius: 0.35rem;
+    background: var(--color-surface);
+  }
+  .filter-form .reset-button {
+    height: 2.5rem;
+    padding: 0 0.75rem;
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid var(--color-accent);
+    border-radius: 0.35rem;
+    background: var(--color-surface);
+    color: var(--color-accent);
+  }
+  .filter-form .reset-button:hover { background: var(--color-accent); color: #fff; }
   .results-area { min-height: 40rem; }
+  #results-table th { background: var(--color-header-bg); color: var(--color-header-text); }
   .pagination { display: flex; gap: 1rem; align-items: center; justify-content: center; margin-top: 1rem; }
-  .pagination button { padding: 0.4rem 0.8rem; cursor: pointer; }
+  .pagination button {
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    border: 1px solid var(--color-accent);
+    border-radius: 0.35rem;
+    background: var(--color-surface);
+    color: var(--color-accent);
+  }
+  .pagination button:hover:not(:disabled) { background: var(--color-accent); color: #fff; }
   .pagination button:disabled { opacity: 0.4; cursor: default; }
 </style>
 
