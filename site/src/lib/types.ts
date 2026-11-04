@@ -91,11 +91,79 @@ export interface OrganIndexEntry {
   jahr_anzeige: string | null;
 }
 
+export interface Lebensdaten {
+  raw: string[];
+  geburtsjahr: number | null;
+  todesjahr: number | null;
+}
+
+export interface Beziehung {
+  typ: string;
+  bezug_index: number;
+}
+
+export type GndStatus = "ok" | "unsicher" | "keine" | "nicht_zutreffend";
+
+export interface GndMatch {
+  status: GndStatus;
+  gnd_id: string | null;
+  url: string | null;
+  preferred_name: string | null;
+  geburtsjahr: number | null;
+  todesjahr: number | null;
+  name_score: number | null;
+  candidates_considered: number;
+  grund: string | null;
+}
+
+export interface Person {
+  index: number;
+  name_raw: string;
+  nachname: string | null;
+  vorname: string | null;
+  namenszusatz: string | null;
+  lebensdaten: Lebensdaten;
+  beziehung: Beziehung | null;
+  anmerkungen_kurz: string[];
+  gnd: GndMatch | null;
+}
+
 export interface Builder {
   id: number;
   name: string | null;
   biografie: string | null;
+  personen: Person[];
   organ_ids: number[];
+}
+
+export const BEZIEHUNG_LABELS: Record<string, string> = {
+  sohn: "Sohn von",
+  tochter: "Tochter von",
+  vater: "Vater von",
+  mutter: "Mutter von",
+  bruder: "Bruder von",
+  schwester: "Schwester von",
+  enkel: "Enkel von",
+  neffe: "Neffe von",
+};
+
+export function personDisplayName(p: Person): string {
+  const parts = [p.vorname, p.nachname].filter(Boolean);
+  let name = parts.length ? parts.join(" ") : p.name_raw;
+  if (p.namenszusatz) name += ` ${p.namenszusatz}`;
+  return name;
+}
+
+export function personLebensdaten(p: Person): string | null {
+  if (p.gnd?.status === "ok" && (p.gnd.geburtsjahr != null || p.gnd.todesjahr != null)) {
+    return `${p.gnd.geburtsjahr ?? "?"}–${p.gnd.todesjahr ?? "?"}`;
+  }
+  const g = p.lebensdaten;
+  if (g.geburtsjahr != null && g.todesjahr != null) return `${g.geburtsjahr}–${g.todesjahr}`;
+  if (g.geburtsjahr != null) return `* ${g.geburtsjahr}`;
+  if (g.todesjahr != null) return `† ${g.todesjahr}`;
+  if (g.raw.length) return g.raw.join("; ");
+  return null;
 }
 
 export interface LiteraturKeyword {
