@@ -1,0 +1,100 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Orgeldatenbank Bayern - historische Orgeln in Bayern recherchieren." } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · Orgeldatenbank Bayern</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={`${base}/`}>Orgeldatenbank Bayern</a>
+      <nav>
+        <a href={`${base}/orgeln/`}>Orgeln</a>
+        <a href={`${base}/erbauer/`}>Erbauer</a>
+        <a href={`${base}/literatur/`}>Literatur</a>
+        <a href={`${base}/ueber/`}>Über</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>Orgeldatenbank Bayern · Daten aus über 20 Jahren eigener Recherche.</p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --color-bg: #faf8f4;
+    --color-text: #211c16;
+    --color-accent: #7a3b2e;
+    --color-border: #d9d0c3;
+    font-family: "Iowan Old Style", Georgia, "Noto Serif", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --color-bg: #1c1812;
+      --color-text: #eee8dd;
+      --color-accent: #e3a98f;
+      --color-border: #3a332a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+  }
+  a { color: var(--color-accent); }
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .site-header .brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  .site-header nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .site-header nav a { text-decoration: none; }
+  .site-header nav a:hover { text-decoration: underline; }
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 4rem;
+  }
+  .site-footer {
+    border-top: 1px solid var(--color-border);
+    padding: 1.5rem 1.25rem;
+    font-size: 0.85rem;
+    opacity: 0.75;
+  }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--color-border); }
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+  }
+</style>

@@ -1,0 +1,206 @@
+---
+import Base from "../../layouts/Base.astro";
+import { RBZ_LABELS } from "../../lib/types";
+---
+<Base title="Orgeln durchsuchen" description="Orgeln in Bayern nach Ort, Landkreis, Erbauer und Baujahr durchsuchen.">
+  <h1>Orgeln durchsuchen</h1>
+  <p id="status">Lade Daten …</p>
+
+  <form id="filter-form" class="filter-form">
+    <label>
+      Suche (Ort, Kirche, Erbauer)
+      <input type="search" id="f-text" placeholder="z.B. Augsburg" />
+    </label>
+    <label>
+      Regierungsbezirk
+      <select id="f-rbz">
+        <option value="">Alle</option>
+        {Object.entries(RBZ_LABELS).map(([code, label]) => <option value={code}>{label}</option>)}
+      </select>
+    </label>
+    <label>
+      Landkreis
+      <select id="f-lkr"><option value="">Alle</option></select>
+    </label>
+    <label>
+      Baujahr von
+      <input type="number" id="f-jahr-von" placeholder="z.B. 1700" />
+    </label>
+    <label>
+      Baujahr bis
+      <input type="number" id="f-jahr-bis" placeholder="z.B. 1900" />
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" id="f-erhalten" /> nur erhaltene Orgeln
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" id="f-denkmal" /> nur Denkmalorgeln
+    </label>
+    <button type="button" id="f-reset">Filter zurücksetzen</button>
+  </form>
+
+  <table id="results-table" hidden>
+    <thead>
+      <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th></tr>
+    </thead>
+    <tbody id="results-body"></tbody>
+  </table>
+
+  <nav id="pagination" class="pagination" hidden>
+    <button type="button" id="p-prev">&larr; zurück</button>
+    <span id="p-info"></span>
+    <button type="button" id="p-next">weiter &rarr;</button>
+  </nav>
+</Base>
+
+<style>
+  .filter-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin: 1rem 0 1.5rem;
+    align-items: end;
+  }
+  .filter-form label { display: flex; flex-direction: column; font-size: 0.85rem; gap: 0.25rem; }
+  .filter-form label.checkbox { flex-direction: row; align-items: center; }
+  .filter-form input, .filter-form select { padding: 0.35rem; font: inherit; }
+  .filter-form button { padding: 0.5rem; cursor: pointer; }
+  .pagination { display: flex; gap: 1rem; align-items: center; justify-content: center; margin-top: 1rem; }
+  .pagination button { padding: 0.4rem 0.8rem; cursor: pointer; }
+  .pagination button:disabled { opacity: 0.4; cursor: default; }
+</style>
+
+<script>
+  const BASE = import.meta.env.BASE_URL;
+  const PAGE_SIZE = 50;
+
+  interface OrganIndexEntry {
+    id: number;
+    ort: string | null;
+    kirche: string | null;
+    landkreis: string | null;
+    regierungsbezirk: string | null;
+    bauer_name: string | null;
+    manuale: number | null;
+    register: number | null;
+    erhalten: boolean;
+    denkmalorgel: boolean;
+    jahr: number | null;
+    jahr_anzeige: string | null;
+  }
+
+  let all: OrganIndexEntry[] = [];
+  let filtered: OrganIndexEntry[] = [];
+  let page = 0;
+
+  const statusEl = document.getElementById("status")!;
+  const table = document.getElementById("results-table") as HTMLTableElement;
+  const body = document.getElementById("results-body")!;
+  const pagination = document.getElementById("pagination") as HTMLElement;
+  const pInfo = document.getElementById("p-info")!;
+  const pPrev = document.getElementById("p-prev") as HTMLButtonElement;
+  const pNext = document.getElementById("p-next") as HTMLButtonElement;
+
+  const fText = document.getElementById("f-text") as HTMLInputElement;
+  const fRbz = document.getElementById("f-rbz") as HTMLSelectElement;
+  const fLkr = document.getElementById("f-lkr") as HTMLSelectElement;
+  const fJahrVon = document.getElementById("f-jahr-von") as HTMLInputElement;
+  const fJahrBis = document.getElementById("f-jahr-bis") as HTMLInputElement;
+  const fErhalten = document.getElementById("f-erhalten") as HTMLInputElement;
+  const fDenkmal = document.getElementById("f-denkmal") as HTMLInputElement;
+  const fReset = document.getElementById("f-reset") as HTMLButtonElement;
+
+  function populateLandkreise() {
+    const values = Array.from(new Set(all.map((o) => o.landkreis).filter((v): v is string => !!v))).sort((a, b) =>
+      a.localeCompare(b, "de"),
+    );
+    for (const lkr of values) {
+      const opt = document.createElement("option");
+      opt.value = lkr;
+      opt.textContent = lkr;
+      fLkr.appendChild(opt);
+    }
+  }
+
+  function applyFilters() {
+    const text = fText.value.trim().toLowerCase();
+    const rbz = fRbz.value;
+    const lkr = fLkr.value;
+    const jahrVon = fJahrVon.value ? Number(fJahrVon.value) : null;
+    const jahrBis = fJahrBis.value ? Number(fJahrBis.value) : null;
+    const onlyErhalten = fErhalten.checked;
+    const onlyDenkmal = fDenkmal.checked;
+
+    filtered = all.filter((o) => {
+      if (rbz && o.regierungsbezirk !== rbz) return false;
+      if (lkr && o.landkreis !== lkr) return false;
+      if (onlyErhalten && !o.erhalten) return false;
+      if (onlyDenkmal && !o.denkmalorgel) return false;
+      if (jahrVon != null && (o.jahr == null || o.jahr < jahrVon)) return false;
+      if (jahrBis != null && (o.jahr == null || o.jahr > jahrBis)) return false;
+      if (text) {
+        const haystack = `${o.ort ?? ""} ${o.kirche ?? ""} ${o.bauer_name ?? ""}`.toLowerCase();
+        if (!haystack.includes(text)) return false;
+      }
+      return true;
+    });
+    page = 0;
+    render();
+  }
+
+  function render() {
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    page = Math.min(page, totalPages - 1);
+    const start = page * PAGE_SIZE;
+    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+
+    body.innerHTML = "";
+    for (const o of pageItems) {
+      const tr = document.createElement("tr");
+      const link = `${BASE}/orgeln/${o.id}/`;
+      tr.innerHTML = `
+        <td><a href="${link}">${o.ort ?? "?"}</a></td>
+        <td>${o.kirche ?? ""}</td>
+        <td>${o.landkreis ?? ""}</td>
+        <td>${o.bauer_name ?? ""}</td>
+        <td>${o.jahr_anzeige ?? ""}</td>
+        <td>${o.register ?? ""}</td>
+      `;
+      body.appendChild(tr);
+    }
+
+    statusEl.textContent = `${filtered.length.toLocaleString("de-DE")} Orgeln gefunden (von ${all.length.toLocaleString("de-DE")} insgesamt)`;
+    table.hidden = filtered.length === 0;
+    pagination.hidden = filtered.length === 0;
+    pInfo.textContent = `Seite ${page + 1} von ${totalPages}`;
+    pPrev.disabled = page === 0;
+    pNext.disabled = page >= totalPages - 1;
+  }
+
+  pPrev.addEventListener("click", () => { page--; render(); });
+  pNext.addEventListener("click", () => { page++; render(); });
+  for (const el of [fText, fRbz, fLkr, fJahrVon, fJahrBis, fErhalten, fDenkmal]) {
+    el.addEventListener("input", applyFilters);
+  }
+  fReset.addEventListener("click", () => {
+    fText.value = "";
+    fRbz.value = "";
+    fLkr.value = "";
+    fJahrVon.value = "";
+    fJahrBis.value = "";
+    fErhalten.checked = false;
+    fDenkmal.checked = false;
+    applyFilters();
+  });
+
+  fetch(`${BASE}/data/organs-index.json`)
+    .then((r) => r.json())
+    .then((data: OrganIndexEntry[]) => {
+      all = data;
+      populateLandkreise();
+      applyFilters();
+    })
+    .catch(() => {
+      statusEl.textContent = "Daten konnten nicht geladen werden.";
+    });
+</script>

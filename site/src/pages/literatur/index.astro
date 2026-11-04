@@ -1,0 +1,25 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllLiterature } from "../../lib/data";
+
+const literature = [...getAllLiterature()].sort((a, b) => a.kurztitel.localeCompare(b.kurztitel, "de"));
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Literaturverzeichnis" description="Quellen und Veröffentlichungen zur bayerischen Orgelgeschichte.">
+  <h1>Literaturverzeichnis</h1>
+  <p>{literature.length} Katalogeinträge.</p>
+  <ul class="lit-list">
+    {literature.map((l) => (
+      <li>
+        <a href={`${base}/literatur/${l.slug}/`}>{l.kurztitel}</a>
+        {l.titel && <span class="titel"> — {l.titel}</span>}
+      </li>
+    ))}
+  </ul>
+</Base>
+
+<style>
+  .lit-list { padding-left: 1.25rem; }
+  .lit-list li { margin-bottom: 0.4rem; }
+  .titel { opacity: 0.8; font-size: 0.9rem; }
+</style>

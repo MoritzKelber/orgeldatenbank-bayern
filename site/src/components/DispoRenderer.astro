@@ -1,0 +1,53 @@
+---
+import type { Dispo } from "../lib/types";
+
+interface Props {
+  dispo: Dispo;
+}
+const { dispo } = Astro.props;
+---
+{dispo.raw && (
+  <div class="dispo">
+    {dispo.parsed ? (
+      <>
+        {dispo.sections.map((section) => (
+          <div class="dispo-section">
+            <h4>
+              {section.name}
+              {section.qualifier && <span class="qualifier"> ({section.qualifier})</span>}
+            </h4>
+            <ul>
+              {section.items.map((item) => <li>{item}</li>)}
+            </ul>
+          </div>
+        ))}
+        {dispo.koppeln.length > 0 && (
+          <div class="dispo-section">
+            <h4>Koppeln und Spielhilfen</h4>
+            <ul>
+              {dispo.koppeln.map((item) => <li>{item}</li>)}
+            </ul>
+          </div>
+        )}
+        {dispo.bemerkungen && (
+          <p class="dispo-bemerkungen"><strong>Bemerkungen:</strong> {dispo.bemerkungen}</p>
+        )}
+        {dispo.extra_notes.length > 0 && (
+          <p class="dispo-extra">{dispo.extra_notes.join(" ")}</p>
+        )}
+      </>
+    ) : (
+      <pre class="dispo-raw">{dispo.raw}</pre>
+    )}
+    {dispo.quelle && <p class="dispo-quelle"><strong>Quelle:</strong> {dispo.quelle}</p>}
+  </div>
+)}
+
+<style>
+  .dispo-section { margin-bottom: 1rem; }
+  .dispo-section h4 { margin: 0 0 0.25rem; }
+  .qualifier { opacity: 0.7; font-weight: normal; }
+  .dispo-section ul { margin: 0; padding-left: 1.25rem; }
+  .dispo-raw { white-space: pre-line; font-family: inherit; background: none; }
+  .dispo-bemerkungen, .dispo-quelle, .dispo-extra { font-size: 0.9rem; opacity: 0.85; }
+</style>

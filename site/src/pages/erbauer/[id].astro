@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllBuilders, getOrganById } from "../../lib/data";
+
+export function getStaticPaths() {
+  return getAllBuilders().map((b) => ({ params: { id: String(b.id) }, props: { id: b.id } }));
+}
+
+const { id } = Astro.props;
+const builder = getAllBuilders().find((b) => b.id === id)!;
+const organs = builder.organ_ids.map((oid) => getOrganById(oid)).filter((o) => o !== undefined);
+const base = import.meta.env.BASE_URL;
+---
+<Base title={builder.name ?? `Erbauer ${builder.id}`}>
+  <p><a href={`${base}/erbauer/`}>&larr; zurück zum Lexikon</a></p>
+  <h1>{builder.name}</h1>
+  {builder.biografie && <p class="biografie">{builder.biografie}</p>}
+
+  {organs.length > 0 && (
+    <section>
+      <h2>Verlinkte Orgeln ({organs.length})</h2>
+      <ul>
+        {organs.map((o) => (
+          <li><a href={`${base}/orgeln/${o!.id}/`}>{[o!.kirche, o!.ort].filter(Boolean).join(", ")}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<style>
+  .biografie { white-space: pre-line; }
+</style>

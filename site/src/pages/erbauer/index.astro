@@ -1,0 +1,31 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllBuilders } from "../../lib/data";
+
+const builders = [...getAllBuilders()]
+  .filter((b) => b.name)
+  .sort((a, b) => a.name!.localeCompare(b.name!, "de"));
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Erbauer-Lexikon" description="Lexikon bayerischer und auswärtiger Orgelbauer.">
+  <h1>Erbauer-Lexikon</h1>
+  <p>
+    {builders.length} Einträge. Dies ist ein eigenständiges biografisches Lexikon - nicht jeder in den
+    Orgeldatensätzen genannte Erbauername hat hier einen eigenen Eintrag (siehe <a href={`${base}/ueber/`}>Über diese Seite</a>).
+  </p>
+  <ul class="builder-list">
+    {builders.map((b) => (
+      <li>
+        <a href={`${base}/erbauer/${b.id}/`}>{b.name}</a>
+        {b.organ_ids.length > 0 && <span class="count"> ({b.organ_ids.length} Orgel{b.organ_ids.length === 1 ? "" : "n"} verlinkt)</span>}
+      </li>
+    ))}
+  </ul>
+</Base>
+
+<style>
+  .builder-list { padding-left: 1.25rem; columns: 2; column-gap: 2rem; }
+  .builder-list li { margin-bottom: 0.3rem; break-inside: avoid; }
+  .count { font-size: 0.8rem; opacity: 0.7; }
+  @media (max-width: 600px) { .builder-list { columns: 1; } }
+</style>
