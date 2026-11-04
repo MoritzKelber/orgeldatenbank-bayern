@@ -8,10 +8,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^7.4.5"
+  },
+  "devDependencies": {
+    "pagefind": "^1.6.0"
   }
 }
