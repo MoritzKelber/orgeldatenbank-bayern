@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllLiterature, getOrganById } from "../../lib/data";
+
+export function getStaticPaths() {
+  return getAllLiterature().map((l) => ({ params: { slug: l.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = getAllLiterature().find((l) => l.slug === slug)!;
+const organs = entry.organ_ids.map((oid) => getOrganById(oid)).filter((o) => o !== undefined);
+const base = import.meta.env.BASE_URL;
+---
+<Base title={entry.kurztitel}>
+  <p><a href={`${base}/literatur/`}>&larr; zurück zum Literaturverzeichnis</a></p>
+  <h1>{entry.kurztitel}</h1>
+  <table class="facts">
+    <tbody>
+      {entry.autor && <tr><th>Autor</th><td>{entry.autor}</td></tr>}
+      {entry.titel && <tr><th>Titel</th><td>{entry.titel}</td></tr>}
+      {entry.biblio && <tr><th>Bibliografische Angabe</th><td>{entry.biblio}</td></tr>}
+      {entry.vorhanden && <tr><th>Vorhanden</th><td>{entry.vorhanden}</td></tr>}
+    </tbody>
+  </table>
+  {entry.abstract && <p class="abstract">{entry.abstract}</p>}
+
+  {entry.keywords.length > 0 && (
+    <p class="keywords">
+      {entry.keywords.map((k) => <span class="badge small">{k.stichwort}</span>)}
+    </p>
+  )}
+
+  {organs.length > 0 && (
+    <section>
+      <h2>Zitiert bei {organs.length} Orgel{organs.length === 1 ? "" : "n"}</h2>
+      <ul>
+        {organs.map((o) => (
+          <li><a href={`${base}/orgeln/${o!.id}/`}>{[o!.kirche, o!.ort].filter(Boolean).join(", ")}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<style>
+  .facts th { width: 11rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
+  .abstract { white-space: pre-line; }
+  .keywords { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .badge.small { font-size: 0.7rem; padding: 0.1rem 0.5rem; }
+</style>

@@ -1,0 +1,84 @@
+---
+import Base from "../../layouts/Base.astro";
+import DispoRenderer from "../../components/DispoRenderer.astro";
+import { getAllOrgans, getOrganById, getBuilderById } from "../../lib/data";
+import { RBZ_LABELS, formatJahr } from "../../lib/types";
+
+export function getStaticPaths() {
+  return getAllOrgans().map((organ) => ({ params: { id: String(organ.id) }, props: { id: organ.id } }));
+}
+
+const { id } = Astro.props;
+const organ = getOrganById(id)!;
+const builder = organ.bauer_confidence === "exact" && organ.bauer_id != null ? getBuilderById(organ.bauer_id) : undefined;
+const base = import.meta.env.BASE_URL;
+const title = [organ.kirche, organ.ort].filter(Boolean).join(", ") || `Orgel ${organ.id}`;
+const jahrAnzeige = formatJahr(organ.jahr);
+---
+<Base title={title}>
+  <p><a href={`${base}/orgeln/`}>&larr; zurück zur Übersicht</a></p>
+  <h1>{title}</h1>
+  <p class="badges">
+    <span class="badge">{organ.erhalten ? "erhalten" : "nicht erhalten"}</span>
+    {organ.denkmalorgel && <span class="badge">Denkmalorgel</span>}
+    {organ.regierungsbezirk && <span class="badge">{RBZ_LABELS[organ.regierungsbezirk] ?? organ.regierungsbezirk}</span>}
+  </p>
+
+  <table class="facts">
+    <tbody>
+      {organ.adresse.zeile1 && <tr><th>Adresse</th><td>{organ.adresse.zeile1}</td></tr>}
+      {organ.adresse.zeile2 && <tr><th></th><td>{organ.adresse.zeile2}</td></tr>}
+      {(organ.adresse.plz || organ.adresse.ort) && (
+        <tr><th></th><td>{[organ.adresse.plz, organ.adresse.ort].filter(Boolean).join(" ")}</td></tr>
+      )}
+      {organ.landkreis && <tr><th>Landkreis</th><td>{organ.landkreis}</td></tr>}
+      {jahrAnzeige && <tr><th>Baujahr</th><td>{jahrAnzeige}</td></tr>}
+      {organ.bauer_name && (
+        <tr>
+          <th>Erbauer</th>
+          <td>{builder ? <a href={`${base}/erbauer/${builder.id}/`}>{organ.bauer_name}</a> : organ.bauer_name}</td>
+        </tr>
+      )}
+      {organ.manuale != null && <tr><th>Manuale</th><td>{organ.manuale}</td></tr>}
+      {organ.register != null && <tr><th>Register</th><td>{organ.register}</td></tr>}
+    </tbody>
+  </table>
+
+  {organ.dispo.raw && (
+    <section>
+      <h2>Disposition</h2>
+      <DispoRenderer dispo={organ.dispo} />
+    </section>
+  )}
+
+  {organ.bemerkung && (
+    <section>
+      <h2>Bemerkung</h2>
+      <p>{organ.bemerkung}</p>
+    </section>
+  )}
+
+  {organ.literatur.length > 0 && (
+    <section>
+      <h2>Literatur</h2>
+      <ul class="literatur-list">
+        {organ.literatur.map((citation) => (
+          <li>
+            {citation.slug ? <a href={`${base}/literatur/${citation.slug}/`}>{citation.lit}</a> : citation.lit}
+            {citation.disp && <span class="badge small">Disposition</span>}
+            {citation.abb && <span class="badge small">Abbildung</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<style>
+  .badges { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .facts { margin: 1rem 0; }
+  .facts th { width: 9rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
+  .literatur-list { padding-left: 1.25rem; }
+  .literatur-list li { margin-bottom: 0.3rem; }
+  .badge.small { font-size: 0.65rem; margin-left: 0.4rem; padding: 0.05rem 0.4rem; }
+</style>

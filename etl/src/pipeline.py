@@ -29,7 +29,7 @@ def _rbz_shard_key(rbz: str | None) -> str:
     return rbz if rbz else "unbekannt"
 
 
-def run(db_path: str, site_data_dir: Path, reports_dir: Path) -> None:
+def run(db_path: str, site_data_dir: Path, public_data_dir: Path, reports_dir: Path) -> None:
     print(f"Lese Rohdaten aus {db_path} ...")
     source = fetch_source(db_path)
     source_counts = {table: len(rows) for table, rows in source.items()}
@@ -77,8 +77,13 @@ def run(db_path: str, site_data_dir: Path, reports_dir: Path) -> None:
         entry["jahr"] = organ["jahr"]["jahr"]
         entry["jahr_anzeige"] = _jahr_display(organ["jahr"])
         organs_index.append(entry)
-    (site_data_dir / "organs-index.json").write_text(
-        json.dumps(organs_index, ensure_ascii=False, indent=2), encoding="utf-8"
+    # Goes to public/, not src/data/: this is the one file the browser
+    # fetches at runtime for client-side filtering on /orgeln/ - the
+    # per-organ shards above stay build-time-only (used to generate the
+    # 32k static detail pages, never shipped raw to the client).
+    public_data_dir.mkdir(parents=True, exist_ok=True)
+    (public_data_dir / "organs-index.json").write_text(
+        json.dumps(organs_index, ensure_ascii=False), encoding="utf-8"
     )
 
     (site_data_dir / "builders.json").write_text(
@@ -133,10 +138,16 @@ def _jahr_display(jahr: dict) -> str | None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="ETL: bayern.accdb -> site JSON")
     parser.add_argument("--db", required=True, help="Pfad zur bayern.accdb")
+    repo_root = Path(__file__).resolve().parents[2]
     parser.add_argument(
         "--site-data",
-        default=str(Path(__file__).resolve().parents[2] / "site" / "src" / "data"),
-        help="Zielverzeichnis für die JSON-Ausgaben",
+        default=str(repo_root / "site" / "src" / "data"),
+        help="Zielverzeichnis für die build-time-JSON-Ausgaben (Detailseiten-Quelldaten)",
+    )
+    parser.add_argument(
+        "--public-data",
+        default=str(repo_root / "site" / "public" / "data"),
+        help="Zielverzeichnis für Daten, die der Browser zur Laufzeit fetcht (organs-index.json)",
     )
     parser.add_argument(
         "--reports",
@@ -144,7 +155,7 @@ def main() -> None:
         help="Zielverzeichnis für den Datenqualitäts-Report",
     )
     args = parser.parse_args()
-    run(args.db, Path(args.site_data), Path(args.reports))
+    run(args.db, Path(args.site_data), Path(args.public_data), Path(args.reports))
 
 
 if __name__ == "__main__":
