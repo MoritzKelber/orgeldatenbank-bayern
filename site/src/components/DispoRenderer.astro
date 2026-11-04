@@ -12,10 +12,10 @@ const { dispo } = Astro.props;
       <>
         {dispo.sections.map((section) => (
           <div class="dispo-section">
-            <h4>
+            <h3>
               {section.name}
               {section.qualifier && <span class="qualifier"> ({section.qualifier})</span>}
-            </h4>
+            </h3>
             <ul>
               {section.items.map((item) => <li>{item}</li>)}
             </ul>
@@ -23,7 +23,7 @@ const { dispo } = Astro.props;
         ))}
         {dispo.koppeln.length > 0 && (
           <div class="dispo-section">
-            <h4>Koppeln und Spielhilfen</h4>
+            <h3>Koppeln und Spielhilfen</h3>
             <ul>
               {dispo.koppeln.map((item) => <li>{item}</li>)}
             </ul>
@@ -45,7 +45,7 @@ const { dispo } = Astro.props;
 
 <style>
   .dispo-section { margin-bottom: 1rem; }
-  .dispo-section h4 { margin: 0 0 0.25rem; }
+  .dispo-section h3 { margin: 0 0 0.25rem; font-size: 1rem; }
   .qualifier { opacity: 0.7; font-weight: normal; }
   .dispo-section ul { margin: 0; padding-left: 1.25rem; }
   .dispo-raw { white-space: pre-line; font-family: inherit; background: none; }

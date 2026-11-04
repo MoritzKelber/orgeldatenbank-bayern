@@ -1,0 +1,25 @@
+---
+import Base from "../layouts/Base.astro";
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Karte" description="Karte der erfassten Orgelstandorte in Bayern.">
+  <h1>Karte</h1>
+  <p id="map-status">Lade Kartendaten …</p>
+  <div id="organ-map"></div>
+  <p class="attribution">
+    Kartendaten: &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap-Mitwirkende</a>.
+    Orte wurden automatisiert anhand von Ortsname/Postleitzahl ermittelt und können ungenau sein.
+  </p>
+</Base>
+
+<style>
+  #organ-map { height: 70vh; min-height: 24rem; border: 1px solid var(--color-border); }
+  .attribution { font-size: 0.8rem; opacity: 0.75; margin-top: 0.5rem; }
+  :global(.map-popup-list) { margin: 0.4rem 0 0; padding-left: 1.1rem; max-height: 10rem; overflow-y: auto; }
+</style>
+
+<script>
+  import { initOrganMap } from "../lib/organMap";
+  const base = import.meta.env.BASE_URL;
+  initOrganMap({ mapElementId: "organ-map", statusElementId: "map-status", base });
+</script>

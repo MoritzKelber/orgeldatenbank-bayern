@@ -82,3 +82,23 @@ def parse_jahr(raw: str | None) -> Jahr:
         return {"jahr_raw": raw, "jahr": start, "jahr_bis": end, "qualifier": "bereich"}
 
     return {"jahr_raw": raw, "jahr": None, "jahr_bis": None, "qualifier": "unbekannt"}
+
+
+def format_jahr(jahr: Jahr) -> str | None:
+    """Human-readable display string, or None when there's nothing to show."""
+    qualifier = jahr["qualifier"]
+    if qualifier == "fehlt":
+        return None
+    if qualifier == "unbekannt":
+        return jahr["jahr_raw"]
+    if qualifier == "exakt":
+        return str(jahr["jahr"])
+    if qualifier == "vor":
+        return f"vor {jahr['jahr']}"
+    if qualifier == "nach":
+        return f"nach {jahr['jahr']}"
+    if qualifier == "um":
+        return f"um {jahr['jahr']}"
+    if qualifier == "bereich":
+        return f"{jahr['jahr']}–{jahr['jahr_bis']}"
+    return jahr["jahr_raw"]
