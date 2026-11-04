@@ -1,0 +1,20 @@
+# Legacy raw DB sources - never commit (large, proprietary, not needed publicly)
+/Orgeldatenbank/
+/__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+etl/.venv/
+
+# Node / Astro
+node_modules/
+site/dist/
+site/.astro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Claude Code settings (machine-specific permissions, not project content)
+.claude/settings.local.json
