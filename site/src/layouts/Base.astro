@@ -22,10 +22,11 @@ const base = import.meta.env.BASE_URL;
         <a href={`${base}/orgeln/`}>Orgeln</a>
         <a href={`${base}/erbauer/`}>Erbauer</a>
         <a href={`${base}/literatur/`}>Literatur</a>
+        <a href={`${base}/suche/`}>Suche</a>
         <a href={`${base}/ueber/`}>Über</a>
       </nav>
     </header>
-    <main>
+    <main data-pagefind-body>
       <slot />
     </main>
     <footer class="site-footer">

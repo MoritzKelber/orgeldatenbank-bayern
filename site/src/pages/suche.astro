@@ -1,0 +1,18 @@
+---
+import Base from "../layouts/Base.astro";
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Suche" description="Volltextsuche über alle Orgeln, Erbauer und Literaturnachweise.">
+  <h1>Suche</h1>
+  <p>Durchsucht Orgel-, Erbauer- und Literaturseiten gleichzeitig.</p>
+  <div id="search"></div>
+</Base>
+
+<link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
+<script define:vars={{ base }}>
+  // Pagefind's index is generated post-build (see package.json "postbuild"),
+  // so it only exists after `npm run build`, not in `astro dev` - that's
+  // expected, this page will 404 on the JS import during local dev.
+  const { PagefindUI } = await import(`${base}/pagefind/pagefind-ui.js`);
+  new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+</script>
