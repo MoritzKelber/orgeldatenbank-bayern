@@ -20,6 +20,7 @@ from transform.bauer_match import build_lookup as build_bauer_lookup
 from transform.clean_bybauer import clean_bybauer_row
 from transform.clean_bydaten import clean_bydaten_row
 from transform.clean_literatur import build_literature_catalog, build_organ_literature
+from transform.jahr import format_jahr
 from validate import build_report
 
 
@@ -67,23 +68,34 @@ def run(db_path: str, site_data_dir: Path, public_data_dir: Path, reports_dir: P
         out_path.write_text(json.dumps(shard_organs, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  {out_path.name}: {len(shard_organs)} Orgeln")
 
+    # Row-of-arrays instead of array-of-objects: with ~32k rows, repeating
+    # 13 field-name strings in every object roughly doubles both the
+    # download size and JSON.parse time for no benefit, since the client
+    # (orgeln/index.astro) just needs the values - it indexes by the
+    # fixed column order below instead of reconstructing objects. This
+    # was a measured fix: Lighthouse flagged Total Blocking Time on
+    # /orgeln/ before this change.
     index_fields = (
         "id", "ort", "kirche", "gemeinde", "landkreis", "regierungsbezirk",
         "bauer_name", "manuale", "register", "erhalten", "denkmalorgel",
     )
-    organs_index = []
+    organs_index_rows = []
     for organ in organs:
-        entry = {k: organ[k] for k in index_fields}
-        entry["jahr"] = organ["jahr"]["jahr"]
-        entry["jahr_anzeige"] = _jahr_display(organ["jahr"])
-        organs_index.append(entry)
+        row = [organ[k] for k in index_fields]
+        row.append(organ["jahr"]["jahr"])
+        row.append(format_jahr(organ["jahr"]))
+        organs_index_rows.append(row)
     # Goes to public/, not src/data/: this is the one file the browser
     # fetches at runtime for client-side filtering on /orgeln/ - the
     # per-organ shards above stay build-time-only (used to generate the
     # 32k static detail pages, never shipped raw to the client).
     public_data_dir.mkdir(parents=True, exist_ok=True)
     (public_data_dir / "organs-index.json").write_text(
-        json.dumps(organs_index, ensure_ascii=False), encoding="utf-8"
+        json.dumps(
+            {"fields": [*index_fields, "jahr", "jahr_anzeige"], "rows": organs_index_rows},
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
     )
 
     (site_data_dir / "builders.json").write_text(
@@ -115,24 +127,6 @@ def run(db_path: str, site_data_dir: Path, public_data_dir: Path, reports_dir: P
     )
     (reports_dir / "data_quality_report.md").write_text(report, encoding="utf-8")
     print("Fertig.")
-
-
-def _jahr_display(jahr: dict) -> str | None:
-    if jahr["qualifier"] == "fehlt":
-        return None
-    if jahr["qualifier"] == "unbekannt":
-        return jahr["jahr_raw"]
-    if jahr["qualifier"] == "exakt":
-        return str(jahr["jahr"])
-    if jahr["qualifier"] == "vor":
-        return f"vor {jahr['jahr']}"
-    if jahr["qualifier"] == "nach":
-        return f"nach {jahr['jahr']}"
-    if jahr["qualifier"] == "um":
-        return f"um {jahr['jahr']}"
-    if jahr["qualifier"] == "bereich":
-        return f"{jahr['jahr']}–{jahr['jahr_bis']}"
-    return jahr["jahr_raw"]
 
 
 def main() -> None:

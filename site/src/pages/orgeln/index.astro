@@ -39,18 +39,23 @@ import { RBZ_LABELS } from "../../lib/types";
     <button type="button" id="f-reset">Filter zurücksetzen</button>
   </form>
 
-  <table id="results-table" hidden>
-    <thead>
-      <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th></tr>
-    </thead>
-    <tbody id="results-body"></tbody>
-  </table>
+  <!-- Reserves space up front so the table/pagination popping in once the
+       data has loaded doesn't shift the footer below (Lighthouse flagged
+       this as a real Cumulative Layout Shift issue). -->
+  <div class="results-area">
+    <table id="results-table" hidden>
+      <thead>
+        <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th></tr>
+      </thead>
+      <tbody id="results-body"></tbody>
+    </table>
 
-  <nav id="pagination" class="pagination" hidden>
-    <button type="button" id="p-prev">&larr; zurück</button>
-    <span id="p-info"></span>
-    <button type="button" id="p-next">weiter &rarr;</button>
-  </nav>
+    <nav id="pagination" class="pagination" hidden>
+      <button type="button" id="p-prev">&larr; zurück</button>
+      <span id="p-info"></span>
+      <button type="button" id="p-next">weiter &rarr;</button>
+    </nav>
+  </div>
 </Base>
 
 <style>
@@ -65,6 +70,7 @@ import { RBZ_LABELS } from "../../lib/types";
   .filter-form label.checkbox { flex-direction: row; align-items: center; }
   .filter-form input, .filter-form select { padding: 0.35rem; font: inherit; }
   .filter-form button { padding: 0.5rem; cursor: pointer; }
+  .results-area { min-height: 40rem; }
   .pagination { display: flex; gap: 1rem; align-items: center; justify-content: center; margin-top: 1rem; }
   .pagination button { padding: 0.4rem 0.8rem; cursor: pointer; }
   .pagination button:disabled { opacity: 0.4; cursor: default; }
@@ -74,23 +80,21 @@ import { RBZ_LABELS } from "../../lib/types";
   const BASE = import.meta.env.BASE_URL;
   const PAGE_SIZE = 50;
 
-  interface OrganIndexEntry {
-    id: number;
-    ort: string | null;
-    kirche: string | null;
-    landkreis: string | null;
-    regierungsbezirk: string | null;
-    bauer_name: string | null;
-    manuale: number | null;
-    register: number | null;
-    erhalten: boolean;
-    denkmalorgel: boolean;
-    jahr: number | null;
-    jahr_anzeige: string | null;
-  }
+  // Matches the column order etl/src/pipeline.py writes organs-index.json
+  // in. Rows are plain arrays, not objects - with ~32k rows, repeating
+  // field-name strings per row would roughly double download size and
+  // JSON.parse time for no benefit (Lighthouse flagged the resulting
+  // Total Blocking Time before this change).
+  const IDX = {
+    id: 0, ort: 1, kirche: 2, gemeinde: 3, landkreis: 4, regierungsbezirk: 5,
+    bauer_name: 6, manuale: 7, register: 8, erhalten: 9, denkmalorgel: 10,
+    jahr: 11, jahr_anzeige: 12,
+  } as const;
 
-  let all: OrganIndexEntry[] = [];
-  let filtered: OrganIndexEntry[] = [];
+  type Row = [number, string | null, string | null, string | null, string | null, string | null, string | null, number | null, number | null, boolean, boolean, number | null, string | null];
+
+  let all: Row[] = [];
+  let filtered: Row[] = [];
   let page = 0;
 
   const statusEl = document.getElementById("status")!;
@@ -111,8 +115,8 @@ import { RBZ_LABELS } from "../../lib/types";
   const fReset = document.getElementById("f-reset") as HTMLButtonElement;
 
   function populateLandkreise() {
-    const values = Array.from(new Set(all.map((o) => o.landkreis).filter((v): v is string => !!v))).sort((a, b) =>
-      a.localeCompare(b, "de"),
+    const values = Array.from(new Set(all.map((r) => r[IDX.landkreis]).filter((v): v is string => !!v))).sort(
+      (a, b) => a.localeCompare(b, "de"),
     );
     for (const lkr of values) {
       const opt = document.createElement("option");
@@ -131,15 +135,16 @@ import { RBZ_LABELS } from "../../lib/types";
     const onlyErhalten = fErhalten.checked;
     const onlyDenkmal = fDenkmal.checked;
 
-    filtered = all.filter((o) => {
-      if (rbz && o.regierungsbezirk !== rbz) return false;
-      if (lkr && o.landkreis !== lkr) return false;
-      if (onlyErhalten && !o.erhalten) return false;
-      if (onlyDenkmal && !o.denkmalorgel) return false;
-      if (jahrVon != null && (o.jahr == null || o.jahr < jahrVon)) return false;
-      if (jahrBis != null && (o.jahr == null || o.jahr > jahrBis)) return false;
+    filtered = all.filter((r) => {
+      if (rbz && r[IDX.regierungsbezirk] !== rbz) return false;
+      if (lkr && r[IDX.landkreis] !== lkr) return false;
+      if (onlyErhalten && !r[IDX.erhalten]) return false;
+      if (onlyDenkmal && !r[IDX.denkmalorgel]) return false;
+      const jahr = r[IDX.jahr] as number | null;
+      if (jahrVon != null && (jahr == null || jahr < jahrVon)) return false;
+      if (jahrBis != null && (jahr == null || jahr > jahrBis)) return false;
       if (text) {
-        const haystack = `${o.ort ?? ""} ${o.kirche ?? ""} ${o.bauer_name ?? ""}`.toLowerCase();
+        const haystack = `${r[IDX.ort] ?? ""} ${r[IDX.kirche] ?? ""} ${r[IDX.bauer_name] ?? ""}`.toLowerCase();
         if (!haystack.includes(text)) return false;
       }
       return true;
@@ -155,16 +160,16 @@ import { RBZ_LABELS } from "../../lib/types";
     const pageItems = filtered.slice(start, start + PAGE_SIZE);
 
     body.innerHTML = "";
-    for (const o of pageItems) {
+    for (const r of pageItems) {
       const tr = document.createElement("tr");
-      const link = `${BASE}/orgeln/${o.id}/`;
+      const link = `${BASE}/orgeln/${r[IDX.id]}/`;
       tr.innerHTML = `
-        <td><a href="${link}">${o.ort ?? "?"}</a></td>
-        <td>${o.kirche ?? ""}</td>
-        <td>${o.landkreis ?? ""}</td>
-        <td>${o.bauer_name ?? ""}</td>
-        <td>${o.jahr_anzeige ?? ""}</td>
-        <td>${o.register ?? ""}</td>
+        <td><a href="${link}">${r[IDX.ort] ?? "?"}</a></td>
+        <td>${r[IDX.kirche] ?? ""}</td>
+        <td>${r[IDX.landkreis] ?? ""}</td>
+        <td>${r[IDX.bauer_name] ?? ""}</td>
+        <td>${r[IDX.jahr_anzeige] ?? ""}</td>
+        <td>${r[IDX.register] ?? ""}</td>
       `;
       body.appendChild(tr);
     }
@@ -195,10 +200,15 @@ import { RBZ_LABELS } from "../../lib/types";
 
   fetch(`${BASE}/data/organs-index.json`)
     .then((r) => r.json())
-    .then((data: OrganIndexEntry[]) => {
-      all = data;
-      populateLandkreise();
-      applyFilters();
+    .then((data: { fields: string[]; rows: Row[] }) => {
+      all = data.rows;
+      // Yield to the browser between these two passes over 32k rows
+      // instead of doing both in the same long task - keeps the page
+      // responsive to input while the initial filter/render runs.
+      setTimeout(() => {
+        populateLandkreise();
+        setTimeout(applyFilters, 0);
+      }, 0);
     })
     .catch(() => {
       statusEl.textContent = "Daten konnten nicht geladen werden.";

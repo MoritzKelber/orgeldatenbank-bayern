@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moritzkelber.github.io/orgeldatenbank-bayern/sitemap-index.xml
