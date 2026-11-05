@@ -183,6 +183,11 @@ export interface LiteraturEntry {
   organ_ids: number[];
 }
 
+export function formatCount(n: number | null): string | null {
+  if (n == null) return null;
+  return n === 0 ? "–" : String(n);
+}
+
 export function formatJahr(jahr: Jahr): string | null {
   switch (jahr.qualifier) {
     case "exakt":

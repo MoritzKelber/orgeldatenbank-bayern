@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import DispoRenderer from "../../components/DispoRenderer.astro";
 import { getAllOrgans, getOrganById, getBuilderById } from "../../lib/data";
-import { RBZ_LABELS, formatJahr } from "../../lib/types";
+import { RBZ_LABELS, formatJahr, formatCount } from "../../lib/types";
 
 export function getStaticPaths() {
   return getAllOrgans().map((organ) => ({ params: { id: String(organ.id) }, props: { id: organ.id } }));
@@ -39,8 +39,8 @@ const jahrAnzeige = formatJahr(organ.jahr);
           <td>{builder ? <a href={`${base}/erbauer/${builder.id}/`}>{organ.bauer_name}</a> : organ.bauer_name}</td>
         </tr>
       )}
-      {organ.manuale != null && <tr><th>Manuale</th><td>{organ.manuale}</td></tr>}
-      {organ.register != null && <tr><th>Register</th><td>{organ.register}</td></tr>}
+      {organ.manuale != null && <tr><th>Manuale</th><td>{formatCount(organ.manuale)}</td></tr>}
+      {organ.register != null && <tr><th>Register</th><td>{formatCount(organ.register)}</td></tr>}
     </tbody>
   </table>
 

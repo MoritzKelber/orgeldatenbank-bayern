@@ -8,8 +8,16 @@ import { RBZ_LABELS } from "../../lib/types";
 
   <form id="filter-form" class="filter-form">
     <label>
-      Suche (Ort, Kirche, Erbauer)
-      <input type="search" id="f-text" placeholder="z.B. Augsburg" />
+      Ort
+      <input type="search" id="f-ort" placeholder="z.B. Augsburg" />
+    </label>
+    <label>
+      Kirche
+      <input type="search" id="f-kirche" placeholder="z.B. St. Peter" />
+    </label>
+    <label>
+      Erbauer
+      <input type="search" id="f-bauer" placeholder="z.B. Steinmeyer" />
     </label>
     <label>
       Regierungsbezirk
@@ -45,7 +53,7 @@ import { RBZ_LABELS } from "../../lib/types";
   <div class="results-area">
     <table id="results-table" hidden>
       <thead>
-        <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th></tr>
+        <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th><th>Erhalten</th><th></th></tr>
       </thead>
       <tbody id="results-body"></tbody>
     </table>
@@ -122,7 +130,23 @@ import { RBZ_LABELS } from "../../lib/types";
   }
   .filter-form .reset-button:hover { background: var(--color-accent); color: #fff; }
   .results-area { min-height: 40rem; }
+  #results-table { font-size: 0.85rem; }
   #results-table th { background: var(--color-header-bg); color: var(--color-header-text); }
+  #results-table th, #results-table td.link-cell { white-space: nowrap; }
+  .link-cell { width: 1%; text-align: right; }
+  .organ-link { font-size: 0.85rem; text-decoration: none; color: var(--color-accent); }
+  .organ-link:hover { text-decoration: underline; }
+
+  .status-badge {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+  }
+  .status-ok { border-color: var(--color-accent); color: var(--color-accent); }
+  .status-no { opacity: 0.6; }
   .pagination { display: flex; gap: 1rem; align-items: center; justify-content: center; margin-top: 1rem; }
   .pagination button {
     padding: 0.4rem 0.8rem;
@@ -153,6 +177,17 @@ import { RBZ_LABELS } from "../../lib/types";
 
   type Row = [number, string | null, string | null, string | null, string | null, string | null, string | null, number | null, number | null, boolean, boolean, number | null, string | null];
 
+  function formatCount(n: number | null): string {
+    if (n == null) return "";
+    return n === 0 ? "–" : String(n);
+  }
+
+  function erhaltenBadge(v: boolean): string {
+    return v
+      ? `<span class="status-badge status-ok" title="erhalten">✓</span>`
+      : `<span class="status-badge status-no" title="nicht erhalten">✕</span>`;
+  }
+
   let all: Row[] = [];
   let filtered: Row[] = [];
   let page = 0;
@@ -165,7 +200,9 @@ import { RBZ_LABELS } from "../../lib/types";
   const pPrev = document.getElementById("p-prev") as HTMLButtonElement;
   const pNext = document.getElementById("p-next") as HTMLButtonElement;
 
-  const fText = document.getElementById("f-text") as HTMLInputElement;
+  const fOrt = document.getElementById("f-ort") as HTMLInputElement;
+  const fKirche = document.getElementById("f-kirche") as HTMLInputElement;
+  const fBauer = document.getElementById("f-bauer") as HTMLInputElement;
   const fRbz = document.getElementById("f-rbz") as HTMLSelectElement;
   const fLkr = document.getElementById("f-lkr") as HTMLSelectElement;
   const fJahrVon = document.getElementById("f-jahr-von") as HTMLInputElement;
@@ -187,7 +224,9 @@ import { RBZ_LABELS } from "../../lib/types";
   }
 
   function applyFilters() {
-    const text = fText.value.trim().toLowerCase();
+    const ort = fOrt.value.trim().toLowerCase();
+    const kirche = fKirche.value.trim().toLowerCase();
+    const bauer = fBauer.value.trim().toLowerCase();
     const rbz = fRbz.value;
     const lkr = fLkr.value;
     const jahrVon = fJahrVon.value ? Number(fJahrVon.value) : null;
@@ -203,10 +242,9 @@ import { RBZ_LABELS } from "../../lib/types";
       const jahr = r[IDX.jahr] as number | null;
       if (jahrVon != null && (jahr == null || jahr < jahrVon)) return false;
       if (jahrBis != null && (jahr == null || jahr > jahrBis)) return false;
-      if (text) {
-        const haystack = `${r[IDX.ort] ?? ""} ${r[IDX.kirche] ?? ""} ${r[IDX.bauer_name] ?? ""}`.toLowerCase();
-        if (!haystack.includes(text)) return false;
-      }
+      if (ort && !(r[IDX.ort] ?? "").toLowerCase().includes(ort)) return false;
+      if (kirche && !(r[IDX.kirche] ?? "").toLowerCase().includes(kirche)) return false;
+      if (bauer && !(r[IDX.bauer_name] ?? "").toLowerCase().includes(bauer)) return false;
       return true;
     });
     page = 0;
@@ -224,12 +262,14 @@ import { RBZ_LABELS } from "../../lib/types";
       const tr = document.createElement("tr");
       const link = `${BASE}/orgeln/${r[IDX.id]}/`;
       tr.innerHTML = `
-        <td><a href="${link}">${r[IDX.ort] ?? "?"}</a></td>
+        <td>${r[IDX.ort] ?? ""}</td>
         <td>${r[IDX.kirche] ?? ""}</td>
         <td>${r[IDX.landkreis] ?? ""}</td>
         <td>${r[IDX.bauer_name] ?? ""}</td>
         <td>${r[IDX.jahr_anzeige] ?? ""}</td>
-        <td>${r[IDX.register] ?? ""}</td>
+        <td>${formatCount(r[IDX.register] as number | null)}</td>
+        <td>${erhaltenBadge(r[IDX.erhalten] as boolean)}</td>
+        <td class="link-cell"><a class="organ-link" href="${link}">Orgel &rarr;</a></td>
       `;
       body.appendChild(tr);
     }
@@ -244,11 +284,13 @@ import { RBZ_LABELS } from "../../lib/types";
 
   pPrev.addEventListener("click", () => { page--; render(); });
   pNext.addEventListener("click", () => { page++; render(); });
-  for (const el of [fText, fRbz, fLkr, fJahrVon, fJahrBis, fErhalten, fDenkmal]) {
+  for (const el of [fOrt, fKirche, fBauer, fRbz, fLkr, fJahrVon, fJahrBis, fErhalten, fDenkmal]) {
     el.addEventListener("input", applyFilters);
   }
   fReset.addEventListener("click", () => {
-    fText.value = "";
+    fOrt.value = "";
+    fKirche.value = "";
+    fBauer.value = "";
     fRbz.value = "";
     fLkr.value = "";
     fJahrVon.value = "";
