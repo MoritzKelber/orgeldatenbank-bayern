@@ -44,7 +44,15 @@
       "satz": 93.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": {
+      "status": "ok",
+      "gnd_id": "4627630-0",
+      "url": "https://d-nb.info/gnd/4627630-0",
+      "preferred_name": "Maria, Hilfe der Reisenden (Adelsried)",
+      "candidates_considered": 1,
+      "grund": null
+    }
   },
   {
     "id": 760,
@@ -147,7 +155,8 @@
         "confidence": "normalisiert",
         "slug": "huebner-orgeln-1987"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 783,
@@ -203,7 +212,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-lkr-bad-kissingen-1986"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 784,
@@ -279,7 +289,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-lkr-bad-kissingen-1986"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 785,
@@ -335,7 +346,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-lkr-bad-kissingen-1986"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 786,
@@ -399,7 +411,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 1159,
@@ -463,7 +476,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 1175,
@@ -510,7 +524,8 @@
       "satz": 1176.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 1454,
@@ -566,7 +581,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 1721,
@@ -622,7 +638,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 1925,
@@ -678,7 +695,8 @@
         "confidence": "exact",
         "slug": "fi-weigle-1969-ff"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 2396,
@@ -734,7 +752,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-orgelprospekte-ii-1975"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 2765,
@@ -806,7 +825,8 @@
         "confidence": "normalisiert",
         "slug": "hammermayer-maerz-1999"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 3524,
@@ -862,7 +882,15 @@
         "confidence": "normalisiert",
         "slug": "fi-walcker-werkverzeichnis-1977"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 3743,
@@ -909,7 +937,8 @@
       "satz": 3783.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 3895,
@@ -981,7 +1010,8 @@
         "confidence": "normalisiert",
         "slug": "fi-steinmeyer-werkverzeichnis-i-1928"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 3980,
@@ -1028,7 +1058,8 @@
       "satz": 4072.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 3990,
@@ -1084,7 +1115,8 @@
         "confidence": "exact",
         "slug": "fi-zeilhuber-werkverzeichnis-1979"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 3991,
@@ -1148,7 +1180,8 @@
         "confidence": "exact",
         "slug": "fi-stoeberl-1982-ff"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 4131,
@@ -1195,7 +1228,8 @@
       "satz": 4251.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 4200,
@@ -1242,7 +1276,8 @@
       "satz": 4360.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 4201,
@@ -1306,7 +1341,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-orgelstatistik-1974"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 4202,
@@ -1362,7 +1398,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-fraenkische-ob-1990"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 4203,
@@ -1409,7 +1446,8 @@
       "satz": 4363.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 4266,
@@ -1465,7 +1503,8 @@
         "confidence": "normalisiert",
         "slug": "huebner-orgeln-1987"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 4342,
@@ -1521,7 +1560,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 4380,
@@ -1568,7 +1608,8 @@
       "satz": 4450.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 4954,
@@ -1615,7 +1656,8 @@
       "satz": 5193.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 5342,
@@ -1662,7 +1704,8 @@
       "satz": 5822.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 5459,
@@ -1726,7 +1769,15 @@
         "confidence": "normalisiert",
         "slug": "hb-des-bistums-passau-1981"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 5475,
@@ -1790,7 +1841,8 @@
         "confidence": "normalisiert",
         "slug": "fi-steinmeyer-werkverzeichnis-i-1928"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 5550,
@@ -1846,7 +1898,8 @@
         "confidence": "normalisiert",
         "slug": "walter-seuffert-iii-1988"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 5613,
@@ -1910,7 +1963,8 @@
         "confidence": "normalisiert",
         "slug": "bittner-ergaenzung-1987"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 5709,
@@ -1966,7 +2020,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 6046,
@@ -2022,7 +2077,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-nuernberger-ob-1972"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 6050,
@@ -2078,7 +2134,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-walcker-1977-2"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 6274,
@@ -2125,7 +2182,8 @@
       "satz": 6543.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 6480,
@@ -2197,7 +2255,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-ob-zw-lech-und-isar-1975"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 6485,
@@ -2253,7 +2312,8 @@
         "confidence": "normalisiert",
         "slug": "huebner-orgeln-1987"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 6528,
@@ -2300,7 +2360,8 @@
       "satz": 6668.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 6581,
@@ -2356,7 +2417,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-nuernberger-ob-1972"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 6929,
@@ -2412,7 +2474,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-nuernberger-ob-1972"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 7133,
@@ -2468,7 +2531,8 @@
         "confidence": "normalisiert",
         "slug": "mettenleiter-oberpfalz-1867"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 7192,
@@ -2515,7 +2579,8 @@
       "satz": 7511.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 7367,
@@ -2562,7 +2627,8 @@
       "satz": 7698.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 7385,
@@ -2618,7 +2684,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 7451,
@@ -2665,7 +2732,8 @@
       "satz": 7784.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 7488,
@@ -2712,7 +2780,8 @@
       "satz": 7854.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 7601,
@@ -2759,7 +2828,8 @@
       "satz": 7970.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 7662,
@@ -2823,7 +2893,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 8855,
@@ -2879,7 +2950,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 8856,
@@ -2935,7 +3007,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 8889,
@@ -2982,7 +3055,8 @@
       "satz": 9309.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 9403,
@@ -3029,7 +3103,8 @@
       "satz": 9778.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 9946,
@@ -3104,7 +3179,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10059,
@@ -3160,7 +3236,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-orgelstatistik-1974"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10173,
@@ -3207,7 +3284,8 @@
       "satz": 10672.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 10195,
@@ -3263,7 +3341,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10372,
@@ -3319,7 +3398,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10373,
@@ -3375,7 +3455,8 @@
         "confidence": "normalisiert",
         "slug": "erzbistum-bamberg-1888"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10531,
@@ -3431,7 +3512,8 @@
         "confidence": "normalisiert",
         "slug": "fi-hindelang-1966"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10609,
@@ -3478,7 +3560,8 @@
       "satz": 11087.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 10610,
@@ -3534,7 +3617,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 10745,
@@ -3581,7 +3665,8 @@
       "satz": 11279.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 11144,
@@ -3628,7 +3713,8 @@
       "satz": 12002.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 11324,
@@ -3684,7 +3770,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 11325,
@@ -3731,7 +3818,15 @@
       "satz": 11747.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": {
+      "status": "ok",
+      "gnd_id": "1151166162",
+      "url": "https://d-nb.info/gnd/1151166162",
+      "preferred_name": "Mariä Himmelfahrt (Hofkirchen)",
+      "candidates_considered": 1,
+      "grund": null
+    }
   },
   {
     "id": 11484,
@@ -3795,7 +3890,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 11485,
@@ -3851,7 +3947,8 @@
         "confidence": "normalisiert",
         "slug": "wohnhaas-cgm-7059-1968"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 11546,
@@ -3898,7 +3995,8 @@
       "satz": 12052.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 11549,
@@ -3954,7 +4052,8 @@
         "confidence": "normalisiert",
         "slug": "hofmann-proebstl-1953"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 11560,
@@ -4001,7 +4100,8 @@
       "satz": 12473.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 11651,
@@ -4057,7 +4157,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 11688,
@@ -4104,7 +4205,8 @@
       "satz": 12148.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 11845,
@@ -4151,7 +4253,8 @@
       "satz": 13037.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 12294,
@@ -4198,7 +4301,8 @@
       "satz": 13535.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 12307,
@@ -4245,7 +4349,8 @@
       "satz": 13719.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 12390,
@@ -4292,7 +4397,8 @@
       "satz": 14164.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 12476,
@@ -4339,7 +4445,8 @@
       "satz": 13872.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 12657,
@@ -4386,7 +4493,8 @@
       "satz": 13256.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 12793,
@@ -4442,7 +4550,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 12794,
@@ -4506,7 +4615,8 @@
         "confidence": "exact",
         "slug": "fi-jann-werkverzeichnis-2005"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 12825,
@@ -4562,7 +4672,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 12833,
@@ -4618,7 +4729,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 12834,
@@ -4674,7 +4786,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 12835,
@@ -4738,7 +4851,8 @@
         "confidence": "normalisiert",
         "slug": "huebner-orgeln-1987"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 13024,
@@ -4785,7 +4899,8 @@
       "satz": 13679.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13205,
@@ -4832,7 +4947,8 @@
       "satz": 13791.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13296,
@@ -4879,7 +4995,8 @@
       "satz": 13936.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13297,
@@ -4926,7 +5043,8 @@
       "satz": 13937.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13298,
@@ -4973,7 +5091,8 @@
       "satz": 13938.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13299,
@@ -5020,7 +5139,8 @@
       "satz": 13939.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13301,
@@ -5067,7 +5187,8 @@
       "satz": 13941.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13303,
@@ -5114,7 +5235,8 @@
       "satz": 13943.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13347,
@@ -5161,7 +5283,8 @@
       "satz": 13989.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13582,
@@ -5208,7 +5331,8 @@
       "satz": 14230.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 13768,
@@ -5264,7 +5388,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-walcker-1977-2"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 13932,
@@ -5336,7 +5461,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 13933,
@@ -5400,7 +5526,8 @@
         "confidence": "normalisiert",
         "slug": "woelfl-orgeln-von-woelfl-1990"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 14385,
@@ -5456,7 +5583,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-schwaben-1986"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 14403,
@@ -5503,7 +5631,8 @@
       "satz": 15129.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14674,
@@ -5550,7 +5679,8 @@
       "satz": 15546.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14675,
@@ -5597,7 +5727,8 @@
       "satz": 15547.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14843,
@@ -5644,7 +5775,8 @@
       "satz": 16017.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14844,
@@ -5691,7 +5823,8 @@
       "satz": 16018.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14845,
@@ -5738,7 +5871,8 @@
       "satz": 16019.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14846,
@@ -5785,7 +5919,8 @@
       "satz": 16020.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14850,
@@ -5832,7 +5967,8 @@
       "satz": 16025.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14854,
@@ -5879,7 +6015,15 @@
       "satz": 16029.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": {
+      "status": "ok",
+      "gnd_id": "4468531-2",
+      "url": "https://d-nb.info/gnd/4468531-2",
+      "preferred_name": "Maria Kappel (Schmiechen)",
+      "candidates_considered": 1,
+      "grund": null
+    }
   },
   {
     "id": 14855,
@@ -5926,7 +6070,8 @@
       "satz": 16030.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14856,
@@ -5973,7 +6118,8 @@
       "satz": 16031.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14903,
@@ -6020,7 +6166,8 @@
       "satz": 15584.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 14982,
@@ -6067,7 +6214,8 @@
       "satz": 17068.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 15268,
@@ -6114,7 +6262,8 @@
       "satz": 15947.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 15295,
@@ -6161,7 +6310,8 @@
       "satz": 16044.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 15296,
@@ -6208,7 +6358,8 @@
       "satz": 16045.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 15715,
@@ -6264,7 +6415,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 15966,
@@ -6320,7 +6472,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 16148,
@@ -6376,7 +6529,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 16149,
@@ -6432,7 +6586,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 16406,
@@ -6479,7 +6634,8 @@
       "satz": 17284.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 16495,
@@ -6526,7 +6682,8 @@
       "satz": 17236.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 16535,
@@ -6590,7 +6747,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 16536,
@@ -6646,7 +6804,8 @@
         "confidence": "normalisiert",
         "slug": "wohnhaas-cgm-7059-1968"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 17211,
@@ -6693,7 +6852,8 @@
       "satz": 18866.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 17217,
@@ -6740,7 +6900,8 @@
       "satz": 18873.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 17760,
@@ -6787,7 +6948,8 @@
       "satz": 18680.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 17935,
@@ -6843,7 +7005,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 18036,
@@ -6890,7 +7053,8 @@
       "satz": 18905.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18037,
@@ -6937,7 +7101,8 @@
       "satz": 18906.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18053,
@@ -6984,7 +7149,8 @@
       "satz": 19389.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18075,
@@ -7031,7 +7197,8 @@
       "satz": 20466.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18505,
@@ -7078,7 +7245,8 @@
       "satz": 19423.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18743,
@@ -7125,7 +7293,8 @@
       "satz": 20860.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18746,
@@ -7172,7 +7341,8 @@
       "satz": 20870.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18755,
@@ -7219,7 +7389,8 @@
       "satz": 19621.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 18820,
@@ -7266,7 +7437,8 @@
       "satz": 20427.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 19227,
@@ -7313,7 +7485,8 @@
       "satz": 20155.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 19372,
@@ -7377,7 +7550,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 19428,
@@ -7424,7 +7598,8 @@
       "satz": 20388.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 19498,
@@ -7480,7 +7655,8 @@
         "confidence": "normalisiert",
         "slug": "kraus-oberpfalz-1990"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 19737,
@@ -7536,7 +7712,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 19978,
@@ -7583,7 +7760,8 @@
       "satz": 20914.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 20133,
@@ -7630,7 +7808,8 @@
       "satz": 21076.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 20157,
@@ -7677,7 +7856,8 @@
       "satz": 21101.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 20227,
@@ -7724,7 +7904,8 @@
       "satz": 21191.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 20921,
@@ -7780,7 +7961,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-lkr-freising-1975"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 21676,
@@ -7844,7 +8026,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-binder-2005"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 21677,
@@ -7900,7 +8083,8 @@
         "confidence": "normalisiert",
         "slug": "fi-deininger-renner-werkverz-1983"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 21964,
@@ -8002,7 +8186,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 22332,
@@ -8078,7 +8263,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 22538,
@@ -8142,7 +8328,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 22661,
@@ -8189,7 +8376,8 @@
       "satz": 23697.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 22837,
@@ -8253,7 +8441,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-binder-2005"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 23026,
@@ -8309,7 +8498,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-nuernberger-ob-1972"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 23104,
@@ -8365,7 +8555,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 23460,
@@ -8412,7 +8603,8 @@
       "satz": 24564.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 23461,
@@ -8468,7 +8660,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 23509,
@@ -8515,7 +8708,8 @@
       "satz": 24589.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 23693,
@@ -8562,7 +8756,8 @@
       "satz": 24840.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 23710,
@@ -8609,7 +8804,8 @@
       "satz": 24857.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24074,
@@ -8656,7 +8852,8 @@
       "satz": 25272.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24178,
@@ -8703,7 +8900,8 @@
       "satz": 25425.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24180,
@@ -8750,7 +8948,8 @@
       "satz": 25427.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24227,
@@ -8806,7 +9005,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 24285,
@@ -8853,7 +9053,8 @@
       "satz": 26241.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24289,
@@ -8900,7 +9101,8 @@
       "satz": 26245.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24669,
@@ -8947,7 +9149,8 @@
       "satz": 25888.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 24897,
@@ -8994,7 +9197,8 @@
       "satz": 26170.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 25177,
@@ -9050,7 +9254,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 25349,
@@ -9097,7 +9302,8 @@
       "satz": 26665.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 25380,
@@ -9144,7 +9350,15 @@
       "satz": 26692.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 25500,
@@ -9200,7 +9414,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-walcker-1977-2"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 25744,
@@ -9256,7 +9471,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 25813,
@@ -9312,7 +9528,8 @@
         "confidence": "normalisiert",
         "slug": "bernhard-eisenbarth-1996"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 25826,
@@ -9376,7 +9593,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-passauer-ob-1975"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 25827,
@@ -9440,7 +9658,8 @@
         "confidence": "normalisiert",
         "slug": "woelfl-orgeln-von-woelfl-1990"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 25828,
@@ -9504,7 +9723,15 @@
         "confidence": "exact",
         "slug": "fi-jann-werkverzeichnis-2005"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 26035,
@@ -9560,7 +9787,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-bayreuther-ob-1971"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 26161,
@@ -9607,7 +9835,8 @@
       "satz": 27564.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 26266,
@@ -9663,7 +9892,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 26322,
@@ -9710,7 +9940,8 @@
       "satz": 28945.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 26376,
@@ -9766,7 +9997,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-altbayern-1982"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 26627,
@@ -9830,7 +10062,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-hoffmann-1988"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 26755,
@@ -9925,7 +10158,8 @@
         "confidence": "normalisiert",
         "slug": "brenninger-schwaben-1986"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 27050,
@@ -9972,7 +10206,8 @@
       "satz": 28882.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 28049,
@@ -10019,7 +10254,8 @@
       "satz": 29386.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 28112,
@@ -10075,7 +10311,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-bayreuther-ob-1971"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 28821,
@@ -10122,7 +10359,8 @@
       "satz": 30260.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 29268,
@@ -10169,7 +10407,8 @@
       "satz": 30718.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 29653,
@@ -10216,7 +10455,8 @@
       "satz": 31132.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 30400,
@@ -10263,7 +10503,8 @@
       "satz": 31958.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 30405,
@@ -10310,7 +10551,8 @@
       "satz": 31965.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 30483,
@@ -10357,7 +10599,8 @@
       "satz": 32046.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 30953,
@@ -10413,7 +10656,15 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-saekularisation-2003"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31179,
@@ -10491,7 +10742,15 @@
         "confidence": "normalisiert",
         "slug": "fischer-untermain-2004"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31373,
@@ -10547,7 +10806,15 @@
         "confidence": "normalisiert",
         "slug": "fischer-untermain-2004"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31493,
@@ -10626,7 +10893,15 @@
         "confidence": "normalisiert",
         "slug": "brenninger-lkr-rosenheim-2004"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31543,
@@ -10682,7 +10957,15 @@
         "confidence": "normalisiert",
         "slug": "fi-sandtner-werkverzeichnis-2005"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31544,
@@ -10746,7 +11029,15 @@
         "confidence": "normalisiert",
         "slug": "fi-sandtner-orgelrestaurierungen-2005"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31573,
@@ -10850,7 +11141,15 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31635,
@@ -10897,7 +11196,8 @@
       "satz": 5827.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 31659,
@@ -10953,7 +11253,15 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-saekularisation-2003"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31663,
@@ -11040,7 +11348,15 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-hoffmann-1988"
       }
-    ]
+    ],
+    "kirche_gnd": {
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
+      "grund": null
+    }
   },
   {
     "id": 31828,
@@ -11096,7 +11412,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-binder-2005"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 31830,
@@ -11152,7 +11469,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-binder-2005"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 31835,
@@ -11208,7 +11526,8 @@
         "confidence": "normalisiert",
         "slug": "fischer-w-binder-2005"
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 32076,
@@ -11284,7 +11603,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 32081,
@@ -11331,7 +11651,8 @@
       "satz": 0.0,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   },
   {
     "id": 32130,
@@ -11415,7 +11736,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 32131,
@@ -11492,7 +11814,8 @@
         "confidence": "keine",
         "slug": null
       }
-    ]
+    ],
+    "kirche_gnd": null
   },
   {
     "id": 32199,
@@ -11539,6 +11862,7 @@
       "satz": null,
       "rbz_raw_unrecognized": null
     },
-    "literatur": []
+    "literatur": [],
+    "kirche_gnd": null
   }
 ]

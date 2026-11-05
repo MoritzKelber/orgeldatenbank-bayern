@@ -52,6 +52,7 @@ export interface Organ {
   landkreis: string | null;
   regierungsbezirk: string | null;
   kirche: string | null;
+  kirche_gnd: GndMatch | null;
   adresse: Adresse;
   erhalten: boolean;
   denkmalorgel: boolean;

@@ -59,6 +59,7 @@ def clean_bydaten_row(row: dict, bauer_lookup: dict[str, int]) -> dict:
         "landkreis": landkreis,
         "regierungsbezirk": rbz,
         "kirche": _str_or_none(row.get("KIRCHE")),
+        "kirche_gnd": None,  # filled in later by match/apply_gnd_kirchen.py
         "adresse": {
             "zeile1": _str_or_none(row.get("ADRESSE1")),
             "zeile2": _str_or_none(row.get("ADRESSE2")),

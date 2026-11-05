@@ -13,6 +13,10 @@ A result is flagged as "zweifelhaft" when any of these hold:
 - the Nominatim display_name doesn't mention Bavaria at all (secondary signal;
   border-region results sometimes legitimately omit it, so this alone doesn't
   make a result wrong, but it's worth a human glance).
+- crosscheck_ortslage.py found a moderate (5-50km) distance between the
+  Nominatim point and the nearest same-named AX_Ortslage locality - plausibly
+  a same-name mix-up *within* Bavaria that the bbox/Bayern-mention checks
+  above cannot see, but not a large enough gap to auto-correct blindly.
 
 Output: etl/reports/geocoding_zweifelhafte_faelle.xlsx, one row per flagged
 place_key, sorted by number of affected organs (most impactful first) so
@@ -43,7 +47,7 @@ def load_json(path: Path, default):
     return default
 
 
-def classify(key: str, place: dict, geo: dict | None) -> str | None:
+def classify(key: str, place: dict, geo: dict | None, distance_review: dict) -> str | None:
     """Return a reason string if doubtful, else None."""
     if geo is None:
         return "nicht abgefragt (Geocoding noch nicht durchgelaufen)"
@@ -54,6 +58,17 @@ def classify(key: str, place: dict, geo: dict | None) -> str | None:
         return f"Fehler bei Anfrage: {geo.get('reason', '?')}"
     if status != "ok":
         return f"unbekannter Status: {status}"
+
+    if geo.get("quelle") in ("bayern_ortslage", "wikidata_via_gnd_kirche", "manuell"):
+        # Resolved via the Bavarian Surveying Administration's own
+        # Ortslage gazetteer (see crosscheck_ortslage.py), a GND-matched
+        # church's own surveyed Wikidata position (see
+        # refine_via_kirchen.py), or a human-checked manual override
+        # (etl/cache/geocode_overrides.json) - all are, by construction,
+        # real Bavarian locations more precise than a Nominatim village match,
+        # so the Nominatim-oriented bbox/"Bayern"-mention heuristics below
+        # don't apply and would just re-flag an already-fixed case.
+        return None
 
     reasons = []
     lat, lon = geo.get("lat"), geo.get("lon")
@@ -67,6 +82,10 @@ def classify(key: str, place: dict, geo: dict | None) -> str | None:
     if "bayern" not in display_name and "bavaria" not in display_name:
         reasons.append("Bayern wird im Nominatim-Ergebnis nicht erwähnt")
 
+    review = distance_review.get(key)
+    if review:
+        reasons.append(f"liegt {review['distanz_km']}km von der naechsten AX_Ortslage mit diesem Namen entfernt")
+
     return "; ".join(reasons) if reasons else None
 
 
@@ -75,6 +94,7 @@ def run(site_data_dir: Path, cache_dir: Path, reports_dir: Path) -> None:
     cache = load_json(cache_dir / "geocode_cache.json", {})
     overrides = load_json(cache_dir / "geocode_overrides.json", {})
     geocoded = {**cache, **overrides}
+    distance_review = load_json(cache_dir / "ortslage_distance_review.json", {})
 
     places = collect_places(organs_dir)
 
@@ -90,7 +110,7 @@ def run(site_data_dir: Path, cache_dir: Path, reports_dir: Path) -> None:
     rows = []
     for key, place in places.items():
         geo = geocoded.get(key)
-        reason = classify(key, place, geo)
+        reason = classify(key, place, geo, distance_review)
         if reason is None:
             continue
         rows.append(

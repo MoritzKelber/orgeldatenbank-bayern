@@ -247,6 +247,15 @@ import { RBZ_LABELS } from "../../lib/types";
       if (bauer && !(r[IDX.bauer_name] ?? "").toLowerCase().includes(bauer)) return false;
       return true;
     });
+    // Default-Sortierung: Baujahr aufsteigend, Orgeln ohne Baujahr ans Ende.
+    filtered.sort((a, b) => {
+      const jahrA = a[IDX.jahr] as number | null;
+      const jahrB = b[IDX.jahr] as number | null;
+      if (jahrA == null && jahrB == null) return 0;
+      if (jahrA == null) return 1;
+      if (jahrB == null) return -1;
+      return jahrA - jahrB;
+    });
     page = 0;
     render();
   }

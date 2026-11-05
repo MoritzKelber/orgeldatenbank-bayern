@@ -39,4 +39,13 @@ import Base from "../layouts/Base.astro";
     Die Karte nutzt Kartenmaterial von &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap-Mitwirkenden</a>,
     lizenziert unter der <a href="https://opendatacommons.org/licenses/odbl/" target="_blank" rel="noopener">Open Database License (ODbL)</a>.
   </p>
+  <p>
+    Für die Kartenkoordinaten wurden alle 8.839 unterschiedlichen Ortsangaben der Datenbank (Ort + Postleitzahl,
+    bei fehlender PLZ ergänzt um Gemeinde/Landkreis) einmalig gegen die <a href="https://nominatim.org/" target="_blank" rel="noopener">Nominatim</a>-Geocoding-API
+    von OpenStreetMap abgefragt. Ergebnisse wurden dauerhaft zwischengespeichert. Zusätzlich wurden alle Treffer
+    gegen die amtliche Ortslagen-Gazetteer der <a href="https://geodaten.bayern.de/opengeodata/" target="_blank" rel="noopener">Bayerischen Vermessungsverwaltung</a>
+    (ATKIS Basis-DLM) abgeglichen, um Verwechslungen mit gleichnamigen Orten zu erkennen und zu korrigieren.
+    8.535 Orte (97&nbsp;%) haben jetzt eine Koordinate, 304 blieben ohne Treffer. Verbleibende Unsicherheiten
+    wurden automatisch als zweifelhaft markiert.
+  </p>
 </Base>
