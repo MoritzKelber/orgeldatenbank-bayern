@@ -21,6 +21,13 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 });
 
+// Three independent geographic precision levels - see
+// etl/src/geocode/{build_kirchen_layer,geocode,build_landkreise_layer}.py.
+// Kept as separate datasets/layers rather than collapsed into one pin,
+// so the map can show (and the viewer can tell apart) a building-exact
+// church position, a village-level estimate, and a county-level
+// fallback that covers organs with no finer coordinate at all.
+
 interface PlaceOrgan {
   id: number;
   kirche: string | null;
@@ -41,13 +48,47 @@ interface PlacesFile {
   organs_ohne_koordinate: number;
 }
 
+interface KircheOrgan {
+  id: number;
+  jahr_anzeige: string | null;
+}
+
+interface Kirche {
+  key: string;
+  lat: number;
+  lon: number;
+  kirche: string | null;
+  ort: string | null;
+  landkreis: string | null;
+  quelle: "wikidata_via_gnd_kirche" | "kbb_pfarramt" | null;
+  gnd_url: string | null;
+  organs: KircheOrgan[];
+}
+
+interface KirchenFile {
+  kirchen: Kirche[];
+}
+
+interface Landkreis {
+  name: string;
+  ist_kreisfreie_stadt: boolean;
+  lat: number;
+  lon: number;
+  anzahl_orgeln: number;
+  anzahl_orte: number;
+}
+
+interface LandkreiseFile {
+  landkreise: Landkreis[];
+}
+
 function escapeHtml(text: string): string {
   const div = document.createElement("div");
   div.textContent = text;
   return div.innerHTML;
 }
 
-function popupHtml(place: Place, base: string): string {
+function placePopupHtml(place: Place, base: string): string {
   const title = [place.ort, place.landkreis].filter(Boolean).join(" · ");
   const items = place.organs
     .map((o) => {
@@ -57,6 +98,27 @@ function popupHtml(place: Place, base: string): string {
     })
     .join("");
   return `<strong>${escapeHtml(title)}</strong><ul class="map-popup-list">${items}</ul>`;
+}
+
+function kirchePopupHtml(kirche: Kirche, base: string): string {
+  const title = [kirche.kirche, kirche.ort].filter(Boolean).join(" · ");
+  const items = kirche.organs
+    .map((o) => {
+      const suffix = o.jahr_anzeige ? ` (${o.jahr_anzeige})` : "";
+      return `<li><a href="${base}/orgeln/${o.id}/">Orgel ${o.id}${escapeHtml(suffix)}</a></li>`;
+    })
+    .join("");
+  const source = kirche.gnd_url
+    ? `<p class="map-popup-gnd"><a href="${kirche.gnd_url}" target="_blank" rel="noopener">GND-Eintrag ↗</a></p>`
+    : kirche.quelle === "kbb_pfarramt"
+      ? `<p class="map-popup-gnd">Quelle: Pfarramts-Adresse (Katholisches Büro Bayern)</p>`
+      : "";
+  return `<strong>${escapeHtml(title)}</strong><ul class="map-popup-list">${items}</ul>${source}`;
+}
+
+function landkreisPopupHtml(lkr: Landkreis): string {
+  const label = lkr.ist_kreisfreie_stadt ? `Stadt ${lkr.name} (kreisfreie Stadt)` : `Landkreis ${lkr.name}`;
+  return `<strong>${escapeHtml(label)}</strong><p>${lkr.anzahl_orgeln.toLocaleString("de-DE")} Orgeln in ${lkr.anzahl_orte.toLocaleString("de-DE")} Orten</p>`;
 }
 
 export async function initOrganMap(opts: { mapElementId: string; statusElementId: string; base: string }) {
@@ -71,24 +133,65 @@ export async function initOrganMap(opts: { mapElementId: string; statusElementId
   }).addTo(map);
 
   try {
-    const res = await fetch(`${opts.base}/data/places.json`);
-    const data: PlacesFile = await res.json();
+    const [placesRes, kirchenRes, landkreiseRes] = await Promise.all([
+      fetch(`${opts.base}/data/places.json`),
+      fetch(`${opts.base}/data/kirchen.json`),
+      fetch(`${opts.base}/data/landkreise.json`),
+    ]);
+    const placesData: PlacesFile = await placesRes.json();
+    const kirchenData: KirchenFile = await kirchenRes.json();
+    const landkreiseData: LandkreiseFile = await landkreiseRes.json();
 
-    const clusterGroup = (L as any).markerClusterGroup();
-    for (const place of data.places) {
+    const ortLayer = (L as any).markerClusterGroup();
+    for (const place of placesData.places) {
       const marker = L.marker([place.lat, place.lon]);
-      marker.bindPopup(popupHtml(place, opts.base));
-      clusterGroup.addLayer(marker);
+      marker.bindPopup(placePopupHtml(place, opts.base));
+      ortLayer.addLayer(marker);
     }
-    map.addLayer(clusterGroup);
+
+    const kircheIcon = L.icon({
+      iconUrl: markerIcon, iconRetinaUrl: markerIcon2x, shadowUrl: markerShadow,
+      iconSize: [20, 33], iconAnchor: [10, 33], className: "marker-kirche",
+    });
+    const kircheLayer = (L as any).markerClusterGroup();
+    for (const kirche of kirchenData.kirchen) {
+      const marker = L.marker([kirche.lat, kirche.lon], { icon: kircheIcon });
+      marker.bindPopup(kirchePopupHtml(kirche, opts.base));
+      kircheLayer.addLayer(marker);
+    }
+
+    const landkreisIcon = L.icon({
+      iconUrl: markerIcon, iconRetinaUrl: markerIcon2x, shadowUrl: markerShadow,
+      iconSize: [30, 49], iconAnchor: [15, 49], className: "marker-landkreis",
+    });
+    const landkreisLayer = L.layerGroup();
+    for (const lkr of landkreiseData.landkreise) {
+      const marker = L.marker([lkr.lat, lkr.lon], { icon: landkreisIcon });
+      marker.bindPopup(landkreisPopupHtml(lkr));
+      landkreisLayer.addLayer(marker);
+    }
+
+    ortLayer.addTo(map);
+    L.control
+      .layers(
+        {},
+        {
+          "Orte (Dorf/Stadt-Mitte)": ortLayer,
+          "Kirchen (gebäudegenau)": kircheLayer,
+          "Landkreise (Übersicht)": landkreisLayer,
+        },
+        { collapsed: false },
+      )
+      .addTo(map);
 
     if (statusEl) {
-      const totalOrgans = data.places.reduce((sum, p) => sum + p.organs.length, 0);
+      const totalOrgans = placesData.places.reduce((sum, p) => sum + p.organs.length, 0);
       statusEl.textContent =
-        `${data.places.length.toLocaleString("de-DE")} Orte mit ${totalOrgans.toLocaleString("de-DE")} Orgeln auf der Karte` +
-        (data.organs_ohne_koordinate > 0
-          ? ` · ${data.organs_ohne_koordinate.toLocaleString("de-DE")} Orgeln konnten nicht verortet werden`
-          : "");
+        `${placesData.places.length.toLocaleString("de-DE")} Orte mit ${totalOrgans.toLocaleString("de-DE")} Orgeln auf der Karte` +
+        (placesData.organs_ohne_koordinate > 0
+          ? ` · ${placesData.organs_ohne_koordinate.toLocaleString("de-DE")} Orgeln ohne Orts-Koordinate (aber auf der Landkreis-Ebene sichtbar)`
+          : "") +
+        ` · ${kirchenData.kirchen.length.toLocaleString("de-DE")} Kirchen gebäudegenau verortet`;
     }
   } catch {
     if (statusEl) statusEl.textContent = "Kartendaten konnten nicht geladen werden.";

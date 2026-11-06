@@ -41,6 +41,13 @@ _RANGE = re.compile(r"^\s*(\d{3,4})\s*[-–]\s*(\d{1,4})\s*$")
 _BIRTH_ONLY = re.compile(r"^\s*(?:geb\.?|geboren|\*)\s*(\d{3,4})\s*$", re.IGNORECASE)
 _DEATH_ONLY = re.compile(r"^\s*(?:gest\.?|gestorben|verstorben|†)\D*(\d{3,4})\s*$", re.IGNORECASE)
 _ROMAN_SUFFIX = re.compile(r"^(.*\S)\s+(I{1,3}|IV)\.?\s*$")
+# Branch-label and provenance leakage into the "vorname" position - e.g.
+# "Hofmann, Neustadt" (a workshop location, not a forename) or "Weiß,
+# Johann Jakob, Polen" (the maxsplit=1 comma-split in _parse_person_header
+# leaves "Johann Jakob, Polen" together, with "Polen" being where the
+# person worked/came from, not part of the name). Caught here and routed
+# to `beschreibung_odb` instead of being shown as if it were a forename.
+_BESCHREIBUNG_KEYWORDS = re.compile(r"orgelbau|familie|werkstatt|anstalt|gesellschaft", re.IGNORECASE)
 
 
 class Lebensdaten(TypedDict):
@@ -60,6 +67,7 @@ class Person(TypedDict):
     nachname: str | None
     vorname: str | None
     namenszusatz: str | None  # roman-numeral generation suffix, e.g. "I.", "II."
+    beschreibung_odb: str | None  # branch-label/provenance text that leaked into the name field
     lebensdaten: Lebensdaten
     beziehung: Beziehung | None
     anmerkungen_kurz: list[str]  # unclassified parenthetical notes from the header line
@@ -100,6 +108,17 @@ def _split_name_and_parens(header: str) -> tuple[str, list[str]]:
     return name_part, [p.strip() for p in parens if p.strip()]
 
 
+def _split_vorname_beschreibung(vorname: str) -> tuple[str | None, str | None]:
+    """(real forename or None, leaked description or None)."""
+    if _BESCHREIBUNG_KEYWORDS.search(vorname):
+        return None, vorname
+    if "," in vorname:
+        core, rest = (part.strip() for part in vorname.rsplit(",", 1))
+        if core and rest and not re.search(r"\d", rest) and len(rest.split()) <= 6:
+            return core, rest
+    return vorname, None
+
+
 def _parse_person_header(index: int, header: str) -> Person:
     name_part, parens = _split_name_and_parens(header)
 
@@ -108,6 +127,10 @@ def _parse_person_header(index: int, header: str) -> Person:
         nachname, vorname = (part.strip() or None for part in name_part.split(",", 1))
     else:
         nachname = name_part or None
+
+    beschreibung_odb = None
+    if vorname:
+        vorname, beschreibung_odb = _split_vorname_beschreibung(vorname)
 
     namenszusatz = None
     if vorname:
@@ -141,6 +164,7 @@ def _parse_person_header(index: int, header: str) -> Person:
         "nachname": nachname,
         "vorname": vorname,
         "namenszusatz": namenszusatz,
+        "beschreibung_odb": beschreibung_odb,
         "lebensdaten": {"raw": lebensdaten_raw, "geburtsjahr": geburtsjahr, "todesjahr": todesjahr},
         "beziehung": beziehung,
         "anmerkungen_kurz": anmerkungen_kurz,

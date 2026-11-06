@@ -4,6 +4,13 @@ const base = import.meta.env.BASE_URL;
 ---
 <Base title="Karte" description="Karte der erfassten Orgelstandorte in Bayern.">
   <h1>Karte</h1>
+  <p>
+    Drei Genauigkeitsebenen, über den Ebenen-Schalter oben rechts auf der Karte wählbar: <strong>Orte</strong>
+    (Dorf-/Stadtmitte, Standard), <strong>Kirchen</strong> (gebäudegenau bzw. hausnummerngenau, über die GND/Wikidata
+    oder - für katholische Pfarreien - die Pfarramts-Adressen des Katholischen Büros Bayern) und
+    <strong>Landkreise</strong> (grobe Übersicht, deckt auch Orgeln ab, für die keine Orts-Koordinate ermittelt
+    werden konnte).
+  </p>
   <p id="map-status">Lade Kartendaten …</p>
   <div id="organ-map"></div>
   <p class="attribution">
@@ -16,6 +23,9 @@ const base = import.meta.env.BASE_URL;
   #organ-map { height: 70vh; min-height: 24rem; border: 1px solid var(--color-border); }
   .attribution { font-size: 0.8rem; opacity: 0.75; margin-top: 0.5rem; }
   :global(.map-popup-list) { margin: 0.4rem 0 0; padding-left: 1.1rem; max-height: 10rem; overflow-y: auto; }
+  :global(.map-popup-gnd) { margin: 0.4rem 0 0; font-size: 0.85rem; }
+  :global(.marker-kirche) { filter: hue-rotate(130deg) saturate(1.6); }
+  :global(.marker-landkreis) { filter: hue-rotate(260deg) saturate(1.4); opacity: 0.85; }
 </style>
 
 <script>

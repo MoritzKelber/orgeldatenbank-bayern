@@ -4,6 +4,62 @@
     "reason": "Nominatim-Treffer eindeutig falsch (Rheinland-Pfalz statt Bayern) und keine verlaessliche Korrektur verfuegbar - auf Nutzerwunsch aus der Karte entfernt statt mit falscher/geratener Koordinate angezeigt.",
     "fetched_at": "2026-11-05"
   },
+  "hohenstein|96253": {
+    "status": "ok",
+    "lat": 50.2154778,
+    "lon": 10.933278,
+    "display_name": "Hohenstein, Schafhof, Ahorn, Landkreis Coburg, Bayern, 96482, Deutschland",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
+  "westerheim|westerheim": {
+    "status": "ok",
+    "lat": 48.0167,
+    "lon": 10.3,
+    "display_name": "Westerheim, Erkheim, Landkreis Unterallgäu, Bayern, 87784, Deutschland",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
+  "eschenbach|92676": {
+    "status": "ok",
+    "lat": 49.7524842,
+    "lon": 11.884086,
+    "display_name": "Eschenbach, Eschenbach i.d.OPf., Landkreis Neustadt an der Waldnaab, Bayern, 92676, Deutschland",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
+  "ferthofen|87758": {
+    "status": "ok",
+    "lat": 47.9414604,
+    "lon": 10.1066475,
+    "display_name": "Ferthofen, Memmingen, Bayern, 87700, Deutschland",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
+  "lindelbach|97246": {
+    "status": "ok",
+    "lat": 49.7338727,
+    "lon": 10.0334627,
+    "display_name": "Lindelbach, Randersacker, Landkreis Würzburg, Bayern, 97236, Deutschland",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
+  "schweinbach|88167": {
+    "status": "ok",
+    "lat": 47.6596008,
+    "lon": 10.0483215,
+    "display_name": "Schweinbach (Gemeinde Maierhöfen, Landkreis Lindau, Bayern) - Ortsteil nicht separat auffindbar, Gemeinde-Koordinate verwendet",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
+  "lindenhöfe|87776": {
+    "status": "ok",
+    "lat": 47.9997485,
+    "lon": 10.3596528,
+    "display_name": "Lindenhöfe (PLZ 87776, Sontheim, Landkreis Unterallgäu, Bayern) - Ortsteil selbst nicht separat auffindbar, PLZ-Gebietskoordinate verwendet",
+    "quelle": "manuell",
+    "fetched_at": "2026-11-06"
+  },
   "birnbach|84364": {
     "status": "ok",
     "lat": 48.444191,

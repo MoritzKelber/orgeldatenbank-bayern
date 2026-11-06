@@ -1,0 +1,149 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllPersonen, getPersonById, getBuilderById } from "../../lib/data";
+import { BEZIEHUNG_LABELS, personDisplayName } from "../../lib/types";
+
+export function getStaticPaths() {
+  return getAllPersonen().map((p) => ({ params: { id: p.id }, props: { id: p.id } }));
+}
+
+const { id } = Astro.props;
+const person = getPersonById(id)!;
+const lemma = getBuilderById(person.lemma_id);
+const base = import.meta.env.BASE_URL;
+const name = personDisplayName(person);
+const beziehungZiel = person.beziehung
+  ? (lemma?.personen ?? []).find((p) => p.index === person.beziehung!.bezug_index)
+  : undefined;
+
+const vornameVoll = [person.vorname, person.namenszusatz].filter(Boolean).join(" ") || null;
+const gnd = person.gnd;
+const gndOk = gnd?.status === "ok";
+const istFirma = gnd?.status === "nicht_zutreffend";
+// IMPORTANT: every GND lookup - even a rejected one ("keine"/"unsicher")
+// - keeps the closest candidate's gnd_id/preferred_name on the record,
+// purely so flag_doubtful_gnd.py's review export can show "here's what
+// we almost matched". That is not the same as the match being
+// trustworthy - only status "ok" is, plus the handful of firms manually
+// confirmed as a GND CorporateBody (see match/gnd_match.py's
+// FIRM_PATTERN skip). Checking `!!gnd?.gnd_id` alone surfaces every
+// rejected candidate as if it were a real match.
+const gndMatched = gndOk || (istFirma && !!gnd?.gnd_id);
+
+// GND's own preferredName for persons follows "Nachname, Vorname" (its
+// preferredNameEntityForThePerson.surname/.forename split) - once a match
+// is confirmed, that normalized spelling is more authoritative than our
+// own free-text parsing, so it takes precedence; otherwise fall back to
+// what we parsed from the source biografie.
+const [gndNachname, gndVorname] = gndOk ? (gnd!.preferred_name ?? "").split(/,\s*/, 2) : [];
+const nachname = gndOk ? gndNachname || person.nachname : person.nachname;
+const vorname = gndOk ? gndVorname || vornameVoll : vornameVoll;
+
+const geburtsjahr = (gndOk ? gnd!.geburtsjahr : null) ?? person.lebensdaten.geburtsjahr;
+const todesjahr = (gndOk ? gnd!.todesjahr : null) ?? person.lebensdaten.todesjahr;
+const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensdaten.raw.join("; ") : null;
+---
+<Base title={name}>
+  <p><a href={`${base}/personen/`}>&larr; zurück zum Personenlexikon</a></p>
+  <h1>{name}</h1>
+
+  <h2>Angaben nach GND-Kategorien</h2>
+  <table class="facts">
+    <tbody>
+      <tr>
+        <th>GND-Entitätstyp</th>
+        <td>{istFirma ? "Körperschaft (CorporateBody)" : "Person"}</td>
+      </tr>
+      <tr>
+        <th>GND-Nummer</th>
+        <td>
+          {gndMatched ? <a href={gnd!.url ?? undefined} target="_blank" rel="noopener">{gnd!.gnd_id} ↗</a> : "–"}
+        </td>
+      </tr>
+      <tr>
+        <th>Vorzugsbenennung</th>
+        <td>
+          {gndMatched ? (
+            gnd!.preferred_name
+          ) : gnd?.status === "unsicher" ? (
+            <span class="gnd-hinweis" title={gnd.grund ?? undefined}>unsicher - mehrere Kandidaten, nicht übernommen ⓘ</span>
+          ) : istFirma ? (
+            "nicht in der GND gefunden (als Körperschaft gesucht)"
+          ) : (
+            "nicht ermittelt"
+          )}
+        </td>
+      </tr>
+      <tr>
+        <th>Nachname</th>
+        <td>{nachname ?? "–"} {!gndOk && nachname && <span class="quelle-hinweis">(Orgeldatenbank)</span>}</td>
+      </tr>
+      <tr>
+        <th>Vorname(n)</th>
+        <td>{vorname ?? "–"} {!gndOk && vorname && <span class="quelle-hinweis">(Orgeldatenbank)</span>}</td>
+      </tr>
+      {person.beschreibung_odb && (
+        <tr>
+          <th>Beschreibung (ODB)</th>
+          <td>{person.beschreibung_odb}</td>
+        </tr>
+      )}
+      <tr>
+        <th>Geburtsjahr</th>
+        <td>{geburtsjahr ?? "–"} {geburtsjahr && !gndOk && <span class="quelle-hinweis">(Orgeldatenbank)</span>}</td>
+      </tr>
+      <tr>
+        <th>Sterbejahr</th>
+        <td>{todesjahr ?? "–"} {todesjahr && !gndOk && <span class="quelle-hinweis">(Orgeldatenbank)</span>}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Weitere Angaben aus der Orgeldatenbank</h2>
+  <table class="facts">
+    <tbody>
+      {lebensdatenQuelltext && <tr><th>Lebensdaten (Quelltext)</th><td>{lebensdatenQuelltext}</td></tr>}
+      <tr>
+        <th>Beziehung</th>
+        <td>
+          {person.beziehung ? (
+            <>
+              {BEZIEHUNG_LABELS[person.beziehung.typ] ?? person.beziehung.typ}{" "}
+              {beziehungZiel ? (
+                <a href={`${base}/personen/${person.lemma_id}-${beziehungZiel.index}/`}>{personDisplayName(beziehungZiel)}</a>
+              ) : (
+                `${person.beziehung.bezug_index}.`
+              )}
+            </>
+          ) : (
+            "–"
+          )}
+        </td>
+      </tr>
+      <tr>
+        <th>Anmerkungen</th>
+        <td>{person.anmerkungen_kurz.length > 0 ? person.anmerkungen_kurz.join("; ") : "–"}</td>
+      </tr>
+      <tr>
+        <th>Lexikon-Eintrag</th>
+        <td><a href={`${base}/erbauer/${person.lemma_id}/`}>{person.lemma_name}</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <section>
+    <h2>Herkunft dieses Eintrags</h2>
+    <p>
+      Diese Person wurde aus dem Lexikon-Eintrag <a href={`${base}/erbauer/${person.lemma_id}/`}>{person.lemma_name}</a>{" "}
+      aufgelöst{(lemma?.personen?.length ?? 0) > 1 && ` (zusammen mit ${(lemma!.personen.length - 1)} weiteren Personen desselben Namens)`}.
+      Die vollständige Biografie und verlinkte Orgeln stehen dort.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .facts { margin: 1rem 0 2rem; }
+  .facts th { width: 11rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
+  .quelle-hinweis { font-size: 0.75rem; opacity: 0.6; }
+  .gnd-hinweis { color: #8a6500; cursor: help; }
+</style>

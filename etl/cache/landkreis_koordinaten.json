@@ -1,0 +1,524 @@
+{
+  "Aichach-Friedberg": {
+    "lat": 48.406034,
+    "lon": 11.062766,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Aichach-Friedberg, Bayern, Deutschland"
+  },
+  "Altötting": {
+    "lat": 48.2014277,
+    "lon": 12.7241029,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Altötting, Bayern, Deutschland"
+  },
+  "Amberg": {
+    "lat": 49.4543662,
+    "lon": 11.8474021,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Amberg, Bayern, 92224, Deutschland"
+  },
+  "Amberg-Sulzbach": {
+    "lat": 49.4801852,
+    "lon": 11.7836407,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Amberg-Sulzbach, Bayern, Deutschland"
+  },
+  "Ansbach": {
+    "lat": 49.2888745,
+    "lon": 10.5597693,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Ansbach, Bayern, 91522, Deutschland"
+  },
+  "Aschaffenburg": {
+    "lat": 49.9706701,
+    "lon": 9.1384857,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Aschaffenburg, Bayern, Deutschland"
+  },
+  "Augsburg": {
+    "lat": 48.3690341,
+    "lon": 10.8979522,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Augsburg, Bayern, Deutschland"
+  },
+  "Bad Kissingen": {
+    "lat": 50.2275595,
+    "lon": 10.0023408,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Bad Kissingen, Bayern, Deutschland"
+  },
+  "Bamberg": {
+    "lat": 49.8916044,
+    "lon": 10.8868478,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Bamberg, Bayern, Deutschland"
+  },
+  "Bayreuth": {
+    "lat": 49.9446345,
+    "lon": 11.5743543,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Bayreuth, Bayern, Deutschland"
+  },
+  "Berchtesgadener Land": {
+    "lat": 47.7130126,
+    "lon": 12.8184933,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Berchtesgadener Land, Bayern, Deutschland"
+  },
+  "Cham": {
+    "lat": 49.2590754,
+    "lon": 12.7155762,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Cham, Bayern, Deutschland"
+  },
+  "Coburg": {
+    "lat": 50.2582226,
+    "lon": 10.964561,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Coburg, Bayern, 96450, Deutschland"
+  },
+  "Dachau": {
+    "lat": 48.328311,
+    "lon": 11.3685301,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Dachau, Bayern, Deutschland"
+  },
+  "Deggendorf": {
+    "lat": 48.7814115,
+    "lon": 13.0006423,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Deggendorf, Bayern, Deutschland"
+  },
+  "Dillingen a.d. Donau": {
+    "lat": 48.6144047,
+    "lon": 10.5456067,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Dillingen an der Donau, Bayern, Deutschland"
+  },
+  "Dingolfing-Landau": {
+    "lat": 48.6393657,
+    "lon": 12.6617349,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Dingolfing-Landau, Bayern, Deutschland"
+  },
+  "Donau-Ries": {
+    "lat": 48.8100863,
+    "lon": 10.6998994,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Donau-Ries, Bayern, Deutschland"
+  },
+  "Ebersberg": {
+    "lat": 48.0784253,
+    "lon": 11.9295158,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Ebersberg, Bayern, Deutschland"
+  },
+  "Eichstätt": {
+    "lat": 48.9102012,
+    "lon": 11.3895058,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Eichstätt, Bayern, Deutschland"
+  },
+  "Erding": {
+    "lat": 48.2972439,
+    "lon": 12.0080635,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Erding, Bayern, Deutschland"
+  },
+  "Erlangen": {
+    "lat": 49.5891571,
+    "lon": 10.9812072,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Erlangen, Bayern, Deutschland"
+  },
+  "Erlangen-Höchstadt": {
+    "lat": 49.6306886,
+    "lon": 10.8471804,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Erlangen-Höchstadt, Bayern, Deutschland"
+  },
+  "Erlangen-Höchstädt": {
+    "lat": 49.6306886,
+    "lon": 10.8471804,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Erlangen-Höchstadt, Bayern, Deutschland"
+  },
+  "Forchheim": {
+    "lat": 49.731017,
+    "lon": 11.1450865,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Forchheim, Bayern, Deutschland"
+  },
+  "Freising": {
+    "lat": 48.4410189,
+    "lon": 11.7184545,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Freising, Bayern, Deutschland"
+  },
+  "Freyung-Grafenau": {
+    "lat": 48.81666,
+    "lon": 13.481332,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Freyung-Grafenau, Bayern, Deutschland"
+  },
+  "Fürstenfeldbruck": {
+    "lat": 48.1922685,
+    "lon": 11.212995,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Fürstenfeldbruck, Bayern, Deutschland"
+  },
+  "Fürth": {
+    "lat": 49.4885711,
+    "lon": 10.9587203,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Fürth, Bayern, Deutschland"
+  },
+  "Günzburg": {
+    "lat": 48.3436189,
+    "lon": 10.3881644,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Günzburg, Bayern, Deutschland"
+  },
+  "Haßberge": {
+    "lat": 50.0459451,
+    "lon": 10.5904874,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Haßberge, Bayern, Deutschland"
+  },
+  "Hof": {
+    "lat": 50.3187507,
+    "lon": 11.9162992,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Hof, Bayern, Deutschland"
+  },
+  "Ingolstadt": {
+    "lat": 48.7630165,
+    "lon": 11.4250395,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Ingolstadt, Bayern, Deutschland"
+  },
+  "Ingolstadt-Unsernherrn": {
+    "lat": 48.7322805,
+    "lon": 11.4361318,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "TSV Ingolstadt 1957 Unsernherrn, Königerstraße, Unsernherrn, Münchener Straße, Ingolstadt, Bayern, 85051, Deutschland"
+  },
+  "Kaufbeuren": {
+    "lat": 47.8803788,
+    "lon": 10.622246,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Kaufbeuren, Bayern, 87600, Deutschland"
+  },
+  "Kelheim": {
+    "lat": 48.8008909,
+    "lon": 11.922652,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Kelheim, Bayern, Deutschland"
+  },
+  "Kempten": {
+    "lat": 47.7267063,
+    "lon": 10.3168835,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Kempten (Allgäu), Bayern, Deutschland"
+  },
+  "Kempten (Allgäu)": {
+    "lat": 47.7267063,
+    "lon": 10.3168835,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Kempten (Allgäu), Bayern, Deutschland"
+  },
+  "Kempten (Allgäu), St": {
+    "lat": 47.7267063,
+    "lon": 10.3168835,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Kempten (Allgäu), Bayern, Deutschland"
+  },
+  "Kitzingen": {
+    "lat": 49.7518498,
+    "lon": 10.2714612,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Kitzingen, Bayern, Deutschland"
+  },
+  "Kronach": {
+    "lat": 50.3412513,
+    "lon": 11.4053033,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Kronach, Bayern, Deutschland"
+  },
+  "Kulmbach": {
+    "lat": 50.1012879,
+    "lon": 11.4904982,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Kulmbach, Bayern, Deutschland"
+  },
+  "Landsberg a. Lech": {
+    "lat": 48.0399535,
+    "lon": 10.9607756,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Landsberg am Lech, Bayern, Deutschland"
+  },
+  "Landshut": {
+    "lat": 48.536217,
+    "lon": 12.1516551,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Landshut, Bayern, Deutschland"
+  },
+  "Lichtenfels": {
+    "lat": 50.1045422,
+    "lon": 11.0934594,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Lichtenfels, Bayern, Deutschland"
+  },
+  "Lindau (Bodensee)": {
+    "lat": 47.5728668,
+    "lon": 9.6961919,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Lindau (Bodensee), Landkreis Lindau, Bayern, 88131, Deutschland"
+  },
+  "Main-Spessart": {
+    "lat": 49.9938504,
+    "lon": 9.7080547,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Main-Spessart, Bayern, Deutschland"
+  },
+  "Memmingen": {
+    "lat": 47.9816221,
+    "lon": 10.168735,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Memmingen, Bayern, 87700, Deutschland"
+  },
+  "Miesbach": {
+    "lat": 47.7452032,
+    "lon": 11.8148233,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Miesbach, Bayern, Deutschland"
+  },
+  "Miltenberg": {
+    "lat": 49.7559898,
+    "lon": 9.219266,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Miltenberg, Bayern, Deutschland"
+  },
+  "Mühldorf a. Inn": {
+    "lat": 48.2563486,
+    "lon": 12.3981185,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Mühldorf am Inn, Bayern, Deutschland"
+  },
+  "München": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "München, Bayern, Deutschland"
+  },
+  "Neu-Ulm": {
+    "lat": 48.292931,
+    "lon": 10.1698105,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Neu-Ulm, Bayern, Deutschland"
+  },
+  "Neumarkt i.d. OPf": {
+    "lat": 49.2863779,
+    "lon": 11.4811153,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Bayernstraße, Kohlenbrunnermühle, Mühlen, Höhenberg im Tal, Neumarkt in der Oberpfalz, Landkreis Neumarkt in der Oberpfalz, Bayern, 92318, Deutschland"
+  },
+  "Neustadt/Waldnaab": {
+    "lat": 49.8092024,
+    "lon": 12.1557864,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "bag Harsteinwerke Bayern-Mitteldeutschland Steinbruch Windischeschenbach, Oberbaumühle, Gleißenthal, Windischeschenbach, Landkreis Neustadt an der Waldnaab, Bayern, 92670, Deutschland"
+  },
+  "Nürnberg": {
+    "lat": 49.453872,
+    "lon": 11.077298,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Nürnberg, Bayern, Deutschland"
+  },
+  "Nürnberger Land": {
+    "lat": 49.5091089,
+    "lon": 11.3569618,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Nürnberger Land, Bayern, Deutschland"
+  },
+  "Oberallgäu": {
+    "lat": 47.5669373,
+    "lon": 10.2234504,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Oberallgäu, Bayern, Deutschland"
+  },
+  "Ostallgäu": {
+    "lat": 47.8126248,
+    "lon": 10.5586289,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Ostallgäu, Bayern, Deutschland"
+  },
+  "Passau": {
+    "lat": 48.5748229,
+    "lon": 13.4609744,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Passau, Bayern, Deutschland"
+  },
+  "Pfaffenhofen a.d.Ilm": {
+    "lat": 48.6103253,
+    "lon": 11.5244257,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Pfaffenhofen an der Ilm, Bayern, Deutschland"
+  },
+  "Regen": {
+    "lat": 49.0152137,
+    "lon": 13.1153944,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Regen, Bayern, Deutschland"
+  },
+  "Regensburg": {
+    "lat": 49.0195333,
+    "lon": 12.0974869,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Regensburg, Bayern, Deutschland"
+  },
+  "Rhön-Grabfeld": {
+    "lat": 50.3805896,
+    "lon": 10.2055037,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Rhön-Grabfeld, Bayern, Deutschland"
+  },
+  "Rosenheim": {
+    "lat": 47.8557873,
+    "lon": 12.1272983,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Rosenheim, Bayern, Deutschland"
+  },
+  "Roth": {
+    "lat": 49.1952934,
+    "lon": 11.0566523,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Roth, Bayern, Deutschland"
+  },
+  "Rottal-Inn": {
+    "lat": 48.4118615,
+    "lon": 12.8459962,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Rottal-Inn, Bayern, Deutschland"
+  },
+  "Schwabach": {
+    "lat": 49.3346915,
+    "lon": 11.0294139,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Schwabach, Bayern, 91126, Deutschland"
+  },
+  "Schwandorf": {
+    "lat": 49.3686733,
+    "lon": 12.2726851,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Schwandorf, Bayern, Deutschland"
+  },
+  "Schweinfurt": {
+    "lat": 50.0451485,
+    "lon": 10.2340647,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Schweinfurt, Bayern, Deutschland"
+  },
+  "Stadtbergen": {
+    "lat": 48.3666284,
+    "lon": 10.8442814,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Stadtbergen, Landkreis Augsburg, Bayern, 86391, Deutschland"
+  },
+  "Starnberg": {
+    "lat": 47.9782306,
+    "lon": 11.2909919,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Starnberg, Bayern, Deutschland"
+  },
+  "Straubing": {
+    "lat": 48.8839157,
+    "lon": 12.5955773,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Straubing, Bayern, 94315, Deutschland"
+  },
+  "Straubing-Bogen": {
+    "lat": 48.9176201,
+    "lon": 12.7165209,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Straubing-Bogen, Bayern, Deutschland"
+  },
+  "Tirschenreuth": {
+    "lat": 49.9075383,
+    "lon": 12.1951089,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Tirschenreuth, Bayern, Deutschland"
+  },
+  "Traunstein": {
+    "lat": 47.9104262,
+    "lon": 12.6293234,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Traunstein, Bayern, Deutschland"
+  },
+  "Unterallgäu": {
+    "lat": 48.0248748,
+    "lon": 10.4570746,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Unterallgäu, Bayern, Deutschland"
+  },
+  "Weiden i. d. OPf": {
+    "lat": 49.6752749,
+    "lon": 12.1631636,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Weiden in der Oberpfalz, Bayern, 92637, Deutschland"
+  },
+  "Weilheim-Schongau": {
+    "lat": 47.8059338,
+    "lon": 11.0315421,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Weilheim-Schongau, Bayern, Deutschland"
+  },
+  "Würzburg": {
+    "lat": 49.7780356,
+    "lon": 9.9434769,
+    "ist_kreisfreie_stadt": true,
+    "display_name": "Würzburg, Bayern, Deutschland"
+  },
+  "Bad Tölz-Wolfratsh.": {
+    "lat": 47.7376726,
+    "lon": 11.5263504,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Bad Tölz-Wolfratshausen, Bayern, Deutschland"
+  },
+  "Garmisch-Partenk.": {
+    "lat": 47.5651776,
+    "lon": 11.0845729,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Garmisch-Partenkirchen, Bayern, Deutschland"
+  },
+  "Neuburg-Schrobenh.": {
+    "lat": 48.64367,
+    "lon": 11.2304216,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Neuburg-Schrobenhausen, Bayern, Deutschland"
+  },
+  "Neustadt a.d. Waldn.": {
+    "lat": 49.6800906,
+    "lon": 11.8637251,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Neustadt an der Waldnaab, Bayern, Deutschland"
+  },
+  "Neustadt-Bad Windsh.": {
+    "lat": 49.583431,
+    "lon": 10.4145486,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Neustadt an der Aisch-Bad Windsheim, Bayern, Deutschland"
+  },
+  "Weißenburg-Gunzenh.": {
+    "lat": 49.0315646,
+    "lon": 10.9297625,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Weißenburg-Gunzenhausen, Bayern, Deutschland"
+  },
+  "Wunsiedel i. F.": {
+    "lat": 50.0991112,
+    "lon": 12.0167304,
+    "ist_kreisfreie_stadt": false,
+    "display_name": "Landkreis Wunsiedel im Fichtelgebirge, Bayern, Deutschland"
+  }
+}

@@ -1,28 +1,18 @@
 {
+  "bechhofen|91564": {
+    "distanz_km": 20.3,
+    "ortslage_lat": 49.161766448746455,
+    "ortslage_lon": 10.555226973779545
+  },
   "bühl|simmelsdorf": {
     "distanz_km": 33.0,
     "ortslage_lat": 49.84058921493711,
     "ortslage_lon": 11.618321554041076
   },
-  "cronheim|91710": {
-    "distanz_km": 6.6,
-    "ortslage_lat": 49.099202376832096,
-    "ortslage_lon": 10.666915324182662
-  },
   "dürrnbuch|90579": {
     "distanz_km": 32.8,
     "ortslage_lat": 49.517556528502986,
     "ortslage_lon": 10.721889682494986
-  },
-  "ebenried|90584": {
-    "distanz_km": 5.4,
-    "ortslage_lat": 49.21877669835018,
-    "ortslage_lon": 11.289442218801579
-  },
-  "erlangen|erlangen": {
-    "distanz_km": 11.9,
-    "ortslage_lat": 49.587261559254976,
-    "ortslage_lon": 10.995082068855918
   },
   "gundelsheim|91741": {
     "distanz_km": 16.8,
@@ -34,21 +24,6 @@
     "ortslage_lat": 49.16998049736586,
     "ortslage_lon": 10.221714586613514
   },
-  "neunhof|lauf a. d. pegnitz": {
-    "distanz_km": 6.0,
-    "ortslage_lat": 49.55455448379415,
-    "ortslage_lon": 11.22893423151334
-  },
-  "nürnberg|90427": {
-    "distanz_km": 7.3,
-    "ortslage_lat": 49.45242213007781,
-    "ortslage_lon": 11.090896792208694
-  },
-  "nürnberg|90411": {
-    "distanz_km": 7.3,
-    "ortslage_lat": 49.45242213007781,
-    "ortslage_lon": 11.090896792208694
-  },
   "sachsen|91623": {
     "distanz_km": 18.4,
     "ortslage_lat": 49.29363520503798,
@@ -58,11 +33,6 @@
     "distanz_km": 11.3,
     "ortslage_lat": 49.26405267469031,
     "ortslage_lon": 10.483912860325372
-  },
-  "neunhof|91207": {
-    "distanz_km": 6.0,
-    "ortslage_lat": 49.55455448379415,
-    "ortslage_lon": 11.22893423151334
   },
   "au|94577": {
     "distanz_km": 29.1,
@@ -74,15 +44,15 @@
     "ortslage_lat": 48.97489583019571,
     "ortslage_lon": 13.005935092347713
   },
+  "aufhausen|94428": {
+    "distanz_km": 45.2,
+    "ortslage_lat": 48.6164502776197,
+    "ortslage_lon": 12.763022485801162
+  },
   "bachham|gangkofen": {
     "distanz_km": 14.2,
     "ortslage_lat": 48.48665439465021,
     "ortslage_lon": 12.82245861247166
-  },
-  "berg|metten": {
-    "distanz_km": 34.5,
-    "ortslage_lat": 48.62885159008212,
-    "ortslage_lon": 12.63861528174012
   },
   "berg|94099": {
     "distanz_km": 8.3,
@@ -103,11 +73,6 @@
     "distanz_km": 7.8,
     "ortslage_lat": 48.627344656572554,
     "ortslage_lon": 11.916102108711529
-  },
-  "dürnhart|rain": {
-    "distanz_km": 45.9,
-    "ortslage_lat": 48.77404708025923,
-    "ortslage_lon": 11.842125102182317
   },
   "eching|84174": {
     "distanz_km": 26.5,
@@ -134,40 +99,20 @@
     "ortslage_lat": 48.62435743979851,
     "ortslage_lon": 12.960433213272811
   },
-  "hartkirchen|94428": {
-    "distanz_km": 5.4,
-    "ortslage_lat": 48.65404614828439,
-    "ortslage_lon": 12.903086300079758
-  },
   "haslach|84079": {
     "distanz_km": 13.7,
     "ortslage_lat": 48.56112658814059,
     "ortslage_lon": 11.781691154501369
   },
-  "irlbach|94342": {
-    "distanz_km": 49.7,
-    "ortslage_lat": 48.842576970244004,
-    "ortslage_lon": 12.753543630070313
-  },
-  "inkofen|84056": {
-    "distanz_km": 8.5,
-    "ortslage_lat": 48.70930997270161,
-    "ortslage_lon": 12.11312247465742
+  "hunderdorf|94330": {
+    "distanz_km": 7.0,
+    "ortslage_lat": 48.94032062513572,
+    "ortslage_lon": 12.725259398021164
   },
   "kapfham|fürstenstein": {
-    "distanz_km": 11.3,
+    "distanz_km": 11.4,
     "ortslage_lat": 48.69543961516419,
     "ortslage_lon": 13.195616205372806
-  },
-  "kirchberg|94513": {
-    "distanz_km": 44.4,
-    "ortslage_lat": 48.46578557663595,
-    "ortslage_lon": 13.063089304123405
-  },
-  "münster|wurmsham": {
-    "distanz_km": 45.8,
-    "ortslage_lat": 48.73223304881645,
-    "ortslage_lon": 12.05235518703136
   },
   "neuhausen|84106": {
     "distanz_km": 43.8,
@@ -175,12 +120,12 @@
     "ortslage_lon": 12.451962061380978
   },
   "neukirchen|94424": {
-    "distanz_km": 46.1,
+    "distanz_km": 18.7,
     "ortslage_lat": 48.385446024050395,
     "ortslage_lon": 12.95911027658795
   },
   "neukirchen|unterdietfurt": {
-    "distanz_km": 19.8,
+    "distanz_km": 18.7,
     "ortslage_lat": 48.385446024050395,
     "ortslage_lon": 12.95911027658795
   },
@@ -190,9 +135,9 @@
     "ortslage_lon": 12.607304266437987
   },
   "peterskirchen|84378": {
-    "distanz_km": 10.4,
-    "ortslage_lat": 48.49884347328199,
-    "ortslage_lon": 12.860826844812616
+    "distanz_km": 10.2,
+    "ortslage_lat": 48.49888343275443,
+    "ortslage_lon": 12.863276206603885
   },
   "rannertshofen|furth": {
     "distanz_km": 15.9,
@@ -219,10 +164,10 @@
     "ortslage_lat": 48.61415581718774,
     "ortslage_lon": 11.750835193818832
   },
-  "tiefenbach|84184": {
-    "distanz_km": 32.4,
-    "ortslage_lat": 48.79544140412203,
-    "ortslage_lon": 12.093964893450966
+  "unterrohrbach|94419": {
+    "distanz_km": 24.5,
+    "ortslage_lat": 48.493099815871204,
+    "ortslage_lon": 12.672530609821699
   },
   "wald|falkenberg": {
     "distanz_km": 9.6,
@@ -249,27 +194,12 @@
     "ortslage_lat": 48.178897990264105,
     "ortslage_lon": 11.186773431839432
   },
-  "allmannshausen|82335": {
-    "distanz_km": 7.0,
-    "ortslage_lat": 47.93710613322081,
-    "ortslage_lon": 11.345481299046288
-  },
-  "alxing|85567": {
-    "distanz_km": 17.8,
-    "ortslage_lat": 48.02263419639718,
-    "ortslage_lon": 11.929570245947735
-  },
   "annabrunn|84419": {
     "distanz_km": 17.5,
     "ortslage_lat": 48.2298444076092,
     "ortslage_lon": 12.508178510287115
   },
-  "aspertsham|84573": {
-    "distanz_km": 34.0,
-    "ortslage_lat": 48.51849188256362,
-    "ortslage_lon": 13.331317269990988
-  },
-  "aufkirchen|82335": {
+  "aufkirchen|82282": {
     "distanz_km": 34.0,
     "ortslage_lat": 48.240497717769465,
     "ortslage_lon": 11.193355331150425
@@ -285,7 +215,7 @@
     "ortslage_lon": 11.364845853590257
   },
   "berg|reischach": {
-    "distanz_km": 17.4,
+    "distanz_km": 33.3,
     "ortslage_lat": 48.421446972693,
     "ortslage_lon": 12.764537665204799
   },
@@ -294,10 +224,15 @@
     "ortslage_lat": 48.011013174740114,
     "ortslage_lon": 12.497843467739566
   },
+  "bergham|marktl": {
+    "distanz_km": 10.6,
+    "ortslage_lat": 48.2472522320471,
+    "ortslage_lon": 12.831711462387698
+  },
   "bergham|polling": {
-    "distanz_km": 41.4,
-    "ortslage_lat": 47.908116877548714,
-    "ortslage_lon": 11.66906089267678
+    "distanz_km": 20.4,
+    "ortslage_lat": 48.01794406890964,
+    "ortslage_lon": 12.240286869344658
   },
   "bruck|weyarn": {
     "distanz_km": 19.1,
@@ -334,53 +269,53 @@
     "ortslage_lat": 47.866778217579075,
     "ortslage_lon": 11.839276024469674
   },
-  "grösdorf|kipfenberg": {
-    "distanz_km": 6.6,
-    "ortslage_lat": 48.96262455646107,
-    "ortslage_lon": 11.393864607830707
-  },
   "ettal|82488": {
     "distanz_km": 6.6,
     "ortslage_lat": 47.56949703385071,
     "ortslage_lon": 11.093555015894816
   },
-  "feldkirchen|82544": {
-    "distanz_km": 29.5,
-    "ortslage_lat": 48.14163978226826,
-    "ortslage_lon": 11.736633718069331
-  },
-  "feldkirchen|85622": {
+  "feldkirchen|85410": {
     "distanz_km": 39.2,
     "ortslage_lat": 48.48003391505303,
     "ortslage_lon": 11.908288363437267
   },
+  "feldkirchen|82544": {
+    "distanz_km": 22.3,
+    "ortslage_lat": 47.90912437688669,
+    "ortslage_lon": 11.845286191275552
+  },
   "feldkirchen|83308": {
-    "distanz_km": 30.7,
+    "distanz_km": 36.2,
     "ortslage_lat": 47.96635479711226,
     "ortslage_lon": 12.13558770985808
   },
-  "freising|85354": {
-    "distanz_km": 8.2,
-    "ortslage_lat": 48.40005937996559,
-    "ortslage_lon": 11.768948042534786
-  },
-  "freising|85356": {
-    "distanz_km": 8.2,
-    "ortslage_lat": 48.40005937996559,
-    "ortslage_lon": 11.768948042534786
+  "gaden|85416": {
+    "distanz_km": 35.2,
+    "ortslage_lat": 48.40925613160633,
+    "ortslage_lon": 11.871818237218275
   },
   "grafing|neumarkt-sankt veit": {
-    "distanz_km": 42.8,
+    "distanz_km": 42.7,
     "ortslage_lat": 48.34889699325613,
     "ortslage_lon": 11.98800879130862
+  },
+  "grünbach|84405": {
+    "distanz_km": 18.1,
+    "ortslage_lat": 48.331142269490236,
+    "ortslage_lon": 12.004029374760274
   },
   "grünbach|84570": {
     "distanz_km": 29.6,
     "ortslage_lat": 48.208155282047585,
     "ortslage_lon": 12.136678452374797
   },
+  "hammer|83317": {
+    "distanz_km": 7.7,
+    "ortslage_lat": 47.80020412359998,
+    "ortslage_lon": 12.702172626236546
+  },
   "haselbach|85560": {
-    "distanz_km": 24.6,
+    "distanz_km": 24.5,
     "ortslage_lat": 48.30637606511131,
     "ortslage_lon": 12.016931791959719
   },
@@ -388,11 +323,6 @@
     "distanz_km": 8.4,
     "ortslage_lat": 48.06636355178637,
     "ortslage_lon": 12.157009836296691
-  },
-  "ingolstadt|85055": {
-    "distanz_km": 5.5,
-    "ortslage_lat": 48.75280471667704,
-    "ortslage_lon": 11.377953315704923
   },
   "höfen|grafrath": {
     "distanz_km": 33.0,
@@ -424,11 +354,6 @@
     "ortslage_lat": 47.71922625843034,
     "ortslage_lon": 12.861691169945649
   },
-  "kirchdorf|85414": {
-    "distanz_km": 39.4,
-    "ortslage_lat": 48.77110973628678,
-    "ortslage_lon": 11.903246789254567
-  },
   "kirchdorf|rudelzhausen": {
     "distanz_km": 22.7,
     "ortslage_lat": 48.77110973628678,
@@ -439,10 +364,10 @@
     "ortslage_lat": 48.389676530075306,
     "ortslage_lon": 12.351241606445404
   },
-  "leising|beilngries": {
-    "distanz_km": 5.3,
-    "ortslage_lat": 49.02341014663544,
-    "ortslage_lon": 11.501724215034358
+  "kolbing|84559": {
+    "distanz_km": 25.9,
+    "ortslage_lat": 47.986383371749156,
+    "ortslage_lon": 12.194967007588405
   },
   "lanzing|84529": {
     "distanz_km": 47.9,
@@ -454,75 +379,30 @@
     "ortslage_lat": 48.26751055117911,
     "ortslage_lon": 11.301290812114722
   },
-  "lengenfeld|86932": {
-    "distanz_km": 12.8,
-    "ortslage_lat": 48.003818474066954,
-    "ortslage_lon": 10.927490567619731
-  },
   "linden|isen": {
     "distanz_km": 37.5,
     "ortslage_lat": 47.86845214724678,
     "ortslage_lon": 11.928398591634041
   },
   "lochham|82166": {
-    "distanz_km": 37.1,
+    "distanz_km": 36.6,
     "ortslage_lat": 47.86153817838446,
     "ortslage_lon": 11.717069258865072
-  },
-  "mittling|neuötting": {
-    "distanz_km": 7.5,
-    "ortslage_lat": 48.246762811184944,
-    "ortslage_lon": 12.785164045742285
-  },
-  "münchen|81541": {
-    "distanz_km": 6.4,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
-  "münchen|81825": {
-    "distanz_km": 6.4,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
-  "münchen|81245": {
-    "distanz_km": 30.4,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
   },
   "mittenkirchen|83629": {
     "distanz_km": 7.2,
     "ortslage_lat": 47.87005697386871,
     "ortslage_lon": 11.89525435697076
   },
-  "münchen|80689": {
-    "distanz_km": 9.4,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
-  "münchen|81545": {
-    "distanz_km": 7.6,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
-  "münchen|81539": {
-    "distanz_km": 5.8,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
-  "münchen|80937": {
-    "distanz_km": 5.4,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
-  "münchen|81369": {
-    "distanz_km": 6.7,
-    "ortslage_lat": 48.15843052754984,
-    "ortslage_lon": 11.592733004461783
-  },
   "neufahrn|84562": {
     "distanz_km": 32.6,
     "ortslage_lat": 48.261760828476646,
     "ortslage_lon": 11.998955442159394
+  },
+  "neufahrn|82319": {
+    "distanz_km": 41.3,
+    "ortslage_lat": 47.99510577727637,
+    "ortslage_lon": 11.419580414323907
   },
   "neukirchen|85614": {
     "distanz_km": 26.7,
@@ -534,30 +414,20 @@
     "ortslage_lat": 48.4352057021731,
     "ortslage_lon": 11.465742764924215
   },
-  "parsberg|83714": {
-    "distanz_km": 15.9,
-    "ortslage_lat": 47.784222082596024,
-    "ortslage_lon": 11.864928365136588
+  "oberndorf|haag i. ob": {
+    "distanz_km": 38.7,
+    "ortslage_lat": 48.175079054116246,
+    "ortslage_lon": 12.13329342445876
   },
   "oberzell|85302": {
     "distanz_km": 39.3,
     "ortslage_lat": 48.85111562648958,
     "ortslage_lon": 11.313062418649052
   },
-  "osseltshausen|au i. d. hallertau": {
-    "distanz_km": 7.8,
-    "ortslage_lat": 48.56099924702734,
-    "ortslage_lon": 11.68027437630529
-  },
   "peretshofen|82291": {
     "distanz_km": 48.7,
     "ortslage_lat": 48.20903587182105,
     "ortslage_lon": 11.140307459572034
-  },
-  "pfaffenhofen|82291": {
-    "distanz_km": 15.0,
-    "ortslage_lat": 48.181546183259876,
-    "ortslage_lon": 11.138009124381275
   },
   "pfaffing|83737": {
     "distanz_km": 27.9,
@@ -568,11 +438,6 @@
     "distanz_km": 14.0,
     "ortslage_lat": 48.499609000583895,
     "ortslage_lon": 11.923097975102522
-  },
-  "piesenkofen|egglkofen": {
-    "distanz_km": 21.2,
-    "ortslage_lat": 48.408978979296016,
-    "ortslage_lon": 12.461420375633109
   },
   "pullach|forstern": {
     "distanz_km": 36.0,
@@ -600,27 +465,22 @@
     "ortslage_lon": 11.753876258179979
   },
   "rieden|starnberg": {
-    "distanz_km": 9.4,
+    "distanz_km": 31.7,
     "ortslage_lat": 47.7418958940491,
     "ortslage_lon": 11.289882446472408
   },
-  "schönbrunn|84419": {
-    "distanz_km": 37.8,
-    "ortslage_lat": 48.54982356742199,
-    "ortslage_lon": 12.191042526297212
-  },
-  "sonnendorf|85457": {
-    "distanz_km": 15.7,
-    "ortslage_lat": 48.33352819959409,
-    "ortslage_lon": 12.059096985165196
+  "schröding|84435": {
+    "distanz_km": 13.5,
+    "ortslage_lat": 48.40501673652252,
+    "ortslage_lon": 12.087356059499204
   },
   "staudach|82541": {
-    "distanz_km": 38.4,
+    "distanz_km": 38.5,
     "ortslage_lat": 47.69148377233913,
     "ortslage_lon": 11.757382022457845
   },
   "steinkirchen|85221": {
-    "distanz_km": 18.7,
+    "distanz_km": 18.6,
     "ortslage_lat": 48.43856062450574,
     "ortslage_lon": 11.462248281658537
   },
@@ -630,12 +490,12 @@
     "ortslage_lon": 12.02562287284745
   },
   "steinkirchen|82152": {
-    "distanz_km": 36.4,
+    "distanz_km": 36.6,
     "ortslage_lat": 48.43856062450574,
     "ortslage_lon": 11.462248281658537
   },
   "steinkirchen|83122": {
-    "distanz_km": 28.1,
+    "distanz_km": 28.2,
     "ortslage_lat": 48.00301272641078,
     "ortslage_lon": 12.02562287284745
   },
@@ -644,10 +504,15 @@
     "ortslage_lat": 48.03625688422029,
     "ortslage_lon": 12.311971181541063
   },
-  "tegernbach|85276": {
-    "distanz_km": 27.1,
-    "ortslage_lat": 48.568203442774106,
-    "ortslage_lon": 11.432515126678046
+  "tegernbach|egglkofen": {
+    "distanz_km": 38.6,
+    "ortslage_lat": 48.38568834193912,
+    "ortslage_lon": 12.460969107716995
+  },
+  "tegernbach|86510": {
+    "distanz_km": 42.1,
+    "ortslage_lat": 48.2703905518044,
+    "ortslage_lon": 11.07408375439789
   },
   "tegernbach|84416": {
     "distanz_km": 27.9,
@@ -669,40 +534,20 @@
     "ortslage_lat": 48.46150959899481,
     "ortslage_lon": 12.753047525148865
   },
+  "westerndorf|85777": {
+    "distanz_km": 43.4,
+    "ortslage_lat": 48.33612432968021,
+    "ortslage_lon": 11.530941077794376
+  },
   "westerndorf|83026": {
     "distanz_km": 7.2,
     "ortslage_lat": 47.854686491762415,
     "ortslage_lon": 12.161321376400213
   },
-  "westerndorf st. peter|83135": {
-    "distanz_km": 11.5,
-    "ortslage_lat": 47.87685203966093,
-    "ortslage_lon": 12.110357104859764
-  },
-  "wörth|85457": {
-    "distanz_km": 28.2,
-    "ortslage_lat": 48.27735140639643,
-    "ortslage_lon": 12.281562873836474
-  },
   "zell|83564": {
-    "distanz_km": 9.5,
-    "ortslage_lat": 48.09894073567619,
-    "ortslage_lon": 12.093493076008023
-  },
-  "westerndorf st. peter|rosenheim": {
-    "distanz_km": 11.5,
-    "ortslage_lat": 47.87685203966093,
-    "ortslage_lon": 12.110357104859764
-  },
-  "bamberg|96049": {
-    "distanz_km": 6.1,
-    "ortslage_lat": 49.89953188196954,
-    "ortslage_lon": 10.865352589524775
-  },
-  "oberköst|96132": {
-    "distanz_km": 5.2,
-    "ortslage_lat": 49.78347387579765,
-    "ortslage_lon": 10.74880629905229
+    "distanz_km": 9.3,
+    "ortslage_lat": 48.09882658385533,
+    "ortslage_lon": 12.096238201419792
   },
   "poppendorf|heroldsbach": {
     "distanz_km": 17.3,
@@ -719,11 +564,6 @@
     "ortslage_lat": 49.92052579826206,
     "ortslage_lon": 11.972030712451561
   },
-  "pegnitz|pegnitz": {
-    "distanz_km": 7.8,
-    "ortslage_lat": 49.75726368264927,
-    "ortslage_lon": 11.526617803003926
-  },
   "altendorf|92540": {
     "distanz_km": 43.1,
     "ortslage_lat": 49.75381195313507,
@@ -738,11 +578,6 @@
     "distanz_km": 31.6,
     "ortslage_lat": 48.89979534372821,
     "ortslage_lon": 12.726552580543101
-  },
-  "grafenried|rimbach": {
-    "distanz_km": 19.9,
-    "ortslage_lat": 49.0969457747112,
-    "ortslage_lon": 13.010900153431718
   },
   "grafenwöhr|92655": {
     "distanz_km": 5.4,
@@ -764,15 +599,35 @@
     "ortslage_lat": 49.051377092647044,
     "ortslage_lon": 12.508729755210728
   },
+  "hofdorf|94356": {
+    "distanz_km": 31.3,
+    "ortslage_lat": 48.990628149557935,
+    "ortslage_lon": 12.453025322253227
+  },
   "katzdorf|93158": {
     "distanz_km": 22.1,
     "ortslage_lat": 49.35171361122916,
     "ortslage_lon": 12.362127404510257
   },
+  "mähring|95695": {
+    "distanz_km": 5.3,
+    "ortslage_lat": 49.90944962931849,
+    "ortslage_lon": 12.52686382766339
+  },
+  "penk|93188": {
+    "distanz_km": 42.9,
+    "ortslage_lat": 49.043792556814516,
+    "ortslage_lon": 11.96671008491085
+  },
   "plößberg|95100": {
-    "distanz_km": 47.5,
+    "distanz_km": 47.6,
     "ortslage_lat": 49.782975943529976,
     "ortslage_lon": 12.309589195995905
+  },
+  "siegenhofen|rieden": {
+    "distanz_km": 31.2,
+    "ortslage_lat": 49.23954253683254,
+    "ortslage_lon": 11.536903254049687
   },
   "steinmühle|95666": {
     "distanz_km": 43.8,
@@ -784,31 +639,6 @@
     "ortslage_lat": 49.26677704606542,
     "ortslage_lon": 12.761746808375621
   },
-  "augsburg|86152": {
-    "distanz_km": 17.4,
-    "ortslage_lat": 48.39965972681153,
-    "ortslage_lon": 10.922523982464481
-  },
-  "augsburg|86199": {
-    "distanz_km": 7.5,
-    "ortslage_lat": 48.39965972681153,
-    "ortslage_lon": 10.922523982464481
-  },
-  "augsburg|86163": {
-    "distanz_km": 5.8,
-    "ortslage_lat": 48.39965972681153,
-    "ortslage_lon": 10.922523982464481
-  },
-  "augsburg|86153": {
-    "distanz_km": 7.5,
-    "ortslage_lat": 48.39965972681153,
-    "ortslage_lon": 10.922523982464481
-  },
-  "augsburg|86156": {
-    "distanz_km": 5.6,
-    "ortslage_lat": 48.39965972681153,
-    "ortslage_lon": 10.922523982464481
-  },
   "au|88167": {
     "distanz_km": 28.5,
     "ortslage_lat": 47.46139132262156,
@@ -818,6 +648,11 @@
     "distanz_km": 37.3,
     "ortslage_lat": 48.26019637826055,
     "ortslage_lon": 10.449947986666196
+  },
+  "blaichach|87544": {
+    "distanz_km": 7.9,
+    "ortslage_lat": 47.54632007489789,
+    "ortslage_lon": 10.25388542697286
   },
   "buchenberg|87549": {
     "distanz_km": 14.1,
@@ -829,25 +664,15 @@
     "ortslage_lat": 47.66021987155849,
     "ortslage_lon": 10.62484756961081
   },
-  "dürrenzimmern|86732": {
-    "distanz_km": 11.2,
-    "ortslage_lat": 48.90367390663809,
-    "ortslage_lon": 10.551904222105714
-  },
-  "ellerbach|89438": {
-    "distanz_km": 36.2,
-    "ortslage_lat": 48.50036007938329,
-    "ortslage_lon": 10.561390075132195
-  },
-  "etting|86641": {
-    "distanz_km": 33.1,
-    "ortslage_lat": 48.798411622112674,
-    "ortslage_lon": 11.400290972847051
+  "finningen|89233": {
+    "distanz_km": 43.1,
+    "ortslage_lat": 48.38091042175788,
+    "ortslage_lon": 10.075851527231196
   },
   "guggenberg|86830": {
-    "distanz_km": 41.9,
-    "ortslage_lat": 47.938320008682155,
-    "ortslage_lon": 10.32341755158728
+    "distanz_km": 43.2,
+    "ortslage_lat": 48.335034902382915,
+    "ortslage_lon": 11.278459811274612
   },
   "haid|87654": {
     "distanz_km": 35.1,
@@ -858,11 +683,6 @@
     "distanz_km": 22.5,
     "ortslage_lat": 47.63091914444627,
     "ortslage_lon": 10.45735077603965
-  },
-  "hegge|87448": {
-    "distanz_km": 32.9,
-    "ortslage_lat": 47.689167724895405,
-    "ortslage_lon": 10.31624557950278
   },
   "hofen|87544": {
     "distanz_km": 6.1,
@@ -889,11 +709,6 @@
     "ortslage_lat": 48.05913692240286,
     "ortslage_lon": 10.289669437193083
   },
-  "langenreichen|86405": {
-    "distanz_km": 43.0,
-    "ortslage_lat": 48.550699049325964,
-    "ortslage_lon": 10.792152708815172
-  },
   "mittelberg|günzach": {
     "distanz_km": 20.5,
     "ortslage_lat": 47.64039595811192,
@@ -909,20 +724,20 @@
     "ortslage_lat": 47.78283005202061,
     "ortslage_lon": 10.315499444940247
   },
-  "oberkirch|füssen": {
+  "mittelstetten|86845": {
+    "distanz_km": 25.0,
+    "ortslage_lat": 48.20583903620156,
+    "ortslage_lon": 10.765732486992457
+  },
+  "oberstdorf|87561": {
     "distanz_km": 5.7,
-    "ortslage_lat": 47.57595627569251,
-    "ortslage_lon": 10.624053392812815
+    "ortslage_lat": 47.410023266016964,
+    "ortslage_lon": 10.262307557264604
   },
   "oberstaufen|87534": {
     "distanz_km": 5.3,
     "ortslage_lat": 47.563324200019416,
     "ortslage_lon": 10.019585813099363
-  },
-  "ottmarshausen|86356": {
-    "distanz_km": 17.9,
-    "ortslage_lat": 48.39573142041283,
-    "ortslage_lon": 10.80562298126462
   },
   "paar|kühbach": {
     "distanz_km": 19.0,
@@ -933,11 +748,6 @@
     "distanz_km": 11.1,
     "ortslage_lat": 47.58575231908836,
     "ortslage_lon": 9.882753887706247
-  },
-  "rieden|87669": {
-    "distanz_km": 37.5,
-    "ortslage_lat": 47.952623221387626,
-    "ortslage_lon": 10.648183920821024
   },
   "rettenbach|86510": {
     "distanz_km": 28.8,
@@ -953,11 +763,6 @@
     "distanz_km": 42.4,
     "ortslage_lat": 48.912724561238086,
     "ortslage_lon": 11.082424137821187
-  },
-  "schwennenbach|89434": {
-    "distanz_km": 5.7,
-    "ortslage_lat": 48.66190472600137,
-    "ortslage_lon": 10.57691274037179
   },
   "simmerberg|87496": {
     "distanz_km": 42.5,
@@ -989,16 +794,6 @@
     "ortslage_lat": 48.12368370184478,
     "ortslage_lon": 10.152295269097682
   },
-  "althausen|münnerstadt": {
-    "distanz_km": 17.2,
-    "ortslage_lat": 50.24768558741093,
-    "ortslage_lon": 10.230131261488989
-  },
-  "burghausen|97535": {
-    "distanz_km": 36.7,
-    "ortslage_lat": 50.04422450125959,
-    "ortslage_lon": 10.000551195083238
-  },
   "fuchsstadt|97084": {
     "distanz_km": 44.3,
     "ortslage_lat": 49.700237875083296,
@@ -1009,15 +804,15 @@
     "ortslage_lat": 49.73373659116792,
     "ortslage_lon": 10.031661677268767
   },
-  "obersfeld|eußenheim": {
-    "distanz_km": 8.1,
-    "ortslage_lat": 50.01986268951666,
-    "ortslage_lon": 9.913891998930076
-  },
   "schippach|elsenfeld": {
     "distanz_km": 19.3,
     "ortslage_lat": 49.82772467580361,
     "ortslage_lon": 9.200061346602496
+  },
+  "windheim|münnerstadt": {
+    "distanz_km": 23.8,
+    "ortslage_lat": 50.26641156971235,
+    "ortslage_lon": 10.11101826176676
   },
   "dobl|winzer": {
     "distanz_km": 30.3,

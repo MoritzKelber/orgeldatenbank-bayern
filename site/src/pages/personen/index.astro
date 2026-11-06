@@ -1,0 +1,165 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllPersonen } from "../../lib/data";
+
+const personen = [...getAllPersonen()].sort((a, b) => {
+  const nachnameA = a.nachname ?? a.name_raw;
+  const nachnameB = b.nachname ?? b.name_raw;
+  return nachnameA.localeCompare(nachnameB, "de") || (a.vorname ?? "").localeCompare(b.vorname ?? "", "de");
+});
+const base = import.meta.env.BASE_URL;
+---
+<Base
+  title="Personenlexikon"
+  description="Einzeln erfasste Orgelbauer-Personen, aufgelöst aus dem Erbauer-Lexikon."
+>
+  <h1>Personenlexikon</h1>
+  <p>
+    Aufgelöst aus den <a href={`${base}/erbauer/`}>Lemmata des Erbauer-Lexikons</a> (ein Lemma bündelt oft
+    mehrere Personen desselben Namens, z.B. mehrere Generationen einer Werkstatt - hier steht jede für sich).
+  </p>
+
+  <div class="search-area">
+    <input type="search" id="person-search" class="search-bar" placeholder="Personen durchsuchen, z.B. „Steinmeyer“ …" />
+    <label class="gnd-filter"><input type="checkbox" id="person-gnd-only" /> nur mit GND-Eintrag</label>
+  </div>
+  <p id="person-count" class="result-count"></p>
+
+  <ul class="person-list" id="person-list">
+    {personen.map((p) => {
+      const nachname = p.nachname ?? p.name_raw;
+      const vorname = [p.vorname, p.namenszusatz].filter(Boolean).join(" ");
+      const lebensdaten = p.gnd?.status === "ok" && (p.gnd.geburtsjahr != null || p.gnd.todesjahr != null)
+        ? `${p.gnd.geburtsjahr ?? "?"}–${p.gnd.todesjahr ?? "?"}`
+        : p.lebensdaten.geburtsjahr != null || p.lebensdaten.todesjahr != null
+          ? `${p.lebensdaten.geburtsjahr ?? "?"}–${p.lebensdaten.todesjahr ?? "?"}`
+          : null;
+      const searchText = [nachname, vorname, p.lemma_name].filter(Boolean).join(" ").toLowerCase();
+      const istFirma = p.gnd?.status === "nicht_zutreffend";
+      // IMPORTANT: every GND lookup - even a rejected one ("keine") -
+      // keeps the closest candidate's gnd_id/preferred_name on the
+      // record, purely so flag_doubtful_gnd.py's review export can show
+      // "here's what we almost matched". `gnd_id` being set is NOT the
+      // same as the match being trustworthy - only status "ok" is, plus
+      // the handful of firms manually confirmed as a GND CorporateBody
+      // (see match/gnd_match.py's FIRM_PATTERN skip). Checking
+      // `!!p.gnd?.gnd_id` alone (as an earlier version of this file did)
+      // surfaces every rejected candidate as if it were a real match.
+      const gndMatched = p.gnd?.status === "ok" || (istFirma && !!p.gnd?.gnd_id);
+      return (
+        <li class="person-row" data-name={searchText} data-gnd={gndMatched ? "1" : "0"}>
+          <a href={`${base}/personen/${p.id}/`}>
+            <span class="person-name">
+              <strong>{nachname}</strong>
+              {vorname && `, ${vorname}`}
+              {lebensdaten && <span class="person-lebensdaten"> ({lebensdaten})</span>}
+            </span>
+            <span class="person-right">
+              {istFirma && <span class="firma-dot" title="Firma/Kollektiv, keine Einzelperson">Firma</span>}
+              {gndMatched && <span class="gnd-dot" title="mit GND verknüpft">GND</span>}
+            </span>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+</Base>
+
+<style>
+  .search-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.25rem 0 0.4rem;
+  }
+  .search-bar {
+    flex: 1 1 24rem;
+    padding: 0.75rem 1.1rem;
+    font: inherit;
+    font-size: 1.05rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    background: var(--color-surface);
+    color: var(--color-text);
+  }
+  .search-bar:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+  .gnd-filter { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; white-space: nowrap; }
+
+  .result-count {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin: 0.5rem 0 1.25rem;
+  }
+  .result-count-label { font-size: 0.9rem; font-weight: 400; color: var(--color-text); opacity: 0.75; margin-left: 0.4rem; }
+
+  .person-list { list-style: none; margin: 0; padding: 0; }
+  .person-row { border-bottom: 1px dotted var(--color-border); }
+  .person-row[hidden] { display: none; }
+  .person-row a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.55rem 0.3rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .person-row a:hover { background: var(--color-surface); }
+  .person-row a:hover .person-name strong { color: var(--color-accent); }
+  .person-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .person-right { display: flex; align-items: baseline; gap: 0.6rem; flex-shrink: 0; }
+  .person-lebensdaten { font-size: 0.85rem; opacity: 0.65; }
+  .gnd-dot {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-accent) 14%, transparent);
+    color: var(--color-accent);
+  }
+  .firma-dot {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    background: var(--color-border);
+    color: var(--color-text);
+    opacity: 0.75;
+  }
+</style>
+
+<script>
+  const input = document.getElementById("person-search") as HTMLInputElement;
+  const gndOnly = document.getElementById("person-gnd-only") as HTMLInputElement;
+  const rows = Array.from(document.querySelectorAll<HTMLLIElement>(".person-row"));
+  const countEl = document.getElementById("person-count")!;
+  const total = rows.length;
+
+  function update() {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    for (const row of rows) {
+      const matchesQuery = !q || (row.dataset.name ?? "").includes(q);
+      const matchesGnd = !gndOnly.checked || row.dataset.gnd === "1";
+      const match = matchesQuery && matchesGnd;
+      row.hidden = !match;
+      if (match) visible++;
+    }
+    countEl.innerHTML = "";
+    const strong = document.createElement("span");
+    strong.textContent = visible.toLocaleString("de-DE");
+    countEl.appendChild(strong);
+    const label = document.createElement("span");
+    label.className = "result-count-label";
+    label.textContent = visible === total ? "Personen insgesamt" : `von ${total.toLocaleString("de-DE")} Personen`;
+    countEl.appendChild(label);
+  }
+
+  input.addEventListener("input", update);
+  gndOnly.addEventListener("change", update);
+  update();
+</script>

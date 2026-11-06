@@ -123,10 +123,21 @@ export interface Person {
   nachname: string | null;
   vorname: string | null;
   namenszusatz: string | null;
+  beschreibung_odb: string | null;
   lebensdaten: Lebensdaten;
   beziehung: Beziehung | null;
   anmerkungen_kurz: string[];
   gnd: GndMatch | null;
+}
+
+// The Person layer, extracted from the Builder/Lemma layer at build time
+// (see lib/data.ts getAllPersonen) - one entry per individual, with its
+// own id ("<lemma_id>-<index>") and a back-reference to the lemma it
+// came from for the surrounding prose/organ list.
+export interface PersonRecord extends Person {
+  id: string;
+  lemma_id: number;
+  lemma_name: string | null;
 }
 
 export interface Builder {

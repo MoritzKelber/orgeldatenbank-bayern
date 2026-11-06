@@ -6,7 +6,7 @@
 // fetch() instead - see components/FilterPanel.
 import fs from "node:fs";
 import path from "node:path";
-import type { Builder, LiteraturEntry, Organ } from "./types";
+import type { Builder, LiteraturEntry, Organ, Person, PersonRecord } from "./types";
 
 const DATA_DIR = path.resolve(process.cwd(), "src/data");
 
@@ -44,6 +44,31 @@ export function getAllBuilders(): Builder[] {
 
 export function getBuilderById(id: number): Builder | undefined {
   return getAllBuilders().find((b) => b.id === id);
+}
+
+// The Lemma layer (getAllBuilders, above) stays exactly as the ETL writes
+// it - this just extracts a second, independent layer from it, one entry
+// per individual person rather than per surname-lemma, each with its own
+// id/URL. Derived at build time from the same builders.json rather than
+// a separately-maintained file, so there is only one place the person
+// data can drift from the lemma data: nowhere.
+let personenCache: PersonRecord[] | null = null;
+export function getAllPersonen(): PersonRecord[] {
+  if (!personenCache) {
+    personenCache = getAllBuilders().flatMap((lemma) =>
+      (lemma.personen ?? []).map((person: Person) => ({
+        id: `${lemma.id}-${person.index}`,
+        lemma_id: lemma.id,
+        lemma_name: lemma.name,
+        ...person,
+      })),
+    );
+  }
+  return personenCache;
+}
+
+export function getPersonById(id: string): PersonRecord | undefined {
+  return getAllPersonen().find((p) => p.id === id);
 }
 
 let literatureCache: LiteraturEntry[] | null = null;
