@@ -22,7 +22,7 @@ const RULES: [RegExp, string | ((...m: string[]) => string)][] = [
   // "ehem.Seminar", "evang.Kirche", "St.Mang", "Ped.Komb.I" -> Leerzeichen nach Abkürzungspunkt
   [new RegExp(`([${WORD}]{2,})\\.(?=[A-ZÄÖÜ][a-zäöüß]|[IVX]{1,4}\\b)`, "g"), "$1. "],
   // "S.20", "Nr.10", "Bd.7", "Op.16", "Hauptstr.44" -> Leerzeichen vor der Zahl
-  [/(\b(?:S|Nr|Bd|Op|Jg|Hft|Heft)|[Ss]tr)\.(?=\d)/g, "$1. "],
+  [/(\b(?:S|H|Nr|Bd|Op|Jg|Hft|Heft)|[Ss]tr)\.(?=\d)/g, "$1. "],
   // "1.Man." -> "1. Man."
   [/\b(\d{1,2})\.(?=[A-ZÄÖÜ][a-zäöüß])/g, "$1. "],
   // Seitenlisten "S. 20ff,129ff,235" -> "S. 20ff, 129ff, 235"

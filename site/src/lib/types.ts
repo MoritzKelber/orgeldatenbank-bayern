@@ -236,10 +236,58 @@ export interface BiblioFormatted {
 const _BIBLIO_IN_PREFIX = /^in:\s*/i;
 const _BIBLIO_JOURNAL = /^(.+?)\s+(?:Heft\s*)?(\d+[a-zA-Z]?)\s*,\s*(\d{3,4}(?:[/-]\d{2,4})?)\s*(?:,\s*(?:Heft\s*\d+\s*,?\s*)?S\.?\s*([\dIVXivx.\-–,\s]+))?\.?\s*$/;
 
+// Zeitschrift/Zeitung: "Name [N.F.] Band, Jahr, Nr./H./S. ..." oder
+// "Name Band (Jahr), S. ..." oder (ohne Band) "Name, Jahr, Nr./Heft ...".
+// Der Name enthält keine Ziffern; so werden Orts-/Jahresangaben von
+// Monografien ("München 1977 2. Aufl.") nicht für Zeitschriften gehalten.
+const _BIBLIO_PERIODICAL = new RegExp(
+  "^(?<name>[^\\d]+?)[\\s,]+" +
+    "(?:(?:(?:Jg\\.?|Jahrgang|Jahrg\\.?|Bd\\.?)\\s*)?(?<pre>(?:Heft|H\\.)\\s*)?(?<nf>N\\.?\\s?F\\.?\\s*)?(?<vol>\\d{1,3}(?:/\\d{1,3})?[a-z]?(?:\\s*\\(\\d{1,3}\\))?)\\s*(?:,\\s*|\\s*\\(\\s*))?" +
+    "(?<datum>(?:\\d{1,2}\\.\\d{1,2}\\.)?\\d{4}(?:/\\d{2,4})?)\\)?(?<tail>.*)$",
+);
+// Jahrbuch-/Reihenform: "Jahrbuch der bayerischen Denkmalpflege, Bd. 27 für das Jahr 1983, München 1985, S. 560 f."
+const _BIBLIO_YEARBOOK = /^(?<name>[^\d,]+?),\s*(?<rest>(?:Bd\.?|Jg\.?|Jahrgang)\s*\d+(?:\/\d+)?\b.*\d{4}.*)$/;
+
+function matchPeriodical(body: string): BiblioFormatted | null {
+  const y = body.match(_BIBLIO_YEARBOOK);
+  if (y?.groups) return { inPrefix: true, journal: y.groups.name.trim(), rest: y.groups.rest.trim() };
+
+  const m = body.match(_BIBLIO_PERIODICAL);
+  if (!m?.groups) return null;
+  const { name: rawName, pre, nf, vol, datum, tail } = m.groups;
+  const name = rawName.replace(/[\s,]+(?:vom|v\.)$/i, ""); // "Main-Post Würzburg vom 9.4.1955"
+  const cleanTail = (tail ?? "").trim();
+  if (/^\(\s*=/.test(cleanTail) || /\(=/.test(cleanTail)) return null; // Reihenhinweis: Monografie
+  if (/^[\s,]*[A-ZÄÖÜ]/.test(cleanTail) && !/^[\s,]*(Nr|Heft|H|S)\b/.test(cleanTail)) return null; // folgt ein Ortsname o. Ä.
+  const hasIssue = /\b(Nr|Heft|H)\.?\s*\d/.test(cleanTail) || /^[\s,]*S\.?\s*\d/.test(cleanTail);
+  if (!vol && !/\b(Nr|Heft|H)\.?\s*\d/.test(cleanTail)) return null; // ohne Band nur mit Heft-/Nummernangabe
+  if (!vol && !hasIssue) return null;
+  const nfPart = nf ? "N. F. " : "";
+  const dayDate = /\d\.\d/.test(datum);
+  let rest: string;
+  const issueM = vol?.match(/\s*\((\d{1,3})\)$/); // "9 (3), 1973" = Band 9, Heft 3
+  const volNum = issueM ? vol.slice(0, issueM.index) : vol;
+  if (vol) rest = `${pre ? "Heft " : ""}${nfPart}${volNum}${dayDate ? `, ${datum}` : ` (${datum})`}`;
+  else rest = dayDate ? datum : `(${datum})`;
+  const tailText = cleanTail.replace(/^[\s,]+/, "").replace(/\.\s*$/, ".");
+  if (issueM) rest += `, H. ${issueM[1]}`;
+  if (tailText) rest += `, ${tailText}`;
+  return { inPrefix: true, journal: name.trim().replace(/[.,]$/, ""), rest };
+}
+
 export function formatBiblio(biblio: string | null): BiblioFormatted | null {
   if (!biblio) return null;
   const inMatch = biblio.match(_BIBLIO_IN_PREFIX);
   const body = inMatch ? biblio.slice(inMatch[0].length) : biblio;
+  const periodical = matchPeriodical(body.trim());
+  if (periodical) return periodical;
+  if (inMatch) {
+    // "in: NDB Bd.4, Berlin 1959, S. 321 f." - Sammelwerk/Nachschlagewerk kursiv, Rest unverändert
+    const c = body.match(/^(?<name>[^\d,]+?)(?=\s+Bd\.?\s*\d|\s*,)(?<tail>.*)$/);
+    if (c?.groups && c.groups.name.trim().length >= 2) {
+      return { inPrefix: true, journal: c.groups.name.trim(), rest: c.groups.tail.replace(/^[\s,]+/, "").trim() };
+    }
+  }
   const journalMatch = body.match(_BIBLIO_JOURNAL);
   if (journalMatch) {
     const [, journal, band, jahr, seiten] = journalMatch;
