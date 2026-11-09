@@ -10,13 +10,16 @@ export function getStaticPaths() {
 
 const { id } = Astro.props;
 const organ = getOrganById(id)!;
+// `bauer_person_id` (match/organ_person_match.py) is the direct, far more
+// complete organ<->person link - only ever set for "sicher" matches, see
+// that script's docstring. Falls back to the older, narrower
+// lemma-resolves-to-exactly-one-person heuristic for the rare organ it
+// doesn't cover (e.g. bauer_confidence "exact" but no forename to confirm).
 const builder = organ.bauer_confidence === "exact" && organ.bauer_id != null ? getBuilderById(organ.bauer_id) : undefined;
-// The Erbauer-Lexikon (Lemma) pages no longer exist publicly - link to
-// the Personenlexikon instead, but only when the lemma resolved to
-// exactly one person (ambiguous otherwise, same reasoning as the
-// Bauer-Namens-Matching itself: better no link than a guessed one).
-const builderPersonHref =
-  builder && builder.personen.length === 1 ? `${import.meta.env.BASE_URL}/personen/${builder.id}-${builder.personen[0].index}/` : null;
+const fallbackPersonId =
+  builder && builder.personen.length === 1 ? `${builder.id}-${builder.personen[0].index}` : null;
+const builderPersonId = organ.bauer_person_id ?? fallbackPersonId;
+const builderPersonHref = builderPersonId ? `${import.meta.env.BASE_URL}/personen/${builderPersonId}/` : null;
 const base = import.meta.env.BASE_URL;
 const title = [organ.kirche, organ.ort].filter(Boolean).join(", ") || `Orgel ${organ.id}`;
 const jahrAnzeige = formatJahr(organ.jahr);

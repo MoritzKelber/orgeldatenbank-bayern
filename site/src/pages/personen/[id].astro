@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { getAllPersonen, getPersonById, getBuilderById, getOrganById } from "../../lib/data";
+import { getAllPersonen, getPersonById, getBuilderById, getAllOrgans } from "../../lib/data";
 import { BEZIEHUNG_LABELS, personDisplayName } from "../../lib/types";
 
 export function getStaticPaths() {
@@ -45,9 +45,16 @@ const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensda
 
 // The Erbauer-Lexikon (Lemma) pages are no longer publicly browsable -
 // the underlying data stays fully intact (see lib/data.ts), but there is
-// no more /erbauer/{id}/ page to link to, so the lemma's biografie prose
-// and linked organs are shown right here instead of being lost.
-const lemmaOrgane = (lemma?.organ_ids ?? []).map((oid) => getOrganById(oid)).filter((o) => o !== undefined);
+// no more /erbauer/{id}/ page to link to, so the lemma's biografie prose is
+// shown right here instead of being lost.
+//
+// Organs are listed via `bauer_person_id` (match/organ_person_match.py),
+// not the lemma's own (much smaller, lemma-level-only) `organ_ids` - an
+// organ whose builder lemma has several people but couldn't be pinned down
+// to one of them ("unsicher") deliberately does NOT show up on any single
+// person's page, since attributing it to one specific candidate would be
+// exactly the kind of guess that script's docstring warns against.
+const personOrgane = getAllOrgans().filter((o) => o.bauer_person_id === person.id);
 ---
 <Base title={name}>
   <p><a href={`${base}/personen/`}>&larr; zurück zum Personenlexikon</a></p>
@@ -142,17 +149,17 @@ const lemmaOrgane = (lemma?.organ_ids ?? []).map((oid) => getOrganById(oid)).fil
     <p>
       Diese Person wurde aus dem Lemma „{person.lemma_name}" des Erbauer-Datenbestands aufgelöst
       {(lemma?.personen?.length ?? 0) > 1 && ` (zusammen mit ${(lemma!.personen.length - 1)} weiteren Personen desselben Namens)`}.
-      Das Lemma selbst hat keine eigene Seite mehr - Biografietext und verlinkte Orgeln stehen direkt hier.
+      Das Lemma selbst hat keine eigene Seite mehr - der Biografietext steht direkt hier.
     </p>
     {lemma?.biografie && <p class="biografie">{lemma.biografie}</p>}
   </section>
 
-  {lemmaOrgane.length > 0 && (
+  {personOrgane.length > 0 && (
     <section>
-      <h2>Verlinkte Orgeln ({lemmaOrgane.length})</h2>
+      <h2>Orgeln dieser Person ({personOrgane.length})</h2>
       <ul class="organ-list">
-        {lemmaOrgane.map((o) => (
-          <li><a href={`${base}/orgeln/${o!.id}/`}>{[o!.kirche, o!.ort].filter(Boolean).join(", ")}</a></li>
+        {personOrgane.map((o) => (
+          <li><a href={`${base}/orgeln/${o.id}/`}>{[o.kirche, o.ort].filter(Boolean).join(", ")}</a></li>
         ))}
       </ul>
     </section>

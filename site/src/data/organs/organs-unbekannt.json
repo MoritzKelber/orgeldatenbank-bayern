@@ -52,7 +52,8 @@
       "candidates_considered": 1,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 760,
@@ -156,7 +157,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 783,
@@ -213,7 +215,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 784,
@@ -290,7 +293,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "380-1"
   },
   {
     "id": 785,
@@ -347,7 +351,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "62-1"
   },
   {
     "id": 786,
@@ -412,7 +417,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 1159,
@@ -477,7 +483,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "297-1"
   },
   {
     "id": 1175,
@@ -525,7 +532,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 1454,
@@ -582,7 +590,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "402-1"
   },
   {
     "id": 1721,
@@ -639,7 +648,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "881-1"
   },
   {
     "id": 1925,
@@ -696,7 +706,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 2396,
@@ -753,7 +764,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 2765,
@@ -826,7 +838,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "483-2"
   },
   {
     "id": 3524,
@@ -890,7 +903,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 3743,
@@ -938,7 +952,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 3895,
@@ -1011,7 +1026,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "810-1"
   },
   {
     "id": 3980,
@@ -1059,7 +1075,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 3990,
@@ -1116,7 +1133,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 3991,
@@ -1181,7 +1199,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4131,
@@ -1229,7 +1248,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4200,
@@ -1277,7 +1297,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4201,
@@ -1342,7 +1363,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 4202,
@@ -1399,7 +1421,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4203,
@@ -1447,7 +1470,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4266,
@@ -1504,7 +1528,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "938-1"
   },
   {
     "id": 4342,
@@ -1561,7 +1586,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4380,
@@ -1609,7 +1635,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 4954,
@@ -1657,7 +1684,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 5342,
@@ -1705,7 +1733,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 5459,
@@ -1777,7 +1806,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 5475,
@@ -1842,7 +1872,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "810-1"
   },
   {
     "id": 5550,
@@ -1899,7 +1930,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "770-1"
   },
   {
     "id": 5613,
@@ -1964,7 +1996,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "57-8"
   },
   {
     "id": 5709,
@@ -2021,7 +2054,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 6046,
@@ -2078,7 +2112,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 6050,
@@ -2135,7 +2170,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 6274,
@@ -2183,7 +2219,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 6480,
@@ -2256,7 +2293,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 6485,
@@ -2313,7 +2351,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "891-2"
   },
   {
     "id": 6528,
@@ -2361,7 +2400,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 6581,
@@ -2418,7 +2458,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "57-8"
   },
   {
     "id": 6929,
@@ -2475,7 +2516,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "817-1"
   },
   {
     "id": 7133,
@@ -2532,7 +2574,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 7192,
@@ -2580,7 +2623,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 7367,
@@ -2628,7 +2672,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 7385,
@@ -2685,7 +2730,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "911-1"
   },
   {
     "id": 7451,
@@ -2733,7 +2779,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 7488,
@@ -2781,7 +2828,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 7601,
@@ -2829,7 +2877,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 7662,
@@ -2894,7 +2943,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 8855,
@@ -2951,7 +3001,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "155-2"
   },
   {
     "id": 8856,
@@ -3008,7 +3059,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "881-1"
   },
   {
     "id": 8889,
@@ -3056,7 +3108,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 9403,
@@ -3104,7 +3157,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 9946,
@@ -3180,7 +3234,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 10059,
@@ -3237,7 +3292,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 10173,
@@ -3285,7 +3341,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 10195,
@@ -3342,7 +3399,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "454-1"
   },
   {
     "id": 10372,
@@ -3399,7 +3457,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "891-2"
   },
   {
     "id": 10373,
@@ -3456,7 +3515,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 10531,
@@ -3513,7 +3573,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 10609,
@@ -3561,7 +3622,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 10610,
@@ -3618,7 +3680,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "143-1"
   },
   {
     "id": 10745,
@@ -3666,7 +3729,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 11144,
@@ -3714,7 +3778,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 11324,
@@ -3771,7 +3836,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "454-1"
   },
   {
     "id": 11325,
@@ -3826,7 +3892,8 @@
       "candidates_considered": 1,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 11484,
@@ -3891,7 +3958,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "810-1"
   },
   {
     "id": 11485,
@@ -3948,7 +4016,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "810-1"
   },
   {
     "id": 11546,
@@ -3996,7 +4065,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 11549,
@@ -4053,7 +4123,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 11560,
@@ -4101,7 +4172,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 11651,
@@ -4158,7 +4230,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "552-1"
   },
   {
     "id": 11688,
@@ -4206,7 +4279,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 11845,
@@ -4254,7 +4328,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12294,
@@ -4302,7 +4377,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12307,
@@ -4350,7 +4426,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12390,
@@ -4398,7 +4475,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12476,
@@ -4446,7 +4524,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12657,
@@ -4494,7 +4573,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12793,
@@ -4551,7 +4631,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12794,
@@ -4616,7 +4697,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "364-1"
   },
   {
     "id": 12825,
@@ -4673,7 +4755,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 12833,
@@ -4730,7 +4813,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 12834,
@@ -4787,7 +4871,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "543-4"
   },
   {
     "id": 12835,
@@ -4852,7 +4937,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "891-2"
   },
   {
     "id": 13024,
@@ -4900,7 +4986,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13205,
@@ -4948,7 +5035,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13296,
@@ -4996,7 +5084,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13297,
@@ -5044,7 +5133,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13298,
@@ -5092,7 +5182,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13299,
@@ -5140,7 +5231,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13301,
@@ -5188,7 +5280,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13303,
@@ -5236,7 +5329,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13347,
@@ -5284,7 +5378,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13582,
@@ -5332,7 +5427,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 13768,
@@ -5389,7 +5485,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 13932,
@@ -5462,7 +5559,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "483-3"
   },
   {
     "id": 13933,
@@ -5527,7 +5625,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "913-1"
   },
   {
     "id": 14385,
@@ -5584,7 +5683,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14403,
@@ -5632,7 +5732,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14674,
@@ -5680,7 +5781,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14675,
@@ -5728,7 +5830,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14843,
@@ -5776,7 +5879,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14844,
@@ -5824,7 +5928,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14845,
@@ -5872,7 +5977,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14846,
@@ -5920,7 +6026,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14850,
@@ -5968,7 +6075,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14854,
@@ -6023,7 +6131,8 @@
       "candidates_considered": 1,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14855,
@@ -6071,7 +6180,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14856,
@@ -6119,7 +6229,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14903,
@@ -6167,7 +6278,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 14982,
@@ -6215,7 +6327,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 15268,
@@ -6263,7 +6376,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 15295,
@@ -6311,7 +6425,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 15296,
@@ -6359,7 +6474,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 15715,
@@ -6416,7 +6532,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 15966,
@@ -6473,7 +6590,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "402-1"
   },
   {
     "id": 16148,
@@ -6530,7 +6648,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 16149,
@@ -6587,7 +6706,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 16406,
@@ -6635,7 +6755,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 16495,
@@ -6683,7 +6804,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 16535,
@@ -6748,7 +6870,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 16536,
@@ -6805,7 +6928,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 17211,
@@ -6853,7 +6977,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 17217,
@@ -6901,7 +7026,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 17760,
@@ -6949,7 +7075,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 17935,
@@ -7006,7 +7133,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18036,
@@ -7054,7 +7182,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18037,
@@ -7102,7 +7231,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18053,
@@ -7150,7 +7280,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18075,
@@ -7198,7 +7329,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18505,
@@ -7246,7 +7378,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18743,
@@ -7294,7 +7427,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18746,
@@ -7342,7 +7476,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18755,
@@ -7390,7 +7525,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 18820,
@@ -7438,7 +7574,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 19227,
@@ -7486,7 +7623,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 19372,
@@ -7551,7 +7689,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "873-6"
   },
   {
     "id": 19428,
@@ -7599,7 +7738,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 19498,
@@ -7656,7 +7796,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 19737,
@@ -7713,7 +7854,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "778-1"
   },
   {
     "id": 19978,
@@ -7761,7 +7903,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 20133,
@@ -7809,7 +7952,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 20157,
@@ -7857,7 +8001,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 20227,
@@ -7905,7 +8050,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 20921,
@@ -7962,7 +8108,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 21676,
@@ -8027,7 +8174,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "778-1"
   },
   {
     "id": 21677,
@@ -8084,7 +8232,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 21964,
@@ -8187,7 +8336,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 22332,
@@ -8264,7 +8414,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 22538,
@@ -8329,7 +8480,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 22661,
@@ -8377,7 +8529,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 22837,
@@ -8442,7 +8595,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "778-1"
   },
   {
     "id": 23026,
@@ -8499,7 +8653,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 23104,
@@ -8556,7 +8711,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "143-1"
   },
   {
     "id": 23460,
@@ -8604,7 +8760,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 23461,
@@ -8661,7 +8818,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 23509,
@@ -8709,7 +8867,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 23693,
@@ -8757,7 +8916,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 23710,
@@ -8805,7 +8965,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24074,
@@ -8853,7 +9014,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24178,
@@ -8901,7 +9063,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24180,
@@ -8949,7 +9112,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24227,
@@ -9006,7 +9170,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24285,
@@ -9054,7 +9219,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24289,
@@ -9102,7 +9268,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24669,
@@ -9150,7 +9317,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 24897,
@@ -9198,7 +9366,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 25177,
@@ -9255,7 +9424,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "143-1"
   },
   {
     "id": 25349,
@@ -9303,7 +9473,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 25380,
@@ -9358,7 +9529,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 25500,
@@ -9415,7 +9587,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 25744,
@@ -9472,7 +9645,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 25813,
@@ -9529,7 +9703,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "154-1"
   },
   {
     "id": 25826,
@@ -9594,7 +9769,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "297-1"
   },
   {
     "id": 25827,
@@ -9659,7 +9835,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "913-1"
   },
   {
     "id": 25828,
@@ -9731,7 +9908,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "364-1"
   },
   {
     "id": 26035,
@@ -9788,7 +9966,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "90-1"
   },
   {
     "id": 26161,
@@ -9836,7 +10015,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 26266,
@@ -9893,7 +10073,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 26322,
@@ -9941,7 +10122,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 26376,
@@ -9998,7 +10180,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 26627,
@@ -10063,7 +10246,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 26755,
@@ -10159,7 +10343,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "424-2"
   },
   {
     "id": 27050,
@@ -10207,7 +10392,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 28049,
@@ -10255,7 +10441,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 28112,
@@ -10312,7 +10499,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 28821,
@@ -10360,7 +10548,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 29268,
@@ -10408,7 +10597,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 29653,
@@ -10456,7 +10646,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 30400,
@@ -10504,7 +10695,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 30405,
@@ -10552,7 +10744,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 30483,
@@ -10600,7 +10793,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 30953,
@@ -10664,7 +10858,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 31179,
@@ -10750,7 +10945,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 31373,
@@ -10814,7 +11010,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 31493,
@@ -10901,7 +11098,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "723-9"
   },
   {
     "id": 31543,
@@ -10965,7 +11163,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 31544,
@@ -11037,7 +11236,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "692-4"
   },
   {
     "id": 31573,
@@ -11149,7 +11349,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "692-4"
   },
   {
     "id": 31635,
@@ -11197,7 +11398,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 31659,
@@ -11261,7 +11463,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 31663,
@@ -11356,7 +11559,8 @@
       "candidates_considered": 0,
       "grund": null
     },
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 31828,
@@ -11413,7 +11617,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "54-1"
   },
   {
     "id": 31830,
@@ -11470,7 +11675,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 31835,
@@ -11527,7 +11733,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": "54-1"
   },
   {
     "id": 32076,
@@ -11604,7 +11811,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 32081,
@@ -11652,7 +11860,8 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   },
   {
     "id": 32130,
@@ -11737,7 +11946,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": "150-9"
   },
   {
     "id": 32131,
@@ -11815,7 +12025,8 @@
       }
     ],
     "kirche_gnd": null,
-    "prospekt_erhalten": true
+    "prospekt_erhalten": true,
+    "bauer_person_id": null
   },
   {
     "id": 32199,
@@ -11863,6 +12074,7 @@
     },
     "literatur": [],
     "kirche_gnd": null,
-    "prospekt_erhalten": false
+    "prospekt_erhalten": false,
+    "bauer_person_id": null
   }
 ]

@@ -60,6 +60,7 @@ export interface Organ {
   bauer_name: string | null;
   bauer_id: number | null;
   bauer_confidence: BauerConfidence;
+  bauer_person_id: string | null;
   jahr: Jahr;
   manuale: number | null;
   register: number | null;

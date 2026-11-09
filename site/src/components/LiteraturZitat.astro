@@ -1,8 +1,12 @@
 ---
 // Renders one literature entry as a citation styled after "Die
-// Musikforschung"'s guidelines (Nachname, Vorname: "Titel", in: Zeitschrift
-// Band (Jahr), S. x-y / ..., Ort Jahr) - see lib/types.ts#formatBiblio for
-// the heuristic behind the "in: Zeitschrift ..." vs plain "Ort Jahr" split.
+// Musikforschung"'s guidelines: Nachname, Vorname: „Titel", in: Zeitschrift
+// Band (Jahr), S. x-y for a dependent work (journal article / chapter in an
+// edited volume), but Nachname, Vorname: *Titel*, Ort Jahr - title set in
+// italics, no quotation marks - for an independent publication (monograph).
+// `biblio.inPrefix` (see lib/types.ts#formatBiblio) is exactly that signal:
+// true when BIBLIO looks like a journal citation or already started with
+// "In:", i.e. the work is contained in something else.
 import { formatBiblio, type LiteraturEntry } from "../lib/types";
 
 interface Props {
@@ -11,11 +15,16 @@ interface Props {
 const { entry } = Astro.props;
 const titel = entry.titel ?? entry.kurztitel;
 const biblio = formatBiblio(entry.biblio);
+const istUnselbstaendig = biblio?.inPrefix ?? false;
 ---
 <span class="zitat">
   {entry.autor && <strong>{entry.autor}</strong>}
   {entry.autor && ": "}
-  <span class="zitat-titel">„{titel}“</span>
+  {istUnselbstaendig ? (
+    <span class="zitat-titel">„{titel}“</span>
+  ) : (
+    <em class="zitat-titel">{titel}</em>
+  )}
   {biblio && (
     <>
       {", "}
@@ -27,7 +36,3 @@ const biblio = formatBiblio(entry.biblio);
   )}
   {"."}
 </span>
-
-<style>
-  .zitat-titel { font-style: normal; }
-</style>
