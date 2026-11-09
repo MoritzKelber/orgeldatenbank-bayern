@@ -1,4 +1,5 @@
 import L from "leaflet";
+import { fixText } from "./textfix";
 import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
@@ -84,7 +85,7 @@ interface LandkreiseFile {
 
 function escapeHtml(text: string): string {
   const div = document.createElement("div");
-  div.textContent = text;
+  div.textContent = fixText(text);
   return div.innerHTML;
 }
 

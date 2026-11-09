@@ -79,7 +79,7 @@ const personOrgane = getAllOrgans().filter((o) => o.bauer_person_id === person.i
           {gndMatched ? (
             gnd!.preferred_name
           ) : gnd?.status === "unsicher" ? (
-            <span class="gnd-hinweis" title={gnd.grund ?? undefined}>unsicher - mehrere Kandidaten, nicht übernommen ⓘ</span>
+            <span class="gnd-hinweis" title={gnd.grund ?? undefined}>unsicher – mehrere Kandidaten, nicht übernommen ⓘ</span>
           ) : istFirma ? (
             "nicht in der GND gefunden (als Körperschaft gesucht)"
           ) : (
@@ -147,9 +147,9 @@ const personOrgane = getAllOrgans().filter((o) => o.bauer_person_id === person.i
   <section>
     <h2>Herkunft dieses Eintrags</h2>
     <p>
-      Diese Person wurde aus dem Lemma „{person.lemma_name}" des Erbauer-Datenbestands aufgelöst
-      {(lemma?.personen?.length ?? 0) > 1 && ` (zusammen mit ${(lemma!.personen.length - 1)} weiteren Personen desselben Namens)`}.
-      Das Lemma selbst hat keine eigene Seite mehr - der Biografietext steht direkt hier.
+      Diese Person wurde aus dem Lemma „{person.lemma_name}“ des Erbauer-Datenbestands aufgelöst
+      {(lemma?.personen?.length ?? 0) > 1 && ` (zusammen mit ${lemma!.personen.length - 1} ${lemma!.personen.length - 1 === 1 ? "weiteren Person" : "weiteren Personen"} desselben Namens)`}.
+      Das Lemma selbst hat keine eigene Seite mehr – der Biografietext steht direkt hier.
     </p>
     {lemma?.biografie && <p class="biografie">{lemma.biografie}</p>}
   </section>

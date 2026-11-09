@@ -6,13 +6,15 @@
 // fetch() instead - see components/FilterPanel.
 import fs from "node:fs";
 import path from "node:path";
+import { fixDeep } from "./textfix";
 import type { Builder, LiteraturEntry, Organ, Person, PersonRecord } from "./types";
 
 const DATA_DIR = path.resolve(process.cwd(), "src/data");
 
 function readJSON<T>(relPath: string): T {
   const full = path.join(DATA_DIR, relPath);
-  return JSON.parse(fs.readFileSync(full, "utf-8")) as T;
+  // fixDeep: korrigiert fehlende Leerzeichen etc. in den Quelltexten, s. textfix.ts
+  return fixDeep(JSON.parse(fs.readFileSync(full, "utf-8"))) as T;
 }
 
 let organsCache: Organ[] | null = null;

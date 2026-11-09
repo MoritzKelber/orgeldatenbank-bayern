@@ -13,24 +13,24 @@ import Base from "../layouts/Base.astro";
     <li>
       Das <strong>Personenlexikon</strong> geht auf ein eigenständiges biografisches Nachschlagewerk mit
       rund 1.000 (teils mehrere Personen bündelnden) Einträgen zurück, hier in rund 1.600 Einzelpersonen
-      aufgelöst. Es deckt nicht jeden in den Orgeldatensätzen genannten Erbauernamen ab - eine Orgel ist
+      aufgelöst. Es deckt nicht jeden in den Orgeldatensätzen genannten Erbauernamen ab – eine Orgel ist
       nur dann mit einer Personenseite verlinkt, wenn der Name eindeutig übereinstimmt.
     </li>
     <li>
-      <strong>Literaturzitate</strong> ohne Link zu einem Katalogeintrag sind meist echte Lücken (z.B.
-      persönliche Mitteilungen), keine technischen Fehler - das Zitat wird trotzdem immer als Text angezeigt.
+      <strong>Literaturzitate</strong> ohne Link zu einem Katalogeintrag sind meist echte Lücken (z. B.
+      persönliche Mitteilungen), keine technischen Fehler – das Zitat wird trotzdem immer als Text angezeigt.
     </li>
     <li>
-      Baujahr-Angaben folgen der historischen Notation der Quelle: "vor", "nach", "um" oder Zeiträume,
+      Baujahr-Angaben folgen der historischen Notation der Quelle: „vor“, „nach“, „um“ oder Zeiträume,
       wenn ein exaktes Jahr nicht überliefert ist.
     </li>
     <li>
-      Einige interne Datenfelder (u.a. Bauart-/Kirchentyp-Kürzel) sind noch nicht abschließend geklärt
+      Einige interne Datenfelder (u. a. Bauart-/Kirchentyp-Kürzel) sind noch nicht abschließend geklärt
       und werden deshalb aktuell nicht angezeigt.
     </li>
     <li>
       Die Standorte auf der <strong>Karte</strong> wurden automatisiert anhand von Ortsname und Postleitzahl
-      ermittelt (OpenStreetMap/Nominatim) - sie markieren den jeweiligen Ort, nicht die genaue Adresse der
+      ermittelt (OpenStreetMap/Nominatim) – sie markieren den jeweiligen Ort, nicht die genaue Adresse der
       Kirche, und können in Einzelfällen ungenau oder falsch sein.
     </li>
   </ul>
@@ -44,7 +44,7 @@ import Base from "../layouts/Base.astro";
     Für die Kartenkoordinaten wurden alle 8.839 unterschiedlichen Ortsangaben der Datenbank (Ort + Postleitzahl,
     bei fehlender PLZ ergänzt um Gemeinde/Landkreis) einmalig gegen die <a href="https://nominatim.org/" target="_blank" rel="noopener">Nominatim</a>-Geocoding-API
     von OpenStreetMap abgefragt. Ergebnisse wurden dauerhaft zwischengespeichert. Zusätzlich wurden alle Treffer
-    gegen die amtliche Ortslagen-Gazetteer der <a href="https://geodaten.bayern.de/opengeodata/" target="_blank" rel="noopener">Bayerischen Vermessungsverwaltung</a>
+    gegen das amtliche Ortslagenverzeichnis (Gazetteer) der <a href="https://geodaten.bayern.de/opengeodata/" target="_blank" rel="noopener">Bayerischen Vermessungsverwaltung</a>
     (ATKIS Basis-DLM) abgeglichen, um Verwechslungen mit gleichnamigen Orten zu erkennen und zu korrigieren.
     8.535 Orte (97&nbsp;%) haben jetzt eine Koordinate, 304 blieben ohne Treffer. Verbleibende Unsicherheiten
     wurden automatisch als zweifelhaft markiert.

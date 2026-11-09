@@ -34,5 +34,5 @@ const istUnselbstaendig = biblio?.inPrefix ?? false;
       {biblio.rest}
     </>
   )}
-  {"."}
+  {!/[.!?…]$/.test(((biblio?.rest ?? "") || (biblio?.journal ?? "") || titel).trim()) && "."}
 </span>

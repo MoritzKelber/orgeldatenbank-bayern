@@ -9,15 +9,15 @@ import { RBZ_LABELS } from "../../lib/types";
   <form id="filter-form" class="filter-form">
     <label>
       Ort
-      <input type="search" id="f-ort" placeholder="z.B. Augsburg" />
+      <input type="search" id="f-ort" placeholder="z. B. Augsburg" />
     </label>
     <label>
       Kirche
-      <input type="search" id="f-kirche" placeholder="z.B. St. Peter" />
+      <input type="search" id="f-kirche" placeholder="z. B. St. Peter" />
     </label>
     <label>
       Erbauer
-      <input type="search" id="f-bauer" placeholder="z.B. Steinmeyer" />
+      <input type="search" id="f-bauer" placeholder="z. B. Steinmeyer" />
     </label>
     <label>
       Regierungsbezirk
@@ -32,11 +32,11 @@ import { RBZ_LABELS } from "../../lib/types";
     </label>
     <label>
       Baujahr von
-      <input type="number" id="f-jahr-von" placeholder="z.B. 1700" />
+      <input type="number" id="f-jahr-von" placeholder="z. B. 1700" />
     </label>
     <label>
       Baujahr bis
-      <input type="number" id="f-jahr-bis" placeholder="z.B. 1900" />
+      <input type="number" id="f-jahr-bis" placeholder="z. B. 1900" />
     </label>
     <label class="checkbox">
       <input type="checkbox" id="f-erhalten" /> nur erhaltene Orgeln
@@ -56,7 +56,7 @@ import { RBZ_LABELS } from "../../lib/types";
   <div class="results-area">
     <table id="results-table" hidden>
       <thead>
-        <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th><th>Orgel erh.</th><th>Prospekt erh.</th><th></th></tr>
+        <tr><th>ODB</th><th>Ort</th><th>Landkreis</th><th>Kirche</th><th>Erbauer</th><th>Baujahr</th><th>Orgel erh.</th><th>Prospekt erh.</th><th>Reg.</th><th>Link</th></tr>
       </thead>
       <tbody id="results-body"></tbody>
     </table>
@@ -164,6 +164,7 @@ import { RBZ_LABELS } from "../../lib/types";
 </style>
 
 <script>
+  import { fixText } from "../../lib/textfix";
   const BASE = import.meta.env.BASE_URL;
   const PAGE_SIZE = 50;
 
@@ -277,14 +278,15 @@ import { RBZ_LABELS } from "../../lib/types";
       const tr = document.createElement("tr");
       const link = `${BASE}/orgeln/${r[IDX.id]}/`;
       tr.innerHTML = `
-        <td>${r[IDX.ort] ?? ""}</td>
-        <td>${r[IDX.kirche] ?? ""}</td>
-        <td>${r[IDX.landkreis] ?? ""}</td>
-        <td>${r[IDX.bauer_name] ?? ""}</td>
+        <td>${r[IDX.id]}</td>
+        <td>${fixText(r[IDX.ort] ?? "")}</td>
+        <td>${fixText(r[IDX.landkreis] ?? "")}</td>
+        <td>${fixText(r[IDX.kirche] ?? "")}</td>
+        <td>${fixText(r[IDX.bauer_name] ?? "")}</td>
         <td>${r[IDX.jahr_anzeige] ?? ""}</td>
-        <td>${formatCount(r[IDX.register] as number | null)}</td>
         <td>${statusBadge(r[IDX.erhalten] as boolean, "Orgel erhalten", "Orgel nicht erhalten")}</td>
         <td>${statusBadge(r[IDX.prospekt_erhalten] as boolean, "Prospekt erhalten", "Prospekt nicht erhalten")}</td>
+        <td>${formatCount(r[IDX.register] as number | null)}</td>
         <td class="link-cell"><a class="organ-link" href="${link}">Orgel &rarr;</a></td>
       `;
       body.appendChild(tr);
