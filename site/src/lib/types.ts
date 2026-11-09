@@ -56,6 +56,7 @@ export interface Organ {
   adresse: Adresse;
   erhalten: boolean;
   denkmalorgel: boolean;
+  prospekt_erhalten: boolean;
   bauer_name: string | null;
   bauer_id: number | null;
   bauer_confidence: BauerConfidence;
@@ -68,7 +69,6 @@ export interface Organ {
   place_key: string | null;
   literatur: OrganLiteraturCitation[];
   _unclear: {
-    dp: boolean;
     kl: string | null;
     t: string | null;
     satz: number | null;

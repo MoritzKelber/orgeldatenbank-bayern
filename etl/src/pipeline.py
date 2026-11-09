@@ -80,7 +80,7 @@ def run(db_path: str, site_data_dir: Path, public_data_dir: Path, reports_dir: P
     # /orgeln/ before this change.
     index_fields = (
         "id", "ort", "kirche", "gemeinde", "landkreis", "regierungsbezirk",
-        "bauer_name", "manuale", "register", "erhalten", "denkmalorgel",
+        "bauer_name", "manuale", "register", "erhalten", "denkmalorgel", "prospekt_erhalten",
     )
     organs_index_rows = []
     for organ in organs:

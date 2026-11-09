@@ -25,7 +25,8 @@ const jahrAnzeige = formatJahr(organ.jahr);
   <p><a href={`${base}/orgeln/`}>&larr; zurück zur Übersicht</a></p>
   <h1>{title}</h1>
   <p class="badges">
-    <span class="badge">{organ.erhalten ? "erhalten" : "nicht erhalten"}</span>
+    <span class="badge">{organ.erhalten ? "Orgel erhalten" : "Orgel nicht erhalten"}</span>
+    {organ.prospekt_erhalten && <span class="badge" title="Denkmalprospekt: das Gehäuse/die Schauseite ist denkmalgeschützt erhalten, unabhängig vom Erhaltungszustand des Pfeifenwerks">Prospekt erhalten</span>}
     {organ.denkmalorgel && <span class="badge">Denkmalorgel</span>}
     {organ.regierungsbezirk && <span class="badge">{RBZ_LABELS[organ.regierungsbezirk] ?? organ.regierungsbezirk}</span>}
   </p>

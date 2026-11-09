@@ -44,6 +44,9 @@ import { RBZ_LABELS } from "../../lib/types";
     <label class="checkbox">
       <input type="checkbox" id="f-denkmal" /> nur Denkmalorgeln
     </label>
+    <label class="checkbox">
+      <input type="checkbox" id="f-prospekt" /> nur erhaltener Prospekt
+    </label>
     <button type="button" id="f-reset" class="reset-button">Filter zurücksetzen</button>
   </form>
 
@@ -53,7 +56,7 @@ import { RBZ_LABELS } from "../../lib/types";
   <div class="results-area">
     <table id="results-table" hidden>
       <thead>
-        <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th><th>Erhalten</th><th></th></tr>
+        <tr><th>Ort</th><th>Kirche</th><th>Landkreis</th><th>Erbauer</th><th>Baujahr</th><th>Reg.</th><th>Orgel erh.</th><th>Prospekt erh.</th><th></th></tr>
       </thead>
       <tbody id="results-body"></tbody>
     </table>
@@ -171,21 +174,21 @@ import { RBZ_LABELS } from "../../lib/types";
   // Total Blocking Time before this change).
   const IDX = {
     id: 0, ort: 1, kirche: 2, gemeinde: 3, landkreis: 4, regierungsbezirk: 5,
-    bauer_name: 6, manuale: 7, register: 8, erhalten: 9, denkmalorgel: 10,
-    jahr: 11, jahr_anzeige: 12,
+    bauer_name: 6, manuale: 7, register: 8, erhalten: 9, denkmalorgel: 10, prospekt_erhalten: 11,
+    jahr: 12, jahr_anzeige: 13,
   } as const;
 
-  type Row = [number, string | null, string | null, string | null, string | null, string | null, string | null, number | null, number | null, boolean, boolean, number | null, string | null];
+  type Row = [number, string | null, string | null, string | null, string | null, string | null, string | null, number | null, number | null, boolean, boolean, boolean, number | null, string | null];
 
   function formatCount(n: number | null): string {
     if (n == null) return "";
     return n === 0 ? "–" : String(n);
   }
 
-  function erhaltenBadge(v: boolean): string {
+  function statusBadge(v: boolean, labelJa: string, labelNein: string): string {
     return v
-      ? `<span class="status-badge status-ok" title="erhalten">✓</span>`
-      : `<span class="status-badge status-no" title="nicht erhalten">✕</span>`;
+      ? `<span class="status-badge status-ok" title="${labelJa}">✓</span>`
+      : `<span class="status-badge status-no" title="${labelNein}">✕</span>`;
   }
 
   let all: Row[] = [];
@@ -209,6 +212,7 @@ import { RBZ_LABELS } from "../../lib/types";
   const fJahrBis = document.getElementById("f-jahr-bis") as HTMLInputElement;
   const fErhalten = document.getElementById("f-erhalten") as HTMLInputElement;
   const fDenkmal = document.getElementById("f-denkmal") as HTMLInputElement;
+  const fProspekt = document.getElementById("f-prospekt") as HTMLInputElement;
   const fReset = document.getElementById("f-reset") as HTMLButtonElement;
 
   function populateLandkreise() {
@@ -233,12 +237,14 @@ import { RBZ_LABELS } from "../../lib/types";
     const jahrBis = fJahrBis.value ? Number(fJahrBis.value) : null;
     const onlyErhalten = fErhalten.checked;
     const onlyDenkmal = fDenkmal.checked;
+    const onlyProspekt = fProspekt.checked;
 
     filtered = all.filter((r) => {
       if (rbz && r[IDX.regierungsbezirk] !== rbz) return false;
       if (lkr && r[IDX.landkreis] !== lkr) return false;
       if (onlyErhalten && !r[IDX.erhalten]) return false;
       if (onlyDenkmal && !r[IDX.denkmalorgel]) return false;
+      if (onlyProspekt && !r[IDX.prospekt_erhalten]) return false;
       const jahr = r[IDX.jahr] as number | null;
       if (jahrVon != null && (jahr == null || jahr < jahrVon)) return false;
       if (jahrBis != null && (jahr == null || jahr > jahrBis)) return false;
@@ -277,7 +283,8 @@ import { RBZ_LABELS } from "../../lib/types";
         <td>${r[IDX.bauer_name] ?? ""}</td>
         <td>${r[IDX.jahr_anzeige] ?? ""}</td>
         <td>${formatCount(r[IDX.register] as number | null)}</td>
-        <td>${erhaltenBadge(r[IDX.erhalten] as boolean)}</td>
+        <td>${statusBadge(r[IDX.erhalten] as boolean, "Orgel erhalten", "Orgel nicht erhalten")}</td>
+        <td>${statusBadge(r[IDX.prospekt_erhalten] as boolean, "Prospekt erhalten", "Prospekt nicht erhalten")}</td>
         <td class="link-cell"><a class="organ-link" href="${link}">Orgel &rarr;</a></td>
       `;
       body.appendChild(tr);
@@ -293,7 +300,7 @@ import { RBZ_LABELS } from "../../lib/types";
 
   pPrev.addEventListener("click", () => { page--; render(); });
   pNext.addEventListener("click", () => { page++; render(); });
-  for (const el of [fOrt, fKirche, fBauer, fRbz, fLkr, fJahrVon, fJahrBis, fErhalten, fDenkmal]) {
+  for (const el of [fOrt, fKirche, fBauer, fRbz, fLkr, fJahrVon, fJahrBis, fErhalten, fDenkmal, fProspekt]) {
     el.addEventListener("input", applyFilters);
   }
   fReset.addEventListener("click", () => {
@@ -306,6 +313,7 @@ import { RBZ_LABELS } from "../../lib/types";
     fJahrBis.value = "";
     fErhalten.checked = false;
     fDenkmal.checked = false;
+    fProspekt.checked = false;
     applyFilters();
   });
 

@@ -79,6 +79,12 @@ def clean_bydaten_row(row: dict, bauer_lookup: dict[str, int], jahr_overrides: d
         },
         "erhalten": bool(row.get("ERHALTEN")),
         "denkmalorgel": bool(row.get("DO")),
+        # DP = "Denkmalprospekt": the organ CASE/FACADE is a protected
+        # monument even where ERHALTEN is false, i.e. the pipework/mechanism
+        # itself is gone but the historic prospect survives. Independent of
+        # `erhalten` - both combinations with True/False occur in the real
+        # data, so this is its own flag, not a special case of `erhalten`.
+        "prospekt_erhalten": bool(row.get("DP")),
         **bauer_match.match_bauer(row.get("BAUER"), bauer_lookup),
         "jahr": parse_jahr(jahr_source),
         "manuale": _int_or_none(row.get("M")),
@@ -88,7 +94,6 @@ def clean_bydaten_row(row: dict, bauer_lookup: dict[str, int], jahr_overrides: d
         "memo": _str_or_none(row.get("MEMO")),
         "place_key": _place_key(ort, plz, gemeinde, landkreis),
         "_unclear": {
-            "dp": bool(row.get("DP")),
             "kl": _str_or_none(row.get("KL")),
             "t": _str_or_none(row.get("T")),
             "satz": row.get("SATZ"),

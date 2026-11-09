@@ -38,7 +38,6 @@
     "memo": null,
     "place_key": "adelsried|86477",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 93.0,
@@ -52,7 +51,8 @@
       "preferred_name": "Maria, Hilfe der Reisenden (Adelsried)",
       "candidates_considered": 1,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 760,
@@ -132,7 +132,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 637.0,
@@ -156,7 +155,8 @@
         "slug": "huebner-orgeln-1987"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 783,
@@ -197,7 +197,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 711.0,
@@ -213,7 +212,8 @@
         "slug": "fischer-lkr-bad-kissingen-1986"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 784,
@@ -274,7 +274,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "U",
       "satz": 712.0,
@@ -290,7 +289,8 @@
         "slug": "fischer-lkr-bad-kissingen-1986"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 785,
@@ -331,7 +331,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "R",
       "satz": 713.0,
@@ -347,7 +346,8 @@
         "slug": "fischer-lkr-bad-kissingen-1986"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 786,
@@ -388,7 +388,6 @@
     "memo": "2. 1907",
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 714.0,
@@ -412,7 +411,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 1159,
@@ -453,7 +453,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 1160.0,
@@ -477,7 +476,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 1175,
@@ -518,14 +518,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 1176.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 1454,
@@ -566,7 +566,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 1468.0,
@@ -582,7 +581,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 1721,
@@ -623,7 +623,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 1698.0,
@@ -639,7 +638,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 1925,
@@ -680,7 +680,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "eK",
       "t": "U",
       "satz": 1938.0,
@@ -696,7 +695,8 @@
         "slug": "fi-weigle-1969-ff"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 2396,
@@ -737,7 +737,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": "N",
       "satz": 2408.0,
@@ -753,7 +752,8 @@
         "slug": "fischer-w-orgelprospekte-ii-1975"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 2765,
@@ -794,7 +794,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 3429.0,
@@ -826,7 +825,8 @@
         "slug": "hammermayer-maerz-1999"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 3524,
@@ -867,7 +867,6 @@
     "memo": null,
     "place_key": "höhenried|bernried",
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 11931.0,
@@ -890,7 +889,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 3743,
@@ -931,14 +931,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 3783.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 3895,
@@ -979,7 +979,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 3957.0,
@@ -1011,7 +1010,8 @@
         "slug": "fi-steinmeyer-werkverzeichnis-i-1928"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 3980,
@@ -1052,14 +1052,14 @@
     "memo": null,
     "place_key": "brandfeldhof|89335",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 4072.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 3990,
@@ -1100,7 +1100,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 4085.0,
@@ -1116,7 +1115,8 @@
         "slug": "fi-zeilhuber-werkverzeichnis-1979"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 3991,
@@ -1157,7 +1157,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "eK",
       "t": "N",
       "satz": 4084.0,
@@ -1181,7 +1180,8 @@
         "slug": "fi-stoeberl-1982-ff"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4131,
@@ -1222,14 +1222,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 4251.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4200,
@@ -1270,14 +1270,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 4360.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4201,
@@ -1318,7 +1318,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 4361.0,
@@ -1342,7 +1341,8 @@
         "slug": "fischer-w-orgelstatistik-1974"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 4202,
@@ -1383,7 +1383,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kP",
       "t": "N",
       "satz": 4362.0,
@@ -1399,7 +1398,8 @@
         "slug": "fischer-w-fraenkische-ob-1990"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4203,
@@ -1440,14 +1440,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 4363.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4266,
@@ -1488,7 +1488,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 4542.0,
@@ -1504,7 +1503,8 @@
         "slug": "huebner-orgeln-1987"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4342,
@@ -1545,7 +1545,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": "N",
       "satz": 4432.0,
@@ -1561,7 +1560,8 @@
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4380,
@@ -1602,14 +1602,14 @@
     "memo": null,
     "place_key": "bullachberg|87645",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 4450.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 4954,
@@ -1650,14 +1650,14 @@
     "memo": null,
     "place_key": "dienensberg|88167",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 5193.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 5342,
@@ -1698,14 +1698,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 5822.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 5459,
@@ -1746,7 +1746,6 @@
     "memo": "2. 1981",
     "place_key": "dobl|winzer",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 5573.0,
@@ -1777,7 +1776,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 5475,
@@ -1818,7 +1818,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 5695.0,
@@ -1842,7 +1841,8 @@
         "slug": "fi-steinmeyer-werkverzeichnis-i-1928"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 5550,
@@ -1883,7 +1883,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 5661.0,
@@ -1899,7 +1898,8 @@
         "slug": "walter-seuffert-iii-1988"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 5613,
@@ -1940,7 +1940,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 5780.0,
@@ -1964,7 +1963,8 @@
         "slug": "bittner-ergaenzung-1987"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 5709,
@@ -2005,7 +2005,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 5896.0,
@@ -2021,7 +2020,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 6046,
@@ -2062,7 +2062,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "eK",
       "t": "N",
       "satz": 7154.0,
@@ -2078,7 +2077,8 @@
         "slug": "fischer-w-nuernberger-ob-1972"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 6050,
@@ -2119,7 +2119,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": "kK",
       "t": "N",
       "satz": 7158.0,
@@ -2135,7 +2134,8 @@
         "slug": "fischer-w-walcker-1977-2"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 6274,
@@ -2176,14 +2176,14 @@
     "memo": null,
     "place_key": "einharz|87509",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 6543.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 6480,
@@ -2224,7 +2224,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 7607.0,
@@ -2256,7 +2255,8 @@
         "slug": "brenninger-ob-zw-lech-und-isar-1975"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 6485,
@@ -2297,7 +2297,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 7792.0,
@@ -2313,7 +2312,8 @@
         "slug": "huebner-orgeln-1987"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 6528,
@@ -2354,14 +2354,14 @@
     "memo": null,
     "place_key": "ellerbrunn|86643",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 6668.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 6581,
@@ -2402,7 +2402,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 6735.0,
@@ -2418,7 +2417,8 @@
         "slug": "fischer-w-nuernberger-ob-1972"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 6929,
@@ -2459,7 +2459,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 7233.0,
@@ -2475,7 +2474,8 @@
         "slug": "fischer-w-nuernberger-ob-1972"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7133,
@@ -2516,7 +2516,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 7450.0,
@@ -2532,7 +2531,8 @@
         "slug": "mettenleiter-oberpfalz-1867"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7192,
@@ -2573,14 +2573,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 7511.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7367,
@@ -2621,14 +2621,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 7698.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7385,
@@ -2669,7 +2669,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 7718.0,
@@ -2685,7 +2684,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 7451,
@@ -2726,14 +2726,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 7784.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7488,
@@ -2774,14 +2774,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 7854.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7601,
@@ -2822,14 +2822,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 7970.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 7662,
@@ -2870,7 +2870,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 8662.0,
@@ -2894,7 +2893,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 8855,
@@ -2935,7 +2935,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 9273.0,
@@ -2951,7 +2950,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 8856,
@@ -2992,7 +2992,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 9274.0,
@@ -3008,7 +3007,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 8889,
@@ -3049,14 +3049,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 9309.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 9403,
@@ -3097,14 +3097,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 9778.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 9946,
@@ -3164,7 +3164,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 10452.0,
@@ -3180,7 +3179,8 @@
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 10059,
@@ -3221,7 +3221,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 10876.0,
@@ -3237,7 +3236,8 @@
         "slug": "fischer-w-orgelstatistik-1974"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 10173,
@@ -3278,14 +3278,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 10672.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 10195,
@@ -3326,7 +3326,6 @@
     "memo": "Keine genaueren Angaben zum Ort",
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 10696.0,
@@ -3342,7 +3341,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 10372,
@@ -3383,7 +3383,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 10782.0,
@@ -3399,7 +3398,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 10373,
@@ -3440,7 +3440,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": "kP",
       "t": "N",
       "satz": 10783.0,
@@ -3456,7 +3455,8 @@
         "slug": "erzbistum-bamberg-1888"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 10531,
@@ -3497,7 +3497,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 12056.0,
@@ -3513,7 +3512,8 @@
         "slug": "fi-hindelang-1966"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 10609,
@@ -3554,14 +3554,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 11087.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 10610,
@@ -3602,7 +3602,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 11088.0,
@@ -3618,7 +3617,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 10745,
@@ -3659,14 +3659,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 11279.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11144,
@@ -3707,14 +3707,14 @@
     "memo": null,
     "place_key": "höll|88167",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 12002.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11324,
@@ -3755,7 +3755,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 11746.0,
@@ -3771,7 +3770,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11325,
@@ -3812,7 +3812,6 @@
     "memo": null,
     "place_key": "hofkirchen|84416",
     "_unclear": {
-      "dp": false,
       "kl": "kP",
       "t": null,
       "satz": 11747.0,
@@ -3826,7 +3825,8 @@
       "preferred_name": "Mariä Himmelfahrt (Hofkirchen)",
       "candidates_considered": 1,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 11484,
@@ -3867,7 +3867,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 11961.0,
@@ -3891,7 +3890,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 11485,
@@ -3932,7 +3932,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 11962.0,
@@ -3948,7 +3947,8 @@
         "slug": "wohnhaas-cgm-7059-1968"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 11546,
@@ -3989,14 +3989,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 12052.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11549,
@@ -4037,7 +4037,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 12055.0,
@@ -4053,7 +4052,8 @@
         "slug": "hofmann-proebstl-1953"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 11560,
@@ -4094,14 +4094,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 12473.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11651,
@@ -4142,7 +4142,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 12107.0,
@@ -4158,7 +4157,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11688,
@@ -4199,14 +4199,14 @@
     "memo": null,
     "place_key": "holzstetten|87653",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 12148.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 11845,
@@ -4247,14 +4247,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13037.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12294,
@@ -4295,14 +4295,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13535.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12307,
@@ -4343,14 +4343,14 @@
     "memo": null,
     "place_key": "kissendorf|89346",
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13719.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12390,
@@ -4391,14 +4391,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 14164.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12476,
@@ -4439,14 +4439,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13872.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12657,
@@ -4487,14 +4487,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13256.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12793,
@@ -4535,7 +4535,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": null,
       "satz": 13463.0,
@@ -4551,7 +4550,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12794,
@@ -4592,7 +4592,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 13464.0,
@@ -4616,7 +4615,8 @@
         "slug": "fi-jann-werkverzeichnis-2005"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12825,
@@ -4657,7 +4657,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": null,
       "satz": 13495.0,
@@ -4673,7 +4672,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 12833,
@@ -4714,7 +4714,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 13503.0,
@@ -4730,7 +4729,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 12834,
@@ -4771,7 +4771,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 13504.0,
@@ -4787,7 +4786,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 12835,
@@ -4828,7 +4828,6 @@
     "memo": null,
     "place_key": "kirchdorf|00826",
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": "N",
       "satz": 13505.0,
@@ -4852,7 +4851,8 @@
         "slug": "huebner-orgeln-1987"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13024,
@@ -4893,14 +4893,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13679.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13205,
@@ -4941,14 +4941,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13791.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13296,
@@ -4989,14 +4989,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13936.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13297,
@@ -5037,14 +5037,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13937.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13298,
@@ -5085,14 +5085,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13938.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13299,
@@ -5133,14 +5133,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13939.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13301,
@@ -5181,14 +5181,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13941.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13303,
@@ -5229,14 +5229,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13943.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13347,
@@ -5277,14 +5277,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 13989.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13582,
@@ -5325,14 +5325,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 14230.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 13768,
@@ -5373,7 +5373,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 14498.0,
@@ -5389,7 +5388,8 @@
         "slug": "fischer-w-walcker-1977-2"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 13932,
@@ -5430,7 +5430,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 15457.0,
@@ -5462,7 +5461,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 13933,
@@ -5503,7 +5503,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 15458.0,
@@ -5527,7 +5526,8 @@
         "slug": "woelfl-orgeln-von-woelfl-1990"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14385,
@@ -5568,7 +5568,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 15111.0,
@@ -5584,7 +5583,8 @@
         "slug": "brenninger-schwaben-1986"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14403,
@@ -5625,14 +5625,14 @@
     "memo": null,
     "place_key": "lauterbach b. aufhausen|86577",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 15129.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14674,
@@ -5673,14 +5673,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 15546.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14675,
@@ -5721,14 +5721,14 @@
     "memo": null,
     "place_key": "lindenhöfe|87776",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 15547.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14843,
@@ -5769,14 +5769,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16017.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14844,
@@ -5817,14 +5817,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16018.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14845,
@@ -5865,14 +5865,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16019.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14846,
@@ -5913,14 +5913,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16020.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14850,
@@ -5961,14 +5961,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16025.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14854,
@@ -6009,7 +6009,6 @@
     "memo": null,
     "place_key": "maria kappel|86511",
     "_unclear": {
-      "dp": false,
       "kl": "kP",
       "t": null,
       "satz": 16029.0,
@@ -6023,7 +6022,8 @@
       "preferred_name": "Maria Kappel (Schmiechen)",
       "candidates_considered": 1,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 14855,
@@ -6064,14 +6064,14 @@
     "memo": null,
     "place_key": "maria medingen, kloster|89426",
     "_unclear": {
-      "dp": false,
       "kl": "kP",
       "t": null,
       "satz": 16030.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14856,
@@ -6112,14 +6112,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16031.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14903,
@@ -6160,14 +6160,14 @@
     "memo": null,
     "place_key": "lobesau|82432",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 15584.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 14982,
@@ -6208,14 +6208,14 @@
     "memo": null,
     "place_key": "mochenbach|87745",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 17068.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 15268,
@@ -6256,14 +6256,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 15947.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 15295,
@@ -6304,14 +6304,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 16044.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 15296,
@@ -6352,14 +6352,14 @@
     "memo": null,
     "place_key": "maria trost|87484",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 16045.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 15715,
@@ -6400,7 +6400,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 16425.0,
@@ -6416,7 +6415,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 15966,
@@ -6457,7 +6457,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 16745.0,
@@ -6473,7 +6472,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 16148,
@@ -6514,7 +6514,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 17192.0,
@@ -6530,7 +6529,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 16149,
@@ -6571,7 +6571,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "R",
       "satz": 17193.0,
@@ -6587,7 +6586,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 16406,
@@ -6628,14 +6628,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 17284.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 16495,
@@ -6676,14 +6676,14 @@
     "memo": null,
     "place_key": "mooshäusl|86510",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 17236.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 16535,
@@ -6724,7 +6724,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 17319.0,
@@ -6748,7 +6747,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 16536,
@@ -6789,7 +6789,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 17320.0,
@@ -6805,7 +6804,8 @@
         "slug": "wohnhaas-cgm-7059-1968"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 17211,
@@ -6846,14 +6846,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 18866.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 17217,
@@ -6894,14 +6894,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 18873.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 17760,
@@ -6942,14 +6942,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 18680.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 17935,
@@ -6990,7 +6990,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "eK",
       "t": "N",
       "satz": 18822.0,
@@ -7006,7 +7005,8 @@
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18036,
@@ -7047,14 +7047,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 18905.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18037,
@@ -7095,14 +7095,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 18906.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18053,
@@ -7143,14 +7143,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 19389.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18075,
@@ -7191,14 +7191,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20466.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18505,
@@ -7239,14 +7239,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 19423.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18743,
@@ -7287,14 +7287,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20860.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18746,
@@ -7335,14 +7335,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20870.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18755,
@@ -7383,14 +7383,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 19621.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 18820,
@@ -7431,14 +7431,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20427.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 19227,
@@ -7479,14 +7479,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20155.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 19372,
@@ -7527,7 +7527,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 20318.0,
@@ -7551,7 +7550,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 19428,
@@ -7592,14 +7592,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20388.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 19498,
@@ -7640,7 +7640,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 20474.0,
@@ -7656,7 +7655,8 @@
         "slug": "kraus-oberpfalz-1990"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 19737,
@@ -7697,7 +7697,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 20714.0,
@@ -7713,7 +7712,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 19978,
@@ -7754,14 +7754,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 20914.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 20133,
@@ -7802,14 +7802,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 21076.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 20157,
@@ -7850,14 +7850,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 21101.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 20227,
@@ -7898,14 +7898,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 21191.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 20921,
@@ -7946,7 +7946,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 21980.0,
@@ -7962,7 +7961,8 @@
         "slug": "brenninger-lkr-freising-1975"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 21676,
@@ -8003,7 +8003,6 @@
     "memo": "2. Binder & Sohn, Regensburg.",
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 22758.0,
@@ -8027,7 +8026,8 @@
         "slug": "fischer-w-binder-2005"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 21677,
@@ -8068,7 +8068,6 @@
     "memo": "Welches Pullach ?",
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 22759.0,
@@ -8084,7 +8083,8 @@
         "slug": "fi-deininger-renner-werkverz-1983"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 21964,
@@ -8171,7 +8171,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 24232.0,
@@ -8187,7 +8186,8 @@
         "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 22332,
@@ -8248,7 +8248,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": "kF",
       "t": "N",
       "satz": 23854.0,
@@ -8264,7 +8263,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 22538,
@@ -8305,7 +8305,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 23547.0,
@@ -8329,7 +8328,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 22661,
@@ -8370,14 +8370,14 @@
     "memo": null,
     "place_key": "rennertshofen|88167",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 23697.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 22837,
@@ -8418,7 +8418,6 @@
     "memo": "2. Binder & Sohn, Regensburg",
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 23949.0,
@@ -8442,7 +8441,8 @@
         "slug": "fischer-w-binder-2005"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 23026,
@@ -8483,7 +8483,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 24435.0,
@@ -8499,7 +8498,8 @@
         "slug": "fischer-w-nuernberger-ob-1972"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 23104,
@@ -8540,7 +8540,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 24106.0,
@@ -8556,7 +8555,8 @@
         "slug": "fischer-w-daten-ueber-ob-1969"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 23460,
@@ -8597,14 +8597,14 @@
     "memo": null,
     "place_key": "ruderatsried|87651",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 24564.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 23461,
@@ -8645,7 +8645,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": "N",
       "satz": 24565.0,
@@ -8661,7 +8660,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 23509,
@@ -8702,14 +8702,14 @@
     "memo": null,
     "place_key": "ruezen|88167",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 24589.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 23693,
@@ -8750,14 +8750,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 24840.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 23710,
@@ -8798,14 +8798,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 24857.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24074,
@@ -8846,14 +8846,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 25272.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24178,
@@ -8894,14 +8894,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 25425.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24180,
@@ -8942,14 +8942,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 25427.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24227,
@@ -8990,7 +8990,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "eK",
       "t": "N",
       "satz": 25484.0,
@@ -9006,7 +9005,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24285,
@@ -9047,14 +9047,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": null,
       "satz": 26241.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24289,
@@ -9095,14 +9095,14 @@
     "memo": null,
     "place_key": "seltbürn b. obergünzburg|87634",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 26245.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24669,
@@ -9143,14 +9143,14 @@
     "memo": null,
     "place_key": "schwantele b. hopferbach|87496",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 25888.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 24897,
@@ -9191,14 +9191,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 26170.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 25177,
@@ -9239,7 +9239,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 27365.0,
@@ -9255,7 +9254,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 25349,
@@ -9296,14 +9296,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kP",
       "t": null,
       "satz": 26665.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 25380,
@@ -9344,7 +9344,6 @@
     "memo": null,
     "place_key": "stahldorf|86736",
     "_unclear": {
-      "dp": false,
       "kl": "kF",
       "t": null,
       "satz": 26692.0,
@@ -9358,7 +9357,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 25500,
@@ -9399,7 +9399,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": "kK",
       "t": "N",
       "satz": 26796.0,
@@ -9415,7 +9414,8 @@
         "slug": "fischer-w-walcker-1977-2"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 25744,
@@ -9456,7 +9456,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": "N",
       "satz": 27067.0,
@@ -9472,7 +9471,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 25813,
@@ -9513,7 +9513,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 27141.0,
@@ -9529,7 +9528,8 @@
         "slug": "bernhard-eisenbarth-1996"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 25826,
@@ -9570,7 +9570,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 27158.0,
@@ -9594,7 +9593,8 @@
         "slug": "brenninger-passauer-ob-1975"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 25827,
@@ -9635,7 +9635,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 27159.0,
@@ -9659,7 +9658,8 @@
         "slug": "woelfl-orgeln-von-woelfl-1990"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 25828,
@@ -9700,7 +9700,6 @@
     "memo": null,
     "place_key": "straßkirchen|94342",
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 27165.0,
@@ -9731,7 +9730,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 26035,
@@ -9772,7 +9772,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 27364.0,
@@ -9788,7 +9787,8 @@
         "slug": "fischer-w-bayreuther-ob-1971"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 26161,
@@ -9829,14 +9829,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 27564.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 26266,
@@ -9877,7 +9877,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 27626.0,
@@ -9893,7 +9892,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 26322,
@@ -9934,14 +9934,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 28945.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 26376,
@@ -9982,7 +9982,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 28605.0,
@@ -9998,7 +9997,8 @@
         "slug": "brenninger-altbayern-1982"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 26627,
@@ -10039,7 +10039,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 27898.0,
@@ -10063,7 +10062,8 @@
         "slug": "fischer-w-hoffmann-1988"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 26755,
@@ -10143,7 +10143,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 28044.0,
@@ -10159,7 +10158,8 @@
         "slug": "brenninger-schwaben-1986"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 27050,
@@ -10200,14 +10200,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 28882.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 28049,
@@ -10248,14 +10248,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 29386.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 28112,
@@ -10296,7 +10296,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 29494.0,
@@ -10312,7 +10311,8 @@
         "slug": "fischer-w-bayreuther-ob-1971"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 28821,
@@ -10353,14 +10353,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 30260.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 29268,
@@ -10401,14 +10401,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 30718.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 29653,
@@ -10449,14 +10449,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 31132.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 30400,
@@ -10497,14 +10497,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 31958.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 30405,
@@ -10545,14 +10545,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 31965.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 30483,
@@ -10593,14 +10593,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 32046.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 30953,
@@ -10641,7 +10641,6 @@
     "memo": null,
     "place_key": "ilmbach|prichsenstadt",
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 12413.0,
@@ -10664,7 +10663,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 31179,
@@ -10727,7 +10727,6 @@
     "memo": null,
     "place_key": "hemsbach|mömbris-hemsbach",
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": "N",
       "satz": 11140.0,
@@ -10750,7 +10749,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 31373,
@@ -10791,7 +10791,6 @@
     "memo": null,
     "place_key": "neudorf|amorbach-neudorf",
     "_unclear": {
-      "dp": false,
       "kl": "kK",
       "t": null,
       "satz": 18827.0,
@@ -10814,7 +10813,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 31493,
@@ -10878,7 +10878,6 @@
     "memo": null,
     "place_key": "aisingerwies|rosenheim",
     "_unclear": {
-      "dp": false,
       "kl": "eK",
       "t": "N",
       "satz": 270.0,
@@ -10901,7 +10900,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 31543,
@@ -10942,7 +10942,6 @@
     "memo": null,
     "place_key": "binswangen|86637",
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 3816.0,
@@ -10965,7 +10964,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": true
   },
   {
     "id": 31544,
@@ -11006,7 +11006,6 @@
     "memo": null,
     "place_key": "binswangen|86637",
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "R",
       "satz": 3817.0,
@@ -11037,7 +11036,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": true
   },
   {
     "id": 31573,
@@ -11118,7 +11118,6 @@
     "memo": null,
     "place_key": "wildensorg|96049",
     "_unclear": {
-      "dp": false,
       "kl": "kP",
       "t": "N",
       "satz": 30956.0,
@@ -11149,7 +11148,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 31635,
@@ -11190,14 +11190,14 @@
     "memo": null,
     "place_key": "dürnhettenbach|ergoldsbach",
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 5827.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 31659,
@@ -11238,7 +11238,6 @@
     "memo": null,
     "place_key": "magdalenenberg|steigerwald",
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 15797.0,
@@ -11261,7 +11260,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": false
   },
   {
     "id": 31663,
@@ -11325,7 +11325,6 @@
     "memo": null,
     "place_key": "unterzell|würzburg",
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": "N",
       "satz": 29049.0,
@@ -11356,7 +11355,8 @@
       "preferred_name": null,
       "candidates_considered": 0,
       "grund": null
-    }
+    },
+    "prospekt_erhalten": true
   },
   {
     "id": 31828,
@@ -11397,7 +11397,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 30279.0,
@@ -11413,7 +11412,8 @@
         "slug": "fischer-w-binder-2005"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 31830,
@@ -11454,7 +11454,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 22486.0,
@@ -11470,7 +11469,8 @@
         "slug": "fischer-w-binder-2005"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 31835,
@@ -11511,7 +11511,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "N",
       "satz": 24481.0,
@@ -11527,7 +11526,8 @@
         "slug": "fischer-w-binder-2005"
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 32076,
@@ -11588,7 +11588,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": "R",
       "satz": 5781.0,
@@ -11604,7 +11603,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 32081,
@@ -11645,14 +11645,14 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": 0.0,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   },
   {
     "id": 32130,
@@ -11713,7 +11713,6 @@
     "memo": "bei 2:keine Octave 2', aber Gedeckt 8'",
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": "eF",
       "t": "N",
       "satz": 13427.0,
@@ -11737,7 +11736,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 32131,
@@ -11799,7 +11799,6 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": true,
       "kl": null,
       "t": null,
       "satz": 1880.0,
@@ -11815,7 +11814,8 @@
         "slug": null
       }
     ],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": true
   },
   {
     "id": 32199,
@@ -11856,13 +11856,13 @@
     "memo": null,
     "place_key": null,
     "_unclear": {
-      "dp": false,
       "kl": null,
       "t": null,
       "satz": null,
       "rbz_raw_unrecognized": null
     },
     "literatur": [],
-    "kirche_gnd": null
+    "kirche_gnd": null,
+    "prospekt_erhalten": false
   }
 ]
