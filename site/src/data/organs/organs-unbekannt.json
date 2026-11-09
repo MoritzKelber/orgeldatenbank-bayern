@@ -50,7 +50,8 @@
       "url": "https://d-nb.info/gnd/4627630-0",
       "preferred_name": "Maria, Hilfe der Reisenden (Adelsried)",
       "candidates_considered": 1,
-      "grund": null
+      "grund": null,
+      "adresse_pruefung": "keine_daten"
     },
     "prospekt_erhalten": false,
     "bauer_person_id": null
@@ -3885,11 +3886,11 @@
     },
     "literatur": [],
     "kirche_gnd": {
-      "status": "ok",
-      "gnd_id": "1151166162",
-      "url": "https://d-nb.info/gnd/1151166162",
-      "preferred_name": "Mariä Himmelfahrt (Hofkirchen)",
-      "candidates_considered": 1,
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
       "grund": null
     },
     "prospekt_erhalten": false,
@@ -6124,11 +6125,11 @@
     },
     "literatur": [],
     "kirche_gnd": {
-      "status": "ok",
-      "gnd_id": "4468531-2",
-      "url": "https://d-nb.info/gnd/4468531-2",
-      "preferred_name": "Maria Kappel (Schmiechen)",
-      "candidates_considered": 1,
+      "status": "keine",
+      "gnd_id": null,
+      "url": null,
+      "preferred_name": null,
+      "candidates_considered": 0,
       "grund": null
     },
     "prospekt_erhalten": false,
