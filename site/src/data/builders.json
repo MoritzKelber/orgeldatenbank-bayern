@@ -52790,18 +52790,11 @@
     "name": "Aquincum",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 940,
-    "name": "Becker",
-    "biografie": "siehe Becker und Hiendl",
-    "organ_ids": [],
     "personen": [
       {
         "index": 1,
-        "name_raw": "siehe Becker und Hiendl",
-        "nachname": "siehe Becker und Hiendl",
+        "name_raw": "Aquincum",
+        "nachname": "Aquincum",
         "vorname": null,
         "namenszusatz": null,
         "beschreibung_odb": null,
@@ -52812,19 +52805,16 @@
         },
         "beziehung": null,
         "anmerkungen_kurz": [],
-        "gnd": {
-          "status": "nicht_zutreffend",
-          "gnd_id": null,
-          "url": null,
-          "preferred_name": null,
-          "geburtsjahr": null,
-          "todesjahr": null,
-          "name_score": null,
-          "candidates_considered": 0,
-          "grund": "Firma/Kollektiv, keine Personensuche"
-        }
+        "gnd": null
       }
     ]
+  },
+  {
+    "id": 940,
+    "name": "Becker",
+    "biografie": "siehe Becker und Hiendl",
+    "organ_ids": [],
+    "personen": []
   },
   {
     "id": 941,
@@ -52867,11 +52857,18 @@
     "name": "Behler & Waldenmaier",
     "biografie": "siehe Behler",
     "organ_ids": [],
+    "personen": []
+  },
+  {
+    "id": 943,
+    "name": "Beyer und Krebs",
+    "biografie": null,
+    "organ_ids": [],
     "personen": [
       {
         "index": 1,
-        "name_raw": "siehe Behler",
-        "nachname": "siehe Behler",
+        "name_raw": "Beyer und Krebs",
+        "nachname": "Beyer und Krebs",
         "vorname": null,
         "namenszusatz": null,
         "beschreibung_odb": null,
@@ -52882,26 +52879,9 @@
         },
         "beziehung": null,
         "anmerkungen_kurz": [],
-        "gnd": {
-          "status": "keine",
-          "gnd_id": null,
-          "url": null,
-          "preferred_name": null,
-          "geburtsjahr": null,
-          "todesjahr": null,
-          "name_score": null,
-          "candidates_considered": 0,
-          "grund": null
-        }
+        "gnd": null
       }
     ]
-  },
-  {
-    "id": 943,
-    "name": "Beyer und Krebs",
-    "biografie": null,
-    "organ_ids": [],
-    "personen": []
   },
   {
     "id": 944,
@@ -52942,73 +52922,18 @@
     "name": "Binder & Siemann",
     "biografie": "siehe Binder",
     "organ_ids": [],
-    "personen": [
-      {
-        "index": 1,
-        "name_raw": "siehe Binder",
-        "nachname": "siehe Binder",
-        "vorname": null,
-        "namenszusatz": null,
-        "beschreibung_odb": null,
-        "lebensdaten": {
-          "raw": [],
-          "geburtsjahr": null,
-          "todesjahr": null
-        },
-        "beziehung": null,
-        "anmerkungen_kurz": [],
-        "gnd": {
-          "status": "keine",
-          "gnd_id": null,
-          "url": null,
-          "preferred_name": null,
-          "geburtsjahr": null,
-          "todesjahr": null,
-          "name_score": null,
-          "candidates_considered": 0,
-          "grund": null
-        }
-      }
-    ]
+    "personen": []
   },
   {
     "id": 946,
     "name": "Dell'Orto & Lanzini",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 947,
-    "name": "Dirscherl & Holländer",
-    "biografie": null,
-    "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 948,
-    "name": "Dreher und Flamm",
-    "biografie": null,
-    "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 949,
-    "name": "Edskes",
-    "biografie": null,
-    "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 950,
-    "name": "Eisenschmid & Sohn",
-    "biografie": "siehe Eisenschmid",
-    "organ_ids": [],
     "personen": [
       {
         "index": 1,
-        "name_raw": "siehe Eisenschmid",
-        "nachname": "siehe Eisenschmid",
+        "name_raw": "Dell'Orto & Lanzini",
+        "nachname": "Dell'Orto & Lanzini",
         "vorname": null,
         "namenszusatz": null,
         "beschreibung_odb": null,
@@ -53019,19 +52944,88 @@
         },
         "beziehung": null,
         "anmerkungen_kurz": [],
-        "gnd": {
-          "status": "keine",
-          "gnd_id": null,
-          "url": null,
-          "preferred_name": null,
-          "geburtsjahr": null,
-          "todesjahr": null,
-          "name_score": null,
-          "candidates_considered": 0,
-          "grund": null
-        }
+        "gnd": null
       }
     ]
+  },
+  {
+    "id": 947,
+    "name": "Dirscherl & Holländer",
+    "biografie": null,
+    "organ_ids": [],
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Dirscherl & Holländer",
+        "nachname": "Dirscherl & Holländer",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
+  },
+  {
+    "id": 948,
+    "name": "Dreher und Flamm",
+    "biografie": null,
+    "organ_ids": [],
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Dreher und Flamm",
+        "nachname": "Dreher und Flamm",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
+  },
+  {
+    "id": 949,
+    "name": "Edskes",
+    "biografie": null,
+    "organ_ids": [],
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Edskes",
+        "nachname": "Edskes",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
+  },
+  {
+    "id": 950,
+    "name": "Eisenschmid & Sohn",
+    "biografie": "siehe Eisenschmid",
+    "organ_ids": [],
+    "personen": []
   },
   {
     "id": 951,
@@ -53072,14 +53066,48 @@
     "name": "Orgelbau auf den Fildern",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Orgelbau auf den Fildern",
+        "nachname": "Orgelbau auf den Fildern",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 953,
     "name": "Fischer & Krämer",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Fischer & Krämer",
+        "nachname": "Fischer & Krämer",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 954,
@@ -53120,7 +53148,24 @@
     "name": "Friedmann",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Friedmann",
+        "nachname": "Friedmann",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 956,
@@ -53129,49 +53174,168 @@
     "organ_ids": [
       25567
     ],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Gerdner",
+        "nachname": "Gerdner",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 957,
     "name": "Hänlein",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Hänlein",
+        "nachname": "Hänlein",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 958,
     "name": "Haspelmath",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Haspelmath",
+        "nachname": "Haspelmath",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 959,
     "name": "Hauser",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Hauser",
+        "nachname": "Hauser",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 960,
     "name": "Hefert",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Hefert",
+        "nachname": "Hefert",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 961,
     "name": "Heibler",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Heibler",
+        "nachname": "Heibler",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 962,
     "name": "Herig",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Herig",
+        "nachname": "Herig",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 963,
@@ -53212,7 +53376,24 @@
     "name": "Hofbauer",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Hofbauer",
+        "nachname": "Hofbauer",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 965,
@@ -53321,18 +53502,11 @@
     "name": "Merl",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 969,
-    "name": "Milschitzky",
-    "biografie": "siehe Riegner & Friedrich",
-    "organ_ids": [],
     "personen": [
       {
         "index": 1,
-        "name_raw": "siehe Riegner & Friedrich",
-        "nachname": "siehe Riegner & Friedrich",
+        "name_raw": "Merl",
+        "nachname": "Merl",
         "vorname": null,
         "namenszusatz": null,
         "beschreibung_odb": null,
@@ -53343,26 +53517,40 @@
         },
         "beziehung": null,
         "anmerkungen_kurz": [],
-        "gnd": {
-          "status": "nicht_zutreffend",
-          "gnd_id": null,
-          "url": null,
-          "preferred_name": null,
-          "geburtsjahr": null,
-          "todesjahr": null,
-          "name_score": null,
-          "candidates_considered": 0,
-          "grund": "Firma/Kollektiv, keine Personensuche"
-        }
+        "gnd": null
       }
     ]
+  },
+  {
+    "id": 969,
+    "name": "Milschitzky",
+    "biografie": "siehe Riegner & Friedrich",
+    "organ_ids": [],
+    "personen": []
   },
   {
     "id": 970,
     "name": "Mitzschke",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Mitzschke",
+        "nachname": "Mitzschke",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 971,
@@ -53403,7 +53591,24 @@
     "name": "Paschen",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Paschen",
+        "nachname": "Paschen",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 973,
@@ -53512,21 +53717,72 @@
     "name": "Reisacheder",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Reisacheder",
+        "nachname": "Reisacheder",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 977,
     "name": "RWE",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "RWE",
+        "nachname": "RWE",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 978,
     "name": "Sattler",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Sattler",
+        "nachname": "Sattler",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 979,
@@ -53703,34 +53959,11 @@
     "name": "Skrabl",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 985,
-    "name": "Sonnenwald",
-    "biografie": null,
-    "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 986,
-    "name": "Spranger",
-    "biografie": null,
-    "organ_ids": [],
-    "personen": []
-  },
-  {
-    "id": 987,
-    "name": "Standenmayr",
-    "biografie": "= Staudenmayer?",
-    "organ_ids": [
-      25178
-    ],
     "personen": [
       {
         "index": 1,
-        "name_raw": "= Staudenmayer?",
-        "nachname": "= Staudenmayer?",
+        "name_raw": "Skrabl",
+        "nachname": "Skrabl",
         "vorname": null,
         "namenszusatz": null,
         "beschreibung_odb": null,
@@ -53741,33 +53974,114 @@
         },
         "beziehung": null,
         "anmerkungen_kurz": [],
-        "gnd": {
-          "status": "keine",
-          "gnd_id": null,
-          "url": null,
-          "preferred_name": null,
-          "geburtsjahr": null,
-          "todesjahr": null,
-          "name_score": null,
-          "candidates_considered": 0,
-          "grund": null
-        }
+        "gnd": null
       }
     ]
+  },
+  {
+    "id": 985,
+    "name": "Sonnenwald",
+    "biografie": null,
+    "organ_ids": [],
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Sonnenwald",
+        "nachname": "Sonnenwald",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
+  },
+  {
+    "id": 986,
+    "name": "Spranger",
+    "biografie": null,
+    "organ_ids": [],
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Spranger",
+        "nachname": "Spranger",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
+  },
+  {
+    "id": 987,
+    "name": "Standenmayr",
+    "biografie": "= Staudenmayer?",
+    "organ_ids": [
+      25178
+    ],
+    "personen": []
   },
   {
     "id": 988,
     "name": "Stärk und Lengenfelder",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Stärk und Lengenfelder",
+        "nachname": "Stärk und Lengenfelder",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 989,
     "name": "Tändler",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Tändler",
+        "nachname": "Tändler",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 990,
@@ -53808,7 +54122,24 @@
     "name": "Voigt",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Voigt",
+        "nachname": "Voigt",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 992,
@@ -53849,21 +54180,72 @@
     "name": "Wismair",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Wismair",
+        "nachname": "Wismair",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 994,
     "name": "Ziegltrum",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Ziegltrum",
+        "nachname": "Ziegltrum",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 995,
     "name": "Kappler",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Kappler",
+        "nachname": "Kappler",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 996,
@@ -53904,7 +54286,24 @@
     "name": "Knoll",
     "biografie": null,
     "organ_ids": [],
-    "personen": []
+    "personen": [
+      {
+        "index": 1,
+        "name_raw": "Knoll",
+        "nachname": "Knoll",
+        "vorname": null,
+        "namenszusatz": null,
+        "beschreibung_odb": null,
+        "lebensdaten": {
+          "raw": [],
+          "geburtsjahr": null,
+          "todesjahr": null
+        },
+        "beziehung": null,
+        "anmerkungen_kurz": [],
+        "gnd": null
+      }
+    ]
   },
   {
     "id": 998,

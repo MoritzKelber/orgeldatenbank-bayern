@@ -39,8 +39,11 @@ def run(db_path: str, site_data_dir: Path, public_data_dir: Path, reports_dir: P
 
     bauer_lookup = build_bauer_lookup(source["Bybauer"])
 
+    jahr_overrides_path = Path(__file__).resolve().parents[1] / "cache" / "jahr_overrides.json"
+    jahr_overrides = json.loads(jahr_overrides_path.read_text(encoding="utf-8")) if jahr_overrides_path.exists() else {}
+
     print("Bereinige Orgeln (Bydaten) ...")
-    organs = [clean_bydaten_row(row, bauer_lookup) for row in source["Bydaten"]]
+    organs = [clean_bydaten_row(row, bauer_lookup, jahr_overrides) for row in source["Bydaten"]]
 
     print("Bereinige Erbauer (Bybauer) ...")
     builders = [clean_bybauer_row(row) for row in source["Bybauer"]]

@@ -1,4 +1,13 @@
-"""Clean one Bydaten row into the organ record shape consumed by the site."""
+"""Clean one Bydaten row into the organ record shape consumed by the site.
+
+`jahr_overrides` (etl/cache/jahr_overrides.json, keyed by organ ID) corrects
+individual JAHR typos confirmed implausible/contradicted by other evidence
+(e.g. "1068=" for an organ built in 1068 - centuries before pipe organs of
+this kind existed in Bavaria) - same manual-correction precedent as
+geocode_overrides.json, kept instead of silently "fixing" JAHR for every
+row, since the vast majority of odd-looking years are genuine historical
+dates, not typos.
+"""
 from __future__ import annotations
 
 from . import bauer_match
@@ -45,8 +54,10 @@ def _place_key(ort: str | None, plz: str | None, gemeinde: str | None, landkreis
     return None
 
 
-def clean_bydaten_row(row: dict, bauer_lookup: dict[str, int]) -> dict:
+def clean_bydaten_row(row: dict, bauer_lookup: dict[str, int], jahr_overrides: dict[str, dict] | None = None) -> dict:
     plz = clean_plz(row.get("POST"))
+    override = (jahr_overrides or {}).get(str(row["ID"]))
+    jahr_source = override["jahr_raw"] if override else row.get("JAHR")
     ort = _str_or_none(row.get("ORT"))
     gemeinde = _str_or_none(row.get("GDE"))
     landkreis = _str_or_none(row.get("LKR"))
@@ -69,7 +80,7 @@ def clean_bydaten_row(row: dict, bauer_lookup: dict[str, int]) -> dict:
         "erhalten": bool(row.get("ERHALTEN")),
         "denkmalorgel": bool(row.get("DO")),
         **bauer_match.match_bauer(row.get("BAUER"), bauer_lookup),
-        "jahr": parse_jahr(row.get("JAHR")),
+        "jahr": parse_jahr(jahr_source),
         "manuale": _int_or_none(row.get("M")),
         "register": _int_or_none(row.get("REG")),
         "dispo": parse_dispo(row.get("DISPO")),

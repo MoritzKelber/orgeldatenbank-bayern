@@ -1,0 +1,33 @@
+---
+// Renders one literature entry as a citation styled after "Die
+// Musikforschung"'s guidelines (Nachname, Vorname: "Titel", in: Zeitschrift
+// Band (Jahr), S. x-y / ..., Ort Jahr) - see lib/types.ts#formatBiblio for
+// the heuristic behind the "in: Zeitschrift ..." vs plain "Ort Jahr" split.
+import { formatBiblio, type LiteraturEntry } from "../lib/types";
+
+interface Props {
+  entry: LiteraturEntry;
+}
+const { entry } = Astro.props;
+const titel = entry.titel ?? entry.kurztitel;
+const biblio = formatBiblio(entry.biblio);
+---
+<span class="zitat">
+  {entry.autor && <strong>{entry.autor}</strong>}
+  {entry.autor && ": "}
+  <span class="zitat-titel">„{titel}“</span>
+  {biblio && (
+    <>
+      {", "}
+      {biblio.inPrefix && "in: "}
+      {biblio.journal && <em>{biblio.journal}</em>}
+      {biblio.journal && " "}
+      {biblio.rest}
+    </>
+  )}
+  {"."}
+</span>
+
+<style>
+  .zitat-titel { font-style: normal; }
+</style>

@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import LiteraturZitat from "../../components/LiteraturZitat.astro";
 import { getAllLiterature, getOrganById } from "../../lib/data";
 
 export function getStaticPaths() {
@@ -10,18 +11,66 @@ const { slug } = Astro.params;
 const entry = getAllLiterature().find((l) => l.slug === slug)!;
 const organs = entry.organ_ids.map((oid) => getOrganById(oid)).filter((o) => o !== undefined);
 const base = import.meta.env.BASE_URL;
+const bms = entry.bms;
+const bmsOk = bms?.status === "ok";
+const gateway = entry.gateway_bayern;
+const gatewayOk = gateway?.status === "ok";
 ---
 <Base title={entry.kurztitel}>
   <p><a href={`${base}/literatur/`}>&larr; zurück zum Literaturverzeichnis</a></p>
   <h1>{entry.kurztitel}</h1>
+  <p class="zitat-block"><LiteraturZitat entry={entry} /></p>
+
+  <h2>Angaben aus der Orgeldatenbank</h2>
   <table class="facts">
     <tbody>
       {entry.autor && <tr><th>Autor</th><td>{entry.autor}</td></tr>}
       {entry.titel && <tr><th>Titel</th><td>{entry.titel}</td></tr>}
-      {entry.biblio && <tr><th>Bibliografische Angabe</th><td>{entry.biblio}</td></tr>}
+      {entry.biblio && <tr><th>Bibliografische Angabe (Quelltext)</th><td>{entry.biblio}</td></tr>}
       {entry.vorhanden && <tr><th>Vorhanden</th><td>{entry.vorhanden}</td></tr>}
     </tbody>
   </table>
+
+  <h2>Bibliographie des Musikschrifttums (BMS)</h2>
+  <table class="facts">
+    <tbody>
+      <tr>
+        <th>BMS-ID</th>
+        <td>
+          {bmsOk ? <a href={bms!.url ?? undefined} target="_blank" rel="noopener">{bms!.ppn} ↗</a> : "–"}
+        </td>
+      </tr>
+      {bmsOk && bms!.matched_titel && <tr><th>Titel in der BMS</th><td>{bms!.matched_titel}</td></tr>}
+      {bmsOk && bms!.matched_autor && <tr><th>Autor in der BMS</th><td>{bms!.matched_autor}</td></tr>}
+      {bmsOk && bms!.isbn.length > 0 && (
+        <tr>
+          <th>ISBN</th>
+          <td>{bms!.isbn.join(" / ")} <span class="quelle-hinweis">(BMS)</span></td>
+        </tr>
+      )}
+      {!bmsOk && bms?.status === "unsicher" && (
+        <tr><th>Hinweis</th><td class="bms-hinweis" title={bms.grund ?? undefined}>unsichere Zuordnung, nicht übernommen ⓘ</td></tr>
+      )}
+    </tbody>
+  </table>
+
+  {gatewayOk && (
+    <>
+      <h2>Gateway Bayern</h2>
+      <table class="facts">
+        <tbody>
+          <tr>
+            <th>Titel im Verbundkatalog</th>
+            <td>
+              <a href={gateway!.url ?? undefined} target="_blank" rel="noopener">{gateway!.bv_nr} ↗</a>
+              {" "}<span class="quelle-hinweis">(über ISBN {gateway!.isbn_used}, aus BMS)</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </>
+  )}
+
   {entry.abstract && <p class="abstract">{entry.abstract}</p>}
 
   {entry.keywords.length > 0 && (
@@ -43,7 +92,11 @@ const base = import.meta.env.BASE_URL;
 </Base>
 
 <style>
-  .facts th { width: 11rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
+  .zitat-block { font-size: 1.05rem; margin: 0.75rem 0 1.5rem; }
+  .facts { margin: 1rem 0 2rem; }
+  .facts th { width: 14rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
+  .bms-hinweis { color: #8a6500; cursor: help; }
+  .quelle-hinweis { font-size: 0.75rem; opacity: 0.6; }
   .abstract { white-space: pre-line; }
   .keywords { display: flex; gap: 0.4rem; flex-wrap: wrap; }
   .badge.small { font-size: 0.7rem; padding: 0.1rem 0.5rem; }

@@ -1,104 +1,152 @@
 ---
 import Base from "../../layouts/Base.astro";
+import LiteraturZitat from "../../components/LiteraturZitat.astro";
 import { getAllLiterature } from "../../lib/data";
 
-const literature = [...getAllLiterature()].sort((a, b) => a.kurztitel.localeCompare(b.kurztitel, "de"));
+function autorSortKey(l: ReturnType<typeof getAllLiterature>[number]): string {
+  return (l.autor ? l.autor.split(/[,/]/, 1)[0].trim() : null) || l.kurztitel;
+}
+
+const literature = [...getAllLiterature()].sort((a, b) => autorSortKey(a).localeCompare(autorSortKey(b), "de"));
 const base = import.meta.env.BASE_URL;
 ---
 <Base title="Literaturverzeichnis" description="Quellen und Veröffentlichungen zur bayerischen Orgelgeschichte.">
   <h1>Literaturverzeichnis</h1>
-  <p>{literature.length} Katalogeinträge.</p>
+  <p>
+    Zitate orientieren sich an der Zitierweise der Zeitschrift <em>Die Musikforschung</em>. Einträge mit einem
+    Nachweis in der <a href="https://www.musikbibliographie.de/" target="_blank" rel="noopener">Bibliographie des
+    Musikschrifttums (BMS)</a> sind entsprechend markiert und verlinkt; wo die BMS zusätzlich eine ISBN führt, ist
+    der jeweilige Titel auf der Detailseite auch mit seinem Katalogeintrag im Verbundkatalog
+    <a href="https://www.bib-bvb.de/web/gateway-bayern" target="_blank" rel="noopener">Gateway Bayern</a> verknüpft.
+  </p>
 
-  <input type="search" id="lit-search" class="search-bar" placeholder="Literatur durchsuchen, z.B. „Fischer“ …" />
-  <p id="lit-count" class="count-line"></p>
+  <div class="search-area">
+    <input type="search" id="lit-search" class="search-bar" placeholder="Literatur durchsuchen, z.B. „Fischer“ …" />
+    <label class="bms-filter"><input type="checkbox" id="lit-bms-only" /> nur mit BMS-Nachweis</label>
+  </div>
+  <p id="lit-count" class="result-count"></p>
 
-  <div class="lit-grid" id="lit-grid">
+  <ul class="lit-list" id="lit-list">
     {literature.map((l) => {
-      const searchText = [l.kurztitel, l.autor, l.titel].filter(Boolean).join(" ").toLowerCase();
+      const searchText = [l.kurztitel, l.autor, l.titel, l.biblio].filter(Boolean).join(" ").toLowerCase();
+      const hasBms = l.bms?.status === "ok";
       return (
-        <a class="lit-card" href={`${base}/literatur/${l.slug}/`} data-name={searchText}>
-          <span class="lit-kurztitel">{l.kurztitel}</span>
-          {l.titel && <span class="lit-titel">{l.titel}</span>}
-          {l.organ_ids.length > 0 && (
-            <span class="lit-meta">
-              <span class="meta-chip">{l.organ_ids.length} Orgel{l.organ_ids.length === 1 ? "" : "n"}</span>
+        <li class="lit-row" data-name={searchText} data-bms={hasBms ? "1" : "0"}>
+          <a href={`${base}/literatur/${l.slug}/`}>
+            <LiteraturZitat entry={l} />
+            <span class="lit-right">
+              {l.organ_ids.length > 0 && (
+                <span class="meta-dot" title={`zitiert bei ${l.organ_ids.length} Orgel${l.organ_ids.length === 1 ? "" : "n"}`}>
+                  {l.organ_ids.length} Orgel{l.organ_ids.length === 1 ? "" : "n"}
+                </span>
+              )}
+              {hasBms && <span class="bms-dot" title="in der Bibliographie des Musikschrifttums (BMS) nachgewiesen">BMS</span>}
             </span>
-          )}
-        </a>
+          </a>
+        </li>
       );
     })}
-  </div>
+  </ul>
 </Base>
 
 <style>
+  .search-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.25rem 0 0.4rem;
+  }
   .search-bar {
-    display: block;
-    width: 100%;
-    max-width: 28rem;
-    margin: 1rem 0 0.5rem;
-    padding: 0.6rem 0.9rem;
+    flex: 1 1 24rem;
+    padding: 0.75rem 1.1rem;
     font: inherit;
+    font-size: 1.05rem;
     border: 1px solid var(--color-border);
-    border-radius: 999px;
+    border-radius: 0.5rem;
     background: var(--color-surface);
     color: var(--color-text);
   }
   .search-bar:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
-  .count-line { font-size: 0.82rem; opacity: 0.7; margin: 0 0 1rem; }
+  .bms-filter { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; white-space: nowrap; }
 
-  .lit-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 0.75rem;
+  .result-count {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin: 0.5rem 0 1.25rem;
   }
-  .lit-card {
+  .result-count-label { font-size: 0.9rem; font-weight: 400; color: var(--color-text); opacity: 0.75; margin-left: 0.4rem; }
+
+  .lit-list { list-style: none; margin: 0; padding: 0; }
+  .lit-row { border-bottom: 1px dotted var(--color-border); }
+  .lit-row[hidden] { display: none; }
+  .lit-row a {
     display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    padding: 0.7rem 0.9rem;
-    border: 1px solid var(--color-border);
-    border-radius: 0.5rem;
-    background: var(--color-surface);
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.55rem 0.3rem;
     text-decoration: none;
     color: inherit;
-    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
   }
-  .lit-card:hover {
-    border-color: var(--color-accent);
-    box-shadow: 0 2px 10px rgb(0 0 0 / 0.08);
-    transform: translateY(-1px);
+  .lit-row a:hover { background: var(--color-surface); }
+  .lit-row a:hover :global(.zitat strong) { color: var(--color-accent); }
+  .lit-row a :global(.zitat) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.95rem;
   }
-  .lit-card[hidden] { display: none; }
-  .lit-kurztitel { font-weight: 600; }
-  .lit-titel { font-size: 0.85rem; opacity: 0.8; }
-  .lit-meta { display: flex; gap: 0.35rem; flex-wrap: wrap; }
-  .meta-chip {
+  .lit-right { display: flex; align-items: baseline; gap: 0.6rem; flex-shrink: 0; }
+  .meta-dot {
     font-size: 0.72rem;
     padding: 0.1rem 0.5rem;
     border-radius: 999px;
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     opacity: 0.85;
+    white-space: nowrap;
+  }
+  .bms-dot {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-accent) 14%, transparent);
+    color: var(--color-accent);
   }
 </style>
 
 <script>
   const input = document.getElementById("lit-search") as HTMLInputElement;
-  const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>(".lit-card"));
+  const bmsOnly = document.getElementById("lit-bms-only") as HTMLInputElement;
+  const rows = Array.from(document.querySelectorAll<HTMLLIElement>(".lit-row"));
   const countEl = document.getElementById("lit-count")!;
-  const total = cards.length;
+  const total = rows.length;
 
   function update() {
     const q = input.value.trim().toLowerCase();
     let visible = 0;
-    for (const card of cards) {
-      const match = !q || (card.dataset.name ?? "").includes(q);
-      card.hidden = !match;
+    for (const row of rows) {
+      const matchesQuery = !q || (row.dataset.name ?? "").includes(q);
+      const matchesBms = !bmsOnly.checked || row.dataset.bms === "1";
+      const match = matchesQuery && matchesBms;
+      row.hidden = !match;
       if (match) visible++;
     }
-    countEl.textContent = q ? `${visible} von ${total} Einträgen` : `${total} Einträge`;
+    countEl.innerHTML = "";
+    const strong = document.createElement("span");
+    strong.textContent = visible.toLocaleString("de-DE");
+    countEl.appendChild(strong);
+    const label = document.createElement("span");
+    label.className = "result-count-label";
+    label.textContent = visible === total ? "Einträge insgesamt" : `von ${total.toLocaleString("de-DE")} Einträgen`;
+    countEl.appendChild(label);
   }
 
   input.addEventListener("input", update);
+  bmsOnly.addEventListener("change", update);
   update();
 </script>

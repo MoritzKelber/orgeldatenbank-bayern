@@ -48,6 +48,13 @@ _ROMAN_SUFFIX = re.compile(r"^(.*\S)\s+(I{1,3}|IV)\.?\s*$")
 # person worked/came from, not part of the name). Caught here and routed
 # to `beschreibung_odb` instead of being shown as if it were a forename.
 _BESCHREIBUNG_KEYWORDS = re.compile(r"orgelbau|familie|werkstatt|anstalt|gesellschaft", re.IGNORECASE)
+# A handful of lemmata have no biografie of their own at all - just a
+# cross-reference to a different lemma that already covers the same
+# builder under another spelling/name, e.g. "siehe Becker und Hiendl" or
+# "= Staudenmayer?" (the source's own "probably the same as" shorthand).
+# That is not a person, so it must not become one in the Person layer -
+# matched line.
+_CROSS_REFERENCE_ONLY = re.compile(r"^\s*(?:siehe\s+.+|=\s*.+)\s*$", re.IGNORECASE)
 
 
 class Lebensdaten(TypedDict):
@@ -171,7 +178,7 @@ def _parse_person_header(index: int, header: str) -> Person:
     }
 
 
-def parse_persons(biografie: str | None) -> list[Person]:
+def parse_persons(biografie: str | None, fallback_name: str | None = None) -> list[Person]:
     """Flatten a (possibly two-level) numbered biografie into a person list.
 
     Some lemmas bundle several *unrelated* same-surname family branches,
@@ -194,6 +201,17 @@ def parse_persons(biografie: str | None) -> list[Person]:
     person's description (e.g. "7. war 1945/46 Betriebsleiter ...").
     """
     if not biografie or not biografie.strip():
+        # No biografie text at all - but the lemma's own name (the ORGBAUER
+        # surname) still identifies a real builder, e.g. "Gerdner" with an
+        # empty biografie but one linked organ. Without this fallback such
+        # lemmata produced zero persons and - after the Erbauer-Lexikon
+        # pages were removed from the public site - became unreachable.
+        if fallback_name and fallback_name.strip():
+            return [_parse_person_header(1, fallback_name.strip())]
+        return []
+
+    stripped = biografie.strip()
+    if len(stripped.splitlines()) == 1 and _CROSS_REFERENCE_ONLY.match(stripped):
         return []
 
     lines = biografie.splitlines()

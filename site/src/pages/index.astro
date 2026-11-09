@@ -1,9 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
-import { getAllOrgans, getAllBuilders, getAllLiterature } from "../lib/data";
+import { getAllOrgans, getAllPersonen, getAllLiterature } from "../lib/data";
 
 const organs = getAllOrgans();
-const builders = getAllBuilders();
+const personen = getAllPersonen();
 const literature = getAllLiterature();
 const erhalten = organs.filter((o) => o.erhalten).length;
 const base = import.meta.env.BASE_URL;
@@ -18,7 +18,7 @@ const base = import.meta.env.BASE_URL;
   </p>
   <ul class="stats">
     <li><strong>{organs.length.toLocaleString("de-DE")}</strong> erfasste Orgeln, davon <strong>{erhalten.toLocaleString("de-DE")}</strong> erhalten</li>
-    <li><strong>{builders.length.toLocaleString("de-DE")}</strong> Einträge im Erbauer-Lexikon</li>
+    <li><strong>{personen.length.toLocaleString("de-DE")}</strong> Einträge im Personenlexikon</li>
     <li><strong>{literature.length.toLocaleString("de-DE")}</strong> Literaturnachweise im Katalog</li>
   </ul>
   <nav class="cards">
@@ -26,9 +26,9 @@ const base = import.meta.env.BASE_URL;
       <h2>Orgeln durchsuchen</h2>
       <p>Nach Ort, Landkreis, Regierungsbezirk, Erbauer und Baujahr filtern.</p>
     </a>
-    <a class="card" href={`${base}/erbauer/`}>
-      <h2>Erbauer-Lexikon</h2>
-      <p>Biografien bayerischer und auswärtiger Orgelbauer.</p>
+    <a class="card" href={`${base}/personen/`}>
+      <h2>Personenlexikon</h2>
+      <p>Einzeln erfasste Orgelbauer-Persönlichkeiten mit Lebensdaten und GND-Verknüpfung.</p>
     </a>
     <a class="card" href={`${base}/literatur/`}>
       <h2>Literaturverzeichnis</h2>

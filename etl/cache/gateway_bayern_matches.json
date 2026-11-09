@@ -1,0 +1,116 @@
+{
+  "huber-musikinstrumente-1989": {
+    "status": "ok",
+    "bv_nr": "BV001839694",
+    "url": "https://gateway-bayern.de/BV001839694",
+    "isbn_used": "3-7959-0525-7"
+  },
+  "wackernagel-musikinstrumente-1999": {
+    "status": "ok",
+    "bv_nr": "BV012740421",
+    "url": "https://gateway-bayern.de/BV012740421",
+    "isbn_used": "3-925058-40-0"
+  },
+  "brenninger-altbayern-1982": {
+    "status": "ok",
+    "bv_nr": "BV000063535",
+    "url": "https://gateway-bayern.de/BV000063535",
+    "isbn_used": "3-7654-1859-5"
+  },
+  "dettke-kinoorgeln-1995": {
+    "status": "ok",
+    "bv_nr": "BV049931448",
+    "url": "https://gateway-bayern.de/BV049931448",
+    "isbn_used": "3476012972"
+  },
+  "fischer-untermain-2004": {
+    "status": "ok",
+    "bv_nr": "BV019588203",
+    "url": "https://gateway-bayern.de/BV019588203",
+    "isbn_used": "3879650993"
+  },
+  "fs-tuerkheim-1999": {
+    "status": "ok",
+    "bv_nr": "BV013024623",
+    "url": "https://gateway-bayern.de/BV013024623",
+    "isbn_used": "3933784298"
+  },
+  "fischer-w-continuatio-sponsel-1995": {
+    "status": "ok",
+    "bv_nr": "BV010634843",
+    "url": "https://gateway-bayern.de/BV010634843",
+    "isbn_used": "3921848296"
+  },
+  "fischer-w-lexikon-1994": {
+    "status": "ok",
+    "bv_nr": "BV008174007",
+    "url": "https://gateway-bayern.de/BV008174007",
+    "isbn_used": "3-7959-0598-2"
+  },
+  "fischer-w-oberfranken-1985": {
+    "status": "ok",
+    "bv_nr": "BV025992625",
+    "url": "https://gateway-bayern.de/BV025992625",
+    "isbn_used": "3-7954-0385-5"
+  },
+  "fischer-w-schwaben-1982": {
+    "status": "ok",
+    "bv_nr": "BV000037392",
+    "url": "https://gateway-bayern.de/BV000037392",
+    "isbn_used": "3-7954-0431-2"
+  },
+  "hoeflacher-holzhey-1987": {
+    "status": "ok",
+    "bv_nr": "BV001299551",
+    "url": "https://gateway-bayern.de/BV001299551",
+    "isbn_used": "3926891017"
+  },
+  "hopfenzitz-baumeister-orgel-1991": {
+    "status": "ok",
+    "bv_nr": "BV010125708",
+    "url": "https://gateway-bayern.de/BV010125708",
+    "isbn_used": "392749612x"
+  },
+  "kraus-oberpfalz-1990": {
+    "status": "ok",
+    "bv_nr": "BV002747180",
+    "url": "https://gateway-bayern.de/BV002747180",
+    "isbn_used": "3795403871"
+  },
+  "martini-orgeldispositionen-1978": {
+    "status": "ok",
+    "bv_nr": "BV018102155",
+    "url": "https://gateway-bayern.de/BV018102155",
+    "isbn_used": "3-7618-0497-0"
+  },
+  "mohr-fuerstenfeld-1987": {
+    "status": "ok",
+    "bv_nr": "BV000834009",
+    "url": "https://gateway-bayern.de/BV000834009",
+    "isbn_used": "3-7649-2345-8"
+  },
+  "pfeiffer-regensburg-minoriten-1994": {
+    "status": "ok",
+    "bv_nr": "BV037790501",
+    "url": "https://gateway-bayern.de/BV037790501",
+    "isbn_used": "3422061479"
+  },
+  "henkel-deutsches-museum-1998": {
+    "status": "ok",
+    "bv_nr": "BV012173376",
+    "url": "https://gateway-bayern.de/BV012173376",
+    "isbn_used": "3924183465"
+  },
+  "fischer-w-mittelfranken-2001": {
+    "status": "ok",
+    "bv_nr": "BV013837741",
+    "url": "https://gateway-bayern.de/BV013837741",
+    "isbn_used": "3921848083"
+  },
+  "eisenbarth-leitner-passau-dom-iv-2002": {
+    "status": "ok",
+    "bv_nr": "BV014221558",
+    "url": "https://gateway-bayern.de/BV014221558",
+    "isbn_used": "3-7954-1469-5"
+  }
+}

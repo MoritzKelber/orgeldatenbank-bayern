@@ -183,6 +183,29 @@ export interface LiteraturKeyword {
   bemerkung: string | null;
 }
 
+export type BmsStatus = "ok" | "unsicher" | "keine";
+
+export interface BmsMatch {
+  status: BmsStatus;
+  ppn: string | null;
+  url: string | null;
+  matched_titel: string | null;
+  matched_autor: string | null;
+  matched_jahr: number | null;
+  score: number | null;
+  grund: string | null;
+  isbn: string[];
+}
+
+export type GatewayBayernStatus = "ok" | "keine";
+
+export interface GatewayBayernMatch {
+  status: GatewayBayernStatus;
+  bv_nr: string | null;
+  url: string | null;
+  isbn_used: string | null;
+}
+
 export interface LiteraturEntry {
   slug: string;
   kurztitel: string;
@@ -193,6 +216,36 @@ export interface LiteraturEntry {
   abstract: string | null;
   keywords: LiteraturKeyword[];
   organ_ids: number[];
+  bms: BmsMatch | null;
+  gateway_bayern: GatewayBayernMatch | null;
+}
+
+// Best-effort restyling of the already-free-text BIBLIO field towards the
+// citation conventions of "Die Musikforschung" (Nachname, Vorname: „Titel“,
+// in: Zeitschrift Band (Jahr), S. x-y / Nachname, Vorname: „Titel“, Ort
+// Jahr) - this is a display-only heuristic, not a re-parse into structured
+// bibliographic metadata, so an unrecognised BIBLIO string is shown as-is
+// rather than risk mangling it.
+export interface BiblioFormatted {
+  inPrefix: boolean;
+  journal: string | null;
+  rest: string;
+}
+
+const _BIBLIO_IN_PREFIX = /^in:\s*/i;
+const _BIBLIO_JOURNAL = /^(.+?)\s+(?:Heft\s*)?(\d+[a-zA-Z]?)\s*,\s*(\d{3,4}(?:[/-]\d{2,4})?)\s*(?:,\s*(?:Heft\s*\d+\s*,?\s*)?S\.?\s*([\dIVXivx.\-–,\s]+))?\.?\s*$/;
+
+export function formatBiblio(biblio: string | null): BiblioFormatted | null {
+  if (!biblio) return null;
+  const inMatch = biblio.match(_BIBLIO_IN_PREFIX);
+  const body = inMatch ? biblio.slice(inMatch[0].length) : biblio;
+  const journalMatch = body.match(_BIBLIO_JOURNAL);
+  if (journalMatch) {
+    const [, journal, band, jahr, seiten] = journalMatch;
+    const rest = `${band} (${jahr})${seiten ? `, S. ${seiten.trim()}` : ""}`;
+    return { inPrefix: true, journal: journal.trim(), rest };
+  }
+  return { inPrefix: inMatch !== null, journal: null, rest: body.trim() };
 }
 
 export function formatCount(n: number | null): string | null {

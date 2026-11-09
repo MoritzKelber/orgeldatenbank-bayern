@@ -21,7 +21,7 @@ from .person_parser import parse_persons
 def clean_bybauer_row(row: dict) -> dict:
     name = (row.get("ORGBAUER") or "").strip() or None
     biografie = (row.get("BIOGRAFIE") or "").strip() or None
-    personen = parse_persons(biografie)
+    personen = parse_persons(biografie, fallback_name=name)
     for person in personen:
         person["gnd"] = None
     return {

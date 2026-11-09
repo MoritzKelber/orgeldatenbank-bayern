@@ -11,6 +11,12 @@ export function getStaticPaths() {
 const { id } = Astro.props;
 const organ = getOrganById(id)!;
 const builder = organ.bauer_confidence === "exact" && organ.bauer_id != null ? getBuilderById(organ.bauer_id) : undefined;
+// The Erbauer-Lexikon (Lemma) pages no longer exist publicly - link to
+// the Personenlexikon instead, but only when the lemma resolved to
+// exactly one person (ambiguous otherwise, same reasoning as the
+// Bauer-Namens-Matching itself: better no link than a guessed one).
+const builderPersonHref =
+  builder && builder.personen.length === 1 ? `${import.meta.env.BASE_URL}/personen/${builder.id}-${builder.personen[0].index}/` : null;
 const base = import.meta.env.BASE_URL;
 const title = [organ.kirche, organ.ort].filter(Boolean).join(", ") || `Orgel ${organ.id}`;
 const jahrAnzeige = formatJahr(organ.jahr);
@@ -59,7 +65,7 @@ const jahrAnzeige = formatJahr(organ.jahr);
       {organ.bauer_name && (
         <tr>
           <th>Erbauer</th>
-          <td>{builder ? <a href={`${base}/erbauer/${builder.id}/`}>{organ.bauer_name}</a> : organ.bauer_name}</td>
+          <td>{builderPersonHref ? <a href={builderPersonHref}>{organ.bauer_name}</a> : organ.bauer_name}</td>
         </tr>
       )}
       {organ.manuale != null && <tr><th>Manuale</th><td>{formatCount(organ.manuale)}</td></tr>}

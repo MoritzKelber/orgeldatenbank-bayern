@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { getAllPersonen, getPersonById, getBuilderById } from "../../lib/data";
+import { getAllPersonen, getPersonById, getBuilderById, getOrganById } from "../../lib/data";
 import { BEZIEHUNG_LABELS, personDisplayName } from "../../lib/types";
 
 export function getStaticPaths() {
@@ -42,6 +42,12 @@ const vorname = gndOk ? gndVorname || vornameVoll : vornameVoll;
 const geburtsjahr = (gndOk ? gnd!.geburtsjahr : null) ?? person.lebensdaten.geburtsjahr;
 const todesjahr = (gndOk ? gnd!.todesjahr : null) ?? person.lebensdaten.todesjahr;
 const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensdaten.raw.join("; ") : null;
+
+// The Erbauer-Lexikon (Lemma) pages are no longer publicly browsable -
+// the underlying data stays fully intact (see lib/data.ts), but there is
+// no more /erbauer/{id}/ page to link to, so the lemma's biografie prose
+// and linked organs are shown right here instead of being lost.
+const lemmaOrgane = (lemma?.organ_ids ?? []).map((oid) => getOrganById(oid)).filter((o) => o !== undefined);
 ---
 <Base title={name}>
   <p><a href={`${base}/personen/`}>&larr; zurück zum Personenlexikon</a></p>
@@ -125,8 +131,8 @@ const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensda
         <td>{person.anmerkungen_kurz.length > 0 ? person.anmerkungen_kurz.join("; ") : "–"}</td>
       </tr>
       <tr>
-        <th>Lexikon-Eintrag</th>
-        <td><a href={`${base}/erbauer/${person.lemma_id}/`}>{person.lemma_name}</a></td>
+        <th>Lemma</th>
+        <td>{person.lemma_name}</td>
       </tr>
     </tbody>
   </table>
@@ -134,11 +140,23 @@ const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensda
   <section>
     <h2>Herkunft dieses Eintrags</h2>
     <p>
-      Diese Person wurde aus dem Lexikon-Eintrag <a href={`${base}/erbauer/${person.lemma_id}/`}>{person.lemma_name}</a>{" "}
-      aufgelöst{(lemma?.personen?.length ?? 0) > 1 && ` (zusammen mit ${(lemma!.personen.length - 1)} weiteren Personen desselben Namens)`}.
-      Die vollständige Biografie und verlinkte Orgeln stehen dort.
+      Diese Person wurde aus dem Lemma „{person.lemma_name}" des Erbauer-Datenbestands aufgelöst
+      {(lemma?.personen?.length ?? 0) > 1 && ` (zusammen mit ${(lemma!.personen.length - 1)} weiteren Personen desselben Namens)`}.
+      Das Lemma selbst hat keine eigene Seite mehr - Biografietext und verlinkte Orgeln stehen direkt hier.
     </p>
+    {lemma?.biografie && <p class="biografie">{lemma.biografie}</p>}
   </section>
+
+  {lemmaOrgane.length > 0 && (
+    <section>
+      <h2>Verlinkte Orgeln ({lemmaOrgane.length})</h2>
+      <ul class="organ-list">
+        {lemmaOrgane.map((o) => (
+          <li><a href={`${base}/orgeln/${o!.id}/`}>{[o!.kirche, o!.ort].filter(Boolean).join(", ")}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
 </Base>
 
 <style>
@@ -146,4 +164,6 @@ const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensda
   .facts th { width: 11rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
   .quelle-hinweis { font-size: 0.75rem; opacity: 0.6; }
   .gnd-hinweis { color: #8a6500; cursor: help; }
+  .biografie { white-space: pre-line; }
+  .organ-list { padding-left: 1.25rem; }
 </style>
