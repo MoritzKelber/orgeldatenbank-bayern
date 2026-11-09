@@ -63,7 +63,7 @@ const gatewayOk = gateway?.status === "ok";
             <th>Titel im Verbundkatalog</th>
             <td>
               <a href={gateway!.url ?? undefined} target="_blank" rel="noopener">{gateway!.bv_nr} ↗</a>
-              {" "}<span class="quelle-hinweis">(über ISBN {gateway!.isbn_used}, aus BMS)</span>
+              {" "}<span class="quelle-hinweis">{gateway!.via === "titel" ? "(über Titel, Autor und Jahr gefunden)" : `(über ISBN ${gateway!.isbn_used}, aus BMS)`}</span>
             </td>
           </tr>
         </tbody>

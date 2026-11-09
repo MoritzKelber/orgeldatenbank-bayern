@@ -205,6 +205,8 @@ export interface GatewayBayernMatch {
   bv_nr: string | null;
   url: string | null;
   isbn_used: string | null;
+  via?: "titel";
+  titel?: string | null;
 }
 
 export interface LiteraturEntry {

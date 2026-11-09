@@ -698,7 +698,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001322809",
+      "url": "https://gateway-bayern.de/BV001322809",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "400 Jahre Orgeln von St. Johann Baptist ein Beitrag zur Geschichte der Pfarrei und des Stadtteils Haidhausen ; Festschrift zur Orgelweihe und zur Gesamtrestaurierung der alten Haidhauser Kirche"
+    }
   },
   {
     "slug": "balz-vogler-1999",
@@ -1009,7 +1016,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018679951",
+      "url": "https://gateway-bayern.de/BV018679951",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Ansbach"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-augsburg-1958",
@@ -1050,7 +1064,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042655507",
+      "url": "https://gateway-bayern.de/BV042655507",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Stadt Augsburg"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-bayreuth-1959",
@@ -1078,7 +1099,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927131",
+      "url": "https://gateway-bayern.de/BV000927131",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Bayreuth [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-dinkelsbuehl-1962",
@@ -1134,7 +1162,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927139",
+      "url": "https://gateway-bayern.de/BV000927139",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Forchheim [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-fuessen-1960",
@@ -1214,7 +1249,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000919907",
+      "url": "https://gateway-bayern.de/BV000919907",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Hof [Kurzinventar]"
+    }
   },
   {
     "slug": "fs-bad-toelz-1998",
@@ -1396,7 +1438,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041127322",
+      "url": "https://gateway-bayern.de/BV041127322",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Stiftskirche St. Margareta in Baumburg"
+    }
   },
   {
     "slug": "pr-augsburg-st-stephan-1997",
@@ -1554,7 +1603,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV044658208",
+      "url": "https://gateway-bayern.de/BV044658208",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Kirche St. Georg Finsing Orgelweihe am Sonntag 6. Mai 2001"
+    }
   },
   {
     "slug": "fs-emersacker-1994",
@@ -1995,7 +2051,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010611695",
+      "url": "https://gateway-bayern.de/BV010611695",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln der Gegenwart = Organs of our time"
+    }
   },
   {
     "slug": "adelung-orgel-1978",
@@ -2532,7 +2595,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037395460",
+      "url": "https://gateway-bayern.de/BV037395460",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Rechenschaft über die zur Orgel-Reparatur bey Sct. Lorenzen verwendeten gütigen Beyträge"
+    }
   },
   {
     "slug": "anonym-nuernberg-st-lorenz-1880",
@@ -2695,7 +2765,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050185564",
+      "url": "https://gateway-bayern.de/BV050185564",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Größte Orgel der Welt die neue Orgel im Hohen Dome zu Passau ; (Dispositionen und Bemerkungen umseitig)"
+    }
   },
   {
     "slug": "anonym-passau-dom-iv-1929",
@@ -2813,7 +2890,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018683834",
+      "url": "https://gateway-bayern.de/BV018683834",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Illertissen"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-kaufbeuren-1960",
@@ -2869,7 +2953,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927135",
+      "url": "https://gateway-bayern.de/BV000927135",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Kaufbeuren [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-kempten-1959",
@@ -2909,7 +3000,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927129",
+      "url": "https://gateway-bayern.de/BV000927129",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Kempten [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-kronach-1964",
@@ -2937,7 +3035,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927149",
+      "url": "https://gateway-bayern.de/BV000927149",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Kronach [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-krumbach-1969",
@@ -3022,7 +3127,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000922155",
+      "url": "https://gateway-bayern.de/BV000922155",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Krumbach [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-kulmbach-1958",
@@ -3053,7 +3165,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927125",
+      "url": "https://gateway-bayern.de/BV000927125",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Kulmbach [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-lichtenfels-1962",
@@ -3081,7 +3200,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000915495",
+      "url": "https://gateway-bayern.de/BV000915495",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Lichtenfels [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-lkr-augsburg-1970",
@@ -3145,7 +3271,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019255231",
+      "url": "https://gateway-bayern.de/BV019255231",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Augsburg"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-marktoberdorf-1966",
@@ -3193,7 +3326,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927153",
+      "url": "https://gateway-bayern.de/BV000927153",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Marktoberdorf [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-memmingen-1959",
@@ -3235,7 +3375,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000927127",
+      "url": "https://gateway-bayern.de/BV000927127",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Memmingen [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-mindelheim-1971",
@@ -3376,7 +3523,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000934940",
+      "url": "https://gateway-bayern.de/BV000934940",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Mindelheim [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-neu-ulm-1966",
@@ -3449,7 +3603,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000919909",
+      "url": "https://gateway-bayern.de/BV000919909",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Neu-Ulm [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-neustadt-a-1972",
@@ -3578,7 +3739,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001913571",
+      "url": "https://gateway-bayern.de/BV001913571",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Rothenburg ob der Tauber [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-scheinfeld-1976",
@@ -3657,7 +3825,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000948479",
+      "url": "https://gateway-bayern.de/BV000948479",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Ehemaliger Landkreis Scheinfeld [Kurzinventar]"
+    }
   },
   {
     "slug": "bayr-kunstdenkmale-schwabmuenchen-1967",
@@ -5963,7 +6138,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000070385",
+      "url": "https://gateway-bayern.de/BV000070385",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Organs of our time"
+    }
   },
   {
     "slug": "blanchard-organs-ii-1981",
@@ -6011,7 +6193,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000070385",
+      "url": "https://gateway-bayern.de/BV000070385",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Organs of our time"
+    }
   },
   {
     "slug": "bleier-lukaskirche-1933",
@@ -6563,7 +6752,14 @@
       "grund": "Titel ähnlich (Score 100), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 1982)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004120637",
+      "url": "https://gateway-bayern.de/BV004120637",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln in Altbayern"
+    }
   },
   {
     "slug": "brenninger-altbayern-1982",
@@ -10825,7 +11021,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042915056",
+      "url": "https://gateway-bayern.de/BV042915056",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Wirken Dachauer Orgelbauer im Landkreis Erding"
+    }
   },
   {
     "slug": "brenninger-donauwoerth-1987",
@@ -10948,7 +11151,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042563383",
+      "url": "https://gateway-bayern.de/BV042563383",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Straubinger Orgelbauer Christoph Egedacher"
+    }
   },
   {
     "slug": "brenninger-ehrlich-1976",
@@ -11237,7 +11447,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035624935",
+      "url": "https://gateway-bayern.de/BV035624935",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Zur Orgelgeschichte der Stadt Freising"
+    }
   },
   {
     "slug": "brenninger-freising-st-georg-1976",
@@ -12140,7 +12357,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006461275",
+      "url": "https://gateway-bayern.de/BV006461275",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Materialien zur Orgelgeschichte des Landkreises Deggendorf"
+    }
   },
   {
     "slug": "brenninger-lkr-dingolfing-i-1974",
@@ -13442,7 +13666,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006430043",
+      "url": "https://gateway-bayern.de/BV006430043",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des Landkreises Erding in Geschichte und Gegenwart"
+    }
   },
   {
     "slug": "brenninger-lkr-freising-1975",
@@ -13696,7 +13927,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042285261",
+      "url": "https://gateway-bayern.de/BV042285261",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des Landkreises Freising"
+    }
   },
   {
     "slug": "brenninger-lkr-fuerstenfeldbruck-1982",
@@ -14052,7 +14290,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006437829",
+      "url": "https://gateway-bayern.de/BV006437829",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des ehemaligen Landkreises Griesbach"
+    }
   },
   {
     "slug": "brenninger-lkr-ingolstadt-1974",
@@ -14353,7 +14598,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022457603",
+      "url": "https://gateway-bayern.de/BV022457603",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des Landkreises Landsberg"
+    }
   },
   {
     "slug": "brenninger-lkr-landshut-1974",
@@ -14463,7 +14715,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV021779257",
+      "url": "https://gateway-bayern.de/BV021779257",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des ehemaligen Landkreises Landshut"
+    }
   },
   {
     "slug": "brenninger-lkr-laufen-1975",
@@ -14773,7 +15032,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041789220",
+      "url": "https://gateway-bayern.de/BV041789220",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Zur Orgelgeschichte des ehemaligen Landkreises Mainburg"
+    }
   },
   {
     "slug": "brenninger-lkr-muehldorf-1992",
@@ -15720,7 +15986,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042924381",
+      "url": "https://gateway-bayern.de/BV042924381",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des ehemaligen Landkreises Rottenburg a[n] d[er] Laaber"
+    }
   },
   {
     "slug": "brenninger-lkr-schongau-1976",
@@ -17262,7 +17535,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050121864",
+      "url": "https://gateway-bayern.de/BV050121864",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgelgeschichte der Wallfahrtskirche Ramersdorf"
+    }
   },
   {
     "slug": "brenninger-muenchen-st-michael-1983",
@@ -17333,7 +17613,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004600507",
+      "url": "https://gateway-bayern.de/BV004600507",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Niederbayern als Orgellandschaft"
+    }
   },
   {
     "slug": "brenninger-ob-zw-lech-und-isar-1975",
@@ -17899,7 +18186,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041372941",
+      "url": "https://gateway-bayern.de/BV041372941",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Passauer Orgelbauer des 19. Jahrhunderts"
+    }
   },
   {
     "slug": "brenninger-schwaben-1986",
@@ -18682,7 +18976,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000476319",
+      "url": "https://gateway-bayern.de/BV000476319",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln in Schwaben"
+    }
   },
   {
     "slug": "brenninger-seligenthal-1974-75",
@@ -18736,7 +19037,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042229594",
+      "url": "https://gateway-bayern.de/BV042229594",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgelgeschichte der Cistercienserinnenabtei Seligenthal bei Landshut"
+    }
   },
   {
     "slug": "brenninger-sixt-1976",
@@ -18777,7 +19085,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042563351",
+      "url": "https://gateway-bayern.de/BV042563351",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Johann Sixt, Orgelmacher von Achslach bei Viechtach"
+    }
   },
   {
     "slug": "brenninger-steingaden-1996-97",
@@ -20427,7 +20742,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008885735",
+      "url": "https://gateway-bayern.de/BV008885735",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Fuggerkapelle bei St. Anna in Augsburg"
+    }
   },
   {
     "slug": "conrad-stumm-1955-6",
@@ -20991,7 +21313,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008141589",
+      "url": "https://gateway-bayern.de/BV008141589",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "1250 Jahre Prosselsheim mit Seligenstadt und Püssensheim ; [vom Königshof und Schloß Prosselsheim zur Amtskellerei Balthasar Neumanns ; Geschichte und Geschichten aus drei Orten der Gauhochfläche Mainfrankens]"
+    }
   },
   {
     "slug": "dettke-kinoorgeln-1995",
@@ -21219,7 +21548,14 @@
       "grund": "Titel ähnlich (Score 100), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 2002)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764900",
+      "url": "https://gateway-bayern.de/BV018764900",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Passauer Domorgel"
+    }
   },
   {
     "slug": "eisenbarth-passau-dom-ii-1986",
@@ -21256,7 +21592,14 @@
       "grund": "Titel ähnlich (Score 100), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 2002)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005473867",
+      "url": "https://gateway-bayern.de/BV005473867",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Passauer Domorgel"
+    }
   },
   {
     "slug": "eisenbarth-passau-dom-iii-1995",
@@ -21279,7 +21622,14 @@
       "grund": "Titel ähnlich (Score 100), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 2002)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010259261",
+      "url": "https://gateway-bayern.de/BV010259261",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Passauer Domorgel"
+    }
   },
   {
     "slug": "eisenbarth-lampl-hellring-2000",
@@ -21428,7 +21778,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931518",
+      "url": "https://gateway-bayern.de/BV038931518",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Amorbacher Stumm-Orgel"
+    }
   },
   {
     "slug": "eppelsheim-ottobeuren-1984",
@@ -21829,7 +22186,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024827249",
+      "url": "https://gateway-bayern.de/BV024827249",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Hermann Eule Orgelbau 1872-1997 ein Beitrag zur Orgelbaugeschichte Sachsens"
+    }
   },
   {
     "slug": "fi-125-jahre-steinmeyer-1972",
@@ -25058,7 +25422,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004773630",
+      "url": "https://gateway-bayern.de/BV004773630",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Stiftskirche St. Martin in Landshut herausgegeben anläßlich der Orgelweihe am St. Martinstag, 11. November 1984"
+    }
   },
   {
     "slug": "fs-langenbruck-1995",
@@ -25211,7 +25582,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012741536",
+      "url": "https://gateway-bayern.de/BV012741536",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel, Altargestaltung, Innenrenovierung 1997/98 Stiftskirche Mariä Himmelfahrt, Laufen"
+    }
   },
   {
     "slug": "fs-lengenbach-1979",
@@ -25328,7 +25706,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002440567",
+      "url": "https://gateway-bayern.de/BV002440567",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe in der Martin-Luther-Kirche in Lichtenfels 25. Oktober 1987"
+    }
   },
   {
     "slug": "fs-lindau-mariae-himmelfahrt-1993",
@@ -25391,7 +25776,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049378651",
+      "url": "https://gateway-bayern.de/BV049378651",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der katholischen Kirche Lisberg 1994"
+    }
   },
   {
     "slug": "fs-lohr-1982",
@@ -25450,7 +25842,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012881640",
+      "url": "https://gateway-bayern.de/BV012881640",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in der Pfarrkirche St. Martin Luhe 3. Adventssonntag 14. Dezember 1997"
+    }
   },
   {
     "slug": "fs-maihingen-1991",
@@ -25592,7 +25991,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007667810",
+      "url": "https://gateway-bayern.de/BV007667810",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Pfarrkirche von Malgersdorf (Landkreis Rottal-Inn) ; [Festschrift anläßl. d. Vollendung d. neuen Orgel in d. Pfarrkirche zu Malgersdorf ... d. 27. Nov. 1977]"
+    }
   },
   {
     "slug": "fs-mallersdorf-1986",
@@ -25626,7 +26032,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010314572",
+      "url": "https://gateway-bayern.de/BV010314572",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel in der Pfarrkirche St. Johannes Mallersdorf"
+    }
   },
   {
     "slug": "fs-maria-beinberg-1988",
@@ -25716,7 +26129,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011148241",
+      "url": "https://gateway-bayern.de/BV011148241",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Einweihung der neuen Orgel in der Pfarrkirche Mariaposching am 17. September 1995"
+    }
   },
   {
     "slug": "fs-marklkofen-1983",
@@ -26082,7 +26502,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011012869",
+      "url": "https://gateway-bayern.de/BV011012869",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Weihe der Eisenbarth-Orgel am Kirchweihsonntag, 29. September 1996, Pfarrkirche St. Michael - Michelsneukirchen ; Geschichte der Michelsneukirchener Kirchenorgeln und ihrer Organisten und Mesner"
+    }
   },
   {
     "slug": "fs-mindelstetten-1986",
@@ -26471,7 +26898,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047034531",
+      "url": "https://gateway-bayern.de/BV047034531",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel von St. Peter und Paul Feldmoching München"
+    }
   },
   {
     "slug": "fs-muenchen-hl-blut-1984",
@@ -26501,7 +26935,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000470073",
+      "url": "https://gateway-bayern.de/BV000470073",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "50 Jahre Heilig Blut, München-Bogenhausen 1934 - 1984"
+    }
   },
   {
     "slug": "fs-muenchen-hl-familie-1992",
@@ -26827,7 +27268,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010998014",
+      "url": "https://gateway-bayern.de/BV010998014",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Anton 100 Jahre Kindergarten, 50 Jahre Pfarrei, 25 Jahre Altenclub"
+    }
   },
   {
     "slug": "fs-muenchen-st-bernhard-1996",
@@ -26853,7 +27301,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040445389",
+      "url": "https://gateway-bayern.de/BV040445389",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Weihe der neuen Rieger-Orgel am 17.11.1996 Pfarrei St. Bernhard, München"
+    }
   },
   {
     "slug": "fs-muenchen-st-bonifaz-1976",
@@ -26878,7 +27333,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039526371",
+      "url": "https://gateway-bayern.de/BV039526371",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Sankt Bonifaz und seine neue Orgel"
+    }
   },
   {
     "slug": "fs-muenchen-st-clemens-1974",
@@ -26926,7 +27388,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023235932",
+      "url": "https://gateway-bayern.de/BV023235932",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "75 Jahre St. Franziskus - Untergiesing"
+    }
   },
   {
     "slug": "fs-muenchen-st-ignatius-1983",
@@ -27125,7 +27594,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039713635",
+      "url": "https://gateway-bayern.de/BV039713635",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe und Orgelkonzert am 13. Oktober 1996 St. Rita München-Bogenhausen"
+    }
   },
   {
     "slug": "fs-muenchen-st-stephan-1988",
@@ -27348,7 +27824,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037372447",
+      "url": "https://gateway-bayern.de/BV037372447",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Klais-Orgel der Pfarr- und Wallfahrts-Kirche Neubeuern"
+    }
   },
   {
     "slug": "fs-neubiberg-1989",
@@ -27414,7 +27897,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042797061",
+      "url": "https://gateway-bayern.de/BV042797061",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe St. Peter 4. Dezember 1988"
+    }
   },
   {
     "slug": "fs-neugermering-1984",
@@ -27511,7 +28001,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047279628",
+      "url": "https://gateway-bayern.de/BV047279628",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "250 Jahre Mariahilfbergkirche in Neumarkt i. d. OPf. Altar- und Orgelweihe am 30. Oktober 1977"
+    }
   },
   {
     "slug": "fs-neumarkt-opf-st-johannes-1982",
@@ -27632,7 +28129,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013733334",
+      "url": "https://gateway-bayern.de/BV013733334",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in der Pfarrkirche St. Sebastian Neuses-Kronach Sonntag, 26. September 1993"
+    }
   },
   {
     "slug": "fs-niederaichbach-1986",
@@ -27657,7 +28161,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010824606",
+      "url": "https://gateway-bayern.de/BV010824606",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Josef Niederaichbach - Orgelweihe am 19. Oktober 1986."
+    }
   },
   {
     "slug": "fs-niederlauer-1976",
@@ -28010,7 +28521,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036058457",
+      "url": "https://gateway-bayern.de/BV036058457",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe und zur Renovierung der Nussdorfer Pfarrkirche St. Laurentius"
+    }
   },
   {
     "slug": "fs-oeberau-1988",
@@ -28069,7 +28587,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018811537",
+      "url": "https://gateway-bayern.de/BV018811537",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelchronik Obbach, 1777-1973"
+    }
   },
   {
     "slug": "fs-oberammergau-1993",
@@ -28188,7 +28713,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036887388",
+      "url": "https://gateway-bayern.de/BV036887388",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Chororgel der Klosterkirche in Oberelchingen wird eingeweiht"
+    }
   },
   {
     "slug": "fs-oberhaching-1990",
@@ -28433,7 +28965,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037189270",
+      "url": "https://gateway-bayern.de/BV037189270",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe am 24. November 1996 um 9.00 Uhr in Oberwössen durch Regionalbischof Schwarzenböck"
+    }
   },
   {
     "slug": "fs-oberzell-1982",
@@ -28525,7 +29064,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042881816",
+      "url": "https://gateway-bayern.de/BV042881816",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel in der Pfarrkirche St. Andreas zu Ochsenfurt"
+    }
   },
   {
     "slug": "fi-steinmeyer-werkverzeichnis-iii-1972",
@@ -30221,7 +30767,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012818324",
+      "url": "https://gateway-bayern.de/BV012818324",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Steinmeyer-Orgeln seit 1847"
+    }
   },
   {
     "slug": "fi-steinmeyer-werkverzeichnis-iv-1979",
@@ -31165,7 +31718,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050591928",
+      "url": "https://gateway-bayern.de/BV050591928",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "60 Jahre Orgelbau 1924-1984 Meisterbetrieb Familie Weiss, Zellingen/Main"
+    }
   },
   {
     "slug": "fi-zeilhuber-werkverzeichnis-1979",
@@ -31380,7 +31940,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047838561",
+      "url": "https://gateway-bayern.de/BV047838561",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Pfarrkirche St. Jakobus in Abenberg"
+    }
   },
   {
     "slug": "fs-adelsried-1989",
@@ -31445,7 +32012,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036664077",
+      "url": "https://gateway-bayern.de/BV036664077",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift und Programm zur Weihe der neuen Klais-Orgel 3. Adventssonntag - 17. Dezember 1989"
+    }
   },
   {
     "slug": "fs-alburg-1989",
@@ -31689,7 +32263,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023195665",
+      "url": "https://gateway-bayern.de/BV023195665",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelgeschichte der Stiftskirche zu Aschaffenburg"
+    }
   },
   {
     "slug": "fischer-aschaffenburg-ulf-1975",
@@ -33187,7 +33768,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV043954197",
+      "url": "https://gateway-bayern.de/BV043954197",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Romanischen Basilika St. Michael in Altenstadt"
+    }
   },
   {
     "slug": "fs-altkirchen-o-j",
@@ -33212,7 +33800,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018686333",
+      "url": "https://gateway-bayern.de/BV018686333",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Margareth in Altkirchen"
+    }
   },
   {
     "slug": "fs-altlochham-1998",
@@ -33363,7 +33958,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035088451",
+      "url": "https://gateway-bayern.de/BV035088451",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in St. Georg, Amberg Sonntag, 8. Februar 1981"
+    }
   },
   {
     "slug": "fs-amerang-1987",
@@ -33623,7 +34225,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039741116",
+      "url": "https://gateway-bayern.de/BV039741116",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Einweihung der neuen Orgel, Pfarrkirche St. Michael, Aschaffenburg-Damm 24. März 1974"
+    }
   },
   {
     "slug": "fs-aschaffenburg-st-peter-u-a-1984",
@@ -33679,7 +34288,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010596368",
+      "url": "https://gateway-bayern.de/BV010596368",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Weihe der neuen Beckerath-Orgel Sonntag, 27. November 1988 in St. Peter und Paul Aschheim"
+    }
   },
   {
     "slug": "fs-atting-1979",
@@ -33775,7 +34391,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001777618",
+      "url": "https://gateway-bayern.de/BV001777618",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln im Hohen Dom zu Augsburg"
+    }
   },
   {
     "slug": "fs-augsburg-erloeserkirche-baer-1986",
@@ -33865,7 +34488,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036059649",
+      "url": "https://gateway-bayern.de/BV036059649",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Eine neue Orgel für Heilig Kreuz"
+    }
   },
   {
     "slug": "fs-augsburg-st-albert-1983",
@@ -33961,7 +34591,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV014883480",
+      "url": "https://gateway-bayern.de/BV014883480",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Einweihung der Orgel in St. Anna nach dem 2. Bauabschnitt"
+    }
   },
   {
     "slug": "fs-augsburg-st-anton-1971",
@@ -34022,7 +34659,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022786383",
+      "url": "https://gateway-bayern.de/BV022786383",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in St. Don Bosco Augsburg"
+    }
   },
   {
     "slug": "fs-augsburg-st-georg-u-michael-1985",
@@ -34229,7 +34873,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000279713",
+      "url": "https://gateway-bayern.de/BV000279713",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "S[ank]t Ulrich und Afra, Augsburg"
+    }
   },
   {
     "slug": "fs-augsburg-st-ursula-1978",
@@ -34289,7 +34940,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001783601",
+      "url": "https://gateway-bayern.de/BV001783601",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe St. Stefanus Autenried Sonntag, 15. Nov. 1987"
+    }
   },
   {
     "slug": "fs-babenhausen-1987",
@@ -34453,7 +35111,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040236310",
+      "url": "https://gateway-bayern.de/BV040236310",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Opus - 1722 - Klais zur Orgelweihe am 16. April 1995 ; St. Konrad, Bad Neustadt"
+    }
   },
   {
     "slug": "fs-bad-steben-1980",
@@ -34651,7 +35316,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005377763",
+      "url": "https://gateway-bayern.de/BV005377763",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe im Dom zu Bamberg Sonntag Laetare, 28. März 1976"
+    }
   },
   {
     "slug": "fs-bamberg-heilig-grab-1997",
@@ -34740,7 +35412,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010268787",
+      "url": "https://gateway-bayern.de/BV010268787",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Oberen Pfarre Bamberg"
+    }
   },
   {
     "slug": "fs-bamberg-st-anna-1990",
@@ -34807,7 +35486,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001862522",
+      "url": "https://gateway-bayern.de/BV001862522",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe am 16. April 1972 in St. Gangolf Bamberg"
+    }
   },
   {
     "slug": "fs-bayreuth-fachakademie-1995",
@@ -34833,7 +35519,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011757814",
+      "url": "https://gateway-bayern.de/BV011757814",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Goll-Orgel der Fachakademie für Evangelische Kirchenmusik Bayreuth"
+    }
   },
   {
     "slug": "fs-bayreuth-heilig-geist-1980",
@@ -35043,7 +35736,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011356092",
+      "url": "https://gateway-bayern.de/BV011356092",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift 250 Jahre St.-Jakobus-Kirche in Binsbach 1746 - 1996"
+    }
   },
   {
     "slug": "fs-bogenberg-1994",
@@ -35076,7 +35776,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010767979",
+      "url": "https://gateway-bayern.de/BV010767979",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Einweihung der neuen Rieger-Orgel in der Pfarr- und Wallfahrtskirche Bogenberg am 15. August 1994 ... ; Orgelfest 15. August bis 9. Oktober 1994"
+    }
   },
   {
     "slug": "fs-breitbrunn-hl-geist-1973",
@@ -35130,7 +35837,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012872705",
+      "url": "https://gateway-bayern.de/BV012872705",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Mathis-Orgel in der Pfarrkirche Mariä Himmelfahrt zu Breitenbrunn"
+    }
   },
   {
     "slug": "fs-bruckberg-1985",
@@ -35187,7 +35901,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050375443",
+      "url": "https://gateway-bayern.de/BV050375443",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Pfarrkirche St. Valentin, Buch Festschrift zur Orgelweihe am 25. Juni 1995"
+    }
   },
   {
     "slug": "fs-burghaslach-1982",
@@ -35403,7 +36124,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036957708",
+      "url": "https://gateway-bayern.de/BV036957708",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Neue Orgel in der Pfarrkirche St. Konrad in Burlafingen bei Neu-Ulm [am 6. Dezember 1970, 15 Uhr]"
+    }
   },
   {
     "slug": "fs-buxheim-1994",
@@ -35435,7 +36163,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011050609",
+      "url": "https://gateway-bayern.de/BV011050609",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgel in der Pfarrkirche St. Peter und Paul Buxheim [diese Festschrift wurde anläßlich der Orgelweihe der neuen Orgel in der Pfarrkirche St. Peter und Paul Buxheim am 23. Oktober 1994 ... herausgegeben]"
+    }
   },
   {
     "slug": "fs-coburg-st-marien-1981",
@@ -35483,7 +36218,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002518587",
+      "url": "https://gateway-bayern.de/BV002518587",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die große Orgel der St. Morizkirche in Coburg Festschrift zur Einweihung der Schuke-Orgel in der St. Morizkirche, 1. Dezember 1989"
+    }
   },
   {
     "slug": "fs-dachau-1985",
@@ -35534,7 +36276,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV043563552",
+      "url": "https://gateway-bayern.de/BV043563552",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Weihe der neuen Orgel in der Friedenskirche Dachau am Sonntag Kantate 10. Mai 1998"
+    }
   },
   {
     "slug": "fs-dasing-1976",
@@ -35707,7 +36456,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001197454",
+      "url": "https://gateway-bayern.de/BV001197454",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Pfarr- und Klosterkirche Dießen a. Ammersee"
+    }
   },
   {
     "slug": "fs-dietfurt-1974",
@@ -35765,7 +36521,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036886709",
+      "url": "https://gateway-bayern.de/BV036886709",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe Stadtpfarrkirche St. Peter Dillingen 9. April 1978"
+    }
   },
   {
     "slug": "fs-dillingen-st-peter-ii-1978",
@@ -35850,7 +36613,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000736303",
+      "url": "https://gateway-bayern.de/BV000736303",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe der historischen, erweiterten Orgel (1884 - 1987) in der Kath. Stadtpfarrkirche St. Johannes zu Dingolfing am Fest d. Hl. Cäcilia, Sonntag 22. Nov. 1987 ..."
+    }
   },
   {
     "slug": "fs-dollnstein-1998",
@@ -36102,7 +36872,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011516238",
+      "url": "https://gateway-bayern.de/BV011516238",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel von St. Laurentius, Ebern Festschrift zur Orgelweihe am 24. November 1996"
+    }
   },
   {
     "slug": "fs-ebrach-1984",
@@ -36146,7 +36923,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010205198",
+      "url": "https://gateway-bayern.de/BV010205198",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Weihe der Hauptorgel in der Pfarrkirche Ebrach [23.9.1984]"
+    }
   },
   {
     "slug": "fs-egglfing-1990",
@@ -36553,7 +37337,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011030475",
+      "url": "https://gateway-bayern.de/BV011030475",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Einweihung der Orgel und zur Segnung des Pfarr- und Jugendheimes Essenbach, im November 1994"
+    }
   },
   {
     "slug": "fs-esting-1984",
@@ -36578,7 +37369,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039573788",
+      "url": "https://gateway-bayern.de/BV039573788",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Elisabeth Esting Festschrift zur Orgelweihe am 12. Febr. 1984"
+    }
   },
   {
     "slug": "fs-eurasburg-1992",
@@ -36822,7 +37620,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036886240",
+      "url": "https://gateway-bayern.de/BV036886240",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in der Stadtpfarrkirche St. Georg, Freising 25./26. April 1970"
+    }
   },
   {
     "slug": "fs-frensdorf-1987",
@@ -37246,7 +38051,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011868411",
+      "url": "https://gateway-bayern.de/BV011868411",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe am 1. November 1997 um 17 Uhr in der Evangelisch-Lutherischen Kirche Furth i. Wald"
+    }
   },
   {
     "slug": "fs-gangkofen-1992",
@@ -37386,7 +38198,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010305817",
+      "url": "https://gateway-bayern.de/BV010305817",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Pfarrkirche St. Peter in Geltolfing Festschrift zur Weihe am 15. Mai 1995"
+    }
   },
   {
     "slug": "fs-gerach-1992",
@@ -38112,7 +38931,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010492648",
+      "url": "https://gateway-bayern.de/BV010492648",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelchronik von Hammelburg zur Einweihung der Klais-Orgel in der Pfarrkirche St. Johannes am 19. Dezember 1993"
+    }
   },
   {
     "slug": "fs-hausen-1994",
@@ -38163,7 +38989,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050843411",
+      "url": "https://gateway-bayern.de/BV050843411",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Weihe der Orgel in der Pfarrkirche \"St. Johannes D.T.\" Heideck, Sonntag Laetare, 1.April 1973"
+    }
   },
   {
     "slug": "fs-heimertingen-1988",
@@ -38285,7 +39118,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035576935",
+      "url": "https://gateway-bayern.de/BV035576935",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel zu St. Martin in Helmstadt Festschrift zur Orgelweihe am Sonntag, 17. Juli 1994"
+    }
   },
   {
     "slug": "fs-heroldsberg-1978",
@@ -38336,7 +39176,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019607324",
+      "url": "https://gateway-bayern.de/BV019607324",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgel von St. Nikolaus Herrsching"
+    }
   },
   {
     "slug": "fs-heufeld-1988",
@@ -38366,7 +39213,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042059690",
+      "url": "https://gateway-bayern.de/BV042059690",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in Heufeld-St. Korbinian"
+    }
   },
   {
     "slug": "fs-hienheim-1990",
@@ -38391,7 +39245,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003606894",
+      "url": "https://gateway-bayern.de/BV003606894",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in der Pfarrkirche St. Georg Hienheim am 6. Mai 1990"
+    }
   },
   {
     "slug": "fs-hilgertshausen-1993",
@@ -38470,7 +39331,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050262981",
+      "url": "https://gateway-bayern.de/BV050262981",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Vleugels-Orgel, St. Vitus Hirschaid"
+    }
   },
   {
     "slug": "fs-hirschau-1985",
@@ -38668,7 +39536,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011311082",
+      "url": "https://gateway-bayern.de/BV011311082",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Stadtpfarrkirche Hollfeld [herausgegeben zur Weihe der Orgel am 2. Oktober 1994]"
+    }
   },
   {
     "slug": "fs-holzhausen-1980",
@@ -38782,7 +39657,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013430308",
+      "url": "https://gateway-bayern.de/BV013430308",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrei St. Laurentius, Holztraubach Weihe der neuen Jann-Orgel"
+    }
   },
   {
     "slug": "fs-hopfen-1989",
@@ -38959,7 +39841,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011900879",
+      "url": "https://gateway-bayern.de/BV011900879",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe St. Christoph Ingolstadt 22. Juli 1984"
+    }
   },
   {
     "slug": "fs-irgertsheim-1990",
@@ -39037,7 +39926,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011433163",
+      "url": "https://gateway-bayern.de/BV011433163",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Balthasar-Freiwiß-Orgel Irsee [Festschrift zur Restauration von 1987 - 1990]"
+    }
   },
   {
     "slug": "fs-irsing-1995",
@@ -39063,7 +39959,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039712927",
+      "url": "https://gateway-bayern.de/BV039712927",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in Irsing 29. Oktober 1995"
+    }
   },
   {
     "slug": "fs-jaegerwirth-1985",
@@ -39176,7 +40079,14 @@
       "grund": "Titel ähnlich (Score 78), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 2013)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV044371296",
+      "url": "https://gateway-bayern.de/BV044371296",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Dreifaltigkeitskirche zu Kaufbeuren"
+    }
   },
   {
     "slug": "fs-kaufbeuren-herz-jesu-1994",
@@ -39231,7 +40141,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022786214",
+      "url": "https://gateway-bayern.de/BV022786214",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Stadtpfarrkirche Heilige Familie Kaufbeuren"
+    }
   },
   {
     "slug": "fs-kempten-st-anton-1979",
@@ -39257,7 +40174,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011323451",
+      "url": "https://gateway-bayern.de/BV011323451",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in Kempten (Allgäu), St. Anton am 6. Mai 1979"
+    }
   },
   {
     "slug": "fs-kempten-st-mang-1987",
@@ -39290,7 +40214,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009598032",
+      "url": "https://gateway-bayern.de/BV009598032",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe am Sonntag Kantate 17. Mai 1987, St. Mangkirche Kempten"
+    }
   },
   {
     "slug": "fs-kiefersfelden-1990",
@@ -39481,7 +40412,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012823506",
+      "url": "https://gateway-bayern.de/BV012823506",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel in der Pfarrkirche St. Johannes zu Kitzingen Festschrift zur Orgelweihe am 11. November 1996"
+    }
   },
   {
     "slug": "fs-klingen-1991",
@@ -39692,7 +40630,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011307802",
+      "url": "https://gateway-bayern.de/BV011307802",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Kath. Stadtpfarrkirche in Kronach"
+    }
   },
   {
     "slug": "fs-kulmbach-o-j",
@@ -39903,7 +40848,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV044697646",
+      "url": "https://gateway-bayern.de/BV044697646",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Stiftskirche St. Martin in Landshut"
+    }
   },
   {
     "slug": "fs-offenbau-1992",
@@ -40555,7 +41507,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039713663",
+      "url": "https://gateway-bayern.de/BV039713663",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe und Orgelkonzert am 26. Dezember 1995 St. Stephan Putzbrunn"
+    }
   },
   {
     "slug": "fs-rebdorf-1979",
@@ -40671,7 +41630,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012971907",
+      "url": "https://gateway-bayern.de/BV012971907",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift und Programm der Festwochen zur Einweihung der neuen Jann-Orgel in der Neupfarrkirche Regensburg 8. Juni - 22. Juni 1986"
+    }
   },
   {
     "slug": "fs-regensburg-st-anton-1996",
@@ -40697,7 +41663,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013736981",
+      "url": "https://gateway-bayern.de/BV013736981",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Jann-Orgel in der Pfarrkirche St. Anton Regensburg"
+    }
   },
   {
     "slug": "fs-regensburg-st-josef-1994",
@@ -40724,7 +41697,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040249267",
+      "url": "https://gateway-bayern.de/BV040249267",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Pfarrkirche St. Josef Regensburg-Reinhausen"
+    }
   },
   {
     "slug": "fs-regensburg-st-michael-1986",
@@ -40752,7 +41732,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV045079366",
+      "url": "https://gateway-bayern.de/BV045079366",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in St. Michael Regensburg-Keilberg"
+    }
   },
   {
     "slug": "fs-regensburg-st-vitus-1997",
@@ -40880,7 +41867,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV014441225",
+      "url": "https://gateway-bayern.de/BV014441225",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift über die neue Ziegltrum-Orgel in der Christuskirche zu Roding"
+    }
   },
   {
     "slug": "fs-roggenburg-1986",
@@ -41089,7 +42083,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010044766",
+      "url": "https://gateway-bayern.de/BV010044766",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in der Pfarrkirche St. Peter zu Sandsbach am 2. Adventsonntag, 4. Dezember 1983"
+    }
   },
   {
     "slug": "fs-sankt-ottilien-1994",
@@ -41351,7 +42352,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013396720",
+      "url": "https://gateway-bayern.de/BV013396720",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Thoma-Orgel zu Schlehdorf, St. Tertulin Festschrift anlässlich der Wiedereinweihung nach vollendeter Restaurierung am 17. September 2000"
+    }
   },
   {
     "slug": "fs-schluesselfeld-1988",
@@ -41477,7 +42485,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008118626",
+      "url": "https://gateway-bayern.de/BV008118626",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe am 27. März 1988"
+    }
   },
   {
     "slug": "fs-schondorf-kreuzordenskloster-1990",
@@ -41567,7 +42582,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006616856",
+      "url": "https://gateway-bayern.de/BV006616856",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Singt und spielt dem Herrn die neue Orgel der St. Johanniskirche in Schweinfurt"
+    }
   },
   {
     "slug": "fs-seeg-1927",
@@ -41617,7 +42639,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009615999",
+      "url": "https://gateway-bayern.de/BV009615999",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Weihe der wiedererstandenen \"Mozart-Orgel\" in der Pfarrkirche St. Lambertus, Kloster Seeon am 1. Mai 1994"
+    }
   },
   {
     "slug": "fs-seibelsdorf-1984",
@@ -41739,7 +42768,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011420902",
+      "url": "https://gateway-bayern.de/BV011420902",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Pfarrkirche St. Marien, Simbach a. Inn"
+    }
   },
   {
     "slug": "fs-sonthofen-st-michael-1985",
@@ -41762,7 +42798,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010766969",
+      "url": "https://gateway-bayern.de/BV010766969",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe in St. Michael, Sonthofen"
+    }
   },
   {
     "slug": "fs-speinshart-1996",
@@ -41807,7 +42850,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011237217",
+      "url": "https://gateway-bayern.de/BV011237217",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Pfarr- und Klosterkirche Speinshart"
+    }
   },
   {
     "slug": "fs-staadorf-1978",
@@ -42004,7 +43054,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008317812",
+      "url": "https://gateway-bayern.de/BV008317812",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Weihe der neuen Orgel anläßlich der 625-Jahrfeier des Klosters der Karmeliten Samstag, 2. Oktober 1993 in der Karmelitenkirche Straubing"
+    }
   },
   {
     "slug": "fs-straubing-st-jakob-1967",
@@ -42038,7 +43095,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011657487",
+      "url": "https://gateway-bayern.de/BV011657487",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel von St. Jakob in Straubing"
+    }
   },
   {
     "slug": "fs-straubing-st-peter-1982",
@@ -42200,7 +43264,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010605527",
+      "url": "https://gateway-bayern.de/BV010605527",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe Pfarrkirche Pauli Bekehrung Taufkirchen (Vils) 31. Mai 1987"
+    }
   },
   {
     "slug": "fs-teisnach-1987",
@@ -42257,7 +43328,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010314467",
+      "url": "https://gateway-bayern.de/BV010314467",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Pfarrkirche St. Martin Tettenweis"
+    }
   },
   {
     "slug": "fs-teublitz-1990",
@@ -42395,7 +43473,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010657707",
+      "url": "https://gateway-bayern.de/BV010657707",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Neue Orgel in der Ev.-Ref. Kirche zu Theinselberg"
+    }
   },
   {
     "slug": "fs-thuengfeld-1992",
@@ -42479,7 +43564,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010034104",
+      "url": "https://gateway-bayern.de/BV010034104",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Pfarrkirche von Triftern (Landkreis Rottal-Inn) ; [Festschrift anläßlich der Vollendung der Orgel in der St. Stephans-Pfarrkirche zu Triftern ... am 24. März 1974]"
+    }
   },
   {
     "slug": "fs-trockau-1976",
@@ -42685,7 +43777,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040241254",
+      "url": "https://gateway-bayern.de/BV040241254",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel von St. Alto, Unterhaching"
+    }
   },
   {
     "slug": "fs-unterkoeblitz-1985",
@@ -42978,7 +44077,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022353372",
+      "url": "https://gateway-bayern.de/BV022353372",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe in der Pfarrkirche St. Michael Vilshofen/Opf. 14. Oktober 1984"
+    }
   },
   {
     "slug": "fs-violau-1973",
@@ -43085,7 +44191,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009862907",
+      "url": "https://gateway-bayern.de/BV009862907",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pontifikalamt mit Orgelweihe durch Hochwst. Herrn Bischof Manfred Müller am 22. November 1992 in der Pfarrkirche St. Ägidius zu Volkenschwand"
+    }
   },
   {
     "slug": "fs-vorra-1993",
@@ -43149,7 +44262,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012632906",
+      "url": "https://gateway-bayern.de/BV012632906",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe am 10. Mai 1998 in Waldau"
+    }
   },
   {
     "slug": "fs-walderbach-1982",
@@ -43765,7 +44885,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000230354",
+      "url": "https://gateway-bayern.de/BV000230354",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgel-Weihe in der Heilig-Kreuz-Kapelle zu Wilburgstetten am 8. September 1984"
+    }
   },
   {
     "slug": "fs-wilhermsdorf-1992",
@@ -44143,7 +45270,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039579837",
+      "url": "https://gateway-bayern.de/BV039579837",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Klais-Orgel in der Heiligkreuz-Kirche Würzburg [Festschrift zur Orgelweihe am 13. September 1998]"
+    }
   },
   {
     "slug": "fs-wuerzburg-kaeppele-1991",
@@ -44392,7 +45526,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047025827",
+      "url": "https://gateway-bayern.de/BV047025827",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelweihe St. Radegundis, Wulfertshausen 22. November 1987"
+    }
   },
   {
     "slug": "fs-zaitzkofen-1987",
@@ -44508,7 +45649,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041419361",
+      "url": "https://gateway-bayern.de/BV041419361",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Jann-Orgel in der Pfarrkirche St. Johannes Bapt. in Zolling"
+    }
   },
   {
     "slug": "fs-zuchering-1986",
@@ -44852,7 +46000,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035877181",
+      "url": "https://gateway-bayern.de/BV035877181",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Johann Andreas Stein, der Augsburger Orgel- und Klavierbauer"
+    }
   },
   {
     "slug": "fischer-100-j-bdo-1991",
@@ -45511,7 +46666,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005396181",
+      "url": "https://gateway-bayern.de/BV005396181",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln des Landkreises Bad Kissingen"
+    }
   },
   {
     "slug": "fischer-lkr-lohr-1964",
@@ -46975,7 +48137,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022454058",
+      "url": "https://gateway-bayern.de/BV022454058",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln und Orgelbaukunst im Spessart und Untermain-Gebiet"
+    }
   },
   {
     "slug": "fischer-spessart-positiv-1964",
@@ -47144,7 +48313,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006686033",
+      "url": "https://gateway-bayern.de/BV006686033",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Orgelbauergeschlecht Walcker in Ludwigsburg die Menschen, die Zeiten, das Werk"
+    }
   },
   {
     "slug": "fischer-wuerzburg-1965",
@@ -48036,7 +49212,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022454161",
+      "url": "https://gateway-bayern.de/BV022454161",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Alte Orgeln im Amberger Umland"
+    }
   },
   {
     "slug": "fischer-w-auerbach-1975",
@@ -48162,7 +49345,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035095495",
+      "url": "https://gateway-bayern.de/BV035095495",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Augsburger Domorgeln im 19. Jahrhundert"
+    }
   },
   {
     "slug": "fischer-w-augsburg-dom-iii-1969",
@@ -48196,7 +49386,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023409323",
+      "url": "https://gateway-bayern.de/BV023409323",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Barockorgeln des Augsburger Domes"
+    }
   },
   {
     "slug": "fischer-w-augsburg-dom-iv-1980",
@@ -48292,7 +49489,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023409411",
+      "url": "https://gateway-bayern.de/BV023409411",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Maerz-Orgel des Augsburger Domes"
+    }
   },
   {
     "slug": "fischer-w-augsburg-dom-vi-1989",
@@ -48426,7 +49630,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004715618",
+      "url": "https://gateway-bayern.de/BV004715618",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Augsburger Domorgeln"
+    }
   },
   {
     "slug": "fischer-w-augsburger-ob-i-1973",
@@ -48608,7 +49819,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023409372",
+      "url": "https://gateway-bayern.de/BV023409372",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Notizen zum Orgelbau der Augustinerchorherren in Bayern"
+    }
   },
   {
     "slug": "fischer-w-baechingen-1982",
@@ -49857,7 +51075,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019430959",
+      "url": "https://gateway-bayern.de/BV019430959",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Alte Orgeln im Coburger Land"
+    }
   },
   {
     "slug": "fischer-w-continuatio-sponsel-1995",
@@ -50809,7 +52034,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018795625",
+      "url": "https://gateway-bayern.de/BV018795625",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Analecta zum Ellwanger Orgelbau"
+    }
   },
   {
     "slug": "fischer-w-erlangen-1983",
@@ -52188,7 +53420,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019791533",
+      "url": "https://gateway-bayern.de/BV019791533",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Fugger-Orgel von St. Anna in Augsburg ein Strukturmodell schwäbischer Renaissanceprospekte"
+    }
   },
   {
     "slug": "fischer-w-funtsch-1978",
@@ -53177,7 +54416,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035213982",
+      "url": "https://gateway-bayern.de/BV035213982",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kaisheimer Orgelchronik"
+    }
   },
   {
     "slug": "fischer-w-kaisheim-ii-1982",
@@ -55931,7 +57177,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022457493",
+      "url": "https://gateway-bayern.de/BV022457493",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Meisterwerke des Orgelbaus in Nordschwaben"
+    }
   },
   {
     "slug": "fischer-w-nuernberg-ulf-1988",
@@ -57260,7 +58513,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008879507",
+      "url": "https://gateway-bayern.de/BV008879507",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Organa Cisterciensia Bavariae"
+    }
   },
   {
     "slug": "fischer-w-o-franciscana-1994",
@@ -59373,7 +60633,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV017693660",
+      "url": "https://gateway-bayern.de/BV017693660",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Nachweise zur Dokumentation untergegangener Orgelprospekte in Unterfranken"
+    }
   },
   {
     "slug": "fischer-w-orgelstatistik-1974",
@@ -60113,7 +61380,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050500791",
+      "url": "https://gateway-bayern.de/BV050500791",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Eine Orgelumfrage im Bistum Freising anno 1814"
+    }
   },
   {
     "slug": "fischer-w-ottensoos-1993",
@@ -62470,7 +63744,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042941616",
+      "url": "https://gateway-bayern.de/BV042941616",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Augsburger Domkapellmeister Paul Steichele und die Orgel"
+    }
   },
   {
     "slug": "fischer-w-steinmeyer-i-1972",
@@ -62534,7 +63815,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009021429",
+      "url": "https://gateway-bayern.de/BV009021429",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelbau Steinmeyer 1847 - 1972"
+    }
   },
   {
     "slug": "fischer-w-steinmeyer-ii-1973",
@@ -64649,7 +65937,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018801435",
+      "url": "https://gateway-bayern.de/BV018801435",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Georg Friedrich-Steinmeyer <1819-1901> und sein Werk"
+    }
   },
   {
     "slug": "fischer-w-stoetten-1995",
@@ -66299,7 +67594,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001096689",
+      "url": "https://gateway-bayern.de/BV001096689",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Historische Orgeln in Unterfranken"
+    }
   },
   {
     "slug": "fischer-w-vierzehnheiligen-1974",
@@ -67745,7 +69047,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006150455",
+      "url": "https://gateway-bayern.de/BV006150455",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgelbaufamilie Hofmann aus Neustadt b. Coburg und ihre Orgeln"
+    }
   },
   {
     "slug": "gebhard-hof-1952",
@@ -67986,7 +69295,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011433163",
+      "url": "https://gateway-bayern.de/BV011433163",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Balthasar-Freiwiß-Orgel Irsee [Festschrift zur Restauration von 1987 - 1990]"
+    }
   },
   {
     "slug": "geyer-noerdlingen-1897",
@@ -68221,7 +69537,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036011435",
+      "url": "https://gateway-bayern.de/BV036011435",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Arnold Rucker, Orgelmacher von Seligenstadt"
+    }
   },
   {
     "slug": "griesbacher-alte-o-1927",
@@ -69295,7 +70618,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037747371",
+      "url": "https://gateway-bayern.de/BV037747371",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Handbuch des Bistums Passau"
+    }
   },
   {
     "slug": "hb-des-bistums-passau-1981",
@@ -70969,7 +72299,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005823649",
+      "url": "https://gateway-bayern.de/BV005823649",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Musikpflege in Alt-Bayreuth"
+    }
   },
   {
     "slug": "hartmann-bayreuth-1914",
@@ -71494,7 +72831,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013775258",
+      "url": "https://gateway-bayern.de/BV013775258",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Johannes Klais (1852 - 1925) ein rheinischer Orgelbauer und sein Schaffen"
+    }
   },
   {
     "slug": "hoeflacher-holzhey-1987",
@@ -72689,7 +74033,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049805901",
+      "url": "https://gateway-bayern.de/BV049805901",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelgeschichte des Markgrafentums Bayreuth"
+    }
   },
   {
     "slug": "hofner-bayreuth-ii-1931",
@@ -72750,7 +74101,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035260959",
+      "url": "https://gateway-bayern.de/BV035260959",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchenmusik und Orgelbau im Markgrafentum Bayreuth"
+    }
   },
   {
     "slug": "hofner-bayreuth-iv-1932",
@@ -72814,7 +74172,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049805898",
+      "url": "https://gateway-bayern.de/BV049805898",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Silbermannschule im Markgrafentum Bayreuth"
+    }
   },
   {
     "slug": "hofner-bayreuth-spitalkirche-1931",
@@ -72850,7 +74215,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049834865",
+      "url": "https://gateway-bayern.de/BV049834865",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln der Spital- und Friedhofskirche zu Bayreuth"
+    }
   },
   {
     "slug": "hofner-bayreuth-stadtkirche-1957",
@@ -73128,7 +74500,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049806536",
+      "url": "https://gateway-bayern.de/BV049806536",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln in der Michaeliskirche zu Hof"
+    }
   },
   {
     "slug": "hofner-hof-st-michaelis-ii-1933",
@@ -73889,7 +75268,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012526990",
+      "url": "https://gateway-bayern.de/BV012526990",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Matthias Tretzscher ein Kulmbacher Orgelbauer der Barockzeit ; ein Beitrag zur Geschichte des Orgelbaus im östlichen Franken"
+    }
   },
   {
     "slug": "hofner-tretzscherschueler-i-1966",
@@ -74358,7 +75744,14 @@
       "grund": "Titel ähnlich (Score 99), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 1987)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005744339",
+      "url": "https://gateway-bayern.de/BV005744339",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "The organ its history and construction"
+    }
   },
   {
     "slug": "hornung-oberalteich-1912",
@@ -74446,7 +75839,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022217077",
+      "url": "https://gateway-bayern.de/BV022217077",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die beiden Restaurationen des Bamberger Domes zur Geschichte der Denkmalpflege im frühen 19. Jahrhundert"
+    }
   },
   {
     "slug": "hubel-oettingen-1928",
@@ -76958,7 +78358,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006321686",
+      "url": "https://gateway-bayern.de/BV006321686",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stilla-Klosterkirche Abenberg"
+    }
   },
   {
     "slug": "kf-aindling-1980",
@@ -76989,7 +78396,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932733",
+      "url": "https://gateway-bayern.de/BV038932733",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche St. Martin, Aindling"
+    }
   },
   {
     "slug": "kf-aldersbach-1984",
@@ -77104,7 +78518,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513618",
+      "url": "https://gateway-bayern.de/BV024513618",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Altenstadt Wallfahrtskirche"
+    }
   },
   {
     "slug": "kf-altmannstein-1981",
@@ -77132,7 +78553,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513201",
+      "url": "https://gateway-bayern.de/BV024513201",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche HL. Kreuz Altmannstein"
+    }
   },
   {
     "slug": "kf-altoetting-hl-kapelle-1985",
@@ -77250,7 +78678,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931794",
+      "url": "https://gateway-bayern.de/BV038931794",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche St. Justinus, Alzenau"
+    }
   },
   {
     "slug": "kf-amberg-schulkirche-1960",
@@ -77280,7 +78715,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932072",
+      "url": "https://gateway-bayern.de/BV038932072",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Amberg, ehem. Salesianerinnenkirche (Schulkirche)"
+    }
   },
   {
     "slug": "kf-amberg-st-georg-1984",
@@ -77311,7 +78753,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931881",
+      "url": "https://gateway-bayern.de/BV038931881",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche St. Georg in Amberg"
+    }
   },
   {
     "slug": "kf-amberg-st-martin-1977",
@@ -77342,7 +78791,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932279",
+      "url": "https://gateway-bayern.de/BV038932279",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche St. Martin in Amberg"
+    }
   },
   {
     "slug": "kf-andechs-i-o-j",
@@ -77372,7 +78828,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036433788",
+      "url": "https://gateway-bayern.de/BV036433788",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kloster- und Wallfahrtskirche Andechs"
+    }
   },
   {
     "slug": "kf-andechs-ii-1956",
@@ -77400,7 +78863,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011691473",
+      "url": "https://gateway-bayern.de/BV011691473",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Andechs"
+    }
   },
   {
     "slug": "kf-appertshofen-1981",
@@ -77461,7 +78931,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764656",
+      "url": "https://gateway-bayern.de/BV018764656",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen zu Arnstein"
+    }
   },
   {
     "slug": "kf-aschaffenburg-stiftskirche-1972",
@@ -77489,7 +78966,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003621503",
+      "url": "https://gateway-bayern.de/BV003621503",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stiftskirche Sankt Peter und Alexander, Aschaffenburg"
+    }
   },
   {
     "slug": "kf-aschaffenburg-ulf-1979",
@@ -77519,7 +79003,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009522601",
+      "url": "https://gateway-bayern.de/BV009522601",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirche zu Unserer Lieben Frau, Aschaffenburg kath. Pfarrkirche, Bistum Würzburg"
+    }
   },
   {
     "slug": "kf-au-hallertau-1984",
@@ -77549,7 +79040,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931801",
+      "url": "https://gateway-bayern.de/BV038931801",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche St. Vitus, Au/Hallertau"
+    }
   },
   {
     "slug": "kf-auerbach-1980",
@@ -77611,7 +79109,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV025049634",
+      "url": "https://gateway-bayern.de/BV025049634",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Dom zu Augsburg"
+    }
   },
   {
     "slug": "kf-augsburg-herz-jesu-1977",
@@ -77642,7 +79147,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018650823",
+      "url": "https://gateway-bayern.de/BV018650823",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche Herz Jesu Augsburg-Pfersee. (2., völlig neubearb. Aufl.)"
+    }
   },
   {
     "slug": "kf-augsburg-st-anna-ep-1985",
@@ -77670,7 +79182,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039836562",
+      "url": "https://gateway-bayern.de/BV039836562",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Evang. St. Anna-Kirche Augsburg"
+    }
   },
   {
     "slug": "kf-augsburg-st-anton-1975",
@@ -77698,7 +79217,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932337",
+      "url": "https://gateway-bayern.de/BV038932337",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Antoniuskirche, Augsburg"
+    }
   },
   {
     "slug": "kf-augsburg-st-don-bosco-1964",
@@ -77818,7 +79344,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041801234",
+      "url": "https://gateway-bayern.de/BV041801234",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Peter am Perlach in Augsburg Wallfahrtskirche zur Gottesmutter - Maria Knotenlöserin"
+    }
   },
   {
     "slug": "kf-augsburg-st-stephan-1976",
@@ -77848,7 +79381,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932484",
+      "url": "https://gateway-bayern.de/BV038932484",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Benediktinerstift St. Stephan Augsburg"
+    }
   },
   {
     "slug": "kf-augsburg-st-ulrich-u-afra-1955",
@@ -77906,7 +79446,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931724",
+      "url": "https://gateway-bayern.de/BV038931724",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Pfarrkirche Augsfeld"
+    }
   },
   {
     "slug": "kf-bad-brueckenau-1982",
@@ -78024,7 +79571,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000206082",
+      "url": "https://gateway-bayern.de/BV000206082",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St.-Jakobus-Kirche, Bad Kissingen Diözese Würzburg, Reg.-Bez. Unterfranken"
+    }
   },
   {
     "slug": "kf-bad-koenigshofen-1977",
@@ -78187,7 +79741,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018679512",
+      "url": "https://gateway-bayern.de/BV018679512",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Bad Wiessee"
+    }
   },
   {
     "slug": "kf-bad-woerishofen-1980",
@@ -78305,7 +79866,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006521384",
+      "url": "https://gateway-bayern.de/BV006521384",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirche und Kloster der Karmeliten, Bamberg"
+    }
   },
   {
     "slug": "kf-bamberg-st-anna-1984",
@@ -78333,7 +79901,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005142622",
+      "url": "https://gateway-bayern.de/BV005142622",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche St. Anna Bamberg Patrozinium am 26. Juli"
+    }
   },
   {
     "slug": "kf-bamberg-st-gangolf-1982",
@@ -78361,7 +79936,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000088293",
+      "url": "https://gateway-bayern.de/BV000088293",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Sankt Gangolf in Bamberg ehem. Stiftskirche, seit 1806 Pfarrkirche"
+    }
   },
   {
     "slug": "kf-bamberg-st-heinrich-1976",
@@ -78391,7 +79973,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931595",
+      "url": "https://gateway-bayern.de/BV038931595",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche St. Heinrich, Bamberg"
+    }
   },
   {
     "slug": "kf-bamberg-st-jakobus-1957",
@@ -78450,7 +80039,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005380689",
+      "url": "https://gateway-bayern.de/BV005380689",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Michael Bamberg ehem. Benediktinerabtei, Grabkirche des hl. Otto"
+    }
   },
   {
     "slug": "kf-bamberg-ulf-1983",
@@ -78478,7 +80074,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006521385",
+      "url": "https://gateway-bayern.de/BV006521385",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche U. L. Frau Bamberg, Obere Pfarre"
+    }
   },
   {
     "slug": "kf-banz-1980",
@@ -78513,7 +80116,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023827012",
+      "url": "https://gateway-bayern.de/BV023827012",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kloster Banz"
+    }
   },
   {
     "slug": "kf-banz-u-vierzehnheiligen-1960",
@@ -78545,7 +80155,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010472810",
+      "url": "https://gateway-bayern.de/BV010472810",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Banz und Vierzehnheiligen"
+    }
   },
   {
     "slug": "kf-bayreuth-ulf-1985",
@@ -78605,7 +80222,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932041",
+      "url": "https://gateway-bayern.de/BV038932041",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Bayreuth, St. Georgen Ordenskirche und Stiftskirche"
+    }
   },
   {
     "slug": "kf-bayrischzell-1985",
@@ -78726,7 +80350,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018765228",
+      "url": "https://gateway-bayern.de/BV018765228",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Beratzhausen"
+    }
   },
   {
     "slug": "kf-berching-opf-1985",
@@ -78790,7 +80421,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012742262",
+      "url": "https://gateway-bayern.de/BV012742262",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Maria Gern Pfarrei St. Andreas Berchtesgaden ; Erzdiözese München und Freising"
+    }
   },
   {
     "slug": "kf-bergkirchen-1985",
@@ -78822,7 +80460,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931611",
+      "url": "https://gateway-bayern.de/BV038931611",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche St. Johannes Baptist in Bergkirchen"
+    }
   },
   {
     "slug": "kf-bernbeuren-o-j",
@@ -78880,7 +80525,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932341",
+      "url": "https://gateway-bayern.de/BV038932341",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Pfarrkirche St. Michael, Bertoldshofen Stadt Marktoberdorf ; Ldkr. Ostallgäu ; Bistum Augsburg"
+    }
   },
   {
     "slug": "kf-bettbrunn-1937",
@@ -78939,7 +80591,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002033687",
+      "url": "https://gateway-bayern.de/BV002033687",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Beuerberg Pfarrkirche, ehem. Augustiner-Chorherren-Stiftskirche ; Landkreis Wolfratshausen Obb., Erzbistum München-Freising"
+    }
   },
   {
     "slug": "kf-biberbach-1980",
@@ -79003,7 +80662,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002299885",
+      "url": "https://gateway-bayern.de/BV002299885",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Birkenstein Pfarrei Fischbachau, Bezirksamt Miesbach"
+    }
   },
   {
     "slug": "kf-birkenstein-ii-1950",
@@ -79035,7 +80701,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035367629",
+      "url": "https://gateway-bayern.de/BV035367629",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Birkenstein bei Fischbachau"
+    }
   },
   {
     "slug": "kf-bobingen-1975",
@@ -79065,7 +80738,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018675249",
+      "url": "https://gateway-bayern.de/BV018675249",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Liebfrauenkirche Bobingen"
+    }
   },
   {
     "slug": "kf-brendlorenzen-1974",
@@ -79095,7 +80775,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002210401",
+      "url": "https://gateway-bayern.de/BV002210401",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Brendlorenzen"
+    }
   },
   {
     "slug": "kf-buehl-am-alpsee-1955",
@@ -79183,7 +80870,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764897",
+      "url": "https://gateway-bayern.de/BV018764897",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Buggenhofen"
+    }
   },
   {
     "slug": "kf-burghausen-engl-fraeulein-1983",
@@ -79266,7 +80960,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010660033",
+      "url": "https://gateway-bayern.de/BV010660033",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadt und Landkreis Lindau (Bodensee)"
+    }
   },
   {
     "slug": "kunstdenkmaeler-lkr-sonthofen-1964",
@@ -79289,7 +80990,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010663353",
+      "url": "https://gateway-bayern.de/BV010663353",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landkreis Sonthofen"
+    }
   },
   {
     "slug": "kwasnik-muenchen-deutsches-museum-1955",
@@ -79423,7 +81131,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008021631",
+      "url": "https://gateway-bayern.de/BV008021631",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln im Passauer Dom"
+    }
   },
   {
     "slug": "laengin-gruensink-1983",
@@ -79644,7 +81359,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018681388",
+      "url": "https://gateway-bayern.de/BV018681388",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Klosterkirche Maria-Medingen"
+    }
   },
   {
     "slug": "kf-maria-steinbach-i-1937",
@@ -79769,7 +81491,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932330",
+      "url": "https://gateway-bayern.de/BV038932330",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarr- und Wallfahrtskirche Marienweiher, Ofr. Landkreis Stadtsteinach"
+    }
   },
   {
     "slug": "kf-marktsteinach-1975",
@@ -79834,7 +81563,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006591816",
+      "url": "https://gateway-bayern.de/BV006591816",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Mellrichstadt, St. Kilian"
+    }
   },
   {
     "slug": "kf-memmingen-mariae-himmelfahrt-1975",
@@ -79920,7 +81656,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006383451",
+      "url": "https://gateway-bayern.de/BV006383451",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Sankt Josef Memmingen katholische Stadtpfarrkirche, Diözese Augsburg ; Patrozinium: 19. März"
+    }
   },
   {
     "slug": "kf-memmingen-unser-frauen-1983",
@@ -80075,7 +81818,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006321940",
+      "url": "https://gateway-bayern.de/BV006321940",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Kirchen Miltenberg am Main"
+    }
   },
   {
     "slug": "kf-mindelheim-vor-1950",
@@ -80135,7 +81885,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764767",
+      "url": "https://gateway-bayern.de/BV018764767",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche St. Jakob Mitterteich"
+    }
   },
   {
     "slug": "kf-moenchsdeggingen-1979",
@@ -80389,7 +82146,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006619704",
+      "url": "https://gateway-bayern.de/BV006619704",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche St. Michael Berg am Laim Stadt München Erzdiözese München u. Freising"
+    }
   },
   {
     "slug": "kf-muenchen-blutenburg-1952",
@@ -80478,7 +82242,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039868126",
+      "url": "https://gateway-bayern.de/BV039868126",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Dom zu Unserer Lieben Frau in München"
+    }
   },
   {
     "slug": "kf-muenchen-erloeserkirche-1981",
@@ -80663,7 +82434,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932030",
+      "url": "https://gateway-bayern.de/BV038932030",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche Namen Jesu, München-Laim"
+    }
   },
   {
     "slug": "kf-muenchen-st-anna-harlaching-1981",
@@ -80927,7 +82705,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037796784",
+      "url": "https://gateway-bayern.de/BV037796784",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Pfarr- und Hochschulkirche St. Hildegard, München-Pasing"
+    }
   },
   {
     "slug": "kf-muenchen-st-hildegard-ii-nach-1978",
@@ -80993,7 +82778,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932731",
+      "url": "https://gateway-bayern.de/BV038932731",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei St. Johann Baptist, München-Haidhausen"
+    }
   },
   {
     "slug": "kf-muenchen-st-johann-b-joh-k-1980",
@@ -81110,7 +82902,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006460701",
+      "url": "https://gateway-bayern.de/BV006460701",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Stadtpfarrkirche St. Maximilian Dekanat München-Mitte. Patron Hl. Maximilian (12. Okt.)"
+    }
   },
   {
     "slug": "kf-muenchen-st-michael-i-vor-1950",
@@ -81473,7 +83272,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018765078",
+      "url": "https://gateway-bayern.de/BV018765078",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Augustinerkirche Munnerstadt"
+    }
   },
   {
     "slug": "kf-murnau-1961",
@@ -81659,7 +83465,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000204733",
+      "url": "https://gateway-bayern.de/BV000204733",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei Neufahrn"
+    }
   },
   {
     "slug": "kf-neukirchen-b-hl-blut-1982",
@@ -81693,7 +83506,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004705952",
+      "url": "https://gateway-bayern.de/BV004705952",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarr-, Wallfahrts- und Klosterkirche Neukirchen beim Hl. Blut Kirchenführer ; Lkr. Cham, Bistum Regensburg"
+    }
   },
   {
     "slug": "kf-neumarkt-st-veit-1973",
@@ -81727,7 +83547,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024514128",
+      "url": "https://gateway-bayern.de/BV024514128",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Neumarkt St. Veit die Pfarr- und ehem. Benediktinerklosterkirche"
+    }
   },
   {
     "slug": "kf-neumarkt-opf-hofkirche-1984",
@@ -81760,7 +83587,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932656",
+      "url": "https://gateway-bayern.de/BV038932656",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Hofkirche Neumarkt, Stadtpfarrkirche zu Unserer Lieben Frau"
+    }
   },
   {
     "slug": "kf-neumarkt-opf-mariahilfberg-1979",
@@ -81792,7 +83626,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764785",
+      "url": "https://gateway-bayern.de/BV018764785",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Mariahilf über Neumarkt/Opf"
+    }
   },
   {
     "slug": "kf-neustadt-aisch-1984",
@@ -81824,7 +83665,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005845184",
+      "url": "https://gateway-bayern.de/BV005845184",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Evang.-Luth. Stadtkirche Neustadt a.d. Aisch"
+    }
   },
   {
     "slug": "kf-neustadt-waldnaab-st-felix-1982",
@@ -81856,7 +83704,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000140796",
+      "url": "https://gateway-bayern.de/BV000140796",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Franziskaner-Minoriten Klosterkirche St. Felix Neustadt, Waldnaab"
+    }
   },
   {
     "slug": "kf-neustadt-waldnaab-st-georg-1979",
@@ -81886,7 +83741,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024610262",
+      "url": "https://gateway-bayern.de/BV024610262",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Neustadt an der Waldnaab kath. Stadtpfarrkirche St. Georg"
+    }
   },
   {
     "slug": "kf-niederalteich-1972",
@@ -81917,7 +83779,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012736316",
+      "url": "https://gateway-bayern.de/BV012736316",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Niederalteich Benediktinerabtei und Basilika"
+    }
   },
   {
     "slug": "kf-niederaschau-1957",
@@ -81949,7 +83818,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018681371",
+      "url": "https://gateway-bayern.de/BV018681371",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Niederaschau"
+    }
   },
   {
     "slug": "kf-niederschoenenfeld-1981",
@@ -82241,7 +84117,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008416756",
+      "url": "https://gateway-bayern.de/BV008416756",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Oberalteich"
+    }
   },
   {
     "slug": "kf-oberammergau-1968",
@@ -82372,7 +84255,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000140798",
+      "url": "https://gateway-bayern.de/BV000140798",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Maria Himmelfahrt Obermedlingen ehem. Dominikanerkloster und jetzige Pfarrkirche ; Lkr. Dillingen"
+    }
   },
   {
     "slug": "kf-obernburg-m-1974",
@@ -82500,7 +84390,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037822512",
+      "url": "https://gateway-bayern.de/BV037822512",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Pfarrkirche Oberstdorf i(m) A(llgäu)"
+    }
   },
   {
     "slug": "kf-oberstdorf-maria-loretto-1983",
@@ -82563,7 +84460,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002299579",
+      "url": "https://gateway-bayern.de/BV002299579",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche St. Andreas, Ochsenfurt"
+    }
   },
   {
     "slug": "kf-olching-1981",
@@ -82753,7 +84657,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040262385",
+      "url": "https://gateway-bayern.de/BV040262385",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Ottobeuren Basilika u. Benediktinerabteikirche"
+    }
   },
   {
     "slug": "kf-paring-1975",
@@ -82781,7 +84692,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764668",
+      "url": "https://gateway-bayern.de/BV018764668",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Paring, Kirche und Kloster St. Michael"
+    }
   },
   {
     "slug": "kf-burghausen-gymnasium-1981",
@@ -82841,7 +84759,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513107",
+      "url": "https://gateway-bayern.de/BV024513107",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchen in der Stadtpfarrei Burghausen St. Jakob"
+    }
   },
   {
     "slug": "kf-chammuenster-1973",
@@ -82904,7 +84829,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002734402",
+      "url": "https://gateway-bayern.de/BV002734402",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchen der Pfarrei Chieming und Hart"
+    }
   },
   {
     "slug": "kf-dachau-o-j",
@@ -82996,7 +84928,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012117436",
+      "url": "https://gateway-bayern.de/BV012117436",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Dettelbach, Main"
+    }
   },
   {
     "slug": "kf-diessen-1985",
@@ -83024,7 +84963,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047538036",
+      "url": "https://gateway-bayern.de/BV047538036",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Dießen am Ammersee Pfarrkirche ; ehem. Augustiner-Chorherren-Stiftskirche"
+    }
   },
   {
     "slug": "kf-dietfurt-1980",
@@ -83143,7 +85089,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513711",
+      "url": "https://gateway-bayern.de/BV024513711",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Klosterkirche der Franziskanerinnen Dillingen a.d.D."
+    }
   },
   {
     "slug": "kf-dillingen-studienkirche-1984",
@@ -83212,7 +85165,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764841",
+      "url": "https://gateway-bayern.de/BV018764841",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Ehem[alige] Propstei- und Wallfahrtskirche S. Maria de Rosario Dimbach"
+    }
   },
   {
     "slug": "kf-dingolfing-1985",
@@ -83314,7 +85274,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931708",
+      "url": "https://gateway-bayern.de/BV038931708",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Maria Dorfen, Pfarr- und Wallfahrtskirche Landkreis Erding/Obb."
+    }
   },
   {
     "slug": "kf-ebern-1978",
@@ -83345,7 +85312,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513073",
+      "url": "https://gateway-bayern.de/BV024513073",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen von Ebern, Ufr."
+    }
   },
   {
     "slug": "kf-ebersberg-1980",
@@ -83666,7 +85640,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005845285",
+      "url": "https://gateway-bayern.de/BV005845285",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Einberg evangelische Pfarrkirche"
+    }
   },
   {
     "slug": "kf-endorf-1975",
@@ -83700,7 +85681,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513342",
+      "url": "https://gateway-bayern.de/BV024513342",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei Endorf"
+    }
   },
   {
     "slug": "kf-engelberg-main-1980",
@@ -83731,7 +85719,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513343",
+      "url": "https://gateway-bayern.de/BV024513343",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kloster- und Wallfahrtskirche Engelberg ob dem Main"
+    }
   },
   {
     "slug": "kf-englburg-1983",
@@ -83787,7 +85782,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002898789",
+      "url": "https://gateway-bayern.de/BV002898789",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Ensdorf, das ehemalige Benediktinerstift"
+    }
   },
   {
     "slug": "kf-ensdorf-ii-1968",
@@ -83883,7 +85885,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932427",
+      "url": "https://gateway-bayern.de/BV038932427",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Eslarn"
+    }
   },
   {
     "slug": "kf-ettal-o-j",
@@ -83943,7 +85952,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037803291",
+      "url": "https://gateway-bayern.de/BV037803291",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Eutenhausen, Pfarr- und Wallfahrtskirche"
+    }
   },
   {
     "slug": "kf-faehrbrueck-1957",
@@ -84012,7 +86028,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007505785",
+      "url": "https://gateway-bayern.de/BV007505785",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Fahrenberg Wallfahrtskirche in d. Pfarrei Waldthurn"
+    }
   },
   {
     "slug": "kf-fischbachau-1936",
@@ -84103,7 +86126,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513835",
+      "url": "https://gateway-bayern.de/BV024513835",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Flintsbach am Inn Pfarrkirche St. Martin"
+    }
   },
   {
     "slug": "kf-forchheim-1971",
@@ -84161,7 +86191,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV017378980",
+      "url": "https://gateway-bayern.de/BV017378980",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Frauenau"
+    }
   },
   {
     "slug": "kf-frauenroth-1984",
@@ -84189,7 +86226,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005473735",
+      "url": "https://gateway-bayern.de/BV005473735",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Ehem. Klosterkirche, kath. Filialkirche Frauenroth Pfarrei Burkardroth, Bistum Würzburg"
+    }
   },
   {
     "slug": "kf-frauenwoerth-i-o-j",
@@ -84343,7 +86387,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018682487",
+      "url": "https://gateway-bayern.de/BV018682487",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Mariendom zu Freising"
+    }
   },
   {
     "slug": "kf-freising-st-georg-1972",
@@ -84613,7 +86664,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513410",
+      "url": "https://gateway-bayern.de/BV024513410",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche Furth im Wald"
+    }
   },
   {
     "slug": "kf-gaibach-1984",
@@ -84679,7 +86737,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513411",
+      "url": "https://gateway-bayern.de/BV024513411",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Rasso Gammenried kath. Wallfahrtskirche"
+    }
   },
   {
     "slug": "kf-garmisch-1957",
@@ -84707,7 +86772,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932636",
+      "url": "https://gateway-bayern.de/BV038932636",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Garmisch, (Germarisgova), Alte Kirche, bis 1733 Pfarrkirche"
+    }
   },
   {
     "slug": "kf-gars-1976",
@@ -84740,7 +86812,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007602347",
+      "url": "https://gateway-bayern.de/BV007602347",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Gars am Inn Kloster- und Pfarrkirche ; Landkreis Mühldorf"
+    }
   },
   {
     "slug": "kf-geiselhoering-1983",
@@ -84859,7 +86938,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018672959",
+      "url": "https://gateway-bayern.de/BV018672959",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Gerolzhofen"
+    }
   },
   {
     "slug": "kf-glonn-1983",
@@ -84894,7 +86980,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932660",
+      "url": "https://gateway-bayern.de/BV038932660",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei Glonn"
+    }
   },
   {
     "slug": "kf-gmund-tegernsee-1984",
@@ -84953,7 +87046,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006621734",
+      "url": "https://gateway-bayern.de/BV006621734",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Gnadenberg ehem. Birgittenkloster ; Landkreis Neumarkt"
+    }
   },
   {
     "slug": "kf-goessweinstein-1960",
@@ -85072,7 +87172,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018684198",
+      "url": "https://gateway-bayern.de/BV018684198",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Wallfahrtskirche Grafrath/Amper"
+    }
   },
   {
     "slug": "kf-grassau-1984",
@@ -85132,7 +87239,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006351497",
+      "url": "https://gateway-bayern.de/BV006351497",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Griesstetten"
+    }
   },
   {
     "slug": "kf-grongoergen-1983",
@@ -85258,7 +87372,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018681381",
+      "url": "https://gateway-bayern.de/BV018681381",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirche zu Unserer Lieben Frau in Günzburg"
+    }
   },
   {
     "slug": "kf-gunzenhausen-1961",
@@ -85283,7 +87404,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018765071",
+      "url": "https://gateway-bayern.de/BV018765071",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath, Stadtpfarrkirche St. Marien/Gunzenhausen"
+    }
   },
   {
     "slug": "kf-gutenstetten-1975",
@@ -85373,7 +87501,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931883",
+      "url": "https://gateway-bayern.de/BV038931883",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Hadersbach Expositurkirche in der Pfarrei Sallach, Ndb., Landkreis Mallersdorf"
+    }
   },
   {
     "slug": "kf-halfing-1975",
@@ -85401,7 +87536,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005851302",
+      "url": "https://gateway-bayern.de/BV005851302",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Halfing, Obb. Pfarr- und Wallfahrtskirche"
+    }
   },
   {
     "slug": "kf-hammelburg-1977",
@@ -85432,7 +87574,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006622204",
+      "url": "https://gateway-bayern.de/BV006622204",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche St. Johannes Baptista Hammelburg Bistum Würzburg, Lkr. Bad Kissingen"
+    }
   },
   {
     "slug": "kf-hammelburg-kloster-altstadt-1984",
@@ -85639,7 +87788,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932498",
+      "url": "https://gateway-bayern.de/BV038932498",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche St. Oswald, Hepberg"
+    }
   },
   {
     "slug": "kf-herrieden-1985",
@@ -85670,7 +87826,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004778606",
+      "url": "https://gateway-bayern.de/BV004778606",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche (ehem. Stiftskirche) St. Vitus und St. Deocar Herrieden Patrozinien: St. Vitus (15. Juni), St. Deocar (7. Juni) Ldkr. Ansbach Diözese Eichstätt"
+    }
   },
   {
     "slug": "kf-herzogenaurach-1983",
@@ -85700,7 +87863,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513517",
+      "url": "https://gateway-bayern.de/BV024513517",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Herzogenaurach katholische Pfarrkirche St. Magdalena"
+    }
   },
   {
     "slug": "kf-hessenthal-1979",
@@ -85763,7 +87933,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018765096",
+      "url": "https://gateway-bayern.de/BV018765096",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche Hilpoltstein"
+    }
   },
   {
     "slug": "kf-himmelthal-1980",
@@ -86018,7 +88195,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931710",
+      "url": "https://gateway-bayern.de/BV038931710",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Evangelisch-lutherische Hauptkirche St. Michaelis, Hof."
+    }
   },
   {
     "slug": "kf-hohenkammer-1981",
@@ -86050,7 +88234,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041799872",
+      "url": "https://gateway-bayern.de/BV041799872",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei Hohenkammer"
+    }
   },
   {
     "slug": "kf-hohenpeissenberg-1966",
@@ -86109,7 +88300,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931946",
+      "url": "https://gateway-bayern.de/BV038931946",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche Hohenschambach"
+    }
   },
   {
     "slug": "kf-hollfeld-1984",
@@ -86173,7 +88371,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040038908",
+      "url": "https://gateway-bayern.de/BV040038908",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die ehemalige Benediktinerinnenabteikirche Holzen bei Nordendorf"
+    }
   },
   {
     "slug": "kf-ilmmuenster-1985",
@@ -86243,7 +88448,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005633068",
+      "url": "https://gateway-bayern.de/BV005633068",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche St. Leonhard, Inchenhofen [Lkr. Aichach-Friedberg, Diözese Augsburg]"
+    }
   },
   {
     "slug": "kf-indersdorf-1937",
@@ -86302,7 +88514,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012412840",
+      "url": "https://gateway-bayern.de/BV012412840",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Maria de Victoria, Ingolstadt Bistum Eichstätt"
+    }
   },
   {
     "slug": "kf-ingolstadt-franziskanerkirche",
@@ -86333,7 +88552,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047591581",
+      "url": "https://gateway-bayern.de/BV047591581",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Franziskanerkirche Ingolstadt"
+    }
   },
   {
     "slug": "kf-ingolstadt-spitalkirche-1985",
@@ -86363,7 +88589,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931712",
+      "url": "https://gateway-bayern.de/BV038931712",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirche des Hl.-Geist-Spitals Ingolstadt"
+    }
   },
   {
     "slug": "kf-ingolstadt-st-moritz-1977",
@@ -86393,7 +88626,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513556",
+      "url": "https://gateway-bayern.de/BV024513556",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche St. Mauritius (Moritz) Ingolstadt"
+    }
   },
   {
     "slug": "kf-inning-1983",
@@ -86455,7 +88695,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018671201",
+      "url": "https://gateway-bayern.de/BV018671201",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei Inzell, Oberbayern"
+    }
   },
   {
     "slug": "kf-iphofen-1966",
@@ -86486,7 +88733,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018683409",
+      "url": "https://gateway-bayern.de/BV018683409",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche St. Veit, Iphofen"
+    }
   },
   {
     "slug": "kf-ipthausen-1984",
@@ -86602,7 +88856,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513954",
+      "url": "https://gateway-bayern.de/BV024513954",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Martin in Jettingen katholische Pfarrkirche"
+    }
   },
   {
     "slug": "kf-johannisthal-1980",
@@ -86690,7 +88951,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036028013",
+      "url": "https://gateway-bayern.de/BV036028013",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kappl Wallfahrtskirche d. Heiligsten Dreifaltigkeit bei Waldsassen, Oberpfalz"
+    }
   },
   {
     "slug": "kf-karlstadt-1979",
@@ -86722,7 +88990,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV014334815",
+      "url": "https://gateway-bayern.de/BV014334815",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Katholische Stadtpfarrkirche St. Andreas Karlstadt am Main Bistum Würzburg ; Lkr. Main-Spessart"
+    }
   },
   {
     "slug": "kf-kastl-opf-1980",
@@ -86809,7 +89084,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931490",
+      "url": "https://gateway-bayern.de/BV038931490",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Kongregationskirche St. Cosmas und Damian Kaufbeuren-Oberbeuren"
+    }
   },
   {
     "slug": "kf-kaufbeuren-st-martin-1982",
@@ -86837,7 +89119,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932235",
+      "url": "https://gateway-bayern.de/BV038932235",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche St. Martin, Kaufbeuren Diözese Augsburg, Reg. - Bez. Schwaben"
+    }
   },
   {
     "slug": "kf-kempten-st-anton-1980",
@@ -86903,7 +89192,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011870715",
+      "url": "https://gateway-bayern.de/BV011870715",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Stadtpfarrkirche St. Lorenz, Kempten Diözese Augsburg ; ehem. Benediktiner-Stifts- und Pfarrkirche"
+    }
   },
   {
     "slug": "kf-kempten-st-mang-1982",
@@ -86934,7 +89230,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047537985",
+      "url": "https://gateway-bayern.de/BV047537985",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die evangelisch-lutherische St. Mangkirche in Kempten"
+    }
   },
   {
     "slug": "kf-kirchdorf-im-wald-1984",
@@ -86995,7 +89298,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024610310",
+      "url": "https://gateway-bayern.de/BV024610310",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarr- und Wallfahrtskirche Zu Unserer Lieben Frau in Kirchhaslach"
+    }
   },
   {
     "slug": "kf-kirchroettenbach-1984",
@@ -87055,7 +89365,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006465202",
+      "url": "https://gateway-bayern.de/BV006465202",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchweidach"
+    }
   },
   {
     "slug": "kf-kitzingen-1979",
@@ -87085,7 +89402,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018764788",
+      "url": "https://gateway-bayern.de/BV018764788",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche St. Johannes Bapt. Kitzingen am Main"
+    }
   },
   {
     "slug": "kf-kobel-b-augsburg-1952",
@@ -87116,7 +89440,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002299845",
+      "url": "https://gateway-bayern.de/BV002299845",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche St. Maria von Loreto auf dem Kobel bei Augsburg"
+    }
   },
   {
     "slug": "kf-koetzting-1978",
@@ -87239,7 +89570,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008035856",
+      "url": "https://gateway-bayern.de/BV008035856",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Klosterkirche der Franziskaner und Wallfahrt zum Hl. Kreuz, Kreuzberg i. d. Rhön Stadt Bischofsheim/Rhön, Kreis Rhön-Grabfeld (Bad Neustadt/Saale), Reg.-Bez. Unterfranken, Bistum Würzburg"
+    }
   },
   {
     "slug": "kf-kronach-1981",
@@ -87274,7 +89612,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024610331",
+      "url": "https://gateway-bayern.de/BV024610331",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Stadtpfarrkirche St. Johannes Baptista, Kronach"
+    }
   },
   {
     "slug": "kf-krumbach-st-michael-1974",
@@ -87305,7 +89650,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024610191",
+      "url": "https://gateway-bayern.de/BV024610191",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Krumbach kath. Stadtpfarrkirche St, Michael"
+    }
   },
   {
     "slug": "kf-kuehbach-1980",
@@ -87367,7 +89719,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047537982",
+      "url": "https://gateway-bayern.de/BV047537982",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Lam / Bayer. Wald Katholische Pfarrkirche Sankt Ulrich"
+    }
   },
   {
     "slug": "kf-landau-isar-1983",
@@ -87460,7 +89819,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005721599",
+      "url": "https://gateway-bayern.de/BV005721599",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Heilig-Kreuz-Kirche Landsberg ehem. Jesuitenkirche"
+    }
   },
   {
     "slug": "kf-landsberg-stadtpfarrkirche-1961",
@@ -87523,7 +89889,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000206104",
+      "url": "https://gateway-bayern.de/BV000206104",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Landshut, Dominikanerkirche St. Blasius"
+    }
   },
   {
     "slug": "kf-landshut-jesuiten-1979",
@@ -87585,7 +89958,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000158232",
+      "url": "https://gateway-bayern.de/BV000158232",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Zisterzienserinnenabtei Seligenthal Stadt Landshut/Niederbayern"
+    }
   },
   {
     "slug": "kf-landshut-st-margareth-achdorf-1981",
@@ -87619,7 +89999,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513190",
+      "url": "https://gateway-bayern.de/BV024513190",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchen der Stadtpfarrei Achdorf Stadt Landshut, Diözese München und Freising"
+    }
   },
   {
     "slug": "kf-landshut-st-martin-1984",
@@ -87652,7 +90039,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV015774280",
+      "url": "https://gateway-bayern.de/BV015774280",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarr- und Stiftskirche St. Martin in Landshut Erzbistum München-Freising ; Patron St. Martin (Fest am 11. November)"
+    }
   },
   {
     "slug": "kf-landshut-st-nikola-1983",
@@ -87680,7 +90074,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004772845",
+      "url": "https://gateway-bayern.de/BV004772845",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchen der Stadtpfarrei St. Nikola in Landshut Diözese Regensburg"
+    }
   },
   {
     "slug": "kf-langenbruck-1981",
@@ -87805,7 +90206,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018671200",
+      "url": "https://gateway-bayern.de/BV018671200",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Pfarrkirche zu Lechbruck"
+    }
   },
   {
     "slug": "kf-lehenbuehl-1941",
@@ -87931,7 +90339,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006526902",
+      "url": "https://gateway-bayern.de/BV006526902",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Ev. Stadtpfarrkirche St. Stephan, Lindau im Bodensee"
+    }
   },
   {
     "slug": "kf-lindau-stiftskirche-1977",
@@ -88058,7 +90473,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002039031",
+      "url": "https://gateway-bayern.de/BV002039031",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Lippertskirchen, ehemalige Wallfahrtskirche Maria Morgenstern Pfarrei Bad Feilnbach/Wendelstein"
+    }
   },
   {
     "slug": "kf-lisberg-1984",
@@ -88086,7 +90508,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047537977",
+      "url": "https://gateway-bayern.de/BV047537977",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kath. Pfarrkirche Heiligste Dreifaltigkeit Lisberg"
+    }
   },
   {
     "slug": "kf-lohr-m-1983",
@@ -88124,7 +90553,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008037066",
+      "url": "https://gateway-bayern.de/BV008037066",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Sankt St. Michael in Lohr am Main katholische Stadtpfarrkirche"
+    }
   },
   {
     "slug": "kf-luhe-1980",
@@ -88155,7 +90591,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931552",
+      "url": "https://gateway-bayern.de/BV038931552",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Luhe, Oberpfalz"
+    }
   },
   {
     "slug": "kf-mallersdorf-1980",
@@ -88185,7 +90628,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036050190",
+      "url": "https://gateway-bayern.de/BV036050190",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Mallersdorf an der kleinen Laber ehemalige Benediktinerabteikirche"
+    }
   },
   {
     "slug": "kf-margarethenberg-1977",
@@ -88245,7 +90695,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039123762",
+      "url": "https://gateway-bayern.de/BV039123762",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Maria Beinberg Gemeinde Gachenbach ; Lkr. Neuburg/Donau ; Bistum Augsburg"
+    }
   },
   {
     "slug": "kf-maria-birnbaum-1983",
@@ -88370,7 +90827,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932326",
+      "url": "https://gateway-bayern.de/BV038932326",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Maria-Eich Pfarrei Planegg vor München"
+    }
   },
   {
     "slug": "kf-maria-glosberg-1981",
@@ -88439,7 +90903,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932557",
+      "url": "https://gateway-bayern.de/BV038932557",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Maria Kappel bei Schmiechen/Obb. über Mehring, Landkreis Friedberg"
+    }
   },
   {
     "slug": "kf-partenkirchen-st-anton-1964",
@@ -88467,7 +90938,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024514196",
+      "url": "https://gateway-bayern.de/BV024514196",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Anton in Partenkirchen Votiv- und Wallfahrtskirche"
+    }
   },
   {
     "slug": "kf-passau-dom-1954",
@@ -88495,7 +90973,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050748276",
+      "url": "https://gateway-bayern.de/BV050748276",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Dom des Heiligen Stephan in Passau"
+    }
   },
   {
     "slug": "kf-passau-st-bartholomaeus-1985",
@@ -88551,7 +91036,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038932254",
+      "url": "https://gateway-bayern.de/BV038932254",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Nikola vor Passau Ehem. Augustinerchorherren-Stiftskirche, jetzt Pfarr- und Universitätskirche"
+    }
   },
   {
     "slug": "kf-passau-st-paul-1983",
@@ -88609,7 +91101,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037431045",
+      "url": "https://gateway-bayern.de/BV037431045",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die romanische Basilika auf dem Petersberg bei Dachau Erzbistum München-Freising"
+    }
   },
   {
     "slug": "kf-petersberg-b-flintsbach-1980",
@@ -88639,7 +91138,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002173463",
+      "url": "https://gateway-bayern.de/BV002173463",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die ehem. Propsteikirche Petersberg bei Flintsbach Expositur- und Wallfahrtskirche ; Pfarrei Flintsbach a. Inn, Erzdiözese München und Freising ; Landkreis Rosenheim"
+    }
   },
   {
     "slug": "kf-pfaffenhofen-ilm-1984",
@@ -88673,7 +91179,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041798986",
+      "url": "https://gateway-bayern.de/BV041798986",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "D'Hopfakirm Heimatkundliche Schriftenreihe Pfaffenhofen an der Ilm"
+    }
   },
   {
     "slug": "kf-pfarrkirchen-gartlberg-1972",
@@ -88710,7 +91223,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018670943",
+      "url": "https://gateway-bayern.de/BV018670943",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche zur Schmerzhaften Muttergottes Gartlberg Pfarrkirchen, Bistum Passau"
+    }
   },
   {
     "slug": "kf-pfoerring-1980",
@@ -88826,7 +91346,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024514194",
+      "url": "https://gateway-bayern.de/BV024514194",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pielenhofen Pfarrkirche, ehem. Zisterzienserkirche"
+    }
   },
   {
     "slug": "kf-pilgramsreuth-1981",
@@ -88923,7 +91450,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005844933",
+      "url": "https://gateway-bayern.de/BV005844933",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Kirchen und Kapellen in den Pfarreien der Stadt Plattling Lkr. Deggendorf, Reg.-Bez. Niederbayern"
+    }
   },
   {
     "slug": "kf-pocking-1984",
@@ -89058,7 +91592,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001018997",
+      "url": "https://gateway-bayern.de/BV001018997",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche St. Quirin auf dem Bozerberg Pfarrei Püchersreuth, Bistum Regensburg"
+    }
   },
   {
     "slug": "kf-raisting-1979",
@@ -89086,7 +91627,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037794579",
+      "url": "https://gateway-bayern.de/BV037794579",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Raisting Kath. Pfarrkirche St. Remigius"
+    }
   },
   {
     "slug": "kf-raitenhaslach-i-1958",
@@ -89184,7 +91732,14 @@
       "grund": "Titel ähnlich (Score 84), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 2007)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037776286",
+      "url": "https://gateway-bayern.de/BV037776286",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Stiftskirche Unserer Lieben Frau zur Alten Kapelle in Regensburg"
+    }
   },
   {
     "slug": "kf-regensburg-hl-kreuz-1963",
@@ -89240,7 +91795,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002299841",
+      "url": "https://gateway-bayern.de/BV002299841",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Emmeram zu Regensburg ehem. Benediktinerabteikirche, jetzt Kirche der Stadtpfarrei St. Emmeram"
+    }
   },
   {
     "slug": "kf-reutberg-1968",
@@ -89268,7 +91830,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007595584",
+      "url": "https://gateway-bayern.de/BV007595584",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Reutberg Franziskanerinnenkloster"
+    }
   },
   {
     "slug": "kf-roggenburg-1977",
@@ -89328,7 +91897,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006460782",
+      "url": "https://gateway-bayern.de/BV006460782",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Pfarrkirche Rott am Inn ehem. Benediktiner-Klosterkirche"
+    }
   },
   {
     "slug": "kf-rottenbuch-1972",
@@ -89397,7 +91973,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006621336",
+      "url": "https://gateway-bayern.de/BV006621336",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchen der Pfarrei Rottenburg a. d. Laaber Bistum Regensburg, Ldkr. Landshut, Niederbayern"
+    }
   },
   {
     "slug": "kf-rueck-schippach-1963",
@@ -89425,7 +92008,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003621652",
+      "url": "https://gateway-bayern.de/BV003621652",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche St. Pius Rück-Schippach am Main Lkr. Obernburg, Bistum Würzburg"
+    }
   },
   {
     "slug": "kf-ruhpolding-1954",
@@ -89639,7 +92229,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050631069",
+      "url": "https://gateway-bayern.de/BV050631069",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Schlehdorf"
+    }
   },
   {
     "slug": "kf-schlehdorf-ii-o-j",
@@ -89695,7 +92292,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002299588",
+      "url": "https://gateway-bayern.de/BV002299588",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Schmerlenbach ehem. Klosterkirche - Pfarrkirche (seit 1812)"
+    }
   },
   {
     "slug": "kf-schongau-o-j",
@@ -89756,7 +92360,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024514310",
+      "url": "https://gateway-bayern.de/BV024514310",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Schonungen bei Schweinfurt Pfarrkirche St. Georg"
+    }
   },
   {
     "slug": "kf-schweinfurt-st-kilian-1973",
@@ -89784,7 +92395,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024514316",
+      "url": "https://gateway-bayern.de/BV024514316",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "St. Kilian in Schweinfurt katholische Stadtpfarrkirche"
+    }
   },
   {
     "slug": "kf-seeg-1940",
@@ -90034,7 +92652,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007720279",
+      "url": "https://gateway-bayern.de/BV007720279",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Maria Namen zu Trautmannshofen Pfarr- und Wallfahrtskirche ; Bistum Eichstätt, Lkr. Neumarkt/Opf."
+    }
   },
   {
     "slug": "kf-tuntenhausen-ca-1950",
@@ -90122,7 +92747,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039592186",
+      "url": "https://gateway-bayern.de/BV039592186",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Unterammergau"
+    }
   },
   {
     "slug": "kf-vierzehnheiligen-1980",
@@ -90208,7 +92840,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV024513276",
+      "url": "https://gateway-bayern.de/BV024513276",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Wallfahrtskirche Vilgertshofen"
+    }
   },
   {
     "slug": "kf-waging-am-see-1977",
@@ -90369,7 +93008,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018765115",
+      "url": "https://gateway-bayern.de/BV018765115",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "S[ank]t Theklakirche Welden"
+    }
   },
   {
     "slug": "kf-weltenburg-1955",
@@ -90460,7 +93106,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007562106",
+      "url": "https://gateway-bayern.de/BV007562106",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Pfarrkirche von Weyarn"
+    }
   },
   {
     "slug": "kf-wies-1950",
@@ -90494,7 +93147,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040273511",
+      "url": "https://gateway-bayern.de/BV040273511",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Wies Wallfahrtskirche zum gegeißelten Heiland"
+    }
   },
   {
     "slug": "kf-windberg-1963",
@@ -90525,7 +93185,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003626942",
+      "url": "https://gateway-bayern.de/BV003626942",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Prämonstratenserabtei Windberg"
+    }
   },
   {
     "slug": "kf-wolfratshausen-1951",
@@ -90557,7 +93224,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038931931",
+      "url": "https://gateway-bayern.de/BV038931931",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Pfarrkirche Wolfratshausen (Obb.)"
+    }
   },
   {
     "slug": "kf-wuerzburg-deutschhauskirche-1978",
@@ -90794,7 +93468,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042900734",
+      "url": "https://gateway-bayern.de/BV042900734",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Orgelschaffen Max Regers im Lichte der deutschen Orgelerneuerungsbewegung"
+    }
   },
   {
     "slug": "kammler-zweite-domorgel-1989",
@@ -90985,7 +93666,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV007269013",
+      "url": "https://gateway-bayern.de/BV007269013",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln der Stiftsbasilika Waldsassen"
+    }
   },
   {
     "slug": "keim-straubing-karmeliten-1962",
@@ -91515,7 +94203,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002478604",
+      "url": "https://gateway-bayern.de/BV002478604",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Kirchenmusik der Pfarrgemeinde St. Georg, Ruhpolding, im 19. Jahrhundert"
+    }
   },
   {
     "slug": "klinda-orgelregistrierungen-1987",
@@ -92018,7 +94713,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011657487",
+      "url": "https://gateway-bayern.de/BV011657487",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel von St. Jakob in Straubing"
+    }
   },
   {
     "slug": "kraft-kunstdenkm-lkr-guenzburg-1993",
@@ -92153,7 +94855,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022951182",
+      "url": "https://gateway-bayern.de/BV022951182",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Stellung des Orgelspiels an der Regensburger Kirchenmusikschule"
+    }
   },
   {
     "slug": "kraus-oberpfaelzer-jura-1982",
@@ -93422,7 +96131,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV017002728",
+      "url": "https://gateway-bayern.de/BV017002728",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Weltenburg und die Musik des Bayerischen Barock"
+    }
   },
   {
     "slug": "kraus-sterl-instrumentenbau-1985",
@@ -93478,7 +96194,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011248231",
+      "url": "https://gateway-bayern.de/BV011248231",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Wirken des Breslauer Orgelbauers Stephan Kaschendorff in Nördlingen (1464) 1466 - 1483 (1496)"
+    }
   },
   {
     "slug": "krautwurst-kindermann-1986",
@@ -93510,7 +96233,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023082747",
+      "url": "https://gateway-bayern.de/BV023082747",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Johann Erasmus Kindermanns Beziehungen zu Augsburg"
+    }
   },
   {
     "slug": "krautwurst-mertz-1994",
@@ -93626,7 +96356,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV047989761",
+      "url": "https://gateway-bayern.de/BV047989761",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Konrad Paumann"
+    }
   },
   {
     "slug": "krautwurst-rothenburg-1963",
@@ -93654,7 +96391,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018797075",
+      "url": "https://gateway-bayern.de/BV018797075",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die erste Orgel der St.-Jakobskirche in Rothenburg ob der Tauber ein Werk des Frankfurter Barfüßers Leonhard Mertz"
+    }
   },
   {
     "slug": "krumbach-fraenkische-orgeltage-1991",
@@ -94737,7 +97481,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019631343",
+      "url": "https://gateway-bayern.de/BV019631343",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Altes Schloß Valley Orgelmuseum, Wanderungen im Mangfalltal ; Landkreis Miesbach ..."
+    }
   },
   {
     "slug": "lampl-orgelmuseum-ii-1997",
@@ -95114,7 +97865,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005383865",
+      "url": "https://gateway-bayern.de/BV005383865",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Studien zur Instrumentalmusik im Zisterzienserkloster Ebrach in der 2. Hälfte des 18. Jahrhunderts"
+    }
   },
   {
     "slug": "layer-allgaeu-1979",
@@ -95220,7 +97978,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022302017",
+      "url": "https://gateway-bayern.de/BV022302017",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln, Orgelbauer und Organisten im Bistum Augsburg vor der Reformation"
+    }
   },
   {
     "slug": "layer-dillingen-i-1978",
@@ -95301,7 +98066,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008018127",
+      "url": "https://gateway-bayern.de/BV008018127",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Dillinger Orgelchronik"
+    }
   },
   {
     "slug": "layer-dillingen-ii-1978",
@@ -95560,7 +98332,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV046811556",
+      "url": "https://gateway-bayern.de/BV046811556",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Gundelfinger Orgelchronik"
+    }
   },
   {
     "slug": "layer-hayl-1981",
@@ -96053,7 +98832,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV050844029",
+      "url": "https://gateway-bayern.de/BV050844029",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Organisten und Orgelbauer in ihrer Beziehung zum bayerischen Herzogshof 1550–1600"
+    }
   },
   {
     "slug": "lieb-ottobeurer-ob-1931",
@@ -96306,7 +99092,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011729544",
+      "url": "https://gateway-bayern.de/BV011729544",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel der Stadtkirche Bayreuth"
+    }
   },
   {
     "slug": "maier-musikhochschule-1999",
@@ -97151,7 +99944,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV026244708",
+      "url": "https://gateway-bayern.de/BV026244708",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Regal"
+    }
   },
   {
     "slug": "menschick-eichstaett-dom-1975",
@@ -97324,7 +100124,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036125891",
+      "url": "https://gateway-bayern.de/BV036125891",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Musikgeschichte der Oberpfalz [handschriftliches Register]"
+    }
   },
   {
     "slug": "mettenleiter-passau-1868",
@@ -97412,7 +100219,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013848332",
+      "url": "https://gateway-bayern.de/BV013848332",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Romantischer Orgelbau in Deutschland (veränderte Fassung einer Staatsexamensarbeit)"
+    }
   },
   {
     "slug": "meyer-ansbach-st-gumbert-1969",
@@ -97632,7 +100446,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022454031",
+      "url": "https://gateway-bayern.de/BV022454031",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln und Orgelbauer in Oberschwaben"
+    }
   },
   {
     "slug": "meyer-passau-dom-1927",
@@ -97688,7 +100509,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV001032730",
+      "url": "https://gateway-bayern.de/BV001032730",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Musikstadt Regensburg [europäisches Jahr der Musik 1985]"
+    }
   },
   {
     "slug": "meyer-riepp-i-1938",
@@ -97995,7 +100823,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000477873",
+      "url": "https://gateway-bayern.de/BV000477873",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "250 Jahre historische Glis-Orgel St. Markus, Erlangen e. Festschrift"
+    }
   },
   {
     "slug": "moser-hofhaimer-1929",
@@ -98341,7 +101176,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003697622",
+      "url": "https://gateway-bayern.de/BV003697622",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln von Sankt Stephan in Lindau 1506 - 1975"
+    }
   },
   {
     "slug": "nadler-mindelzell-o-j",
@@ -99582,7 +102424,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039881248",
+      "url": "https://gateway-bayern.de/BV039881248",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "[Orgeln in Mindelheim] [1] Historische Orgel aus der St. Katharinenkapelle Mindelheim"
+    }
   },
   {
     "slug": "paletta-mindelheim-mindelburg-1973",
@@ -99616,7 +102465,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039881257",
+      "url": "https://gateway-bayern.de/BV039881257",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "[Orgeln in Mindelheim] [2] Die Orgel in der St. Georgs-Kapelle der Mindelburg"
+    }
   },
   {
     "slug": "paletta-mindelheim-spitalkirche-1975",
@@ -99663,7 +102519,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV039881271",
+      "url": "https://gateway-bayern.de/BV039881271",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "[Orgeln in Mindelheim] [3] Die Spitalorgel zu Mindelheim"
+    }
   },
   {
     "slug": "panofsky-ottobeuren-1957",
@@ -99910,7 +102773,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004907367",
+      "url": "https://gateway-bayern.de/BV004907367",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Domstift zu Bamberg in seinen Bauwendungen"
+    }
   },
   {
     "slug": "passauer-dom-1928",
@@ -99942,7 +102812,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV006252390",
+      "url": "https://gateway-bayern.de/BV006252390",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die große Orgel im Passauer Dom ihre Entwicklung, Technik und Verwendung"
+    }
   },
   {
     "slug": "peine-frankfurt-m-1956",
@@ -99965,7 +102842,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018845444",
+      "url": "https://gateway-bayern.de/BV018845444",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Orgelbau in Frankfurt am Main und Umgebung von den Anfängen bis zur Gegenwart"
+    }
   },
   {
     "slug": "petzold-tretzscher-1982",
@@ -100659,7 +103543,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049811200",
+      "url": "https://gateway-bayern.de/BV049811200",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Bayern als Orgellandschaft"
+    }
   },
   {
     "slug": "quoika-blockwerk-1966",
@@ -100951,7 +103842,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV038275638",
+      "url": "https://gateway-bayern.de/BV038275638",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln und Orgelbauer in Ingolstadt"
+    }
   },
   {
     "slug": "quoika-ingolstadt-hl-geist-1951",
@@ -101131,7 +104029,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010162493",
+      "url": "https://gateway-bayern.de/BV010162493",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Passauer Orgelbauschule und ihr Wirken in Österreich"
+    }
   },
   {
     "slug": "quoika-positv-1957",
@@ -101154,7 +104059,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005071761",
+      "url": "https://gateway-bayern.de/BV005071761",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Das Positiv in Geschichte und Gegenwart"
+    }
   },
   {
     "slug": "quoika-prag-kaiserorgel-1952",
@@ -101437,7 +104349,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV002944705",
+      "url": "https://gateway-bayern.de/BV002944705",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Musik und Musikpflege in der Benediktinerabtei Scheyern"
+    }
   },
   {
     "slug": "quoika-schuster-1962",
@@ -101493,7 +104412,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018799008",
+      "url": "https://gateway-bayern.de/BV018799008",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel in der Stadtpfarrkirche zur Vilsbiburg"
+    }
   },
   {
     "slug": "quoika-vilsbiburg-ii-1961",
@@ -102323,7 +105249,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008177977",
+      "url": "https://gateway-bayern.de/BV008177977",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln der Pfarre Bieberehren"
+    }
   },
   {
     "slug": "reichling-butz-1998",
@@ -103346,7 +106279,14 @@
       "grund": "Titel ähnlich (Score 79), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 1976)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV000940948",
+      "url": "https://gateway-bayern.de/BV000940948",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Bibliographie der Orgel Literatur zur Geschichte der Orgel bis 1968"
+    }
   },
   {
     "slug": "reuter-eichstaett-dom-1951",
@@ -104081,7 +107021,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV010122875",
+      "url": "https://gateway-bayern.de/BV010122875",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die alten Passauer Orgelbauer ihre Herkunft und ihr Schaffen von 1467 bis 1744"
+    }
   },
   {
     "slug": "saffert-voit-1973",
@@ -104371,7 +107318,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV037661028",
+      "url": "https://gateway-bayern.de/BV037661028",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Neuester Wegweiser durch die Haupt- und Residenzstadt München und deren Umgebungen"
+    }
   },
   {
     "slug": "schaefer-schweinfurt-st-johannes-1962",
@@ -104540,7 +107494,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV022384439",
+      "url": "https://gateway-bayern.de/BV022384439",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "150 Jahre Regensburger Domorgel"
+    }
   },
   {
     "slug": "scharnagl-sossau-1977",
@@ -104781,7 +107742,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV021523803",
+      "url": "https://gateway-bayern.de/BV021523803",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Neustadter Orgelbauer"
+    }
   },
   {
     "slug": "schieder-nuernberg-st-lorenz-1952",
@@ -104832,7 +107800,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009636832",
+      "url": "https://gateway-bayern.de/BV009636832",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Geschichte des Dorfes Schlingen"
+    }
   },
   {
     "slug": "schindler-lahm-1985",
@@ -104862,7 +107837,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005519304",
+      "url": "https://gateway-bayern.de/BV005519304",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Herbst-Orgel der Schloßkirche zu Lahm"
+    }
   },
   {
     "slug": "schindler-nuernberger-orgelbau-1991",
@@ -106541,7 +109523,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042905235",
+      "url": "https://gateway-bayern.de/BV042905235",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Abbé G. J. Vogler's Orgellehre ein Beitrag zur Klanggeschichte der frühromantischen Orgel"
+    }
   },
   {
     "slug": "segebade-walch-maihingen-1991",
@@ -107101,7 +110090,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008690859",
+      "url": "https://gateway-bayern.de/BV008690859",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Salzburger grossen Domorgeln"
+    }
   },
   {
     "slug": "spilling-franken-1955",
@@ -107239,7 +110235,14 @@
       "grund": "Titel ähnlich (Score 100), aber Erscheinungsjahr passt nicht zur Quelle (BMS: 1968)",
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV025266537",
+      "url": "https://gateway-bayern.de/BV025266537",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelhistorie"
+    }
   },
   {
     "slug": "sponsel-orgelhistorie-faks-1968",
@@ -107262,7 +110265,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003500862",
+      "url": "https://gateway-bayern.de/BV003500862",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelhistorie"
+    }
   },
   {
     "slug": "steinmeyer-dispositionen-1905",
@@ -107313,7 +110323,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036635072",
+      "url": "https://gateway-bayern.de/BV036635072",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Restaurierung der Orgel in der Klosterkirche zu Maihingen"
+    }
   },
   {
     "slug": "steinmeyer-technik-1928",
@@ -107415,7 +110432,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013967845",
+      "url": "https://gateway-bayern.de/BV013967845",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgelbauer Eusebius Amerbach und Kaspar Sturm"
+    }
   },
   {
     "slug": "sterl-augsburgs-ob-1968",
@@ -107501,7 +110525,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013967931",
+      "url": "https://gateway-bayern.de/BV013967931",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Johann Konrad Brandenstein, organarius et civis pedepontanus"
+    }
   },
   {
     "slug": "sterl-harrer-1995",
@@ -107615,7 +110646,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV040523632",
+      "url": "https://gateway-bayern.de/BV040523632",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Christoph Noe"
+    }
   },
   {
     "slug": "sterl-regensburg-1971",
@@ -107643,7 +110681,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042648691",
+      "url": "https://gateway-bayern.de/BV042648691",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Musiker und Musikpflege in Regensburg bis um 1600"
+    }
   },
   {
     "slug": "sterl-regensburg-alte-kap-1965",
@@ -107738,7 +110783,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011041954",
+      "url": "https://gateway-bayern.de/BV011041954",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Christoph Stolzenberg (1690 - 1764) ; Gymnasiallehrer, Kantor, Komponist und Orgelsachverständiger"
+    }
   },
   {
     "slug": "sterl-sturm-i-1967",
@@ -107766,7 +110818,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013967087",
+      "url": "https://gateway-bayern.de/BV013967087",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Orgelbauer Kaspar Sturm in Ulm 1576 - 1599"
+    }
   },
   {
     "slug": "sterl-sturm-ii-1967",
@@ -107799,7 +110858,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV042253232",
+      "url": "https://gateway-bayern.de/BV042253232",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Leben und Werk Kaspar Sturms Ein Beitrag zur Orgelbaugeschichte Süddeutschlands im ausgehenden 16. Jahrhundert Herrn Professor Rudolf Quoika, Freising, zum 70. Geburtstag in Verehrung gewidmet"
+    }
   },
   {
     "slug": "stockner-reischach-1986",
@@ -108388,7 +111454,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV014120982",
+      "url": "https://gateway-bayern.de/BV014120982",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Barock, seine Orgeln und seine Musik in Oberschwaben zugleich der Bericht über die Tagung in Ochsenhausen 1951"
+    }
   },
   {
     "slug": "supper-barockorgel-1958",
@@ -108892,7 +111965,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004044553",
+      "url": "https://gateway-bayern.de/BV004044553",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Ostheimer Orgelbauer Johann Georg Markert und sein Werk ein Beitrag zur Geschichte des Orgelbaus in Thüringen im 19. Jahrhundert"
+    }
   },
   {
     "slug": "theobald-regensburg-st-oswald-1991",
@@ -108997,7 +112077,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036662312",
+      "url": "https://gateway-bayern.de/BV036662312",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgeln im Deutschen Museum"
+    }
   },
   {
     "slug": "thurn-speinshart-1997",
@@ -109053,7 +112140,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011745752",
+      "url": "https://gateway-bayern.de/BV011745752",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgelbautraditionen in der Klosterkirche Speinshart und die Dokumentation des Baus der Steinmeyer-Orgel im Jahr 1996"
+    }
   },
   {
     "slug": "thurn-speinshart-iii-1998",
@@ -110146,7 +113240,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV044749714",
+      "url": "https://gateway-bayern.de/BV044749714",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Passauer Domorgelbau von L. Freundt und G. Muffats Passauer Wirken"
+    }
   },
   {
     "slug": "walter-seuffert-i-1961",
@@ -110678,7 +113779,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV004393965",
+      "url": "https://gateway-bayern.de/BV004393965",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Geschichte der Katholischen Pfarrei Wallerstein"
+    }
   },
   {
     "slug": "wernsdoefer-bamberg-dom-1930",
@@ -110823,7 +113931,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV003540572",
+      "url": "https://gateway-bayern.de/BV003540572",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Orgel"
+    }
   },
   {
     "slug": "widmann-eichstaett-1934",
@@ -110956,7 +114071,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV049775597",
+      "url": "https://gateway-bayern.de/BV049775597",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Zur Geschichte der Orgeln der Ebracher Klosterkirche"
+    }
   },
   {
     "slug": "wiemer-ebrach-ii-1984",
@@ -112339,7 +115461,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018801723",
+      "url": "https://gateway-bayern.de/BV018801723",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Der Augsburger Orgelstreit von 1612/1614"
+    }
   },
   {
     "slug": "wohnhaas-rothenburger-ob-1964",
@@ -112365,7 +115494,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV018682569",
+      "url": "https://gateway-bayern.de/BV018682569",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Rothenburger Orgel- und Instrumentenbauer des 17. u. 18. Jahrhunderts"
+    }
   },
   {
     "slug": "wohnhaas-schott-1969",
@@ -112454,7 +115590,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023409227",
+      "url": "https://gateway-bayern.de/BV023409227",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Matthias Tretscher und die Kaisheimer Orgel Bemerkungen zum fränkischen Orgelbau im 17. Jahrhundert"
+    }
   },
   {
     "slug": "wohnhaas-weinlin-1964",
@@ -112481,7 +115624,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV023409255",
+      "url": "https://gateway-bayern.de/BV023409255",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Iosaphat Weinlin (1601 - 1662) ; medicus et musicus Rotenburgo-Tuberanus"
+    }
   },
   {
     "slug": "wohnhaas-mogge-oberpfalz-i-1965",
@@ -113174,7 +116324,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012489304",
+      "url": "https://gateway-bayern.de/BV012489304",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelchronik der Oettinger St. Jakobskirche Festschrift zum 50jährigen Orgeljubiläum"
+    }
   },
   {
     "slug": "fischer-grossostheim-kreuzkapelle-1993",
@@ -113220,7 +116377,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035561187",
+      "url": "https://gateway-bayern.de/BV035561187",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgelchronik von Wettenhausen"
+    }
   },
   {
     "slug": "fischer-w-evang-kirche-1998",
@@ -113243,7 +116407,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV036053167",
+      "url": "https://gateway-bayern.de/BV036053167",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln und Orgelbau in der evangelischen Kirche Bayerns die Entwicklung der Orgel im Lichte der Quellen"
+    }
   },
   {
     "slug": "fischer-w-eichmueller",
@@ -113294,7 +116465,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV044745646",
+      "url": "https://gateway-bayern.de/BV044745646",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Orgeln in bayerischen Jesuitenkirchen"
+    }
   },
   {
     "slug": "fischer-w-augsburg-st-georg-1999",
@@ -113368,7 +116546,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012476096",
+      "url": "https://gateway-bayern.de/BV012476096",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Geschichte der Orgeln in Stegaurach"
+    }
   },
   {
     "slug": "ahrens-bayreuth-1997",
@@ -113577,7 +116762,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV005369624",
+      "url": "https://gateway-bayern.de/BV005369624",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Schney Zeit- und Kulturgeschichte"
+    }
   },
   {
     "slug": "lampl-orgeldenkmalpflege-1994",
@@ -114021,7 +117213,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV008946687",
+      "url": "https://gateway-bayern.de/BV008946687",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Musik in Reichsstadt und Stift"
+    }
   },
   {
     "slug": "rehm-rhoen-1997",
@@ -114260,7 +117459,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV011028922",
+      "url": "https://gateway-bayern.de/BV011028922",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Geschichte der Kirchenmusik in St. Severin Heining"
+    }
   },
   {
     "slug": "bachmann-steinmeyer-1919",
@@ -114288,7 +117494,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019931162",
+      "url": "https://gateway-bayern.de/BV019931162",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Georg Friedrich Steinmeyer geboren am 21. Oktober 1819 ; seiner Geburt und seinem Leben zum Gedächtnis, 21. Oktober 1919"
+    }
   },
   {
     "slug": "paletta-mindelheim-katharinenk-1978",
@@ -114316,7 +117529,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV021674426",
+      "url": "https://gateway-bayern.de/BV021674426",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Katharinenorgel zu Mindelheim"
+    }
   },
   {
     "slug": "bernhard-neue-o-59-2000",
@@ -116086,7 +119306,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV009945269",
+      "url": "https://gateway-bayern.de/BV009945269",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die Pater-Rupert-Mayer-Orgel in der Kongregationskirche der Marianischen Männerkongregation am Bürgersaal zu München Festschrift zur Weihe der Pater-Rupert-Mayer-Orgel in der Bürgersaalkirche zu München"
+    }
   },
   {
     "slug": "fs-muenchen-st-michael-1996",
@@ -116113,7 +119340,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV041848475",
+      "url": "https://gateway-bayern.de/BV041848475",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Orgel der Pfarrkirche St. Michael in Berg am Laim"
+    }
   },
   {
     "slug": "fs-muenchen-st-martin-1997",
@@ -116141,7 +119375,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV014117217",
+      "url": "https://gateway-bayern.de/BV014117217",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Festschrift zur Orgelweihe in der Alten St. Martinskirche München-Moosach 16. November 1997"
+    }
   },
   {
     "slug": "fs-neufarn-2002",
@@ -116219,7 +119460,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV044293337",
+      "url": "https://gateway-bayern.de/BV044293337",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Dieneue Orgel von St. Johann Baptist Solln"
+    }
   },
   {
     "slug": "fs-muenchen-trudering-1980",
@@ -116298,7 +119546,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV035281743",
+      "url": "https://gateway-bayern.de/BV035281743",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Die neue Sandtner-Orgel der Pfarrkirche St. Hedwig Bayreuth hrsg. zur Orgelweihe am Sonntag, dem 11. Oktober 1987"
+    }
   },
   {
     "slug": "fs-schwabmuenchen-1999",
@@ -116788,7 +120043,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV013901431",
+      "url": "https://gateway-bayern.de/BV013901431",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "150 Jahre Orgelbau Link 1851 - 2001"
+    }
   },
   {
     "slug": "eisenbarth-leitner-passau-dom-iv-2002",
@@ -116945,7 +120207,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV012476096",
+      "url": "https://gateway-bayern.de/BV012476096",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Geschichte der Orgeln in Stegaurach"
+    }
   },
   {
     "slug": "fs-neustadt-coburg-1999",
@@ -118574,7 +121843,14 @@
       "grund": null,
       "isbn": []
     },
-    "gateway_bayern": null
+    "gateway_bayern": {
+      "status": "ok",
+      "bv_nr": "BV019524171",
+      "url": "https://gateway-bayern.de/BV019524171",
+      "isbn_used": null,
+      "via": "titel",
+      "titel": "Zur Orgelgeschichte von Deutenhausen und Marnbach"
+    }
   },
   {
     "slug": "fischer-w-fux-2000",

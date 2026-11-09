@@ -7,6 +7,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fixDeep } from "./textfix";
+import { expandKurztitel } from "./kurztitel";
 import type { Builder, LiteraturEntry, Organ, Person, PersonRecord } from "./types";
 
 const DATA_DIR = path.resolve(process.cwd(), "src/data");
@@ -25,6 +26,13 @@ export function getAllOrgans(): Organ[] {
   const organsDir = path.join(DATA_DIR, "organs");
   const files = fs.readdirSync(organsDir).filter((f) => f.endsWith(".json"));
   organsCache = files.flatMap((f) => readJSON<Organ[]>(path.join("organs", f)));
+  // Abkürzungen in den Zitierkurztiteln auflösen (s. kurztitel.ts)
+  for (const o of organsCache) {
+    for (const c of o.literatur) {
+      c.lit = expandKurztitel(c.lit);
+      if (c.kurztitel) c.kurztitel = expandKurztitel(c.kurztitel);
+    }
+  }
   return organsCache;
 }
 
@@ -75,7 +83,10 @@ export function getPersonById(id: string): PersonRecord | undefined {
 
 let literatureCache: LiteraturEntry[] | null = null;
 export function getAllLiterature(): LiteraturEntry[] {
-  if (!literatureCache) literatureCache = readJSON<LiteraturEntry[]>("literature.json");
+  if (!literatureCache) {
+    literatureCache = readJSON<LiteraturEntry[]>("literature.json");
+    for (const l of literatureCache) l.kurztitel = expandKurztitel(l.kurztitel);
+  }
   return literatureCache;
 }
 
