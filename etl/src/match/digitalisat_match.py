@@ -399,7 +399,9 @@ def search_entry(entry: dict, z: dict, jcache: dict) -> dict:
         links += ddb_search_title(titel, names, year, "titel", qnames)
         time.sleep(INTERVAL)
         links += b3kat_search_title(titel, names, year, "titel", qnames)
-    links = dedupe(links)[:3]
+    links = dedupe(links)
+    zs = [l for l in links if l["ebene"] == "zeitschrift"][:1]  # ein Zugang je Zeitschrift
+    links = ([l for l in links if l["ebene"] != "zeitschrift"] + zs)[:3]
     return {"status": "ok", "links": links} if links else {"status": "keine"}
 
 
