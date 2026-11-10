@@ -1,38 +1,42 @@
 ---
-// Renders one literature entry as a citation styled after "Die
-// Musikforschung"'s guidelines: Nachname, Vorname: „Titel", in: Zeitschrift
-// Band (Jahr), S. x-y for a dependent work (journal article / chapter in an
-// edited volume), but Nachname, Vorname: *Titel*, Ort Jahr - title set in
-// italics, no quotation marks - for an independent publication (monograph).
-// `biblio.inPrefix` (see lib/types.ts#formatBiblio) is exactly that signal:
-// true when BIBLIO looks like a journal citation or already started with
-// "In:", i.e. the work is contained in something else.
-import { formatBiblio, type LiteraturEntry } from "../lib/types";
+// Ein Literatureintrag als Zitat nach den Richtlinien der Zeitschrift
+// "Die Musikforschung" (Literaturverzeichnis-Form). Die ganze Logik steckt
+// in lib/zitat.ts; hier wird nur gesetzt:
+//   Autor, „Titel“, in: *Container* Rest.      (unselbständig)
+//   Autor, *Titel*, Rest.                      (selbständig)
+import { formatZitat, type Zitat } from "../lib/zitat";
+import type { LiteraturEntry } from "../lib/types";
 
 interface Props {
   entry: LiteraturEntry;
 }
 const { entry } = Astro.props;
-const titel = entry.titel ?? entry.kurztitel;
-const biblio = formatBiblio(entry.biblio);
-const istUnselbstaendig = biblio?.inPrefix ?? false;
+const z: Zitat = formatZitat(entry);
+const endsWithPunct = /[.!?…]$/.test(z.rest || z.container || z.titel);
+// Zeitschrift: *Name* 38 (1981) ohne Komma; Sammelband/Monografie: Komma;
+// eine Reihenangabe "(= …)" folgt dem Titel ohne Komma.
+let sep = "";
+if (z.rest) {
+  if (z.art === "zeitschrift") sep = " ";
+  else if (z.art === "unselbstaendig") sep = " ";
+  else sep = z.rest.startsWith("(=") ? " " : ", ";
+}
 ---
 <span class="zitat">
-  {entry.autor && <strong>{entry.autor}</strong>}
-  {entry.autor && ": "}
-  {istUnselbstaendig ? (
-    <span class="zitat-titel">„{titel}“</span>
+  {z.autor && <strong>{z.autor}</strong>}
+  {z.autor && ", "}
+  {z.unselbstaendig ? (
+    <span class="zitat-titel">„{z.titel}“</span>
   ) : (
-    <em class="zitat-titel">{titel}</em>
+    <em class="zitat-titel">{z.titel}</em>
   )}
-  {biblio && (
+  {z.unselbstaendig && z.container && (
     <>
-      {", "}
-      {biblio.inPrefix && "in: "}
-      {biblio.journal && <em>{biblio.journal}</em>}
-      {biblio.journal && " "}
-      {biblio.rest}
+      {", in: "}
+      <em>{z.container}</em>
     </>
   )}
-  {!/[.!?…]$/.test(((biblio?.rest ?? "") || (biblio?.journal ?? "") || titel).trim()) && "."}
+  {z.unselbstaendig && !z.container && z.rest && ", in:"}
+  {sep}{z.rest}
+  {!endsWithPunct && "."}
 </span>
