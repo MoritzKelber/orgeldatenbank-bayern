@@ -18,11 +18,15 @@ const base = import.meta.env.BASE_URL;
     Musikschrifttums (BMS)</a> sind entsprechend markiert und verlinkt; wo die BMS zusätzlich eine ISBN führt, ist
     der jeweilige Titel auf der Detailseite auch mit seinem Katalogeintrag im Verbundkatalog
     <a href="https://www.bib-bvb.de/web/gateway-bayern" target="_blank" rel="noopener">Gateway Bayern</a> verknüpft.
+    Liegt ein frei zugängliches Digitalisat bei einer Bibliothek oder Hochschule vor (ermittelt über die
+    <a href="https://www.deutsche-digitale-bibliothek.de/" target="_blank" rel="noopener">Deutsche Digitale Bibliothek</a>
+    und den B3Kat), ist es auf der Detailseite verlinkt und der Eintrag hier als „online“ markiert.
   </p>
 
   <div class="search-area">
     <input type="search" id="lit-search" class="search-bar" placeholder="Literatur durchsuchen, z. B. „Fischer“ …" />
     <label class="bms-filter"><input type="checkbox" id="lit-bms-only" /> nur mit BMS-Nachweis</label>
+    <label class="bms-filter"><input type="checkbox" id="lit-digi-only" /> nur mit Digitalisat</label>
   </div>
   <p id="lit-count" class="result-count"></p>
 
@@ -30,8 +34,9 @@ const base = import.meta.env.BASE_URL;
     {literature.map((l) => {
       const searchText = [l.kurztitel, l.autor, l.titel, l.biblio].filter(Boolean).join(" ").toLowerCase();
       const hasBms = l.bms?.status === "ok";
+      const hasDigi = l.digitalisat?.status === "ok";
       return (
-        <li class="lit-row" data-name={searchText} data-bms={hasBms ? "1" : "0"}>
+        <li class="lit-row" data-name={searchText} data-bms={hasBms ? "1" : "0"} data-digi={hasDigi ? "1" : "0"}>
           <a href={`${base}/literatur/${l.slug}/`}>
             <LiteraturZitat entry={l} />
             <span class="lit-right">
@@ -41,6 +46,7 @@ const base = import.meta.env.BASE_URL;
                 </span>
               )}
               {hasBms && <span class="bms-dot" title="in der Bibliographie des Musikschrifttums (BMS) nachgewiesen">BMS</span>}
+              {hasDigi && <span class="bms-dot digi-dot" title="frei zugängliches Digitalisat verlinkt">online</span>}
             </span>
           </a>
         </li>
@@ -117,11 +123,16 @@ const base = import.meta.env.BASE_URL;
     background: color-mix(in srgb, var(--color-accent) 14%, transparent);
     color: var(--color-accent);
   }
+  .digi-dot {
+    background: color-mix(in srgb, #2a7d4f 16%, transparent);
+    color: #2a7d4f;
+  }
 </style>
 
 <script>
   const input = document.getElementById("lit-search") as HTMLInputElement;
   const bmsOnly = document.getElementById("lit-bms-only") as HTMLInputElement;
+  const digiOnly = document.getElementById("lit-digi-only") as HTMLInputElement;
   const rows = Array.from(document.querySelectorAll<HTMLLIElement>(".lit-row"));
   const countEl = document.getElementById("lit-count")!;
   const total = rows.length;
@@ -132,7 +143,8 @@ const base = import.meta.env.BASE_URL;
     for (const row of rows) {
       const matchesQuery = !q || (row.dataset.name ?? "").includes(q);
       const matchesBms = !bmsOnly.checked || row.dataset.bms === "1";
-      const match = matchesQuery && matchesBms;
+      const matchesDigi = !digiOnly.checked || row.dataset.digi === "1";
+      const match = matchesQuery && matchesBms && matchesDigi;
       row.hidden = !match;
       if (match) visible++;
     }
@@ -148,5 +160,6 @@ const base = import.meta.env.BASE_URL;
 
   input.addEventListener("input", update);
   bmsOnly.addEventListener("change", update);
+  digiOnly.addEventListener("change", update);
   update();
 </script>

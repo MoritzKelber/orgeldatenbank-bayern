@@ -209,6 +209,24 @@ export interface GatewayBayernMatch {
   titel?: string | null;
 }
 
+// Frei zugängliches Digitalisat bei einem wissenschaftlichen Anbieter
+// (Bibliothek, Archiv, Hochschule), ermittelt über die Deutsche Digitale
+// Bibliothek und den B3Kat (etl/src/match/digitalisat_match.py).
+export interface DigitalisatLink {
+  url: string;
+  anbieter: string;
+  beschreibung: string;
+  // titel = das Werk selbst, sammelband = der Band mit dem Beitrag,
+  // band = der Zeitschriftenjahrgang, zeitschrift = die ganze Zeitschrift
+  ebene: "titel" | "sammelband" | "band" | "zeitschrift";
+  quelle: "ddb" | "b3kat";
+}
+
+export interface Digitalisat {
+  status: "ok";
+  links: DigitalisatLink[];
+}
+
 export interface LiteraturEntry {
   slug: string;
   kurztitel: string;
@@ -221,6 +239,7 @@ export interface LiteraturEntry {
   organ_ids: number[];
   bms: BmsMatch | null;
   gateway_bayern: GatewayBayernMatch | null;
+  digitalisat?: Digitalisat | null;
 }
 
 // Best-effort restyling of the already-free-text BIBLIO field towards the

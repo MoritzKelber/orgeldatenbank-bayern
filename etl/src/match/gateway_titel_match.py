@@ -59,6 +59,17 @@ def words(text: str) -> list[str]:
     return [w for w in fold(text).split() if w not in _STOP]
 
 
+def query_words(text: str) -> list[str]:
+    """Search words with umlauts kept: the B3Kat SRU index does not fold 'ü'
+    to 'u', so a folded 'munchen' never matches 'München'."""
+    toks = re.findall(r"[^\W\d_]+", text.lower())
+    return [w for w in toks if fold(w).strip() not in _STOP]
+
+
+def has_umlaut(text: str) -> bool:
+    return bool(re.search(r"[äöüÄÖÜß]", text))
+
+
 def clean_title(t: str) -> str:
     t = re.sub(r"\[[^\]]*\]", " ", t)
     t = re.sub(r"\([^)]*\)", " ", t)
@@ -152,14 +163,15 @@ def search(entry: dict) -> dict:
     titel = entry.get("titel") or ""
     if not titel or titel.lower().startswith(("rez", "rezension")):
         return {"status": "keine"}
-    ws = [w for w in words(clean_title(titel)) if len(w) >= 3][:4]
+    ws = [w for w in query_words(clean_title(titel)) if len(w) >= 3][:4]
     if not ws:
         return {"status": "keine"}
     names = surnames(entry.get("autor"))
     year = year_of(entry.get("kurztitel") or "")
     parts = [f"marcxml.title = {w}" for w in ws]
     if names:
-        parts.append(f"marcxml.creator = {names[0].split()[-1]}")
+        raw = [p.split(",")[0].strip().split()[-1].lower() for p in re.split(r"[/;]| und ", entry["autor"]) if p.strip()]
+        parts.append(f"marcxml.creator = {raw[0] if raw else names[0].split()[-1]}")
     elif year:
         parts.append(f"marcxml.date = {year}")
     root = sru(" and ".join(parts))

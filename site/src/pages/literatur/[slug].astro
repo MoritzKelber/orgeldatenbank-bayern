@@ -15,11 +15,40 @@ const bms = entry.bms;
 const bmsOk = bms?.status === "ok";
 const gateway = entry.gateway_bayern;
 const gatewayOk = gateway?.status === "ok";
+const digi = entry.digitalisat?.status === "ok" ? entry.digitalisat.links : [];
+const EBENE: Record<string, string> = {
+  titel: "Digitalisat des Werks",
+  sammelband: "Digitalisat des Sammelbands",
+  band: "Digitalisat des Zeitschriftenjahrgangs",
+  zeitschrift: "Digitalisat der Zeitschrift",
+};
 ---
 <Base title={entry.kurztitel}>
   <p><a href={`${base}/literatur/`}>&larr; zurück zum Literaturverzeichnis</a></p>
   <h1>{entry.kurztitel}</h1>
   <p class="zitat-block"><LiteraturZitat entry={entry} /></p>
+
+  {digi.length > 0 && (
+    <>
+      <h2>Digitalisat</h2>
+      <table class="facts">
+        <tbody>
+          {digi.map((d) => (
+            <tr>
+              <th>{EBENE[d.ebene] ?? "Digitalisat"}</th>
+              <td>
+                <a href={d.url} target="_blank" rel="noopener">{d.beschreibung} ↗</a>
+                {" "}<span class="quelle-hinweis">({d.anbieter})</span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {digi.some((d) => d.ebene === "band" || d.ebene === "zeitschrift") && (
+        <p class="digi-hinweis">Der Beitrag selbst ist im verlinkten Jahrgang bzw. in der Zeitschrift an der angegebenen Seite zu finden.</p>
+      )}
+    </>
+  )}
 
   <h2>Angaben aus der Orgeldatenbank</h2>
   <table class="facts">
@@ -97,6 +126,7 @@ const gatewayOk = gateway?.status === "ok";
   .facts th { width: 14rem; opacity: 0.7; font-weight: normal; vertical-align: top; }
   .bms-hinweis { color: #8a6500; cursor: help; }
   .quelle-hinweis { font-size: 0.75rem; opacity: 0.6; }
+  .digi-hinweis { font-size: 0.85rem; opacity: 0.7; margin: -1.25rem 0 2rem; }
   .abstract { white-space: pre-line; }
   .keywords { display: flex; gap: 0.4rem; flex-wrap: wrap; }
   .badge.small { font-size: 0.7rem; padding: 0.1rem 0.5rem; }
