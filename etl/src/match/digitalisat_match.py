@@ -380,7 +380,7 @@ def search_entry(entry: dict, z: dict, jcache: dict) -> dict:
             jcache[c] = {"ddb": ddb_journal_volumes(c), "b3kat": b3kat_journal(c)}
             time.sleep(INTERVAL)
         band = z.get("band")
-        hits = [v for v in jcache[c]["ddb"] if (band and v["band"] == band) or (year and year in v["jahre"])]
+        hits = [v for v in jcache[c]["ddb"] if band and v["band"] == band] if band else [v for v in jcache[c]["ddb"] if year and year in v["jahre"]]
         hits.sort(key=lambda v: -((band is not None and v["band"] == band) + (year in v["jahre"] if year else 0)))
         for v in hits[:2]:
             links.append({"url": v["url"], "anbieter": v["anbieter"], "beschreibung": v["label"], "ebene": "band", "quelle": "ddb"})
