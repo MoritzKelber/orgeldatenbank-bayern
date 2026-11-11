@@ -8,10 +8,14 @@ const literature = getAllLiterature();
 const erhalten = organs.filter((o) => o.erhalten).length;
 const base = import.meta.env.BASE_URL;
 ---
-<Base title="Startseite">
-  <div class="hero" style={`background-image: linear-gradient(to bottom, rgba(11,37,69,0.1) 40%, rgba(11,37,69,0.88)), url(${base}/images/hero-st-anna-augsburg.jpg);`}>
+<Base title="Startseite" hero>
+  <div slot="hero" class="hero" style={`background-image: linear-gradient(to bottom, rgba(11,37,69,0.7) 0%, rgba(11,37,69,0.12) 28%, rgba(11,37,69,0.88)), url(${base}/images/hero-st-anna-augsburg.jpg);`}>
     <div class="hero-inner">
       <h1>Orgeldatenbank Bayern</h1>
+      <form class="hero-search" action={`${base}/suche/`} method="get" role="search">
+        <input type="search" name="q" placeholder="Orte, Kirchen, Orgelbauer, Literatur durchsuchen …" aria-label="Suche" />
+        <button type="submit">Suchen</button>
+      </form>
     </div>
     <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:St._Anna_(Augsburg)_Orgel.jpg" target="_blank" rel="noopener">
       Orgel St. Anna (Fuggerkapelle), Augsburg · Foto: Ricardalovesmonuments, CC BY-SA 4.0, via Wikimedia Commons
@@ -47,8 +51,7 @@ const base = import.meta.env.BASE_URL;
 <style>
   .hero {
     position: relative;
-    margin: -1.5rem -1.25rem 0;
-    min-height: min(32rem, 70vh);
+    min-height: min(34rem, 75vh);
     background-size: cover;
     background-position: center 28%;
     background-repeat: no-repeat;
@@ -59,11 +62,35 @@ const base = import.meta.env.BASE_URL;
     width: 100%;
     max-width: 920px;
     margin: 0 auto;
-    padding: 2rem 1.25rem 3rem;
+    padding: 6rem 1.25rem 3.5rem;
     color: #fff;
   }
+  .hero-search { display: flex; gap: 0.5rem; max-width: 40rem; }
+  .hero-search input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.8rem 1.1rem;
+    font: inherit;
+    font-size: 1.05rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.95);
+    color: #15263a;
+  }
+  .hero-search input:focus { outline: 2px solid #8ec5ee; outline-offset: 2px; }
+  .hero-search button {
+    padding: 0.8rem 1.3rem;
+    font: inherit;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    background: #2f6fb3;
+    color: #fff;
+    cursor: pointer;
+  }
+  .hero-search button:hover { background: #1d4e89; }
   .hero h1 {
-    margin: 0 0 0.5rem;
+    margin: 0 0 1rem;
     font-size: clamp(1.8rem, 4.5vw, 2.6rem);
     color: #fff;
   }

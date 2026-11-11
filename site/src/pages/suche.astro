@@ -14,5 +14,8 @@ const base = import.meta.env.BASE_URL;
   // so it only exists after `npm run build`, not in `astro dev` - that's
   // expected, this page will 404 on the JS import during local dev.
   const { PagefindUI } = await import(`${base}/pagefind/pagefind-ui.js`);
-  new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+  const ui = new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+  // Suchfeld der Startseite übergibt ?q=...
+  const q = new URLSearchParams(location.search).get("q");
+  if (q) ui.triggerSearch(q);
 </script>
