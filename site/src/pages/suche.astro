@@ -9,17 +9,22 @@ const base = import.meta.env.BASE_URL;
 </Base>
 
 <link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
-<script is:inline type="module">
+<script is:inline>
   // Pagefind's index is generated post-build (see package.json "postbuild"),
-  // so it only exists after `npm run build`, not in `astro dev` - that's
-  // expected, this page will 404 on the JS import during local dev.
-  // is:inline + type=module: Astro's define:vars wraps the script in a plain
-  // function, where the top-level `await import` is a syntax error.
-  const el = document.getElementById("search");
-  const base = el.dataset.base;
-  const { PagefindUI } = await import(`${base}/pagefind/pagefind-ui.js`);
-  const ui = new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
-  // Suchfeld der Startseite übergibt ?q=...
-  const q = new URLSearchParams(location.search).get("q");
-  if (q) ui.triggerSearch(q);
+  // so it only exists after `npm run build`, not in `astro dev`.
+  // pagefind-ui.js is a classic script that defines the global PagefindUI
+  // (it is not an ES module with exports), so it is loaded as a script tag.
+  (function () {
+    var el = document.getElementById("search");
+    var base = el.getAttribute("data-base");
+    var s = document.createElement("script");
+    s.src = base + "/pagefind/pagefind-ui.js";
+    s.onload = function () {
+      var ui = new window.PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+      // Suchfeld der Startseite übergibt ?q=...
+      var q = new URLSearchParams(location.search).get("q");
+      if (q) ui.triggerSearch(q);
+    };
+    document.head.appendChild(s);
+  })();
 </script>
