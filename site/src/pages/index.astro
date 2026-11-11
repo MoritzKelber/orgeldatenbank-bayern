@@ -9,7 +9,7 @@ const erhalten = organs.filter((o) => o.erhalten).length;
 const base = import.meta.env.BASE_URL;
 ---
 <Base title="Startseite" hero>
-  <div slot="hero" class="hero" style={`background-image: linear-gradient(to bottom, rgba(11,37,69,0.7) 0%, rgba(11,37,69,0.12) 28%, rgba(11,37,69,0.88)), url(${base}/images/hero-st-anna-augsburg.jpg);`}>
+  <div slot="hero" class="hero" style={`background-image: linear-gradient(to bottom, rgba(11,37,69,0.95) 0%, rgba(11,37,69,0.75) 12%, rgba(11,37,69,0.3) 28%, rgba(11,37,69,0.1) 42%, rgba(11,37,69,0.88)), url(${base}/images/hero-st-anna-augsburg.jpg);`}>
     <div class="hero-inner">
       <h1>Orgeldatenbank Bayern</h1>
       <form class="hero-search" action={`${base}/suche/`} method="get" role="search">
