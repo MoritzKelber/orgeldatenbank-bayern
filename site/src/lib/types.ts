@@ -147,6 +147,9 @@ export interface Builder {
   biografie: string | null;
   personen: Person[];
   organ_ids: number[];
+  // "Lit.:"-Zeilen der Biografie (match/link_person_literatur.py); slug null
+  // = kein Katalogeintrag (z. B. "Mitteilung ..."), wird als Text gezeigt.
+  literatur?: { text: string; slug: string | null }[];
 }
 
 export const BEZIEHUNG_LABELS: Record<string, string> = {
@@ -237,6 +240,8 @@ export interface LiteraturEntry {
   abstract: string | null;
   keywords: LiteraturKeyword[];
   organ_ids: number[];
+  // Erbauer-Lemmata, in deren Biografie dieser Titel als Literatur steht
+  lemma_ids?: number[];
   bms: BmsMatch | null;
   gateway_bayern: GatewayBayernMatch | null;
   digitalisat?: Digitalisat | null;

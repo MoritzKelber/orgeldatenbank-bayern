@@ -55,6 +55,8 @@ const lebensdatenQuelltext = person.lebensdaten.raw.length > 0 ? person.lebensda
 // person's page, since attributing it to one specific candidate would be
 // exactly the kind of guess that script's docstring warns against.
 const personOrgane = getAllOrgans().filter((o) => o.bauer_person_id === person.id);
+// Literatur aus den "Lit.:"-Zeilen der Lemma-Biografie (gilt für das ganze Lemma).
+const literatur = lemma?.literatur ?? [];
 ---
 <Base title={name}>
   <p><a href={`${base}/personen/`}>&larr; zurück zum Personenlexikon</a></p>
@@ -154,6 +156,17 @@ const personOrgane = getAllOrgans().filter((o) => o.bauer_person_id === person.i
     {lemma?.biografie && <p class="biografie">{lemma.biografie}</p>}
   </section>
 
+  {literatur.length > 0 && (
+    <section>
+      <h2>Literatur ({literatur.length})</h2>
+      <ul class="lit-list">
+        {literatur.map((r) => (
+          <li>{r.slug ? <a href={`${base}/literatur/${r.slug}/`}>{r.text}</a> : r.text}</li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   {personOrgane.length > 0 && (
     <section>
       <h2>Orgeln dieser Person ({personOrgane.length})</h2>
@@ -172,5 +185,5 @@ const personOrgane = getAllOrgans().filter((o) => o.bauer_person_id === person.i
   .quelle-hinweis { font-size: 0.75rem; opacity: 0.6; }
   .gnd-hinweis { color: #8a6500; cursor: help; }
   .biografie { white-space: pre-line; }
-  .organ-list { padding-left: 1.25rem; }
+  .organ-list, .lit-list { padding-left: 1.25rem; }
 </style>

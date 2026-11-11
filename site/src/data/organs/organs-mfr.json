@@ -1054,9 +1054,9 @@
         "lit": "Orgelspiegel 64 (1998), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 55 (1998), S.192",
@@ -1402,9 +1402,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Jann, 20 J. Jann (1995), S.63",
@@ -2020,9 +2020,9 @@
         "lit": "Orgelspiegel 58 (1992), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -2380,7 +2380,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "929-2"
   },
   {
     "id": 74,
@@ -2644,9 +2644,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.57,168",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Bayreuther Ob (1971), S.229",
@@ -3198,17 +3198,17 @@
         "lit": "Fischer/W., Altdorf (1969/70), S.175,176",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Altdorf (1969/70)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-altdorf-1969-70"
       },
       {
         "lit": "Fischer/W., Süddeutsche O (1973), S.22,259",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Lampl, Orgeldenkmalpflege (1993), S.380",
@@ -3719,9 +3719,9 @@
         "lit": "Orgelspiegel 25 (1974), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Deininger & Renner-Werkverz. (1983), Nr.13",
@@ -3857,9 +3857,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.25,33,39",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.189",
@@ -4011,9 +4011,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.33,39",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.189",
@@ -5980,9 +5980,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.9,93,159",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Bodechtel (1995), S.32",
@@ -6699,9 +6699,9 @@
         "lit": "Orgelspiegel 67 (2001), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 64 (2002), S. 153",
@@ -7414,9 +7414,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.IX",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -10545,9 +10545,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.33,36",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Fischer/W., Nürnberger Ob (1972), S.233",
@@ -10618,9 +10618,9 @@
         "lit": "Orgelspiegel 47 (1982)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -10683,9 +10683,9 @@
         "lit": "Orgelspiegel 42 (1980)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -11220,9 +11220,9 @@
         "lit": "Orgelspiegel 33 (1976)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.51",
@@ -13681,9 +13681,9 @@
         "lit": "Orgelspiegel 45 (1981), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.52",
@@ -14602,9 +14602,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 191",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.260",
@@ -15385,9 +15385,9 @@
         "lit": "Orgelspiegel 30 (1975), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.52",
@@ -16978,9 +16978,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 191",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.122",
@@ -17514,9 +17514,9 @@
         "lit": "Nadler, Vorarlberg IV (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Nadler, Vorarlberg [Band] (1985)",
+        "confidence": "serie",
+        "slug": "nadler-vorarlberg-band-1985"
       },
       {
         "lit": "Mitteilung R. Goede (1987)",
@@ -17538,9 +17538,9 @@
         "lit": "PR Ansbach (1975), S. 9, 31",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "PR Ansbach (1975)",
+        "confidence": "normalisiert",
+        "slug": "pr-ansbach-1975"
       }
     ],
     "kirche_gnd": {
@@ -18785,7 +18785,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 1292,
@@ -20007,9 +20007,9 @@
         "lit": "Fischer, Spessart XIX (1967), S.9",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer, Spessart [Teil] ([Jahr])",
+        "confidence": "serie",
+        "slug": "fischer-spessart-teil-jahr"
       },
       {
         "lit": "Fischer/W., Windsheim (1968), S.4f",
@@ -20913,9 +20913,9 @@
         "lit": "Orgelspiegel 44 (1981), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis V (1988), op.2356",
@@ -21217,17 +21217,17 @@
         "lit": "Orgelspiegel 14 (1969), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/Nadler/W., Bayer. Ob (1972), S.42,45",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/Nadler/W., Bayer. Ob (1972)",
+        "confidence": "normalisiert",
+        "slug": "fischer-nadler-w-bayer-ob-1972"
       },
       {
         "lit": "Fischer/W., Berger II (1979), S.3",
@@ -21363,17 +21363,17 @@
         "lit": "Orgelspiegel 14 (1969), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/Nadler/W., Bayer. Ob (1972), S.42,45",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/Nadler/W., Bayer. Ob (1972)",
+        "confidence": "normalisiert",
+        "slug": "fischer-nadler-w-bayer-ob-1972"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.79f",
@@ -21461,17 +21461,17 @@
         "lit": "Orgelspiegel 14 (1969), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/Nadler/W., Bayer. Ob (1972), S.42,45",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/Nadler/W., Bayer. Ob (1972)",
+        "confidence": "normalisiert",
+        "slug": "fischer-nadler-w-bayer-ob-1972"
       }
     ],
     "kirche_gnd": {
@@ -21855,9 +21855,9 @@
         "lit": "Orgelspiegel 14 (1969), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Steinmeyer (1957 ff)",
@@ -23157,9 +23157,9 @@
         "lit": "Orgelspiegel 54 (1988)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Wiegleb (1990), S.274",
@@ -24333,9 +24333,9 @@
         "lit": "Fischer/W., Positive I (1967), S.401, 403",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Positive I (1967)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-positive-i-1967"
       },
       {
         "lit": "Fischer/W., Dinkelsbühl I (1988), S.190",
@@ -24463,9 +24463,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.63, 307 f.",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FS Bad Windsheim I (1986), S.11 ff.",
@@ -24935,25 +24935,25 @@
         "lit": "Hofner, Bayreuth IV (1932), S.303, 316",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Hofner, Bayreuth IV (1932)",
+        "confidence": "normalisiert",
+        "slug": "hofner-bayreuth-iv-1932"
       },
       {
         "lit": "Hofner, Graichen u. Ritter (1963), S.596, 599",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Hofner, Graichen u. Ritter (1963)",
+        "confidence": "normalisiert",
+        "slug": "hofner-graichen-u-ritter-1963"
       },
       {
         "lit": "Hofner, Ostfranken (1972), S.71,73",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Hofner, Ostfranken (1972)",
+        "confidence": "normalisiert",
+        "slug": "hofner-ostfranken-1972"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.194",
@@ -25218,9 +25218,9 @@
         "lit": "Orgelspiegel 25 (1974), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.194",
@@ -25265,7 +25265,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 2801,
@@ -27538,9 +27538,9 @@
         "lit": "Orgelspiegel 61 (1995), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.84f",
@@ -28044,7 +28044,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "892-6"
   },
   {
     "id": 3359,
@@ -28103,9 +28103,9 @@
         "lit": "Nadler, Vorarlberg IV (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Nadler, Vorarlberg [Band] (1985)",
+        "confidence": "serie",
+        "slug": "nadler-vorarlberg-band-1985"
       }
     ],
     "kirche_gnd": {
@@ -28213,7 +28213,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "892-6"
   },
   {
     "id": 3361,
@@ -28661,9 +28661,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 198",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.7",
@@ -28835,9 +28835,9 @@
         "lit": "Orgelspiegel 12 (1968), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.198",
@@ -28991,9 +28991,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.42,66",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Gessinger II (1992), S.290",
@@ -29865,9 +29865,9 @@
         "lit": "Orgelspiegel 8 (1966), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -30929,9 +30929,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.439,443",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       },
       {
         "lit": "Brenninger, Altbayern (1982), S.152",
@@ -31417,9 +31417,9 @@
         "lit": "Orgelspiegel 65 (1999), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Sandtner-Werkverzeichnis (2005), S. 6",
@@ -31831,9 +31831,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 206",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.41",
@@ -32112,7 +32112,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 4000,
@@ -32695,9 +32695,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.201, 317, 369",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -32811,9 +32811,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 201, 369",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.209",
@@ -33004,9 +33004,9 @@
         "lit": "Orgelspiegel 50 (1984)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung A. Serr (1989)",
@@ -33458,9 +33458,9 @@
         "lit": "Orgelspiegel 53 (1987)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 37 (1988), S.165",
@@ -33771,9 +33771,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.41,190,274",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.317",
@@ -34163,9 +34163,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.13,59,90,143",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": null,
@@ -34655,9 +34655,9 @@
         "lit": "Orgelspiegel 49 (1983)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS Burghaslach (1982)",
@@ -35673,9 +35673,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.14,48,73,77",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S. 95f",
@@ -35937,9 +35937,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.91,148",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.316",
@@ -36279,9 +36279,9 @@
         "lit": "Fischer, Diözese Würzburg (1965), S.132, 135",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer, Diözese Würzburg (1965)",
+        "confidence": "normalisiert",
+        "slug": "fischer-dioezese-wuerzburg-1965"
       },
       {
         "lit": "Fischer, Mainfranken I (1968), S.150",
@@ -37231,9 +37231,9 @@
         "lit": "Orgelspiegel 1 (1963), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.83",
@@ -37690,9 +37690,9 @@
         "lit": "Orgelspiegel 2 (1963), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.83",
@@ -38069,9 +38069,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung R. Goede (1988)",
@@ -40659,9 +40659,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.205, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.99",
@@ -40761,9 +40761,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.60 f., 205",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.99",
@@ -41433,9 +41433,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung KMD U. Knörr (2008)",
@@ -42338,9 +42338,9 @@
         "lit": "Orgelspiegel 32 (1976)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.207",
@@ -42706,9 +42706,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.308, 319",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -42785,7 +42785,7 @@
       "grund": null
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "650-1"
   },
   {
     "id": 5129,
@@ -43152,9 +43152,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.23, 112, 164",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.316",
@@ -43505,9 +43505,9 @@
         "lit": "Orgelspiegel 53 (1987)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Jann, 20 J. Jann (1995), S.63",
@@ -49231,9 +49231,9 @@
         "lit": "KMM Augsburg 48 (1997), S.14",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "KMM Augsburg [Nr.] ([Jahr])",
+        "confidence": "serie",
+        "slug": "kmm-augsburg-nr-jahr"
       },
       {
         "lit": "Mitteilung Rieger, Schwarzach (2001)",
@@ -49410,9 +49410,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 209",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.121",
@@ -51298,9 +51298,9 @@
         "lit": "Orgelspiegel 50 (1984)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis V (1988), op.2373",
@@ -52268,9 +52268,9 @@
         "lit": "Fischer/W., Mittelfranken (2001), S.109.f",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Mittelfranken (2001)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-mittelfranken-2001"
       }
     ],
     "kirche_gnd": null,
@@ -52955,9 +52955,9 @@
         "lit": "Bauer, Allgeyer (1986), S.69, 82",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bauer, Allgeyer (1986)",
+        "confidence": "normalisiert",
+        "slug": "bauer-allgeyer-1986"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.110f.",
@@ -53138,9 +53138,9 @@
         "lit": "Orgelspiegel 34 (1977)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.97",
@@ -53875,7 +53875,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 6163,
@@ -54536,9 +54536,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.316, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.304",
@@ -58213,9 +58213,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.212,358",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.11",
@@ -58587,9 +58587,9 @@
         "lit": "Orgelspiegel 7 (1966), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.99",
@@ -59419,9 +59419,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.35, 81",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.114f.",
@@ -59949,9 +59949,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.63, 196",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.318",
@@ -60469,7 +60469,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "929-2"
   },
   {
     "id": 6732,
@@ -61488,9 +61488,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.101",
@@ -61768,9 +61768,9 @@
         "lit": "Fischer/W., Coburg I (1970), S.214f",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Coburg [Teil] ([Jahr])",
+        "confidence": "serie",
+        "slug": "fischer-w-coburg-teil-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.214",
@@ -62132,9 +62132,9 @@
         "lit": "Trötschel, Erlangen (1995), S.348, 351",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Trötschel, Erlangen (1995)",
+        "confidence": "normalisiert",
+        "slug": "troetschel-erlangen-1995"
       },
       {
         "lit": "Lampl, Orgeldenkmalpflege (1989), S.630",
@@ -63113,9 +63113,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.2, 272",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Morath, Erlangen St.Markus (1984), S.15",
@@ -64374,9 +64374,9 @@
         "lit": "Hofner, Graichen u. Ritter (1963), S.596, 602",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Hofner, Graichen u. Ritter (1963)",
+        "confidence": "normalisiert",
+        "slug": "hofner-graichen-u-ritter-1963"
       },
       {
         "lit": "Pöhlmann, Hof St. Michaelis I (1963), S.68",
@@ -66145,9 +66145,9 @@
         "lit": "Orgelspiegel 40 (1979)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.101",
@@ -66444,9 +66444,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 213",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.475",
@@ -66862,9 +66862,9 @@
         "lit": "Orgelspiegel 48 (1983), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.101",
@@ -67518,9 +67518,9 @@
         "lit": "Orgelspiegel 51 (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.101",
@@ -67680,9 +67680,9 @@
         "lit": "Fischer/W., Gessinger II (1992), S.288, 306",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Gessinger II (1992)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-gessinger-ii-1992"
       }
     ],
     "kirche_gnd": {
@@ -69262,9 +69262,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.3,54,122",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Bayreuther Ob (1971), S.229",
@@ -69654,9 +69654,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.214, 357",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.282",
@@ -69823,9 +69823,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.61, 215",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.591",
@@ -69999,9 +69999,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.477,479",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Fischer/W., Nürnberger Ob (1972), S.234",
@@ -72624,9 +72624,9 @@
         "lit": "Orgelspiegel 48 (1983), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.107",
@@ -73357,9 +73357,9 @@
         "lit": "KMM Augsburg 50 (1998), S.14",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "KMM Augsburg [Nr.] ([Jahr])",
+        "confidence": "serie",
+        "slug": "kmm-augsburg-nr-jahr"
       },
       {
         "lit": "Bernhard, Neue O 57 (1999), S.147",
@@ -73381,9 +73381,9 @@
         "lit": "Orgelspiegel 65 (1999), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Naacke, Link (2001), S.272",
@@ -74701,9 +74701,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.25,36,61,217",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Steinmeyer I (1972), S.1",
@@ -75461,9 +75461,9 @@
         "lit": "FS Fürth, Auferstehungskirche (1989), S.27-29",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "FS Fürth, Auferstehungskirche (1989)",
+        "confidence": "normalisiert",
+        "slug": "fs-fuerth-auferstehungskirche-1989"
       },
       {
         "lit": "Mitteilung H. Deininger (1988)",
@@ -75678,9 +75678,9 @@
         "lit": "Bernhard, Neue O 41 (1990), S.200, 213",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bernhard, Neue O 41 (1990)",
+        "confidence": "normalisiert",
+        "slug": "bernhard-neue-o-41-1990"
       },
       {
         "lit": "FS Fürth, Auferstehungskirche (1989)",
@@ -76807,9 +76807,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.90, 139",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "R. Weiss, Gutachten von 1997",
@@ -77242,9 +77242,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.56, 219",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.132",
@@ -78196,9 +78196,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.79, 105",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "FS Fürth, Auferstehungskirche (1989), S.23",
@@ -78297,9 +78297,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.79,105",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "FS Fürth, Auferstehungskirche (1989), S.23",
@@ -78537,9 +78537,9 @@
         "lit": "Orgelspiegel 13 (1968), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.114",
@@ -78575,7 +78575,7 @@
       "grund": null
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 8111,
@@ -78913,9 +78913,9 @@
         "lit": "Orgelspiegel 12 (1968), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Pape, Dispositionen II (1969), S.97",
@@ -79066,9 +79066,9 @@
         "lit": "Orgelspiegel 55 (1989), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Oberweihersbusch (1989), S.A 10",
@@ -79139,9 +79139,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.39,297",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Dehio, Franken (1979), S.191",
@@ -80632,9 +80632,9 @@
         "lit": "Orgelspiegel 42 (1980)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.114",
@@ -80899,17 +80899,17 @@
         "lit": "Orgelspiegel 4 (1964), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Adelung, Orgeltagung Fürth (1966), S.1035, 1037",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Adelung, Orgeltagung Fürth (1966)",
+        "confidence": "normalisiert",
+        "slug": "adelung-orgeltagung-fuerth-1966"
       },
       {
         "lit": "Fischer, Walcker (1966), S.111",
@@ -82265,9 +82265,9 @@
         "lit": "Orgelspiegel 7 (1966), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Adelung, O der Gegenwart (1972), S.223",
@@ -84672,9 +84672,9 @@
         "lit": "Orgelspiegel 24 (1973), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.117",
@@ -84965,9 +84965,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.14, 248f",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Bodechtel (1995), S.37 f.",
@@ -85839,9 +85839,9 @@
         "lit": "Orgelspiegel 57 (1991), S.9",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -86741,9 +86741,9 @@
         "lit": "Orgelspiegel 43 (1980)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS Gnotzheim (1980)",
@@ -87004,9 +87004,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.506,511",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Mitteilung Kath. Pfarramt Allersberg (2000)",
@@ -87300,9 +87300,9 @@
         "lit": "Fischer/W., Mittelfranken (2001), S.141f, 306",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Mittelfranken (2001)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-mittelfranken-2001"
       }
     ],
     "kirche_gnd": {
@@ -88302,17 +88302,17 @@
         "lit": "Bernhard, Neue O 44 (1992), S.125, 130",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bernhard, Neue O 44 (1992)",
+        "confidence": "normalisiert",
+        "slug": "bernhard-neue-o-44-1992"
       },
       {
         "lit": "Orgelspiegel 58 (1992), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung Sandtner (1991)",
@@ -88980,9 +88980,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.90,139",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W. Mittelfranken (2001), S.142f",
@@ -89469,7 +89469,7 @@
       "adresse_pruefung": "keine_daten"
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 9273,
@@ -89684,9 +89684,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.99,185",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Prediger (1997), S.85",
@@ -90077,9 +90077,9 @@
         "lit": "Orgelspiegel 50 (1984)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.122",
@@ -92117,9 +92117,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62,159,224",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.124",
@@ -92397,9 +92397,9 @@
         "lit": "Orgelspiegel 29 (1975), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.224",
@@ -93202,9 +93202,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 223",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.538",
@@ -93633,9 +93633,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.224, 252, 253",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -93807,9 +93807,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.224, 316",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -93901,9 +93901,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62,125,224",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.232",
@@ -94514,9 +94514,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.57, 244",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.659",
@@ -94656,9 +94656,9 @@
         "lit": "Orgelspiegel 37 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.244",
@@ -94784,9 +94784,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.159, 224",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Kleinmeister Schwaben (1991), S.71 f.",
@@ -95227,9 +95227,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.290,293",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       }
     ],
     "kirche_gnd": {
@@ -95292,9 +95292,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.290,293",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       }
     ],
     "kirche_gnd": {
@@ -96789,9 +96789,9 @@
         "lit": "Fischer/W., Hößler (1976), S.34, 44",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Hößler (1976)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-hoessler-1976"
       },
       {
         "lit": "Fischer/W., Süddeutsche O (1973), S.33",
@@ -97486,9 +97486,9 @@
         "lit": "Orgelspiegel 24 (1973), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS Heideck (1973), S.4",
@@ -101058,9 +101058,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.399,402",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Fischer/W., Nürnberger Ob (1972), S.239",
@@ -101355,9 +101355,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.159, 226",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.109",
@@ -101946,9 +101946,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung M.Hohmann, Heideck (2000)",
@@ -102086,9 +102086,9 @@
         "lit": "Orgelspiegel 15 (1969), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -102371,9 +102371,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.125, 226",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.110",
@@ -102708,9 +102708,9 @@
         "lit": "Orgelspiegel 24 (1973), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.226f",
@@ -104347,9 +104347,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.682,688",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.246",
@@ -104443,9 +104443,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.682,688",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.247",
@@ -105199,9 +105199,9 @@
         "lit": "Orgelspiegel 50 (1984)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.134",
@@ -107046,9 +107046,9 @@
         "lit": "Orgelspiegel 40 (1979)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.135",
@@ -107245,9 +107245,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.55,60,62,228",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer, Mainfranken II (1969), S.36",
@@ -107301,9 +107301,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.48,165",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Gessinger II (1992), S.305",
@@ -108043,9 +108043,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.43, 68",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Lkr. Hersbruck (1968/69), S.11",
@@ -108291,9 +108291,9 @@
         "lit": "Orgelspiegel 3 (1964), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -108476,9 +108476,9 @@
         "lit": "Fischer/W., Hößler (1976), S.38, 44",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Hößler (1976)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-hoessler-1976"
       },
       {
         "lit": "Fischer/W. Mittelfranken (2001), S.152f",
@@ -109455,9 +109455,9 @@
         "lit": "Fischer/W., Hersbruck (1975), S.60-65",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Hersbruck (1975)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-hersbruck-1975"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.229",
@@ -109503,9 +109503,9 @@
         "lit": "Fischer/W., Hößler (1976), S.38, 44",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Hößler (1976)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-hoessler-1976"
       },
       {
         "lit": "Fischer/W. Mittelfranken (2001), S.153f",
@@ -109708,9 +109708,9 @@
         "lit": "Fischer/W., Hersbruck (1975), S.60-65",
         "disp": false,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Hersbruck (1975)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-hersbruck-1975"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.229",
@@ -110218,9 +110218,9 @@
         "lit": "Orgelspiegel 34 (1977)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.137",
@@ -110646,9 +110646,9 @@
         "lit": "Orgelspiegel 27 (1974), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -111911,9 +111911,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.211, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Mitteilung A. Serr (1989)",
@@ -112148,9 +112148,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 230",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.601",
@@ -112278,9 +112278,9 @@
         "lit": "Orgelspiegel 66 (2000), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 64 (2002), S. 156",
@@ -114739,7 +114739,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "489-3"
   },
   {
     "id": 11718,
@@ -117604,9 +117604,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.234, 25",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.369",
@@ -119599,9 +119599,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.2,117",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Erlangen (1983), S.80",
@@ -120139,9 +120139,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.307, 316, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -122242,9 +122242,9 @@
         "lit": "Orgelspiegel 45 (1981), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung D. Eppelein (1988)",
@@ -123478,9 +123478,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.91,145",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.307f",
@@ -124371,9 +124371,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.477,479",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Fischer/W., Nürnberger Ob (1972), S.234",
@@ -126695,9 +126695,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.125, 246",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.135",
@@ -128261,9 +128261,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.55, 244",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.268",
@@ -132459,9 +132459,9 @@
         "lit": "Orgelspiegel 57 (1991), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 47 (1993), S.164",
@@ -132514,7 +132514,7 @@
       "adresse_pruefung": "bestaetigt"
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 14322,
@@ -133050,9 +133050,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.44,69",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.124",
@@ -133422,9 +133422,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.111,149 f.",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.316",
@@ -134198,9 +134198,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.5,310",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Wiegleb (1990), S.281",
@@ -134630,9 +134630,9 @@
         "lit": "Orgelspiegel 55 (1989), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung W. Meyer (1989)",
@@ -134959,9 +134959,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.682,684,688",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.246",
@@ -135055,17 +135055,17 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.682,684,688",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 246",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.207",
@@ -135400,17 +135400,17 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.35,150",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 247",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis III (1972), op.217",
@@ -135908,9 +135908,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.55, 250",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -136040,9 +136040,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.250, 316",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Dehio, Franken (1979), S.489",
@@ -136636,9 +136636,9 @@
         "lit": "Schwämmlein, Amberg (1987), S.88, 92",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Schwämmlein, Amberg (1987)",
+        "confidence": "normalisiert",
+        "slug": "schwaemmlein-amberg-1987"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.187",
@@ -136937,9 +136937,9 @@
         "lit": "Orgelspiegel 57 (1991), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung Sandtner (1989)",
@@ -137041,9 +137041,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.477, 479",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Mitteilung Kath. Pfarramt Greding (2000)",
@@ -138329,9 +138329,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.189, 319",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -138774,7 +138774,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 15101,
@@ -139469,7 +139469,7 @@
       "grund": null
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 15424,
@@ -139542,9 +139542,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.42,69",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -141183,9 +141183,9 @@
         "lit": "Fischer/W., Mittelfranken (2001), S.187f, 309f",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Mittelfranken (2001)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-mittelfranken-2001"
       }
     ],
     "kirche_gnd": null,
@@ -141878,9 +141878,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.224, 253",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -142073,9 +142073,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62,125,252 f.",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.147",
@@ -142401,9 +142401,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.399,402",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.253",
@@ -142619,9 +142619,9 @@
         "lit": "Orgelspiegel 54 (1988)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 35 (1987), S.161",
@@ -143141,9 +143141,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.56, 255",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -144493,9 +144493,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.98,152f",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.316",
@@ -145298,9 +145298,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.107",
@@ -145372,9 +145372,9 @@
         "lit": "Orgelspiegel 48 (1983), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -145572,9 +145572,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 261",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.153",
@@ -146083,9 +146083,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.258, 359",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.78",
@@ -146344,9 +146344,9 @@
         "lit": "Orgelspiegel 42 (1980)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.184",
@@ -147579,9 +147579,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 260",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.278",
@@ -148321,9 +148321,9 @@
         "lit": "Orgelspiegel 59 (1993), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Jann-Werkverzeichnis (2005)",
@@ -148820,9 +148820,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -149229,9 +149229,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.56, 261",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.122",
@@ -150264,9 +150264,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.29, 266",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.141",
@@ -150620,9 +150620,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.98,182f",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Nößler (1993), S.67",
@@ -150899,9 +150899,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.55, 251",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.351",
@@ -151021,9 +151021,9 @@
         "lit": "Orgelspiegel 27 (1974), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.251",
@@ -151060,7 +151060,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 18139,
@@ -154207,9 +154207,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.13,21f",
         "disp": false,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       },
       {
         "lit": "Fischer, Mainfranken I (1968), S.115",
@@ -154281,9 +154281,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.13, 21",
         "disp": false,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       }
     ],
     "kirche_gnd": {
@@ -154545,9 +154545,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.13, 24",
         "disp": false,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       }
     ],
     "kirche_gnd": {
@@ -154685,9 +154685,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.13f,25",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       }
     ],
     "kirche_gnd": {
@@ -157187,9 +157187,9 @@
         "lit": "Orgelspiegel 48 (1983), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "KF Neustadt/Aisch (1984), S.16ff",
@@ -157211,9 +157211,9 @@
         "lit": "Jann, 20 J. Jann (1995), S.7, 62",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Jann, 20 J. Jann (1995)",
+        "confidence": "normalisiert",
+        "slug": "jann-20-j-jann-1995"
       },
       {
         "lit": "Mitteilung D. Eppelein (1988)",
@@ -159018,9 +159018,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.209, 358",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -160188,9 +160188,9 @@
         "lit": "Orgelspiegel 37 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Blanchard, Organs II (1982), S.72",
@@ -160677,9 +160677,9 @@
         "lit": "Orgelspiegel 53 (1987)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 34 (1987), S.137",
@@ -161055,9 +161055,9 @@
         "lit": "Orgelspiegel 66 (2000), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -161173,9 +161173,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.258, 362",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -161817,9 +161817,9 @@
         "lit": "Orgelspiegel 58 (1992), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung ION (2003)",
@@ -162975,9 +162975,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -163153,9 +163153,9 @@
         "lit": "Orgelspiegel 58 (1992), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -163218,9 +163218,9 @@
         "lit": "Orgelspiegel 20 (1971), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.194",
@@ -165056,9 +165056,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.XII",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Freipfeifenprospekte (1995), S.194",
@@ -165215,9 +165215,9 @@
         "lit": "Orgelspiegel 60 (1994), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Hoffmann (1999)",
@@ -165245,7 +165245,7 @@
       "grund": null
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 18874,
@@ -165471,9 +165471,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 43 (1991), S.142",
@@ -165924,9 +165924,9 @@
         "lit": "Fischer/W., Steinmeyer I (1972), S.4, Anhang",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer I (1972)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-i-1972"
       },
       {
         "lit": "Adelung, Orgeltagung Fürth (1966), S.1037",
@@ -166037,9 +166037,9 @@
         "lit": "Orgelspiegel 11 (1967), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -166763,9 +166763,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -166893,9 +166893,9 @@
         "lit": "Orgelspiegel 54 (1988)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -168007,9 +168007,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.267,362",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Synagogen I (1973), S.5 f.",
@@ -168946,9 +168946,9 @@
         "lit": "Orgelspiegel 37 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Deininger & Renner-Werkverz. (1983), Nr.30",
@@ -169338,9 +169338,9 @@
         "lit": "Wörsching, Orgelprospekt (1936), S.104-114",
         "disp": false,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Wörsching, Orgelprospekt (1936)",
+        "confidence": "normalisiert",
+        "slug": "woersching-orgelprospekt-1936"
       }
     ],
     "kirche_gnd": {
@@ -170794,9 +170794,9 @@
         "lit": "Orgelspiegel 19 (1971), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -171241,9 +171241,9 @@
         "lit": "Orgelspiegel 21 (1972), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.194",
@@ -171443,9 +171443,9 @@
         "lit": "Orgelspiegel 24 (1973), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.194",
@@ -171920,9 +171920,9 @@
         "lit": "Orgelspiegel 55 (1989), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung H.-J. Richter (1988)",
@@ -174159,9 +174159,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 264",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.243",
@@ -174412,9 +174412,9 @@
         "lit": "Orgelspiegel 2 (1963), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Högner, Bayern (1964), S.278",
@@ -174655,9 +174655,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.8,224",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Erlangen (1983), S.80",
@@ -175316,9 +175316,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.31, 158",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -175505,9 +175505,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62,158,265",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.657",
@@ -176370,9 +176370,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.46,221,257",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Mitteilung E. Koch (1988)",
@@ -176497,9 +176497,9 @@
         "lit": "Bayr. Kunstdenkmale Nürnberg (1977), S.276, 413",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bayr. Kunstdenkmale Nürnberg (1977)",
+        "confidence": "normalisiert",
+        "slug": "bayr-kunstdenkmale-nuernberg-1977"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.1392",
@@ -176579,9 +176579,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.261, 266",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Bodechtel (1995), S.33",
@@ -177397,9 +177397,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.13f,25",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.266f",
@@ -177503,9 +177503,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.13f,25",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       },
       {
         "lit": "Fischer, Mainfranken I (1968), S.112",
@@ -177889,9 +177889,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.124,158,266",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.142",
@@ -178185,9 +178185,9 @@
         "lit": "Harrassowitz, Nürnberg St. Lorenz (1973), S.30,36",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Harrassowitz, Nürnberg St. Lorenz (1973)",
+        "confidence": "normalisiert",
+        "slug": "harrassowitz-nuernberg-st-lorenz-1973"
       },
       {
         "lit": "Fischer/W., Bodechtel (1995), S.34",
@@ -178387,9 +178387,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.15,43",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -178600,9 +178600,9 @@
         "lit": "Fischer/W., Steinmeyer II (1973), S.158, 249",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer II (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-ii-1973"
       },
       {
         "lit": "Fischer/W., Süddeutsche O (1973), S.265ff",
@@ -178624,9 +178624,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.175, 266",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.142",
@@ -180231,9 +180231,9 @@
         "lit": "Orgelspiegel 25 (1974), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -180269,7 +180269,7 @@
       "grund": null
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 19060,
@@ -181891,9 +181891,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.47,230,240",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.264",
@@ -182004,9 +182004,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.47,230 f.,240",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Nößler (1993), S.66",
@@ -182361,9 +182361,9 @@
         "lit": "Fischer, Spessart VI (1963), S.9",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer, Spessart [Teil] ([Jahr])",
+        "confidence": "serie",
+        "slug": "fischer-spessart-teil-jahr"
       },
       {
         "lit": "Fischer/W., Nürnberger Ob (1972), S.237",
@@ -183412,9 +183412,9 @@
         "lit": "Orgelspiegel 11 (1967), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis III (1972), op.2176",
@@ -183692,9 +183692,9 @@
         "lit": "Orgelspiegel 9 (1966), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Pape, Dispositionen II (1969), S.93",
@@ -184411,9 +184411,9 @@
         "lit": "Fischer/W., Grünewald (1989), S.300, 302",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Grünewald (1989)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-gruenewald-1989"
       }
     ],
     "kirche_gnd": {
@@ -185567,9 +185567,9 @@
         "lit": "Orgelspiegel 31 (1976), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Supper, Nürnberg St. Sebald (1976), S.2364 ff.",
@@ -185717,9 +185717,9 @@
         "lit": "Orgelspiegel 34 (1977)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -186423,9 +186423,9 @@
         "lit": "Orgelspiegel 16 (1969), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -186563,9 +186563,9 @@
         "lit": "Orgelspiegel 57 (1991), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung Sandtner (1990)",
@@ -187319,9 +187319,9 @@
         "lit": "Orgelspiegel 49 (1983)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.194",
@@ -187400,9 +187400,9 @@
         "lit": "Orgelspiegel 39 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -187578,9 +187578,9 @@
         "lit": "Orgelspiegel 58 (1992), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS Nürnberg-Langwasser (1991)",
@@ -187715,9 +187715,9 @@
         "lit": "Orgelspiegel 49 (1983)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Musica Sacra, Heft 2 (1985)",
@@ -188030,25 +188030,25 @@
         "lit": "Bernhard, Neue O 43 (1991), S.141, 149",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bernhard, Neue O 43 (1991)",
+        "confidence": "normalisiert",
+        "slug": "bernhard-neue-o-43-1991"
       },
       {
         "lit": "Orgelspiegel 57 (1991), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Jann, 20 J. Jann (1995), S.30, 64",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Jann, 20 J. Jann (1995)",
+        "confidence": "normalisiert",
+        "slug": "jann-20-j-jann-1995"
       },
       {
         "lit": "FI Jann-Werkverzeichnis (2005)",
@@ -188185,9 +188185,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.261, 265",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -188402,9 +188402,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.256,271",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.652",
@@ -188426,9 +188426,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 265",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.315",
@@ -188981,9 +188981,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.227,256 f.",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -189165,9 +189165,9 @@
         "lit": "Orgelspiegel 63 (1997), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 55 (1998), S.202",
@@ -189521,9 +189521,9 @@
         "lit": "Orgelspiegel 42 (1980)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -189780,9 +189780,9 @@
         "lit": "Orgelspiegel 47 (1982), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Jann, 20 J. Jann (1995), S.62",
@@ -189975,9 +189975,9 @@
         "lit": "Orgelspiegel 17 (1970), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -190057,9 +190057,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.193",
@@ -191340,9 +191340,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.100,190 f.",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -191774,9 +191774,9 @@
         "lit": "Orgelspiegel 55 (1989), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 38 (1989), S.180",
@@ -192115,9 +192115,9 @@
         "lit": "Orgelspiegel 29 (1975), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.194",
@@ -192502,9 +192502,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.56, 268",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.175",
@@ -192605,9 +192605,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.12,300",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Mitteilung W. Baumbach (1988)",
@@ -193215,9 +193215,9 @@
         "lit": "Orgelspiegel 40 (1979)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.194",
@@ -193466,9 +193466,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 269",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.596",
@@ -193747,9 +193747,9 @@
         "lit": "Orgelspiegel 38 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.247",
@@ -194251,9 +194251,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.244, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.268",
@@ -195332,9 +195332,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.275, 301",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.224",
@@ -195766,9 +195766,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.13, 36",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.316",
@@ -196288,9 +196288,9 @@
         "lit": "Orgelspiegel 51 (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.196",
@@ -196819,9 +196819,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.256, 317, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Süddeutsche O (1973), S.138",
@@ -197798,9 +197798,9 @@
         "lit": "Orgelspiegel 58 (1992), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS Pfaffenhofen, Ottilienkirche (1991)",
@@ -197910,9 +197910,9 @@
         "lit": "Orgelspiegel 7 (1966), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.276",
@@ -198037,9 +198037,9 @@
         "lit": "Orgelspiegel 39 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.205",
@@ -198276,9 +198276,9 @@
         "lit": "Fischer/W., Hößler (1976), S.34 f., 44",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Hößler (1976)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-hoessler-1976"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.224f",
@@ -199295,9 +199295,9 @@
         "lit": "Schwämmlein, Amberg (1987), S.86, 91",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Schwämmlein, Amberg (1987)",
+        "confidence": "normalisiert",
+        "slug": "schwaemmlein-amberg-1987"
       }
     ],
     "kirche_gnd": {
@@ -199855,9 +199855,9 @@
         "lit": "Orgelspiegel 47 (1982), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.198",
@@ -199937,9 +199937,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.817,9",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       }
     ],
     "kirche_gnd": {
@@ -200033,9 +200033,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.250,296",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Dehio, Franken (1979), S.663",
@@ -200827,9 +200827,9 @@
         "lit": "Orgelspiegel 24 (1973), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.272",
@@ -201979,9 +201979,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.50,75",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.317",
@@ -203828,9 +203828,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 273",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Oberfranken (1985), S.80",
@@ -204211,9 +204211,9 @@
         "lit": "Orgelspiegel 34 (1977)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.117",
@@ -204861,9 +204861,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 275",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.337",
@@ -205718,9 +205718,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.297, 320",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -205856,9 +205856,9 @@
         "lit": "Nadler, Vorarlberg IV (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Nadler, Vorarlberg [Band] (1985)",
+        "confidence": "serie",
+        "slug": "nadler-vorarlberg-band-1985"
       }
     ],
     "kirche_gnd": {
@@ -205975,9 +205975,9 @@
         "lit": "Orgelspiegel 14 (1969), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.220",
@@ -206149,7 +206149,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "892-6"
   },
   {
     "id": 21451,
@@ -206881,9 +206881,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.19,47,302",
         "disp": false,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -206947,9 +206947,9 @@
         "lit": "Orgelspiegel 51 (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.205",
@@ -207965,9 +207965,9 @@
         "lit": "Orgelspiegel 34 (1977)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.277",
@@ -208069,9 +208069,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.23, 80f",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Mitteilung BLfD (1997)",
@@ -209854,9 +209854,9 @@
         "lit": "FI Steinmeyer-Werkverzeichnis III (1972) op.1324",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "FI Steinmeyer-Werkverzeichnis III (1972)",
+        "confidence": "normalisiert",
+        "slug": "fi-steinmeyer-werkverzeichnis-iii-1972"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.1324",
@@ -210935,9 +210935,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 283",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.92",
@@ -211025,9 +211025,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.283, 317",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Wiegleb (1990), S.276",
@@ -211114,9 +211114,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.92,147",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.270",
@@ -211658,9 +211658,9 @@
         "lit": "Orgelspiegel 15 (1969)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -214237,9 +214237,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.56, 280",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.471",
@@ -214621,9 +214621,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.19,88,132",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -214686,9 +214686,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.19,88,132",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Bodechtel (1995), S.42",
@@ -214779,9 +214779,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.19,88,132",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -215312,9 +215312,9 @@
         "lit": "Orgelspiegel 24 (1973), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.271",
@@ -215499,9 +215499,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.46,71",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -216445,9 +216445,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.44,69,95,171",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Prediger (1997), S.92",
@@ -216708,9 +216708,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Prediger (1997), S.93",
@@ -218890,9 +218890,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.125, 281",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.46",
@@ -219268,9 +219268,9 @@
         "lit": "Quoika, Ingolstadt (1963), S.18, 25",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Quoika, Ingolstadt (1963)",
+        "confidence": "normalisiert",
+        "slug": "quoika-ingolstadt-1963"
       },
       {
         "lit": "Fischer, Diözese Würzburg (1965), S.127 f.",
@@ -219356,9 +219356,9 @@
         "lit": "Fischer/W., Rothenburg (1966), S.243, 261",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Rothenburg (1966)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-rothenburg-1966"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.321f",
@@ -220189,9 +220189,9 @@
         "lit": "Fischer, Spessart XVIII (1966), S.13",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer, Spessart [Teil] ([Jahr])",
+        "confidence": "serie",
+        "slug": "fischer-spessart-teil-jahr"
       }
     ],
     "kirche_gnd": {
@@ -220394,9 +220394,9 @@
         "lit": "Fischer/W., Schonat II (1968), S.253, 256",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Schonat II (1968)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-schonat-ii-1968"
       },
       {
         "lit": "Fischer/W., Memmingen (1987), S.16",
@@ -220458,9 +220458,9 @@
         "lit": "Wachowski, Rothenburg (1985), S.58-69",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Wachowski, Rothenburg (1985)",
+        "confidence": "normalisiert",
+        "slug": "wachowski-rothenburg-1985"
       },
       {
         "lit": "Fischer, Lkr. Bad Kissingen (1986), S.21",
@@ -220506,9 +220506,9 @@
         "lit": "Fischer, Spessart XX (1967), S.10",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer, Spessart [Teil] ([Jahr])",
+        "confidence": "serie",
+        "slug": "fischer-spessart-teil-jahr"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.321f",
@@ -221244,9 +221244,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.125, 281",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Wachowski, Rothenburg (1985), S.69",
@@ -221419,9 +221419,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.27,58,62,281",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Wachowski, Rothenburg (1985), S.69f",
@@ -221525,9 +221525,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.281, 317",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -221719,9 +221719,9 @@
         "lit": "Wachowski, Rothenburg (1985), S.70-72",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Wachowski, Rothenburg (1985)",
+        "confidence": "normalisiert",
+        "slug": "wachowski-rothenburg-1985"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.145",
@@ -221953,9 +221953,9 @@
         "lit": "Wachowski, Rothenburg (1985), S.74-77",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Wachowski, Rothenburg (1985)",
+        "confidence": "normalisiert",
+        "slug": "wachowski-rothenburg-1985"
       },
       {
         "lit": "Fischer/W., Franken II (1987), S.145",
@@ -222051,9 +222051,9 @@
         "lit": "Orgelspiegel 45 (1981), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.214",
@@ -222597,9 +222597,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.125, 282",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.22",
@@ -224455,9 +224455,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.26,95,173",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": null,
@@ -224762,9 +224762,9 @@
         "lit": "Orgelspiegel 20 (1971), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hofner, Ostfranken (1972), S.98",
@@ -226242,9 +226242,9 @@
         "lit": "Orgelspiegel 51 (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.250",
@@ -226647,9 +226647,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.470, 472",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       }
     ],
     "kirche_gnd": {
@@ -226925,9 +226925,9 @@
         "lit": "Orgelspiegel 22 (1972), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.215",
@@ -227026,9 +227026,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.283, 319",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -227115,9 +227115,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.283, 365",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.481",
@@ -227328,9 +227328,9 @@
         "lit": "Orgelspiegel 23 (1973), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.215",
@@ -228158,9 +228158,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.255, 260",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       }
     ],
     "kirche_gnd": {
@@ -228746,9 +228746,9 @@
         "lit": "Orgelspiegel 19 (1971), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.52",
@@ -228793,7 +228793,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 23829,
@@ -229957,9 +229957,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.134,251f.,294f",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.272",
@@ -230071,9 +230071,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.55, 316",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.243f",
@@ -230296,9 +230296,9 @@
         "lit": "Orgelspiegel 24 (1973), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.218",
@@ -230905,9 +230905,9 @@
         "lit": "Orgelspiegel 27 (1974), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.219",
@@ -232857,9 +232857,9 @@
         "lit": "Orgelspiegel 13 (1968), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -233405,7 +233405,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 24492,
@@ -233671,9 +233671,9 @@
         "lit": "Orgelspiegel 9 (1966), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.220",
@@ -234057,9 +234057,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.289, 319",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.39",
@@ -235315,9 +235315,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.289, 319",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -235486,9 +235486,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.80,91,143",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -236457,9 +236457,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 290",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.419",
@@ -236621,9 +236621,9 @@
         "lit": "Orgelspiegel 3 (1964), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Adelung, Orgeltagung Fürth (1966), S.1037",
@@ -238277,9 +238277,9 @@
         "lit": "Orgelspiegel 55 (1989), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 36 (1988), S.138",
@@ -238947,9 +238947,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.272",
@@ -239404,9 +239404,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.37, 271",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": null,
@@ -240351,7 +240351,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 24872,
@@ -242056,9 +242056,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.286, 370",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.543",
@@ -242635,9 +242635,9 @@
         "lit": "Orgelspiegel 49 (1983)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.226",
@@ -243117,9 +243117,9 @@
         "lit": "Buchner, Bistum Eichstätt II (1938), S.537, 541",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt II (1938)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-ii-1938"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.286",
@@ -243650,9 +243650,9 @@
         "lit": "Bernhard, Neue O 37 (1988), S.169,175",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bernhard, Neue O 37 (1988)",
+        "confidence": "normalisiert",
+        "slug": "bernhard-neue-o-37-1988"
       }
     ],
     "kirche_gnd": {
@@ -243833,9 +243833,9 @@
         "lit": "Orgelspiegel 58 (1992), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 43 (1991), S.142",
@@ -244189,7 +244189,7 @@
       "grund": "kein nutzbarer Widmungsname (z.B. Institutionsname statt Kirchenname)"
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "892-6"
   },
   {
     "id": 25556,
@@ -244963,9 +244963,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -245183,9 +245183,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.292, 317",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -246387,9 +246387,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.215, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Positive I (1967), S.410 f.",
@@ -246403,9 +246403,9 @@
         "lit": "Bayr. Kunstdenkmale Scheinfeld (1976), S.63, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bayr. Kunstdenkmale Scheinfeld (1976)",
+        "confidence": "normalisiert",
+        "slug": "bayr-kunstdenkmale-scheinfeld-1976"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.324f",
@@ -246573,9 +246573,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.5,252,295",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Bodechtel (1995), S.27",
@@ -246905,9 +246905,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.101,192",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.273",
@@ -247007,9 +247007,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.101,192",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       },
       {
         "lit": "Fischer/W., Steinmeyer III (1978), S.317",
@@ -248950,9 +248950,9 @@
         "lit": "Orgelspiegel 48 (1983), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Simon-Werkverzeichnis (1986), op. 49",
@@ -248990,9 +248990,9 @@
         "lit": "Orgelspiegel 48 (1983), S.3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.101",
@@ -250056,9 +250056,9 @@
         "lit": "Orgelspiegel 50 (1984)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.203",
@@ -250889,9 +250889,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 295",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.411",
@@ -251274,9 +251274,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": {
@@ -251551,9 +251551,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.295, 318",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -253421,7 +253421,7 @@
       "adresse_pruefung": "keine_daten"
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 27160,
@@ -253549,9 +253549,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.62,85",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": null,
@@ -256095,9 +256095,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.296, 316",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": {
@@ -257696,9 +257696,9 @@
         "lit": "Orgelspiegel 56 (1990)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung H. Wagner (1989)",
@@ -260921,9 +260921,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 300",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Säkularisation (2003), S. 166",
@@ -261213,9 +261213,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 300",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.196",
@@ -261715,9 +261715,9 @@
         "lit": "Orgelspiegel 20 (1971), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Fränkische Ob (1990), S.20",
@@ -261939,9 +261939,9 @@
         "lit": "Orgelspiegel 20 (1971), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Deininger & Renner (1974 ff), S.4",
@@ -262173,9 +262173,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.55, 298",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.477",
@@ -262921,9 +262921,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 37 (1988), S.171",
@@ -264017,9 +264017,9 @@
         "lit": "Orgelspiegel 47 (1982), S.8",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.275",
@@ -264675,9 +264675,9 @@
         "lit": "KMM Augsburg 45 (1995), S.11",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "KMM Augsburg [Nr.] ([Jahr])",
+        "confidence": "serie",
+        "slug": "kmm-augsburg-nr-jahr"
       },
       {
         "lit": "FS Villersbronn (1996)",
@@ -265175,9 +265175,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.63, 305",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.463",
@@ -265399,9 +265399,9 @@
         "lit": "Buchner, Bistum Eichstätt I (1937), S.322,5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Buchner, Bistum Eichstätt I (1937)",
+        "confidence": "normalisiert",
+        "slug": "buchner-bistum-eichstaett-i-1937"
       }
     ],
     "kirche_gnd": {
@@ -266192,9 +266192,9 @@
         "lit": "Orgelspiegel 61 (1995), S.8",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS Vorra (1993)",
@@ -266670,9 +266670,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.300, 316",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       }
     ],
     "kirche_gnd": null,
@@ -267625,9 +267625,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 301",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.346",
@@ -267779,9 +267779,9 @@
         "lit": "Fischer/W., Süddeutsche O (1973), S.97,180,311",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Süddeutsche O (1973)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-sueddeutsche-o-1973"
       }
     ],
     "kirche_gnd": {
@@ -268514,9 +268514,9 @@
         "lit": "Orgelspiegel 59 (1993), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung Ev. Landeskirche (1992)",
@@ -269772,9 +269772,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.62, 302",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.398",
@@ -271093,9 +271093,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.303, 316",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (2001), S.275f",
@@ -272402,9 +272402,9 @@
         "lit": "Orgelspiegel 52 (1986)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.242",
@@ -272456,7 +272456,7 @@
       "grund": null
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 28927,
@@ -272601,9 +272601,9 @@
         "lit": "Fischer/W., Oberfranken (1985), S.17, 110",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Oberfranken (1985)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-oberfranken-1985"
       },
       {
         "lit": "Fischer, Mainfranken I (1968), S.190",
@@ -273217,9 +273217,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.303, 319",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.276",
@@ -275815,9 +275815,9 @@
         "lit": "Orgelspiegel 59 (1993), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 55 (1998), S.206",
@@ -277123,7 +277123,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 29165,
@@ -278372,9 +278372,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.63, 306",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.13",
@@ -279359,9 +279359,9 @@
         "lit": "Orgelspiegel 39 (1978)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Mathis-Werkverzeichnis (1985), S.42",
@@ -279765,7 +279765,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 29405,
@@ -279891,9 +279891,9 @@
         "lit": "Orgelspiegel 49 (1983)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -280450,9 +280450,9 @@
         "lit": "Orgelspiegel 51 (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.250",
@@ -281147,17 +281147,17 @@
         "lit": "Orgelspiegel 53 (1987), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Bernhard, Neue O 37 (1988), S.171,176",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Bernhard, Neue O 37 (1988)",
+        "confidence": "normalisiert",
+        "slug": "bernhard-neue-o-37-1988"
       }
     ],
     "kirche_gnd": {
@@ -281958,9 +281958,9 @@
         "lit": "Orgelspiegel 59 (1993), S.7",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Fischer/W., Mittelfranken (1994/95), S.277",
@@ -281989,7 +281989,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 29573,
@@ -285369,9 +285369,9 @@
         "lit": "Fischer/W., Steinmeyer III (1978), S.56, 308",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer/W., Steinmeyer III (1978)",
+        "confidence": "normalisiert",
+        "slug": "fischer-w-steinmeyer-iii-1978"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis I (1928), op.328",
@@ -286568,9 +286568,9 @@
         "lit": "Orgelspiegel 51 (1985)",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.253",
@@ -287262,7 +287262,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "929-2"
   },
   {
     "id": 30115,
@@ -288478,9 +288478,9 @@
         "lit": "Orgelspiegel 24 (1973), S.6",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Steinmeyer-Werkverzeichnis IV (1979), op.2275",
@@ -289305,7 +289305,7 @@
       "grund": null
     },
     "prospekt_erhalten": false,
-    "bauer_person_id": null
+    "bauer_person_id": "909-1"
   },
   {
     "id": 30537,
@@ -297589,7 +297589,7 @@
       "adresse_pruefung": "bestaetigt"
     },
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "233-1"
   },
   {
     "id": 30658,
@@ -297869,7 +297869,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "903-7"
   },
   {
     "id": 30662,
@@ -303937,7 +303937,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "903-7"
   },
   {
     "id": 30751,
@@ -305306,7 +305306,7 @@
     ],
     "kirche_gnd": null,
     "prospekt_erhalten": true,
-    "bauer_person_id": null
+    "bauer_person_id": "340-11"
   },
   {
     "id": 30770,
@@ -307788,9 +307788,9 @@
         "lit": "Orgelspiegel 69 (2003), S. 3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "www.eo-bamberg.de (2008)",
@@ -309752,9 +309752,9 @@
         "lit": "Orgelspiegel 71 (2005), S. 4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -311300,9 +311300,9 @@
         "lit": "Orgelspiegel 71 (2005), S. 3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "www.jannorgelbau.de (2008)",
@@ -311407,9 +311407,9 @@
         "lit": "Orgelspiegel 71 (2005), S. 3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FS 40 Jahre Johanneskirche Erlangen (2004)",
@@ -311560,9 +311560,9 @@
         "lit": "Orgelspiegel 72 (2006), S. 3",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Mitteilung M. Schiffel (2005)",
@@ -311666,9 +311666,9 @@
         "lit": "Orgelspiegel 72 (2006), S. 4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Gutachten M. Schiffel (2007)",
@@ -311758,9 +311758,9 @@
         "lit": "Orgelspiegel 72 (2006), S. 4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "www.hey-orgelbau.com (2008)",

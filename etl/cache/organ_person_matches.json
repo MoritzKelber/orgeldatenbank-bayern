@@ -138,10 +138,10 @@
     "grund": null
   },
   "73": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "74": {
     "status": "sicher",
@@ -1008,10 +1008,10 @@
     "grund": null
   },
   "1273": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "1293": {
     "status": "sicher",
@@ -1284,10 +1284,10 @@
     "grund": null
   },
   "2800": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2801": {
     "status": "sicher",
@@ -1446,16 +1446,16 @@
     "grund": null
   },
   "3358": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "3360": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "3361": {
     "status": "sicher",
@@ -1662,10 +1662,10 @@
     "grund": null
   },
   "3898": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4000": {
     "status": "unsicher",
@@ -2196,10 +2196,10 @@
     "grund": null
   },
   "5077": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Albert“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "650-1",
+    "lemma_id": 650,
+    "grund": null
   },
   "5129": {
     "status": "sicher",
@@ -2706,10 +2706,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 2 Personen mit diesem Nachnamen"
   },
   "6162": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6308": {
     "status": "sicher",
@@ -3012,10 +3012,10 @@
     "grund": null
   },
   "6731": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "6732": {
     "status": "sicher",
@@ -3978,10 +3978,10 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "8110": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8111": {
     "status": "unsicher",
@@ -4542,10 +4542,10 @@
     "grund": null
   },
   "9210": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9274": {
     "status": "keine",
@@ -5694,10 +5694,10 @@
     "grund": null
   },
   "11715": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "11718": {
     "status": "sicher",
@@ -6666,10 +6666,10 @@
     "grund": null
   },
   "14321": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14323": {
     "status": "unsicher",
@@ -6984,10 +6984,10 @@
     "grund": null
   },
   "15100": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15101": {
     "status": "sicher",
@@ -7020,10 +7020,10 @@
     "grund": null
   },
   "15419": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15425": {
     "status": "sicher",
@@ -7626,10 +7626,10 @@
     "grund": null
   },
   "18114": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "18139": {
     "status": "sicher",
@@ -8424,10 +8424,10 @@
     "grund": null
   },
   "18873": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "18874": {
     "status": "unsicher",
@@ -9162,10 +9162,10 @@
     "grund": null
   },
   "19059": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19061": {
     "status": "sicher",
@@ -10494,10 +10494,10 @@
     "grund": "Vorname „Josef“ passt auf keine der 15 Personen mit diesem Nachnamen"
   },
   "21450": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "21451": {
     "status": "sicher",
@@ -11568,10 +11568,10 @@
     "grund": null
   },
   "23827": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23829": {
     "status": "sicher",
@@ -11802,10 +11802,10 @@
     "grund": null
   },
   "24442": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24494": {
     "status": "sicher",
@@ -12126,10 +12126,10 @@
     "grund": null
   },
   "24821": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24873": {
     "status": "sicher",
@@ -12306,10 +12306,10 @@
     "grund": null
   },
   "25504": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "25658": {
     "status": "sicher",
@@ -12792,10 +12792,10 @@
     "grund": null
   },
   "27123": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27173": {
     "status": "sicher",
@@ -13734,10 +13734,10 @@
     "grund": null
   },
   "28923": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28927": {
     "status": "unsicher",
@@ -13980,10 +13980,10 @@
     "grund": null
   },
   "29143": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29165": {
     "status": "sicher",
@@ -14130,10 +14130,10 @@
     "grund": null
   },
   "29397": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29406": {
     "status": "sicher",
@@ -14244,10 +14244,10 @@
     "grund": null
   },
   "29572": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29573": {
     "status": "sicher",
@@ -14514,10 +14514,10 @@
     "grund": null
   },
   "30114": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "30115": {
     "status": "sicher",
@@ -14628,10 +14628,10 @@
     "grund": null
   },
   "30536": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Paulus“ passt auf keine der 1 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "909-1",
+    "lemma_id": 909,
+    "grund": null
   },
   "30538": {
     "status": "sicher",
@@ -15162,10 +15162,10 @@
     "grund": "Vorname „Josef“ passt auf keine der 15 Personen mit diesem Nachnamen"
   },
   "30657": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Carl“ passt auf keine der 1 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "233-1",
+    "lemma_id": 233,
+    "grund": null
   },
   "30659": {
     "status": "sicher",
@@ -15174,10 +15174,10 @@
     "grund": null
   },
   "30661": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Georg Ernst“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "903-7",
+    "lemma_id": 903,
+    "grund": null
   },
   "30662": {
     "status": "unsicher",
@@ -15588,10 +15588,10 @@
     "grund": null
   },
   "30750": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Georg Ernst“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "903-7",
+    "lemma_id": 903,
+    "grund": null
   },
   "30751": {
     "status": "sicher",
@@ -15672,10 +15672,10 @@
     "grund": null
   },
   "30769": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30770": {
     "status": "keine",
@@ -16404,10 +16404,10 @@
     "grund": null
   },
   "104": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "105": {
     "status": "sicher",
@@ -16752,10 +16752,10 @@
     "grund": null
   },
   "517": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "518": {
     "status": "sicher",
@@ -17166,10 +17166,10 @@
     "grund": null
   },
   "1528": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "1529": {
     "status": "sicher",
@@ -17196,10 +17196,10 @@
     "grund": null
   },
   "1778": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann“ passt auf keine der 1 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "303-1",
+    "lemma_id": 303,
+    "grund": null
   },
   "1779": {
     "status": "sicher",
@@ -17862,10 +17862,10 @@
     "grund": null
   },
   "4217": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "4218": {
     "status": "sicher",
@@ -17886,10 +17886,10 @@
     "grund": null
   },
   "4244": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "4245": {
     "status": "sicher",
@@ -18222,16 +18222,16 @@
     "grund": null
   },
   "5254": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "5255": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "5256": {
     "status": "unsicher",
@@ -18264,10 +18264,10 @@
     "grund": "Vorname „Matthias“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "5261": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "5262": {
     "status": "sicher",
@@ -18654,10 +18654,10 @@
     "grund": "Vorname „Karl“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "5648": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "5649": {
     "status": "sicher",
@@ -18828,10 +18828,10 @@
     "grund": null
   },
   "5952": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "5953": {
     "status": "sicher",
@@ -19548,10 +19548,10 @@
     "grund": null
   },
   "7974": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "7975": {
     "status": "keine",
@@ -20046,10 +20046,10 @@
     "grund": null
   },
   "8659": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "8660": {
     "status": "sicher",
@@ -20256,10 +20256,10 @@
     "grund": "Vorname „Johann Ignaz“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "9003": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "9004": {
     "status": "sicher",
@@ -20898,10 +20898,10 @@
     "grund": null
   },
   "10431": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "10432": {
     "status": "sicher",
@@ -21876,10 +21876,10 @@
     "grund": null
   },
   "12821": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "12822": {
     "status": "sicher",
@@ -22098,10 +22098,10 @@
     "grund": null
   },
   "13447": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "13448": {
     "status": "sicher",
@@ -22284,10 +22284,10 @@
     "grund": null
   },
   "13803": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "13804": {
     "status": "sicher",
@@ -23466,10 +23466,10 @@
     "grund": null
   },
   "15337": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "15338": {
     "status": "sicher",
@@ -23496,10 +23496,10 @@
     "grund": null
   },
   "15348": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "15349": {
     "status": "sicher",
@@ -23544,10 +23544,10 @@
     "grund": null
   },
   "15559": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "15560": {
     "status": "sicher",
@@ -23754,10 +23754,10 @@
     "grund": null
   },
   "15946": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "15947": {
     "status": "sicher",
@@ -24366,10 +24366,10 @@
     "grund": null
   },
   "18484": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "18486": {
     "status": "sicher",
@@ -24654,10 +24654,10 @@
     "grund": null
   },
   "19232": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "19233": {
     "status": "sicher",
@@ -24870,10 +24870,10 @@
     "grund": null
   },
   "19621": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "19622": {
     "status": "sicher",
@@ -25224,10 +25224,10 @@
     "grund": null
   },
   "20325": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "20326": {
     "status": "sicher",
@@ -25392,10 +25392,10 @@
     "grund": null
   },
   "20533": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "20534": {
     "status": "unsicher",
@@ -26076,10 +26076,10 @@
     "grund": null
   },
   "20697": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "20698": {
     "status": "sicher",
@@ -26112,10 +26112,10 @@
     "grund": null
   },
   "20798": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "20799": {
     "status": "sicher",
@@ -26268,10 +26268,10 @@
     "grund": null
   },
   "21039": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21040": {
     "status": "sicher",
@@ -26352,28 +26352,28 @@
     "grund": null
   },
   "21057": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21058": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21059": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21060": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21061": {
     "status": "sicher",
@@ -26478,10 +26478,10 @@
     "grund": "Vorname „August Ferdinand jun.“ passt auf keine der 15 Personen mit diesem Nachnamen"
   },
   "21086": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21087": {
     "status": "sicher",
@@ -27120,10 +27120,10 @@
     "grund": null
   },
   "22584": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "22585": {
     "status": "sicher",
@@ -27192,10 +27192,10 @@
     "grund": null
   },
   "22719": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "22720": {
     "status": "sicher",
@@ -27306,10 +27306,10 @@
     "grund": null
   },
   "22858": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "22859": {
     "status": "sicher",
@@ -27390,10 +27390,10 @@
     "grund": "Vorname „Johann Anton“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "22982": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Roman“ passt auf keine der 3 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "33-3",
+    "lemma_id": 33,
+    "grund": null
   },
   "22983": {
     "status": "sicher",
@@ -27420,10 +27420,10 @@
     "grund": null
   },
   "23089": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "23090": {
     "status": "sicher",
@@ -27468,10 +27468,10 @@
     "grund": null
   },
   "23177": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "23178": {
     "status": "unsicher",
@@ -27582,10 +27582,10 @@
     "grund": null
   },
   "23517": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "23561": {
     "status": "sicher",
@@ -27786,10 +27786,10 @@
     "grund": null
   },
   "23777": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "23813": {
     "status": "sicher",
@@ -28152,10 +28152,10 @@
     "grund": null
   },
   "25036": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "25037": {
     "status": "sicher",
@@ -28506,10 +28506,10 @@
     "grund": "3 Personen mit diesem Nachnamen, aber kein Vorname in BAUER zum Abgleich"
   },
   "25652": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "25696": {
     "status": "sicher",
@@ -29166,10 +29166,10 @@
     "grund": null
   },
   "26747": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "26749": {
     "status": "sicher",
@@ -29214,10 +29214,10 @@
     "grund": null
   },
   "26767": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "26768": {
     "status": "sicher",
@@ -30168,10 +30168,10 @@
     "grund": null
   },
   "28463": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "28464": {
     "status": "sicher",
@@ -30216,10 +30216,10 @@
     "grund": null
   },
   "28661": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "28662": {
     "status": "sicher",
@@ -30312,10 +30312,10 @@
     "grund": null
   },
   "28847": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "28848": {
     "status": "sicher",
@@ -30570,10 +30570,10 @@
     "grund": "Vorname „Johann Ignaz“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "29608": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "29609": {
     "status": "unsicher",
@@ -30702,10 +30702,10 @@
     "grund": null
   },
   "29948": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "29949": {
     "status": "sicher",
@@ -34530,10 +34530,10 @@
     "grund": null
   },
   "3900": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "3902": {
     "status": "sicher",
@@ -35796,10 +35796,10 @@
     "grund": null
   },
   "4981": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Roman“ passt auf keine der 3 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "33-3",
+    "lemma_id": 33,
+    "grund": null
   },
   "4983": {
     "status": "sicher",
@@ -36972,10 +36972,10 @@
     "grund": null
   },
   "6236": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "6237": {
     "status": "sicher",
@@ -37050,10 +37050,10 @@
     "grund": null
   },
   "6250": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "6251": {
     "status": "sicher",
@@ -39738,10 +39738,10 @@
     "grund": "Vorname „Josef“ passt auf 2 Personen gleichzeitig"
   },
   "8379": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Gustav“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "809-2",
+    "lemma_id": 809,
+    "grund": null
   },
   "8380": {
     "status": "sicher",
@@ -39966,10 +39966,10 @@
     "grund": null
   },
   "8517": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "8518": {
     "status": "sicher",
@@ -41550,10 +41550,10 @@
     "grund": null
   },
   "9939": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "9940": {
     "status": "sicher",
@@ -42834,10 +42834,10 @@
     "grund": null
   },
   "11622": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Roman“ passt auf keine der 3 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "33-3",
+    "lemma_id": 33,
+    "grund": null
   },
   "11624": {
     "status": "sicher",
@@ -43968,10 +43968,10 @@
     "grund": null
   },
   "12248": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "12256": {
     "status": "sicher",
@@ -43998,10 +43998,10 @@
     "grund": null
   },
   "12311": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "12312": {
     "status": "keine",
@@ -44352,10 +44352,10 @@
     "grund": null
   },
   "12662": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12746": {
     "status": "unsicher",
@@ -47958,10 +47958,10 @@
     "grund": null
   },
   "16488": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "16489": {
     "status": "sicher",
@@ -51276,10 +51276,10 @@
     "grund": "Vorname „Ernst Adolf“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "17286": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Roman“ passt auf keine der 3 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "33-3",
+    "lemma_id": 33,
+    "grund": null
   },
   "17287": {
     "status": "sicher",
@@ -53082,10 +53082,10 @@
     "grund": null
   },
   "17998": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "18001": {
     "status": "sicher",
@@ -53130,10 +53130,10 @@
     "grund": null
   },
   "18009": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "18010": {
     "status": "sicher",
@@ -53550,10 +53550,10 @@
     "grund": null
   },
   "18509": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "18510": {
     "status": "sicher",
@@ -53574,10 +53574,10 @@
     "grund": null
   },
   "18536": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "18538": {
     "status": "sicher",
@@ -54948,10 +54948,10 @@
     "grund": null
   },
   "20136": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Roman“ passt auf keine der 3 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "33-3",
+    "lemma_id": 33,
+    "grund": null
   },
   "20137": {
     "status": "sicher",
@@ -57936,10 +57936,10 @@
     "grund": null
   },
   "23149": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Gerhard E.“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "381-1",
+    "lemma_id": 381,
+    "grund": null
   },
   "23150": {
     "status": "sicher",
@@ -58608,10 +58608,10 @@
     "grund": null
   },
   "23784": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Roman“ passt auf keine der 3 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "33-3",
+    "lemma_id": 33,
+    "grund": null
   },
   "23785": {
     "status": "sicher",
@@ -59778,10 +59778,10 @@
     "grund": "Vorname „Friedrich“ passt auf 2 Personen gleichzeitig"
   },
   "24886": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Friedrich“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "887-6",
+    "lemma_id": 887,
+    "grund": null
   },
   "24896": {
     "status": "sicher",
@@ -60228,10 +60228,10 @@
     "grund": null
   },
   "25471": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "25472": {
     "status": "keine",
@@ -60720,10 +60720,10 @@
     "grund": null
   },
   "26031": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-11",
+    "lemma_id": 150,
+    "grund": null
   },
   "26032": {
     "status": "keine",
@@ -65706,10 +65706,10 @@
     "grund": null
   },
   "31718": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Martin“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "13-1",
+    "lemma_id": 13,
+    "grund": null
   },
   "31720": {
     "status": "sicher",
@@ -66618,10 +66618,10 @@
     "grund": null
   },
   "32250": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Alfons“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "926-3",
+    "lemma_id": 926,
+    "grund": null
   },
   "32252": {
     "status": "unsicher",
@@ -66744,10 +66744,10 @@
     "grund": null
   },
   "696": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "737": {
     "status": "sicher",
@@ -67026,10 +67026,10 @@
     "grund": null
   },
   "2189": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Friedrich“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "887-6",
+    "lemma_id": 887,
+    "grund": null
   },
   "2420": {
     "status": "sicher",
@@ -67362,10 +67362,10 @@
     "grund": null
   },
   "2849": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2850": {
     "status": "sicher",
@@ -67506,10 +67506,10 @@
     "grund": null
   },
   "2879": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2880": {
     "status": "unsicher",
@@ -67638,10 +67638,10 @@
     "grund": null
   },
   "2914": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2917": {
     "status": "sicher",
@@ -67698,10 +67698,10 @@
     "grund": null
   },
   "2929": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Michael“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "737-2",
+    "lemma_id": 737,
+    "grund": null
   },
   "2930": {
     "status": "unsicher",
@@ -67722,10 +67722,10 @@
     "grund": "Vorname „Justus Karl“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "2933": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann“ passt auf keine der 1 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "56-1",
+    "lemma_id": 56,
+    "grund": null
   },
   "2934": {
     "status": "sicher",
@@ -68166,10 +68166,10 @@
     "grund": null
   },
   "3094": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3122": {
     "status": "sicher",
@@ -68850,10 +68850,10 @@
     "grund": "Vorname „Johann & Sohn“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "3796": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3799": {
     "status": "sicher",
@@ -68862,10 +68862,10 @@
     "grund": null
   },
   "3800": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3803": {
     "status": "keine",
@@ -68904,10 +68904,10 @@
     "grund": null
   },
   "4006": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4039": {
     "status": "sicher",
@@ -68952,10 +68952,10 @@
     "grund": null
   },
   "4125": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4168": {
     "status": "sicher",
@@ -68976,10 +68976,10 @@
     "grund": null
   },
   "4173": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4186": {
     "status": "unsicher",
@@ -69048,10 +69048,10 @@
     "grund": null
   },
   "4420": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4426": {
     "status": "keine",
@@ -69138,10 +69138,10 @@
     "grund": null
   },
   "4533": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4549": {
     "status": "sicher",
@@ -69222,10 +69222,10 @@
     "grund": "Vorname „Lichtenfels“ passt auf keine der 5 Personen mit diesem Nachnamen"
   },
   "4625": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4627": {
     "status": "unsicher",
@@ -69564,10 +69564,10 @@
     "grund": "Vorname „Johann & Sohn“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "5479": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5485": {
     "status": "sicher",
@@ -69612,10 +69612,10 @@
     "grund": null
   },
   "5614": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "5657": {
     "status": "sicher",
@@ -69834,10 +69834,10 @@
     "grund": "Vorname „Georg Ernst II.“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "5861": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5880": {
     "status": "sicher",
@@ -70050,10 +70050,10 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "6489": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6552": {
     "status": "sicher",
@@ -70152,10 +70152,10 @@
     "grund": null
   },
   "7170": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "7171": {
     "status": "unsicher",
@@ -70212,10 +70212,10 @@
     "grund": null
   },
   "7231": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7361": {
     "status": "sicher",
@@ -70344,10 +70344,10 @@
     "grund": "Vorname „Ernst Karl Ludwig“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "7987": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8246": {
     "status": "sicher",
@@ -70404,10 +70404,10 @@
     "grund": null
   },
   "8427": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8428": {
     "status": "sicher",
@@ -70446,10 +70446,10 @@
     "grund": null
   },
   "8508": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "8509": {
     "status": "sicher",
@@ -70464,10 +70464,10 @@
     "grund": null
   },
   "8580": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8679": {
     "status": "sicher",
@@ -70626,10 +70626,10 @@
     "grund": null
   },
   "8851": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8867": {
     "status": "sicher",
@@ -70830,10 +70830,10 @@
     "grund": null
   },
   "9056": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "9057": {
     "status": "sicher",
@@ -71064,16 +71064,16 @@
     "grund": null
   },
   "9567": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9568": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9579": {
     "status": "sicher",
@@ -71154,10 +71154,10 @@
     "grund": null
   },
   "9976": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9977": {
     "status": "sicher",
@@ -71166,10 +71166,10 @@
     "grund": null
   },
   "9980": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10085": {
     "status": "sicher",
@@ -71196,10 +71196,10 @@
     "grund": null
   },
   "10126": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10235": {
     "status": "sicher",
@@ -71208,10 +71208,10 @@
     "grund": null
   },
   "10237": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "10238": {
     "status": "sicher",
@@ -71244,16 +71244,16 @@
     "grund": "Vorname „Carl“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "10269": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10309": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10323": {
     "status": "sicher",
@@ -71280,10 +71280,10 @@
     "grund": null
   },
   "10487": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10505": {
     "status": "sicher",
@@ -71334,10 +71334,10 @@
     "grund": "6 Personen mit diesem Nachnamen, aber kein Vorname in BAUER zum Abgleich"
   },
   "10519": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10538": {
     "status": "unsicher",
@@ -71346,10 +71346,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "10539": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10580": {
     "status": "unsicher",
@@ -71382,10 +71382,10 @@
     "grund": null
   },
   "10606": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10626": {
     "status": "sicher",
@@ -71556,10 +71556,10 @@
     "grund": null
   },
   "11061": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11110": {
     "status": "sicher",
@@ -71910,10 +71910,10 @@
     "grund": null
   },
   "11510": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11520": {
     "status": "sicher",
@@ -71982,10 +71982,10 @@
     "grund": "Vorname „Georg Ernst II.“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "11791": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11817": {
     "status": "sicher",
@@ -72858,10 +72858,10 @@
     "grund": null
   },
   "13784": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13786": {
     "status": "sicher",
@@ -72912,10 +72912,10 @@
     "grund": null
   },
   "14143": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14144": {
     "status": "unsicher",
@@ -73008,10 +73008,10 @@
     "grund": null
   },
   "14380": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14447": {
     "status": "sicher",
@@ -73146,10 +73146,10 @@
     "grund": null
   },
   "14627": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "14628": {
     "status": "unsicher",
@@ -73182,10 +73182,10 @@
     "grund": null
   },
   "14643": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14645": {
     "status": "sicher",
@@ -73212,10 +73212,10 @@
     "grund": null
   },
   "14779": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14814": {
     "status": "sicher",
@@ -73266,10 +73266,10 @@
     "grund": null
   },
   "14980": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14988": {
     "status": "sicher",
@@ -73524,16 +73524,16 @@
     "grund": null
   },
   "15509": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15510": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15515": {
     "status": "sicher",
@@ -73692,10 +73692,10 @@
     "grund": null
   },
   "15675": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15737": {
     "status": "sicher",
@@ -73830,10 +73830,10 @@
     "grund": null
   },
   "15891": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "15892": {
     "status": "sicher",
@@ -74544,10 +74544,10 @@
     "grund": null
   },
   "19226": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19332": {
     "status": "sicher",
@@ -74694,16 +74694,16 @@
     "grund": "Vorname „Karl“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "20263": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "20464": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "20465": {
     "status": "unsicher",
@@ -74718,10 +74718,10 @@
     "grund": null
   },
   "20467": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "20694": {
     "status": "sicher",
@@ -74934,10 +74934,10 @@
     "grund": null
   },
   "21470": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21471": {
     "status": "unsicher",
@@ -74976,10 +74976,10 @@
     "grund": null
   },
   "21522": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21526": {
     "status": "sicher",
@@ -75048,10 +75048,10 @@
     "grund": null
   },
   "21944": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21966": {
     "status": "sicher",
@@ -75114,10 +75114,10 @@
     "grund": null
   },
   "22038": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22039": {
     "status": "sicher",
@@ -75234,10 +75234,10 @@
     "grund": null
   },
   "22879": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22953": {
     "status": "unsicher",
@@ -75324,10 +75324,10 @@
     "grund": null
   },
   "23069": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23070": {
     "status": "unsicher",
@@ -75372,10 +75372,10 @@
     "grund": null
   },
   "23279": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23282": {
     "status": "sicher",
@@ -75432,10 +75432,10 @@
     "grund": null
   },
   "23363": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "23365": {
     "status": "unsicher",
@@ -75480,10 +75480,10 @@
     "grund": null
   },
   "23377": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23513": {
     "status": "unsicher",
@@ -75672,10 +75672,10 @@
     "grund": "Vorname „Carl“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "23877": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23883": {
     "status": "unsicher",
@@ -75720,10 +75720,10 @@
     "grund": null
   },
   "23890": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23947": {
     "status": "sicher",
@@ -75768,10 +75768,10 @@
     "grund": null
   },
   "23955": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23967": {
     "status": "unsicher",
@@ -75900,10 +75900,10 @@
     "grund": null
   },
   "24147": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24193": {
     "status": "sicher",
@@ -75912,10 +75912,10 @@
     "grund": null
   },
   "24194": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24311": {
     "status": "unsicher",
@@ -75978,10 +75978,10 @@
     "grund": null
   },
   "24445": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "24446": {
     "status": "sicher",
@@ -75990,10 +75990,10 @@
     "grund": null
   },
   "24447": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24583": {
     "status": "sicher",
@@ -76032,10 +76032,10 @@
     "grund": null
   },
   "24597": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24598": {
     "status": "keine",
@@ -76248,22 +76248,22 @@
     "grund": null
   },
   "24966": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "24967": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "24968": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "24972": {
     "status": "sicher",
@@ -76500,10 +76500,10 @@
     "grund": null
   },
   "25580": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "25581": {
     "status": "sicher",
@@ -76716,10 +76716,10 @@
     "grund": null
   },
   "26157": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26204": {
     "status": "sicher",
@@ -76812,10 +76812,10 @@
     "grund": null
   },
   "26642": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26657": {
     "status": "sicher",
@@ -76926,10 +76926,10 @@
     "grund": null
   },
   "26773": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26775": {
     "status": "sicher",
@@ -76998,10 +76998,10 @@
     "grund": null
   },
   "26855": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "26856": {
     "status": "unsicher",
@@ -77232,10 +77232,10 @@
     "grund": null
   },
   "27535": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27536": {
     "status": "sicher",
@@ -77286,10 +77286,10 @@
     "grund": null
   },
   "27644": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27646": {
     "status": "sicher",
@@ -77484,10 +77484,10 @@
     "grund": null
   },
   "28490": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28491": {
     "status": "sicher",
@@ -77598,10 +77598,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "28758": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Josef“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "541-1",
+    "lemma_id": 541,
+    "grund": null
   },
   "28759": {
     "status": "unsicher",
@@ -77880,16 +77880,16 @@
     "grund": null
   },
   "29447": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29455": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29525": {
     "status": "unsicher",
@@ -78132,10 +78132,10 @@
     "grund": null
   },
   "30353": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30439": {
     "status": "sicher",
@@ -78402,10 +78402,10 @@
     "grund": null
   },
   "31068": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "31069": {
     "status": "sicher",
@@ -79158,10 +79158,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "593": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "594": {
     "status": "sicher",
@@ -80118,10 +80118,10 @@
     "grund": null
   },
   "1346": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "1347": {
     "status": "sicher",
@@ -80148,10 +80148,10 @@
     "grund": null
   },
   "1440": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "1441": {
     "status": "sicher",
@@ -80202,10 +80202,10 @@
     "grund": "Vorname „J.B. u. Berns“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "1796": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "1797": {
     "status": "sicher",
@@ -80652,10 +80652,10 @@
     "grund": null
   },
   "3923": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "3924": {
     "status": "sicher",
@@ -80670,10 +80670,10 @@
     "grund": null
   },
   "3941": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "3942": {
     "status": "keine",
@@ -80982,10 +80982,10 @@
     "grund": null
   },
   "4798": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "4799": {
     "status": "sicher",
@@ -81312,10 +81312,10 @@
     "grund": null
   },
   "5670": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "5671": {
     "status": "sicher",
@@ -81420,10 +81420,10 @@
     "grund": null
   },
   "6084": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "6085": {
     "status": "unsicher",
@@ -81468,10 +81468,10 @@
     "grund": null
   },
   "6389": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "6390": {
     "status": "sicher",
@@ -81540,10 +81540,10 @@
     "grund": null
   },
   "6683": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "6685": {
     "status": "sicher",
@@ -81732,10 +81732,10 @@
     "grund": null
   },
   "6977": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "6978": {
     "status": "sicher",
@@ -81852,10 +81852,10 @@
     "grund": null
   },
   "7083": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7084": {
     "status": "sicher",
@@ -81912,16 +81912,16 @@
     "grund": null
   },
   "7208": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "7209": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "7210": {
     "status": "sicher",
@@ -82284,10 +82284,10 @@
     "grund": null
   },
   "8211": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "8212": {
     "status": "unsicher",
@@ -82548,10 +82548,10 @@
     "grund": null
   },
   "9238": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "9239": {
     "status": "sicher",
@@ -82842,10 +82842,10 @@
     "grund": null
   },
   "10475": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "10476": {
     "status": "sicher",
@@ -83508,10 +83508,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 7 Personen mit diesem Nachnamen"
   },
   "12922": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12924": {
     "status": "sicher",
@@ -83868,10 +83868,10 @@
     "grund": null
   },
   "14251": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "14252": {
     "status": "keine",
@@ -84102,10 +84102,10 @@
     "grund": null
   },
   "14942": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "14943": {
     "status": "keine",
@@ -84318,10 +84318,10 @@
     "grund": null
   },
   "16150": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "16151": {
     "status": "unsicher",
@@ -84564,10 +84564,10 @@
     "grund": null
   },
   "17155": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "17161": {
     "status": "unsicher",
@@ -84576,10 +84576,10 @@
     "grund": "Vorname „Johann Christoph“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "17163": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "17164": {
     "status": "unsicher",
@@ -84666,10 +84666,10 @@
     "grund": null
   },
   "17598": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "17599": {
     "status": "unsicher",
@@ -84720,10 +84720,10 @@
     "grund": null
   },
   "17731": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "17732": {
     "status": "sicher",
@@ -84744,10 +84744,10 @@
     "grund": null
   },
   "17822": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "17823": {
     "status": "sicher",
@@ -85164,10 +85164,10 @@
     "grund": null
   },
   "18426": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "18427": {
     "status": "sicher",
@@ -85266,10 +85266,10 @@
     "grund": null
   },
   "18657": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "18658": {
     "status": "sicher",
@@ -85284,10 +85284,10 @@
     "grund": null
   },
   "18660": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "18661": {
     "status": "sicher",
@@ -85428,10 +85428,10 @@
     "grund": null
   },
   "19640": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "19642": {
     "status": "keine",
@@ -85632,10 +85632,10 @@
     "grund": null
   },
   "19930": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "19932": {
     "status": "sicher",
@@ -85674,10 +85674,10 @@
     "grund": null
   },
   "20060": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "20061": {
     "status": "sicher",
@@ -85770,10 +85770,10 @@
     "grund": null
   },
   "20517": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "20520": {
     "status": "sicher",
@@ -86094,10 +86094,10 @@
     "grund": null
   },
   "21184": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "150-7",
+    "lemma_id": 150,
+    "grund": null
   },
   "21186": {
     "status": "unsicher",
@@ -86472,10 +86472,10 @@
     "grund": null
   },
   "21654": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21656": {
     "status": "sicher",
@@ -86748,10 +86748,10 @@
     "grund": null
   },
   "21930": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "21931": {
     "status": "sicher",
@@ -87540,10 +87540,10 @@
     "grund": null
   },
   "22260": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "22261": {
     "status": "unsicher",
@@ -87720,10 +87720,10 @@
     "grund": null
   },
   "22351": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "22352": {
     "status": "unsicher",
@@ -88050,10 +88050,10 @@
     "grund": "Vorname „Reichenbach“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "22466": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "22468": {
     "status": "unsicher",
@@ -88182,10 +88182,10 @@
     "grund": "Vorname „Armin“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "22900": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "22902": {
     "status": "sicher",
@@ -88242,10 +88242,10 @@
     "grund": "Vorname „Eduard“ passt auf 2 Personen gleichzeitig"
   },
   "23086": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann“ passt auf keine der 1 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "303-1",
+    "lemma_id": 303,
+    "grund": null
   },
   "23287": {
     "status": "sicher",
@@ -88410,10 +88410,10 @@
     "grund": null
   },
   "23984": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "23985": {
     "status": "keine",
@@ -88512,10 +88512,10 @@
     "grund": "2 Personen mit diesem Nachnamen, aber kein Vorname in BAUER zum Abgleich"
   },
   "24164": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "24165": {
     "status": "unsicher",
@@ -88686,10 +88686,10 @@
     "grund": "Vorname „Passau“ passt auf keine der 2 Personen mit diesem Nachnamen"
   },
   "24702": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "24703": {
     "status": "unsicher",
@@ -88710,10 +88710,10 @@
     "grund": null
   },
   "24709": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "24710": {
     "status": "sicher",
@@ -88944,10 +88944,10 @@
     "grund": null
   },
   "25255": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "25257": {
     "status": "unsicher",
@@ -89256,16 +89256,16 @@
     "grund": null
   },
   "26043": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26044": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "26045": {
     "status": "sicher",
@@ -89274,16 +89274,16 @@
     "grund": null
   },
   "26046": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Friedrich“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "887-6",
+    "lemma_id": 887,
+    "grund": null
   },
   "26047": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "26048": {
     "status": "sicher",
@@ -89328,10 +89328,10 @@
     "grund": null
   },
   "26058": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "26059": {
     "status": "unsicher",
@@ -89442,10 +89442,10 @@
     "grund": null
   },
   "26078": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "26079": {
     "status": "sicher",
@@ -89796,10 +89796,10 @@
     "grund": null
   },
   "26792": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "26794": {
     "status": "sicher",
@@ -89982,10 +89982,10 @@
     "grund": null
   },
   "27614": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "27615": {
     "status": "sicher",
@@ -90228,10 +90228,10 @@
     "grund": null
   },
   "28077": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28078": {
     "status": "unsicher",
@@ -90468,16 +90468,16 @@
     "grund": null
   },
   "28359": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-2",
+    "lemma_id": 307,
+    "grund": null
   },
   "28360": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-2",
+    "lemma_id": 307,
+    "grund": null
   },
   "28361": {
     "status": "sicher",
@@ -90858,10 +90858,10 @@
     "grund": null
   },
   "28743": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "28744": {
     "status": "sicher",
@@ -91056,10 +91056,10 @@
     "grund": null
   },
   "29517": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29522": {
     "status": "sicher",
@@ -91206,10 +91206,10 @@
     "grund": null
   },
   "30108": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Andreas“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "892-6",
+    "lemma_id": 892,
+    "grund": null
   },
   "30110": {
     "status": "sicher",
@@ -92856,10 +92856,10 @@
     "grund": null
   },
   "1941": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Albert“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "650-3",
+    "lemma_id": 650,
+    "grund": null
   },
   "1943": {
     "status": "sicher",
@@ -93756,10 +93756,10 @@
     "grund": null
   },
   "2174": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Friedrich“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "887-2",
+    "lemma_id": 887,
+    "grund": null
   },
   "2197": {
     "status": "unsicher",
@@ -97836,10 +97836,10 @@
     "grund": null
   },
   "8629": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Albert“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "650-3",
+    "lemma_id": 650,
+    "grund": null
   },
   "8719": {
     "status": "unsicher",
@@ -97902,10 +97902,10 @@
     "grund": null
   },
   "8814": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-3",
+    "lemma_id": 692,
+    "grund": null
   },
   "8852": {
     "status": "unsicher",
@@ -98010,10 +98010,10 @@
     "grund": null
   },
   "9075": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-3",
+    "lemma_id": 692,
+    "grund": null
   },
   "9117": {
     "status": "sicher",
@@ -98850,10 +98850,10 @@
     "grund": "Vorname „Josef“ passt auf 2 Personen gleichzeitig"
   },
   "10445": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Alfons“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "926-2",
+    "lemma_id": 926,
+    "grund": null
   },
   "10447": {
     "status": "unsicher",
@@ -99642,10 +99642,10 @@
     "grund": "Vorname „Josef III.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "11846": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Alfons“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "926-3",
+    "lemma_id": 926,
+    "grund": null
   },
   "11849": {
     "status": "sicher",
@@ -100800,10 +100800,10 @@
     "grund": null
   },
   "13309": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-1",
+    "lemma_id": 692,
+    "grund": null
   },
   "13310": {
     "status": "unsicher",
@@ -101556,10 +101556,10 @@
     "grund": "Vorname „Lauingen“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "14367": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-3",
+    "lemma_id": 692,
+    "grund": null
   },
   "14370": {
     "status": "unsicher",
@@ -102234,10 +102234,10 @@
     "grund": "Vorname „Carl & Sohn“ passt auf keine der 2 Personen mit diesem Nachnamen"
   },
   "15292": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Albert“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "650-3",
+    "lemma_id": 650,
+    "grund": null
   },
   "15293": {
     "status": "sicher",
@@ -105456,10 +105456,10 @@
     "grund": "Vorname „Maximilian“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "21759": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-3",
+    "lemma_id": 692,
+    "grund": null
   },
   "21932": {
     "status": "sicher",
@@ -106950,10 +106950,10 @@
     "grund": "Vorname „Josef III.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "25302": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-1",
+    "lemma_id": 692,
+    "grund": null
   },
   "25304": {
     "status": "sicher",
@@ -108072,10 +108072,10 @@
     "grund": null
   },
   "27305": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Adolf“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "692-3",
+    "lemma_id": 692,
+    "grund": null
   },
   "27309": {
     "status": "sicher",
@@ -108924,10 +108924,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "29017": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Albert“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "650-3",
+    "lemma_id": 650,
+    "grund": null
   },
   "29019": {
     "status": "unsicher",
@@ -109674,10 +109674,10 @@
     "grund": "Vorname „Budapest“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "30831": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Alfons“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "926-2",
+    "lemma_id": 926,
+    "grund": null
   },
   "30834": {
     "status": "unsicher",
@@ -110046,16 +110046,16 @@
     "grund": null
   },
   "31113": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Alfons“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "926-2",
+    "lemma_id": 926,
+    "grund": null
   },
   "31114": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Alfons“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "926-2",
+    "lemma_id": 926,
+    "grund": null
   },
   "31115": {
     "status": "unsicher",
@@ -110340,10 +110340,10 @@
     "grund": "Vorname „Pater Christoph“ passt auf keine der 2 Personen mit diesem Nachnamen"
   },
   "31881": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Josef“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "541-2",
+    "lemma_id": 541,
+    "grund": null
   },
   "31882": {
     "status": "unsicher",
@@ -110664,10 +110664,10 @@
     "grund": null
   },
   "230": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "241": {
     "status": "sicher",
@@ -110760,10 +110760,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "344": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "431": {
     "status": "sicher",
@@ -110892,10 +110892,10 @@
     "grund": null
   },
   "505": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "567": {
     "status": "sicher",
@@ -110916,16 +110916,16 @@
     "grund": null
   },
   "570": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "571": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "617": {
     "status": "unsicher",
@@ -111096,10 +111096,10 @@
     "grund": null
   },
   "668": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "768": {
     "status": "sicher",
@@ -111630,10 +111630,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "1494": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "1495": {
     "status": "sicher",
@@ -111702,10 +111702,10 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "1506": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "1507": {
     "status": "sicher",
@@ -111744,10 +111744,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "1543": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "1561": {
     "status": "unsicher",
@@ -112050,10 +112050,10 @@
     "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
   },
   "1646": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "1648": {
     "status": "sicher",
@@ -112536,10 +112536,10 @@
     "grund": null
   },
   "2401": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2460": {
     "status": "unsicher",
@@ -112578,10 +112578,10 @@
     "grund": null
   },
   "2467": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2468": {
     "status": "sicher",
@@ -112638,16 +112638,16 @@
     "grund": null
   },
   "2504": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2505": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2506": {
     "status": "unsicher",
@@ -112692,10 +112692,10 @@
     "grund": null
   },
   "2514": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2515": {
     "status": "unsicher",
@@ -112788,10 +112788,10 @@
     "grund": null
   },
   "2535": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2536": {
     "status": "unsicher",
@@ -112854,10 +112854,10 @@
     "grund": "Vorname „Lichtenfels“ passt auf keine der 5 Personen mit diesem Nachnamen"
   },
   "2551": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2585": {
     "status": "sicher",
@@ -112884,10 +112884,10 @@
     "grund": null
   },
   "2632": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2633": {
     "status": "sicher",
@@ -112920,10 +112920,10 @@
     "grund": null
   },
   "2747": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2749": {
     "status": "sicher",
@@ -112950,10 +112950,10 @@
     "grund": null
   },
   "2777": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "2778": {
     "status": "sicher",
@@ -113112,10 +113112,10 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "3480": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "3481": {
     "status": "sicher",
@@ -113166,10 +113166,10 @@
     "grund": "Vorname „Lothar und Rolf“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "3547": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3619": {
     "status": "unsicher",
@@ -113244,10 +113244,10 @@
     "grund": null
   },
   "3693": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "3697": {
     "status": "unsicher",
@@ -113352,10 +113352,10 @@
     "grund": null
   },
   "3721": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "3722": {
     "status": "sicher",
@@ -113526,10 +113526,10 @@
     "grund": null
   },
   "3836": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "3843": {
     "status": "sicher",
@@ -113550,10 +113550,10 @@
     "grund": null
   },
   "3846": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3847": {
     "status": "sicher",
@@ -113574,16 +113574,16 @@
     "grund": null
   },
   "3850": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3851": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3870": {
     "status": "unsicher",
@@ -113610,10 +113610,10 @@
     "grund": null
   },
   "3972": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "3974": {
     "status": "sicher",
@@ -113706,10 +113706,10 @@
     "grund": null
   },
   "4069": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4102": {
     "status": "unsicher",
@@ -113718,10 +113718,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "4106": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4108": {
     "status": "sicher",
@@ -113832,10 +113832,10 @@
     "grund": "Vorname „Johann Konrad“ passt auf keine der 2 Personen mit diesem Nachnamen"
   },
   "4368": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "4369": {
     "status": "sicher",
@@ -113874,10 +113874,10 @@
     "grund": null
   },
   "4383": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4384": {
     "status": "sicher",
@@ -114018,10 +114018,10 @@
     "grund": null
   },
   "4586": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "4725": {
     "status": "sicher",
@@ -114030,10 +114030,10 @@
     "grund": null
   },
   "4726": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4729": {
     "status": "sicher",
@@ -114066,10 +114066,10 @@
     "grund": "Vorname „Balthasar & Sohn“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "4773": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4786": {
     "status": "sicher",
@@ -114090,10 +114090,10 @@
     "grund": null
   },
   "4789": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "4790": {
     "status": "sicher",
@@ -114126,10 +114126,10 @@
     "grund": "Vorname „Gustav & Söhne“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "4906": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "4907": {
     "status": "sicher",
@@ -114180,10 +114180,10 @@
     "grund": null
   },
   "5123": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5124": {
     "status": "sicher",
@@ -114240,10 +114240,10 @@
     "grund": null
   },
   "5267": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5326": {
     "status": "unsicher",
@@ -114282,10 +114282,10 @@
     "grund": null
   },
   "5484": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5489": {
     "status": "sicher",
@@ -114306,16 +114306,16 @@
     "grund": null
   },
   "5546": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "5547": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5583": {
     "status": "sicher",
@@ -114402,10 +114402,10 @@
     "grund": null
   },
   "5685": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5692": {
     "status": "sicher",
@@ -114444,16 +114444,16 @@
     "grund": null
   },
   "5740": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5741": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5744": {
     "status": "sicher",
@@ -114492,10 +114492,10 @@
     "grund": null
   },
   "5750": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5751": {
     "status": "unsicher",
@@ -114552,10 +114552,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "5878": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "5893": {
     "status": "sicher",
@@ -114732,10 +114732,10 @@
     "grund": null
   },
   "6096": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6099": {
     "status": "sicher",
@@ -114786,10 +114786,10 @@
     "grund": null
   },
   "6178": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6189": {
     "status": "sicher",
@@ -114834,10 +114834,10 @@
     "grund": null
   },
   "6323": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6324": {
     "status": "unsicher",
@@ -114906,16 +114906,16 @@
     "grund": null
   },
   "6466": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6467": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6470": {
     "status": "sicher",
@@ -115032,10 +115032,10 @@
     "grund": "Vorname „Gustav & Söhne“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "6591": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "6593": {
     "status": "sicher",
@@ -115284,10 +115284,10 @@
     "grund": null
   },
   "7096": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7097": {
     "status": "sicher",
@@ -115332,16 +115332,16 @@
     "grund": "Vorname „Balthasar & Sohn“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "7113": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7116": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "7117": {
     "status": "sicher",
@@ -115362,10 +115362,10 @@
     "grund": null
   },
   "7120": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "7121": {
     "status": "sicher",
@@ -115434,10 +115434,10 @@
     "grund": null
   },
   "7204": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7221": {
     "status": "sicher",
@@ -115446,10 +115446,10 @@
     "grund": null
   },
   "7222": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7223": {
     "status": "unsicher",
@@ -115572,10 +115572,10 @@
     "grund": null
   },
   "7590": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7644": {
     "status": "sicher",
@@ -115596,10 +115596,10 @@
     "grund": null
   },
   "7674": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7681": {
     "status": "unsicher",
@@ -115644,10 +115644,10 @@
     "grund": null
   },
   "7845": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7863": {
     "status": "sicher",
@@ -115674,10 +115674,10 @@
     "grund": null
   },
   "7887": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7888": {
     "status": "sicher",
@@ -115728,10 +115728,10 @@
     "grund": null
   },
   "7908": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "7939": {
     "status": "sicher",
@@ -115998,10 +115998,10 @@
     "grund": null
   },
   "8267": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8268": {
     "status": "unsicher",
@@ -116016,10 +116016,10 @@
     "grund": null
   },
   "8271": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8302": {
     "status": "sicher",
@@ -116106,16 +116106,16 @@
     "grund": null
   },
   "8419": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8420": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "8421": {
     "status": "sicher",
@@ -116184,10 +116184,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "8469": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8541": {
     "status": "sicher",
@@ -116340,10 +116340,10 @@
     "grund": null
   },
   "8676": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "8677": {
     "status": "sicher",
@@ -116418,10 +116418,10 @@
     "grund": null
   },
   "8712": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8713": {
     "status": "unsicher",
@@ -116430,10 +116430,10 @@
     "grund": "Vorname „Johann“ passt auf 2 Personen gleichzeitig"
   },
   "8715": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8755": {
     "status": "unsicher",
@@ -116490,10 +116490,10 @@
     "grund": null
   },
   "8764": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8767": {
     "status": "unsicher",
@@ -116520,10 +116520,10 @@
     "grund": null
   },
   "8771": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "8816": {
     "status": "unsicher",
@@ -116538,22 +116538,22 @@
     "grund": null
   },
   "8818": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8832": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8842": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "8843": {
     "status": "sicher",
@@ -116604,10 +116604,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "8907": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8908": {
     "status": "unsicher",
@@ -116646,10 +116646,10 @@
     "grund": null
   },
   "8969": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8970": {
     "status": "unsicher",
@@ -116670,10 +116670,10 @@
     "grund": "Vorname „Ferdinand“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "8979": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "8991": {
     "status": "sicher",
@@ -116688,10 +116688,10 @@
     "grund": null
   },
   "8995": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "8996": {
     "status": "sicher",
@@ -116898,10 +116898,10 @@
     "grund": null
   },
   "9352": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9406": {
     "status": "sicher",
@@ -117180,10 +117180,10 @@
     "grund": null
   },
   "9952": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9954": {
     "status": "unsicher",
@@ -117198,10 +117198,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "9984": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9985": {
     "status": "sicher",
@@ -117222,10 +117222,10 @@
     "grund": null
   },
   "9993": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "9994": {
     "status": "sicher",
@@ -117390,10 +117390,10 @@
     "grund": null
   },
   "10051": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "10052": {
     "status": "sicher",
@@ -117438,10 +117438,10 @@
     "grund": null
   },
   "10069": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10076": {
     "status": "unsicher",
@@ -117588,10 +117588,10 @@
     "grund": "Vorname „Joh. Caspar II.“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "10304": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10310": {
     "status": "sicher",
@@ -117654,10 +117654,10 @@
     "grund": null
   },
   "10388": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "10389": {
     "status": "sicher",
@@ -117936,10 +117936,10 @@
     "grund": null
   },
   "10780": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10794": {
     "status": "sicher",
@@ -117984,10 +117984,10 @@
     "grund": null
   },
   "10802": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10804": {
     "status": "sicher",
@@ -118032,10 +118032,10 @@
     "grund": null
   },
   "10833": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "10835": {
     "status": "unsicher",
@@ -118068,16 +118068,16 @@
     "grund": "Vorname „Lothar und Rolf“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "10842": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "10843": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "10860": {
     "status": "unsicher",
@@ -118272,16 +118272,16 @@
     "grund": null
   },
   "11041": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11042": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11043": {
     "status": "sicher",
@@ -118380,10 +118380,10 @@
     "grund": null
   },
   "11203": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11212": {
     "status": "sicher",
@@ -118392,10 +118392,10 @@
     "grund": null
   },
   "11213": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11227": {
     "status": "sicher",
@@ -118428,10 +118428,10 @@
     "grund": "Vorname „Friedrich“ passt auf 2 Personen gleichzeitig"
   },
   "11319": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "11320": {
     "status": "sicher",
@@ -118446,10 +118446,10 @@
     "grund": "Vorname „Johann Andreas“ passt auf keine der 5 Personen mit diesem Nachnamen"
   },
   "11322": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11323": {
     "status": "unsicher",
@@ -118506,10 +118506,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "11385": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11423": {
     "status": "sicher",
@@ -118542,10 +118542,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "11502": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11503": {
     "status": "sicher",
@@ -118560,10 +118560,10 @@
     "grund": null
   },
   "11528": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11555": {
     "status": "unsicher",
@@ -118650,16 +118650,16 @@
     "grund": null
   },
   "11757": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11758": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "11764": {
     "status": "sicher",
@@ -118842,10 +118842,10 @@
     "grund": null
   },
   "12328": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12329": {
     "status": "unsicher",
@@ -118878,10 +118878,10 @@
     "grund": null
   },
   "12388": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12404": {
     "status": "sicher",
@@ -118938,10 +118938,10 @@
     "grund": null
   },
   "12480": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "12481": {
     "status": "unsicher",
@@ -119082,10 +119082,10 @@
     "grund": "Vorname „Josef“ passt auf keine der 15 Personen mit diesem Nachnamen"
   },
   "12540": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12549": {
     "status": "unsicher",
@@ -119136,10 +119136,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "12882": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12894": {
     "status": "unsicher",
@@ -119160,10 +119160,10 @@
     "grund": null
   },
   "12903": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12906": {
     "status": "unsicher",
@@ -119172,10 +119172,10 @@
     "grund": "Vorname „Christoph“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "12907": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "12908": {
     "status": "sicher",
@@ -119286,10 +119286,10 @@
     "grund": null
   },
   "13067": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13086": {
     "status": "sicher",
@@ -119310,10 +119310,10 @@
     "grund": null
   },
   "13127": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13128": {
     "status": "sicher",
@@ -119514,34 +119514,34 @@
     "grund": "Vorname „Michael Joseph“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "13184": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "13185": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "13186": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "13187": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "13188": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "13189": {
     "status": "unsicher",
@@ -119724,10 +119724,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "13290": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13291": {
     "status": "sicher",
@@ -119838,10 +119838,10 @@
     "grund": null
   },
   "13487": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13573": {
     "status": "sicher",
@@ -119868,10 +119868,10 @@
     "grund": null
   },
   "13577": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13613": {
     "status": "sicher",
@@ -119934,10 +119934,10 @@
     "grund": null
   },
   "13662": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13668": {
     "status": "sicher",
@@ -119952,10 +119952,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "13718": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "13905": {
     "status": "unsicher",
@@ -120102,16 +120102,16 @@
     "grund": null
   },
   "14384": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14422": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14423": {
     "status": "unsicher",
@@ -120132,10 +120132,10 @@
     "grund": null
   },
   "14474": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14490": {
     "status": "sicher",
@@ -120156,10 +120156,10 @@
     "grund": null
   },
   "14504": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14505": {
     "status": "sicher",
@@ -120270,10 +120270,10 @@
     "grund": "Vorname „Michael Joseph“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "14597": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14639": {
     "status": "sicher",
@@ -120366,10 +120366,10 @@
     "grund": null
   },
   "14781": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "14783": {
     "status": "sicher",
@@ -120504,10 +120504,10 @@
     "grund": null
   },
   "14985": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15025": {
     "status": "sicher",
@@ -120756,10 +120756,10 @@
     "grund": null
   },
   "15136": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15137": {
     "status": "sicher",
@@ -120954,10 +120954,10 @@
     "grund": null
   },
   "15306": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15325": {
     "status": "sicher",
@@ -120984,10 +120984,10 @@
     "grund": null
   },
   "15329": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15360": {
     "status": "unsicher",
@@ -121068,22 +121068,22 @@
     "grund": null
   },
   "15448": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "15449": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-2",
+    "lemma_id": 307,
+    "grund": null
   },
   "15450": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-2",
+    "lemma_id": 307,
+    "grund": null
   },
   "15518": {
     "status": "sicher",
@@ -121164,10 +121164,10 @@
     "grund": null
   },
   "15541": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15555": {
     "status": "sicher",
@@ -121242,10 +121242,10 @@
     "grund": null
   },
   "15638": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15640": {
     "status": "unsicher",
@@ -121338,10 +121338,10 @@
     "grund": null
   },
   "15790": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15791": {
     "status": "sicher",
@@ -121374,16 +121374,16 @@
     "grund": null
   },
   "15802": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15806": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "15807": {
     "status": "sicher",
@@ -121434,10 +121434,10 @@
     "grund": "Vorname „Johann Matthias“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "15906": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15907": {
     "status": "sicher",
@@ -121446,10 +121446,10 @@
     "grund": null
   },
   "15908": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "15984": {
     "status": "sicher",
@@ -121512,10 +121512,10 @@
     "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
   },
   "16059": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "16060": {
     "status": "unsicher",
@@ -121608,10 +121608,10 @@
     "grund": null
   },
   "16206": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "16207": {
     "status": "unsicher",
@@ -121632,10 +121632,10 @@
     "grund": null
   },
   "16215": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "16216": {
     "status": "sicher",
@@ -121644,10 +121644,10 @@
     "grund": null
   },
   "16217": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "16281": {
     "status": "sicher",
@@ -121752,10 +121752,10 @@
     "grund": null
   },
   "16512": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "16518": {
     "status": "sicher",
@@ -121794,10 +121794,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "16528": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "16530": {
     "status": "unsicher",
@@ -121896,28 +121896,28 @@
     "grund": null
   },
   "17166": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "17167": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "17168": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "17169": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "17170": {
     "status": "sicher",
@@ -122034,10 +122034,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "17631": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "17633": {
     "status": "sicher",
@@ -122196,10 +122196,10 @@
     "grund": null
   },
   "17762": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "17787": {
     "status": "sicher",
@@ -122214,10 +122214,10 @@
     "grund": null
   },
   "17827": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "17829": {
     "status": "sicher",
@@ -122232,16 +122232,16 @@
     "grund": "Vorname „Heinrich“ passt auf keine der 3 Personen mit diesem Nachnamen"
   },
   "17831": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "17893": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "17895": {
     "status": "sicher",
@@ -122298,10 +122298,10 @@
     "grund": null
   },
   "18356": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "18357": {
     "status": "sicher",
@@ -122340,10 +122340,10 @@
     "grund": "Vorname „Joh. Philipp Albert“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "18363": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "18382": {
     "status": "unsicher",
@@ -122436,10 +122436,10 @@
     "grund": null
   },
   "18640": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "18641": {
     "status": "unsicher",
@@ -122490,10 +122490,10 @@
     "grund": null
   },
   "18771": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "18772": {
     "status": "sicher",
@@ -122505,7 +122505,7 @@
     "status": "unsicher",
     "person_id": null,
     "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "grund": "Vorname „Johann Georg“ passt auf 2 Personen gleichzeitig"
   },
   "18775": {
     "status": "sicher",
@@ -122580,10 +122580,10 @@
     "grund": null
   },
   "19027": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19212": {
     "status": "sicher",
@@ -122616,10 +122616,10 @@
     "grund": null
   },
   "19217": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19238": {
     "status": "sicher",
@@ -122748,10 +122748,10 @@
     "grund": null
   },
   "19445": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19465": {
     "status": "sicher",
@@ -122874,10 +122874,10 @@
     "grund": null
   },
   "19666": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19674": {
     "status": "sicher",
@@ -122940,10 +122940,10 @@
     "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
   },
   "19719": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "19720": {
     "status": "unsicher",
@@ -123087,7 +123087,7 @@
     "status": "unsicher",
     "person_id": null,
     "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "grund": "Vorname „Johann Georg“ passt auf 2 Personen gleichzeitig"
   },
   "19889": {
     "status": "unsicher",
@@ -123096,16 +123096,16 @@
     "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
   },
   "19943": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19944": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "19946": {
     "status": "sicher",
@@ -123258,10 +123258,10 @@
     "grund": null
   },
   "20080": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "20116": {
     "status": "sicher",
@@ -123288,16 +123288,16 @@
     "grund": null
   },
   "20123": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "20124": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "20141": {
     "status": "sicher",
@@ -123504,10 +123504,10 @@
     "grund": null
   },
   "20373": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "20376": {
     "status": "sicher",
@@ -123516,10 +123516,10 @@
     "grund": null
   },
   "20380": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "20382": {
     "status": "unsicher",
@@ -123648,10 +123648,10 @@
     "grund": null
   },
   "20995": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "20998": {
     "status": "unsicher",
@@ -123708,10 +123708,10 @@
     "grund": null
   },
   "21482": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21483": {
     "status": "unsicher",
@@ -123726,10 +123726,10 @@
     "grund": null
   },
   "21485": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21487": {
     "status": "sicher",
@@ -123786,10 +123786,10 @@
     "grund": null
   },
   "21556": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21577": {
     "status": "sicher",
@@ -123858,10 +123858,10 @@
     "grund": null
   },
   "21713": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21785": {
     "status": "sicher",
@@ -123996,10 +123996,10 @@
     "grund": null
   },
   "21898": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "21899": {
     "status": "sicher",
@@ -124068,10 +124068,10 @@
     "grund": "Vorname „Fa.“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "22031": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22127": {
     "status": "sicher",
@@ -124104,10 +124104,10 @@
     "grund": null
   },
   "22444": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22445": {
     "status": "sicher",
@@ -124302,10 +124302,10 @@
     "grund": null
   },
   "22673": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22674": {
     "status": "sicher",
@@ -124362,10 +124362,10 @@
     "grund": "Vorname „Johann“ passt auf 2 Personen gleichzeitig"
   },
   "22711": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "22712": {
     "status": "sicher",
@@ -124374,10 +124374,10 @@
     "grund": null
   },
   "22714": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22755": {
     "status": "unsicher",
@@ -124386,10 +124386,10 @@
     "grund": "Vorname „Joh. Caspar II.“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "22756": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22759": {
     "status": "unsicher",
@@ -124434,10 +124434,10 @@
     "grund": null
   },
   "22847": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22849": {
     "status": "sicher",
@@ -124518,10 +124518,10 @@
     "grund": null
   },
   "22914": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "22915": {
     "status": "sicher",
@@ -124644,10 +124644,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "23000": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23002": {
     "status": "unsicher",
@@ -124656,10 +124656,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "23003": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23004": {
     "status": "sicher",
@@ -124770,10 +124770,10 @@
     "grund": null
   },
   "23186": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23193": {
     "status": "sicher",
@@ -124902,10 +124902,10 @@
     "grund": null
   },
   "23385": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23415": {
     "status": "sicher",
@@ -124944,10 +124944,10 @@
     "grund": null
   },
   "23422": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23442": {
     "status": "sicher",
@@ -125040,10 +125040,10 @@
     "grund": null
   },
   "23496": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23505": {
     "status": "sicher",
@@ -125106,10 +125106,10 @@
     "grund": null
   },
   "23608": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "23611": {
     "status": "unsicher",
@@ -125400,10 +125400,10 @@
     "grund": null
   },
   "24242": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "24283": {
     "status": "sicher",
@@ -125412,10 +125412,10 @@
     "grund": null
   },
   "24284": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24305": {
     "status": "unsicher",
@@ -125520,10 +125520,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "24424": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24426": {
     "status": "unsicher",
@@ -125616,10 +125616,10 @@
     "grund": null
   },
   "24658": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24672": {
     "status": "unsicher",
@@ -125670,10 +125670,10 @@
     "grund": null
   },
   "24730": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24731": {
     "status": "unsicher",
@@ -125688,10 +125688,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "24733": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24734": {
     "status": "sicher",
@@ -125730,22 +125730,22 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "24740": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24741": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24742": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24743": {
     "status": "sicher",
@@ -125826,10 +125826,10 @@
     "grund": null
   },
   "24758": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24760": {
     "status": "sicher",
@@ -125862,10 +125862,10 @@
     "grund": null
   },
   "24769": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "24784": {
     "status": "sicher",
@@ -126126,10 +126126,10 @@
     "grund": "Vorname „Joh. G. u. Adam“ passt auf keine der 11 Personen mit diesem Nachnamen"
   },
   "25116": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "25117": {
     "status": "sicher",
@@ -126180,10 +126180,10 @@
     "grund": null
   },
   "25241": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "25283": {
     "status": "sicher",
@@ -126360,10 +126360,10 @@
     "grund": null
   },
   "25602": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "25663": {
     "status": "sicher",
@@ -126372,16 +126372,16 @@
     "grund": null
   },
   "25664": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "25706": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-5",
+    "lemma_id": 735,
+    "grund": null
   },
   "25712": {
     "status": "unsicher",
@@ -126405,13 +126405,13 @@
     "status": "unsicher",
     "person_id": null,
     "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "grund": "Vorname „Johann Georg“ passt auf 2 Personen gleichzeitig"
   },
   "25722": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "25728": {
     "status": "sicher",
@@ -126420,10 +126420,10 @@
     "grund": null
   },
   "25752": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "25753": {
     "status": "sicher",
@@ -126510,10 +126510,10 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "25823": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "25858": {
     "status": "sicher",
@@ -126600,22 +126600,22 @@
     "grund": null
   },
   "26094": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26099": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26100": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26102": {
     "status": "sicher",
@@ -126636,10 +126636,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "26105": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26113": {
     "status": "sicher",
@@ -126702,10 +126702,10 @@
     "grund": null
   },
   "26249": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "26250": {
     "status": "unsicher",
@@ -126738,10 +126738,10 @@
     "grund": null
   },
   "26301": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26308": {
     "status": "unsicher",
@@ -126768,10 +126768,10 @@
     "grund": null
   },
   "26629": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "26631": {
     "status": "unsicher",
@@ -126978,10 +126978,10 @@
     "grund": "Vorname „Ludwigsburg/Murrhardt/Hanweiler“ passt auf keine der 9 Personen mit diesem Nachnamen"
   },
   "26783": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26862": {
     "status": "sicher",
@@ -127044,10 +127044,10 @@
     "grund": null
   },
   "26951": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "26970": {
     "status": "sicher",
@@ -127119,13 +127119,13 @@
     "status": "unsicher",
     "person_id": null,
     "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "grund": "Vorname „Johann Georg“ passt auf 2 Personen gleichzeitig"
   },
   "27134": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27167": {
     "status": "sicher",
@@ -127350,22 +127350,22 @@
     "grund": null
   },
   "27333": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27338": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "489-3",
+    "lemma_id": 489,
+    "grund": null
   },
   "27339": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27340": {
     "status": "sicher",
@@ -127428,10 +127428,10 @@
     "grund": null
   },
   "27480": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27516": {
     "status": "sicher",
@@ -127446,10 +127446,10 @@
     "grund": null
   },
   "27518": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27560": {
     "status": "sicher",
@@ -127527,7 +127527,7 @@
     "status": "unsicher",
     "person_id": null,
     "lemma_id": null,
-    "grund": "Vorname „Johann Georg“ passt auf 3 Personen gleichzeitig"
+    "grund": "Vorname „Johann Georg“ passt auf 2 Personen gleichzeitig"
   },
   "27595": {
     "status": "unsicher",
@@ -127566,10 +127566,10 @@
     "grund": null
   },
   "27668": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27675": {
     "status": "unsicher",
@@ -127590,10 +127590,10 @@
     "grund": null
   },
   "27728": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "27738": {
     "status": "sicher",
@@ -127776,10 +127776,10 @@
     "grund": null
   },
   "28101": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28102": {
     "status": "sicher",
@@ -127872,10 +127872,10 @@
     "grund": null
   },
   "28271": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28275": {
     "status": "sicher",
@@ -127908,10 +127908,10 @@
     "grund": "Vorname „Gustav & Söhne“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "28314": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28315": {
     "status": "sicher",
@@ -127944,10 +127944,10 @@
     "grund": null
   },
   "28358": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28395": {
     "status": "unsicher",
@@ -127980,22 +127980,22 @@
     "grund": null
   },
   "28537": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28538": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28553": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Wilhelm“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "20-1",
+    "lemma_id": 20,
+    "grund": null
   },
   "28604": {
     "status": "unsicher",
@@ -128058,10 +128058,10 @@
     "grund": null
   },
   "28654": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Adam“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "735-1",
+    "lemma_id": 735,
+    "grund": null
   },
   "28655": {
     "status": "sicher",
@@ -128196,10 +128196,10 @@
     "grund": null
   },
   "28935": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "28936": {
     "status": "sicher",
@@ -128376,10 +128376,10 @@
     "grund": null
   },
   "29175": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29176": {
     "status": "unsicher",
@@ -128550,10 +128550,10 @@
     "grund": null
   },
   "29289": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf keine der 2 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "929-2",
+    "lemma_id": 929,
+    "grund": null
   },
   "29290": {
     "status": "sicher",
@@ -128604,10 +128604,10 @@
     "grund": null
   },
   "29334": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29347": {
     "status": "sicher",
@@ -128724,10 +128724,10 @@
     "grund": null
   },
   "29435": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29439": {
     "status": "sicher",
@@ -128760,10 +128760,10 @@
     "grund": null
   },
   "29458": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29459": {
     "status": "sicher",
@@ -128832,10 +128832,10 @@
     "grund": null
   },
   "29474": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29500": {
     "status": "sicher",
@@ -128850,10 +128850,10 @@
     "grund": null
   },
   "29541": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29542": {
     "status": "sicher",
@@ -128886,10 +128886,10 @@
     "grund": null
   },
   "29548": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29592": {
     "status": "sicher",
@@ -129318,22 +129318,22 @@
     "grund": null
   },
   "29976": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29977": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29978": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "29981": {
     "status": "unsicher",
@@ -129438,10 +129438,10 @@
     "grund": "Vorname „Gustav & Söhne“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "30001": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30002": {
     "status": "sicher",
@@ -129462,10 +129462,10 @@
     "grund": "Vorname „March-Hugstetten“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "30005": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30006": {
     "status": "sicher",
@@ -129558,10 +129558,10 @@
     "grund": "Vorname „Markelsheim“ passt auf keine der 1 Personen mit diesem Nachnamen"
   },
   "30022": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30023": {
     "status": "sicher",
@@ -129828,10 +129828,10 @@
     "grund": "Vorname „Gebr.“ passt auf keine der 6 Personen mit diesem Nachnamen"
   },
   "30080": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30082": {
     "status": "sicher",
@@ -129930,10 +129930,10 @@
     "grund": "Vorname „Joh. Philipp Albert“ passt auf keine der 4 Personen mit diesem Nachnamen"
   },
   "30105": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30121": {
     "status": "sicher",
@@ -130506,10 +130506,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "30249": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30252": {
     "status": "sicher",
@@ -130668,10 +130668,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "30279": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "30280": {
     "status": "unsicher",
@@ -130806,10 +130806,10 @@
     "grund": null
   },
   "30435": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30436": {
     "status": "sicher",
@@ -130824,10 +130824,10 @@
     "grund": "Vorname „Martin Joseph“ passt auf keine der 10 Personen mit diesem Nachnamen"
   },
   "30443": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30444": {
     "status": "sicher",
@@ -130914,10 +130914,10 @@
     "grund": "Vorname „Gustav & Söhne“ passt auf keine der 12 Personen mit diesem Nachnamen"
   },
   "30468": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Franz“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "307-1",
+    "lemma_id": 307,
+    "grund": null
   },
   "30469": {
     "status": "unsicher",
@@ -130944,10 +130944,10 @@
     "grund": null
   },
   "30474": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30487": {
     "status": "sicher",
@@ -130968,10 +130968,10 @@
     "grund": null
   },
   "30490": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Otto“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "340-11",
+    "lemma_id": 340,
+    "grund": null
   },
   "30840": {
     "status": "unsicher",
@@ -131250,16 +131250,16 @@
     "grund": null
   },
   "31140": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Christian“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "106-2",
+    "lemma_id": 106,
+    "grund": null
   },
   "31142": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann Christian“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "106-2",
+    "lemma_id": 106,
+    "grund": null
   },
   "31143": {
     "status": "keine",
@@ -131736,10 +131736,10 @@
     "grund": null
   },
   "31260": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Martin“ passt auf 2 Personen gleichzeitig"
+    "status": "sicher",
+    "person_id": "719-6",
+    "lemma_id": 719,
+    "grund": null
   },
   "31261": {
     "status": "unsicher",
@@ -131994,10 +131994,10 @@
     "grund": null
   },
   "31315": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann“ passt auf keine der 5 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "923-4",
+    "lemma_id": 923,
+    "grund": null
   },
   "31316": {
     "status": "unsicher",
@@ -132558,10 +132558,10 @@
     "grund": null
   },
   "31448": {
-    "status": "unsicher",
-    "person_id": null,
-    "lemma_id": null,
-    "grund": "Vorname „Johann“ passt auf keine der 5 Personen mit diesem Nachnamen"
+    "status": "sicher",
+    "person_id": "923-4",
+    "lemma_id": 923,
+    "grund": null
   },
   "31449": {
     "status": "unsicher",

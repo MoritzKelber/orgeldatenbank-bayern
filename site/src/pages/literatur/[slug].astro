@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import LiteraturZitat from "../../components/LiteraturZitat.astro";
-import { getAllLiterature, getOrganById } from "../../lib/data";
+import { getAllLiterature, getOrganById, getBuilderById } from "../../lib/data";
 
 export function getStaticPaths() {
   return getAllLiterature().map((l) => ({ params: { slug: l.slug } }));
@@ -10,6 +10,9 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const entry = getAllLiterature().find((l) => l.slug === slug)!;
 const organs = entry.organ_ids.map((oid) => getOrganById(oid)).filter((o) => o !== undefined);
+const lemmata = (entry.lemma_ids ?? [])
+  .map((lid) => getBuilderById(lid))
+  .filter((b) => b !== undefined && b.personen.length > 0);
 const base = import.meta.env.BASE_URL;
 const bms = entry.bms;
 const bmsOk = bms?.status === "ok";
@@ -106,6 +109,17 @@ const EBENE: Record<string, string> = {
     <p class="keywords">
       {entry.keywords.map((k) => <span class="badge small">{k.stichwort}</span>)}
     </p>
+  )}
+
+  {lemmata.length > 0 && (
+    <section>
+      <h2>Zitiert bei {lemmata.length} Erbauer{lemmata.length === 1 ? "" : "n"}</h2>
+      <ul>
+        {lemmata.map((b) => (
+          <li><a href={`${base}/personen/${b.id}-${b.personen[0]?.index ?? 1}/`}>{b.name}</a></li>
+        ))}
+      </ul>
+    </section>
   )}
 
   {organs.length > 0 && (

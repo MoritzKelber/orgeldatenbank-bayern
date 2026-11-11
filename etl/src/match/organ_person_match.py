@@ -87,11 +87,63 @@ def _flatten_persons(lemmata: list[dict]) -> list[dict]:
                 "lemma_name": lemma["name"],
                 "nachname": p.get("nachname"),
                 "vorname": p.get("vorname"),
+                "geburt": (p.get("lebensdaten") or {}).get("geburtsjahr"),
+                "tod": (p.get("lebensdaten") or {}).get("todesjahr"),
             })
     return persons
 
 
-def _pick_by_vorname(candidates: list[dict], vorname: str | None) -> tuple[dict | None, str | None]:
+def _window(p: dict) -> tuple[int, int] | None:
+    """Years in which a person can plausibly have built an organ, from the life
+    dates in the lexicon; None when the lexicon has no usable date."""
+    g, t = p.get("geburt"), p.get("tod")
+    if g and t:
+        return g + 15, t + 3
+    if g:
+        return g + 15, g + 75
+    if t:
+        return t - 65, t + 3
+    return None
+
+
+def _dedupe(cands: list[dict], nachname: str) -> list[dict]:
+    """The same person can sit in several lemmata (e.g. "Hoffmann" and
+    "Markert" both list Otto Hoffmann, b. 1913). Identical forename+dates count
+    once, represented by the lemma named after the surname."""
+    groups: dict[tuple, list[dict]] = {}
+    for c in cands:
+        # Without any life date two same-named persons cannot be told apart
+        # from two different people, so undated ones are never merged.
+        undated = not c.get("geburt") and not c.get("tod")
+        groups.setdefault((_normalize(c["vorname"]), c.get("geburt"), c.get("tod"), c["person_id"] if undated else None), []).append(c)
+    out = []
+    for members in groups.values():
+        named = [m for m in members if _normalize(m["lemma_name"]) == _normalize(nachname)]
+        out.append((named or members)[0] if len(named or members) == 1 or named else members[0])
+    return out
+
+
+def _by_year(cands: list[dict], jahr: int | None, jahr_bis: int | None) -> dict | None:
+    """The one candidate whose active years contain the build year while every
+    other candidate is positively ruled out by its own dates. Anything less
+    (no year, a candidate without dates) is not conclusive."""
+    if jahr is None:
+        return None
+    lo, hi = jahr, jahr_bis or jahr
+    fit, ruled_out = [], 0
+    for c in cands:
+        w = _window(c)
+        if w is None:
+            return None
+        if w[0] <= hi and lo <= w[1]:
+            fit.append(c)
+        else:
+            ruled_out += 1
+    return fit[0] if len(fit) == 1 and ruled_out == len(cands) - 1 else None
+
+
+def _pick_by_vorname(candidates: list[dict], vorname: str | None, nachname: str = "", jahr: int | None = None,
+                     jahr_bis: int | None = None) -> tuple[dict | None, str | None]:
     """Returns (unique match or None, reason if not conclusive)."""
     if len(candidates) == 1 and vorname is None:
         return candidates[0], None
@@ -101,11 +153,28 @@ def _pick_by_vorname(candidates: list[dict], vorname: str | None) -> tuple[dict 
     if len(matches) == 1:
         return matches[0], None
     if len(matches) > 1:
+        matches = _dedupe(matches, nachname)
+        if len(matches) == 1:
+            return matches[0], None
+        pick = _by_year(matches, jahr, jahr_bis)
+        if pick:
+            return pick, None
         return None, f"Vorname „{vorname}“ passt auf {len(matches)} Personen gleichzeitig"
+    # No identical forename: BAUER may give only the first of several given
+    # names ("Max" for "Max Josef"). Accepted only when the build year singles
+    # out that person among *all* persons with this surname.
+    first = _normalize(vorname)
+    partial = [c for c in candidates if c["vorname"] and _normalize(c["vorname"]).split(" ")[0] == first]
+    partial = _dedupe(partial, nachname) if partial else []
+    if len(partial) == 1:
+        pick = _by_year(_dedupe(candidates, nachname), jahr, jahr_bis)
+        if pick and pick["person_id"] == partial[0]["person_id"]:
+            return pick, None
     return None, f"Vorname „{vorname}“ passt auf keine der {len(candidates)} Personen mit diesem Nachnamen"
 
 
-def match_organ(bauer_name: str, lemma_by_name: dict[str, dict], persons_by_surname: dict[str, list[dict]]) -> OrganPersonMatch:
+def match_organ(bauer_name: str, lemma_by_name: dict[str, dict], persons_by_surname: dict[str, list[dict]],
+                jahr: int | None = None, jahr_bis: int | None = None) -> OrganPersonMatch:
     nachname, vorname = _parse_bauer_name(bauer_name)
     if not nachname:
         return {"status": "keine", "person_id": None, "lemma_id": None, "grund": None}
@@ -116,7 +185,7 @@ def match_organ(bauer_name: str, lemma_by_name: dict[str, dict], persons_by_surn
         lemma_persons = [p for p in persons_by_surname.get(_normalize(nachname), []) if p["lemma_id"] == lemma["id"]]
         if not lemma_persons:
             return {"status": "keine", "person_id": None, "lemma_id": lemma["id"], "grund": "Lemma hat keine aufgeloesten Personen"}
-        match, grund = _pick_by_vorname(lemma_persons, vorname)
+        match, grund = _pick_by_vorname(lemma_persons, vorname, nachname, jahr, jahr_bis)
         if match:
             return {"status": "sicher", "person_id": match["person_id"], "lemma_id": lemma["id"], "grund": None}
         return {"status": "unsicher", "person_id": None, "lemma_id": lemma["id"], "grund": grund}
@@ -125,7 +194,7 @@ def match_organ(bauer_name: str, lemma_by_name: dict[str, dict], persons_by_surn
     candidates = persons_by_surname.get(_normalize(nachname), [])
     if not candidates:
         return {"status": "keine", "person_id": None, "lemma_id": None, "grund": None}
-    match, grund = _pick_by_vorname(candidates, vorname)
+    match, grund = _pick_by_vorname(candidates, vorname, nachname, jahr, jahr_bis)
     if match:
         return {"status": "sicher", "person_id": match["person_id"], "lemma_id": match["lemma_id"], "grund": None}
     return {"status": "unsicher", "person_id": None, "lemma_id": None, "grund": grund}
@@ -145,7 +214,8 @@ def run(organs_dir: Path, builders_path: Path, cache_path: Path) -> None:
         for organ in json.loads(shard_path.read_text(encoding="utf-8")):
             if not organ.get("bauer_name"):
                 continue
-            results[organ["id"]] = match_organ(organ["bauer_name"], lemma_by_name, persons_by_surname)
+            j = organ.get("jahr") or {}
+            results[organ["id"]] = match_organ(organ["bauer_name"], lemma_by_name, persons_by_surname, j.get("jahr"), j.get("jahr_bis"))
 
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")

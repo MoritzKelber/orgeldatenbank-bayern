@@ -412,9 +412,9 @@
         "lit": "Fischer, Lkr. Bad Kissingen (1986), S.28, 39",
         "disp": true,
         "abb": true,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Fischer, Lkr. Bad Kissingen (1986)",
+        "confidence": "normalisiert",
+        "slug": "fischer-lkr-bad-kissingen-1986"
       }
     ],
     "kirche_gnd": null,
@@ -585,9 +585,9 @@
         "lit": "Orgelspiegel 9 (1966), S.2",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -4684,9 +4684,9 @@
         "lit": "Orgelspiegel 63 (1997), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "FI Jann-Werkverzeichnis (2005)",
@@ -4924,9 +4924,9 @@
         "lit": "Orgelspiegel 24 (1973), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       },
       {
         "lit": "Hübner, Orgeln (1987), S.150",
@@ -5554,9 +5554,9 @@
         "lit": "Hammermayer, Maerz (1999), S.30, 83",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Hammermayer, Maerz (1999)",
+        "confidence": "normalisiert",
+        "slug": "hammermayer-maerz-1999"
       }
     ],
     "kirche_gnd": null,
@@ -6585,9 +6585,9 @@
         "lit": "Orgelspiegel 22 (1972), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -8409,9 +8409,9 @@
         "lit": "Brenninger, Schwaben (1986), S.92, 140",
         "disp": true,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Brenninger, Schwaben (1986)",
+        "confidence": "normalisiert",
+        "slug": "brenninger-schwaben-1986"
       }
     ],
     "kirche_gnd": null,
@@ -8813,9 +8813,9 @@
         "lit": "Orgelspiegel 12 (1968), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -9165,9 +9165,9 @@
         "lit": "Orgelspiegel 22 (1972), S.5",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
@@ -9640,9 +9640,9 @@
         "lit": "Orgelspiegel 16 (1969), S.4",
         "disp": false,
         "abb": false,
-        "kurztitel": null,
-        "confidence": "keine",
-        "slug": null
+        "kurztitel": "Orgelspiegel [Nummer] ([Jahr])",
+        "confidence": "serie",
+        "slug": "orgelspiegel-nummer-jahr"
       }
     ],
     "kirche_gnd": null,
