@@ -107,7 +107,7 @@ const EBENE: Record<string, string> = {
 
   {entry.keywords.length > 0 && (
     <p class="keywords">
-      {entry.keywords.map((k) => <span class="badge small">{k.stichwort}</span>)}
+      {entry.keywords.map((k) => <><span class="badge small">{k.stichwort}</span>{" "}</>)}
     </p>
   )}
 

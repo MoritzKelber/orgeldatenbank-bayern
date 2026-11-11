@@ -7,6 +7,9 @@ interface Props {
 }
 const { title, description = "Orgeldatenbank Bayern - historische Orgeln in Bayern recherchieren.", hero = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
+// Kategorie für die Volltextsuche (Anzeige und Filter in den Ergebnissen)
+const path = Astro.url.pathname;
+const kategorie = path.includes("/orgeln/") ? "Orgel" : path.includes("/personen/") ? "Person" : path.includes("/literatur/") ? "Literatur" : undefined;
 ---
 <!doctype html>
 <html lang="de">
@@ -36,7 +39,7 @@ const base = import.meta.env.BASE_URL;
       </div>
     </header>
     {hero && <slot name="hero" />}
-    <main data-pagefind-body>
+    <main data-pagefind-body data-kategorie={kategorie} data-pagefind-filter={kategorie ? "Kategorie[data-kategorie]" : undefined} data-pagefind-meta={kategorie ? "kategorie[data-kategorie]" : undefined}>
       <slot />
     </main>
     <footer class="site-footer">

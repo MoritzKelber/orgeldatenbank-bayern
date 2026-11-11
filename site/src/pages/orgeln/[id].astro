@@ -28,9 +28,9 @@ const jahrAnzeige = formatJahr(organ.jahr);
   <p><a href={`${base}/orgeln/`}>&larr; zurück zur Übersicht</a></p>
   <h1>{title}</h1>
   <p class="badges">
-    <span class="badge">{organ.erhalten ? "Orgel erhalten" : "Orgel nicht erhalten"}</span>
-    {organ.prospekt_erhalten && <span class="badge" title="Denkmalprospekt: das Gehäuse/die Schauseite ist denkmalgeschützt erhalten, unabhängig vom Erhaltungszustand des Pfeifenwerks">Prospekt erhalten</span>}
-    {organ.denkmalorgel && <span class="badge">Denkmalorgel</span>}
+    <span class="badge">{organ.erhalten ? "Orgel erhalten" : "Orgel nicht erhalten"}</span>{" "}
+    {organ.prospekt_erhalten && <span class="badge" title="Denkmalprospekt: das Gehäuse/die Schauseite ist denkmalgeschützt erhalten, unabhängig vom Erhaltungszustand des Pfeifenwerks">Prospekt erhalten</span>}{" "}
+    {organ.denkmalorgel && <span class="badge">Denkmalorgel</span>}{" "}
     {organ.regierungsbezirk && <span class="badge">{RBZ_LABELS[organ.regierungsbezirk] ?? organ.regierungsbezirk}</span>}
   </p>
 
@@ -41,7 +41,7 @@ const jahrAnzeige = formatJahr(organ.jahr);
         <tr>
           <th>Kirche</th>
           <td>
-            {organ.kirche}
+            {organ.kirche}{" "}
             {organ.kirche_gnd?.status === "ok" && (
               <a class="gnd-chip gnd-ok" href={organ.kirche_gnd.url ?? undefined} target="_blank" rel="noopener">
                 <span class="gnd-mark">GND</span> {organ.kirche_gnd.preferred_name} <span class="gnd-arrow">↗</span>
@@ -99,8 +99,8 @@ const jahrAnzeige = formatJahr(organ.jahr);
         {organ.literatur.map((citation) => (
           <li>
             {citation.slug ? <a href={`${base}/literatur/${citation.slug}/`}>{citation.lit}</a> : citation.lit}
-            {citation.disp && <span class="badge small">Disposition</span>}
-            {citation.abb && <span class="badge small">Abbildung</span>}
+            {citation.disp && <>{" "}<span class="badge small">Disposition</span></>}
+            {citation.abb && <>{" "}<span class="badge small">Abbildung</span></>}
           </li>
         ))}
       </ul>

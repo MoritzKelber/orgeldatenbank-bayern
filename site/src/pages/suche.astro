@@ -20,7 +20,17 @@ const base = import.meta.env.BASE_URL;
     var s = document.createElement("script");
     s.src = base + "/pagefind/pagefind-ui.js";
     s.onload = function () {
-      var ui = new window.PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+      var ui = new window.PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        showImages: false,
+        // Kategorie (Orgel / Person / Literatur) vor dem Titel anzeigen
+        processResult: function (result) {
+          var k = result.meta && result.meta.kategorie;
+          if (k) result.meta.title = k + " · " + result.meta.title;
+          return result;
+        },
+      });
       // Suchfeld der Startseite übergibt ?q=...
       var q = new URLSearchParams(location.search).get("q");
       if (q) ui.triggerSearch(q);
