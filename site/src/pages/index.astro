@@ -96,18 +96,20 @@ const base = import.meta.env.BASE_URL;
   }
   .hero-credit {
     position: absolute;
-    right: 0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0.5rem;
+    width: max-content;
     font-size: 0.68rem;
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
-    max-width: 90%;
-    text-align: right;
+    max-width: 92%;
+    text-align: center;
   }
   .hero-credit:hover { color: #fff; text-decoration: underline; }
   @media (max-width: 600px) {
     .hero { min-height: 20rem; }
-    .hero-credit { right: 0.5rem; bottom: 0.3rem; font-size: 0.6rem; max-width: 70%; }
+    .hero-credit { bottom: 0.3rem; font-size: 0.6rem; max-width: 92%; }
   }
 
   .stats { padding-left: 1.25rem; }
