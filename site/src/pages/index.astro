@@ -13,7 +13,7 @@ const base = import.meta.env.BASE_URL;
     <div class="hero-inner">
       <h1>Orgeldatenbank Bayern</h1>
       <form class="hero-search" action={`${base}/suche/`} method="get" role="search">
-        <input type="search" name="q" placeholder="Orte, Kirchen, Orgelbauer, Literatur durchsuchen …" aria-label="Suche" />
+        <input type="search" name="q" placeholder="Orte, Kirchen, Orgelbauer, Literatur durchsuchen …" aria-label="Volltextsuche" />
         <button type="submit">Suchen</button>
       </form>
     </div>
@@ -65,9 +65,9 @@ const base = import.meta.env.BASE_URL;
     padding: 6rem 1.25rem 3.5rem;
     color: #fff;
   }
-  .hero-search { display: flex; gap: 0.5rem; max-width: 40rem; }
+  .hero-search { display: flex; flex-wrap: wrap; gap: 0.5rem; max-width: 42rem; }
   .hero-search input {
-    flex: 1;
+    flex: 1 1 9rem;
     min-width: 0;
     padding: 0.8rem 1.1rem;
     font: inherit;

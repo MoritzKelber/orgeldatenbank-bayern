@@ -216,6 +216,14 @@ import { RBZ_LABELS } from "../../lib/types";
   const fProspekt = document.getElementById("f-prospekt") as HTMLInputElement;
   const fReset = document.getElementById("f-reset") as HTMLButtonElement;
 
+  // Vorbelegung aus der Orgelsuche der Startseite (?ort=&bauer=&von=&bis=)
+  const params = new URLSearchParams(location.search);
+  fOrt.value = params.get("ort") ?? "";
+  fKirche.value = params.get("kirche") ?? "";
+  fBauer.value = params.get("bauer") ?? "";
+  fJahrVon.value = params.get("von") ?? "";
+  fJahrBis.value = params.get("bis") ?? "";
+
   function populateLandkreise() {
     const values = Array.from(new Set(all.map((r) => r[IDX.landkreis]).filter((v): v is string => !!v))).sort(
       (a, b) => a.localeCompare(b, "de"),
